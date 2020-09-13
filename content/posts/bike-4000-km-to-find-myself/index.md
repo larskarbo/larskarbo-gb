@@ -37,7 +37,7 @@ The journey lasted 3 months, and I learnt 3 things on the way:
 
 ## Learning #1: Social connection is a human need
 
-Before this trip I was surrounded be people all the time. I thought I was the kind of person who liked best to be alone. I thrived when I could get time for myself, so I thought it was the best idea to go on this solo trip.
+Before this trip I was surrounded by people all the time. I thought I was the kind of person who liked best to be alone. I thrived when I could get time for myself, so I thought it was the best idea to go on this solo trip.
 
 After a couple of days in Denmark, without talking to anyone, I realized that this wouldn't work.
 
