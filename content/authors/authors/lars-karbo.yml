@@ -1,0 +1,10 @@
+name: Lars Karbo
+bio: |
+  I am a nice guy. This is where your author bio lives. Share your work, your
+  joys and of course, your Twitter handle.
+avatar: ./avatars/pb.jpeg
+social:
+  - url: https://github.com/larskarbo
+  - url: https://twitter.com/larskarbo
+  - url: https://www.linkedin.com/in/larskarbo/
+featured: true
