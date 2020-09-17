@@ -2,6 +2,7 @@
 title: I biked 4000 km alone to find myself. Don't repeat my mistakes!
 author: Lars Karbo
 date: 2020-09-13
+slug: bike-4000-km-to-find-myself
 hero: ./images/senses.png
 excerpt: I biked 4000 km alone to find myself.
 ---
