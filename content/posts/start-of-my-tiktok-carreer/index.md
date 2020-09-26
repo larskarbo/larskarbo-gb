@@ -15,7 +15,7 @@ I just posted my first TikTok in what might be a **life-changing little experime
 
 *Why I did it?* It is not random. It is a well planned thing, with some exciting predictable outcomes.
 
-[tiktok]
+>\>> [See the video HERE](https://www.tiktok.com/@larskarbo/video/6876408841496562945?lang=en) <<
 
 I am going to post a new video like this **every day** for *at least a month*.
 
