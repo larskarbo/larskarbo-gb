@@ -2,7 +2,7 @@
 title: How I got 100.000 views 👀 and 22.50$ revenue 💵 from 21 days on TikTok
 author: Lars Karbo
 date: 2020-10-20
-excerpt: I spent 21 days posting daily on TikTok about indie hacking and programming. This is how I managed to get 100.000 views and 22.50$ revenue.
+excerpt: I spent 21 days posting daily on TikTok about indie hacking and programming. The platform works differently than other platforms for sure.
 hero: images/hero.png
 tags: ["startup-building"]
 ---
