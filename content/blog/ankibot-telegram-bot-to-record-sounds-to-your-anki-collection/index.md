@@ -5,6 +5,7 @@ slug: ankibot-telegram-bot-to-record-sounds-to-your-anki-collection
 date: 2020-06-07
 hero: ./images/shot.png
 excerpt: I made a telegram bot to record sounds to anki
+tags: ["technical"]
 ---
 
 
