@@ -69,11 +69,21 @@ module.exports = {
             }
           },
           {
-            resolve: `gatsby-remark-images`,
+            resolve: `gatsby-remark-images-plus`,
             options: {
+              // Options here
+              withWebp: true,
               maxWidth: 630,
-            },
+              tracedSVG: true
+            }
           },
+          // {
+          //   resolve: `gatsby-remark-images`,
+          //   options: {
+          //     maxWidth: 630,
+          //     tracedSVG: true
+          //   },
+          // },
           {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
@@ -92,7 +102,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `G-0JK8Y4TLGP`,
       },
     },
     `gatsby-plugin-feed`,

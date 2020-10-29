@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { DiscussionEmbed } from "disqus-react"
+import Img from "gatsby-image"
 
 
 
@@ -33,6 +34,30 @@ const BlogPostTemplate = ({ data, location }) => {
         itemType="http://schema.org/Article"
       >
         <header>
+          {post.frontmatter.showHeroSign &&
+            <>
+              <Img
+                fluid={post.frontmatter.hero?.childImageSharp.fluid}
+                alt="Hero image for the post."
+                style={{
+                  width: 200,
+                  height: "auto",
+                  border: "2px solid black",
+                  boxShadow: "4px 4px 4px rgba(0, 0, 0, 0.5)"
+                }}
+              />
+              <div style={{
+                marginLeft: (200 / 2) - (10 / 2),
+                width: 10,
+                height: 50,
+                border: "2px solid black",
+                borderTopWidth: 0,
+                backgroundColor: "black",
+                // position: "relative",
+                // top: -2
+              }}></div>
+            </>
+          }
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
           <p>{post.frontmatter.date}</p>
         </header>
@@ -98,11 +123,15 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         description
         excerpt
+        showHeroSign
         hero { 
           childImageSharp {
-            fixed {
+            fixed(width: 1200, height: 630) {
               src
-            }
+            }    
+            fluid(maxWidth: 200, maxHeight: 105) {
+              ...GatsbyImageSharpFluid_withWebp
+            }    
           }
         }
       }
