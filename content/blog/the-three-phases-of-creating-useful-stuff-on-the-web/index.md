@@ -1,5 +1,5 @@
 ---
-title: The three Phases of Creating Useful Stuff on the Web 🛠
+title: The three Phases of Creating Useful Stuff on the Web
 date: 2020-10-30
 hero: images/hero.png
 showHeroSign: true
@@ -11,6 +11,8 @@ This model will make you more successful at creating useful stuff on the web.
 
 It is simple and easy to understand.
 
+<!-- memes further down -->
+
 ## The three Phases
 
 I have _a lot_ of failed projects that never got out of phase one (at least 150), I have some things that I released, but never took it further. And I have a few successful projects.
@@ -19,9 +21,12 @@ I have _a lot_ of failed projects that never got out of phase one (at least 150)
 
 By recognizing these phases and thinking rationally about them we will become better at creating **successful projects**.
 
-![Three phases](images/threephases.png)
+![Three phases](./images/threephases.png)
 
 ### Phase 1: Building
+
+<!-- me building a random idea I got. (background the work i was doing before) -->
+<img src='./images/code2.png' alt='me building a random idea I got' small />
 
 This is the phase where you start coding the project.
 
@@ -33,6 +38,8 @@ If you release it, big or small, you go on to **phase two ↓**.
 
 ### Phase 2: Releasing
 
+<!-- me posting to producthunt. (to my mum: can you please like my producthunt launch) -->
+<img src='./images/ph2.png' alt='me posting to producthunt' small />
 You'll stay in phase two as long as you are still releasing and improving.
 
 Some marketing and outreach might be necessary in this phase.
@@ -41,11 +48,18 @@ When you start getting traction and people start to use your product, you move o
 
 ### Phase 3: Traction
 
+<!-- me showing g-a or smth. -->
+<img src='./images/stats.png' alt='me showing google analytics' small />
+
 Congratulations! You made something that is usable and valuable for people!
 
 From here you can leave it, continue to work on it or start monetizing it.
 
 ## Common pitfall #1: Never releasing
+
+<!-- Project 153 -->
+<!-- I am almost done with this project. Let's put it away and never look at it again -->
+<!-- Finishing soon folder -->
 
 This is the most common pitfall.
 
@@ -56,6 +70,10 @@ Sometimes, it is ok. If your idea wasn't that good anyways.
 > Think small, and minimum viable product, to quickly move on to phase 2
 
 ## Common pitfall #2: Lose motivation after first release
+
+<!-- Well -->
+<!-- zooming in on the floor at my ugly project -->
+<!-- nobody want to use my project, think I have to make something else -->
 
 I _love_ building and shipping new things. Sometimes I get extremely motivated in the beginnings.
 
