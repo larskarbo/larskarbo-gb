@@ -1,10 +1,10 @@
 ---
 title: The three Phases of Creating Useful Stuff on the Web
-date: 2020-10-30
+date: 2020-10-31
 hero: images/hero.png
 showHeroSign: true
-draft: true
 excerpt: After 157 failed projects I have started to figure out how and what to do to make my online creations successful.
+tags: ["startup-building"]
 ---
 
 This model will make you more successful at creating useful stuff on the web.
