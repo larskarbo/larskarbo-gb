@@ -36,7 +36,7 @@ Before you start, you will need:
 
 * **A `key.json` for accessing the API**. Go to [this link](https://developers.google.com/analytics/trusted-testing/analytics-data) and initialize the key ↓
   
-<img src='./images/2020-10-31-10-23-34.png' alt='' small />
+<img src='./images/2020-10-31-13-36-33.png' alt='' small />
 
 Also add the `client_email` from `key.json` to Google Analytics user management.
 

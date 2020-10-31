@@ -101,4 +101,4 @@ Recognize the phases and the common pitfalls and you will have an easier time bu
 
 Make sure to share this with anyone you think would like to hear it!
 
-Which phase do your projects usually end up in? Let us know in the comments.
+Which phase do your projects usually end up in? Let me know in the comments.
