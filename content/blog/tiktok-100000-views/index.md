@@ -85,14 +85,6 @@ Find all videos on [my TikTok](https://www.tiktok.com/@larskarbo).
 
 This is a great thing to do both for business and social media. In business it is smart to talk to potential customers before building. In social media it is smart to have a system or a story to tell.
 
-### Helping strangers (30.000 views)
-
-Sometimes, very non-serious and lame posts got the most views. That's just how twitter works.
-
-I posted this funny video about me asking a stranger if he wants to "test my app" and it got 30.000 views.
-
-`youtube: https://youtu.be/NAvbZul0q8Q`
-
 ## How did I get 💰 revenue from all of this?
 
 You don't earn money directly from TikTok.
