@@ -1,5 +1,5 @@
 ---
-title: I'm building 12 startups in 12 months
+title: 12xstartup - I'm building 12 startups in 12 months
 author: Lars Karbo
 date: 2021-11-03
 draft: true
@@ -48,6 +48,8 @@ I am a builder at heart, but like many [creatives](https://customercontactadviso
 ## Together we are stronger
 
 12xstartup.com
+
+(bilde oss sammen.)
 
 ## 12 Startups in 12 Months
 
