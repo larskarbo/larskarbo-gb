@@ -1,7 +1,7 @@
 ---
 title: Using the API with Google Analytics v4 (GA4)
 author: Lars Karbo
-date: 2020-10-31
+date: 2020-11-01
 draft: false
 excerpt: The new Google Analytics v4 means we need to rewrite our APIs. Here we take a look at how to fetch data.
 # hero: ./images/hero.png
@@ -34,7 +34,7 @@ Before you start, you will need:
 <img src='./images/property.png' alt='' small />
 
 
-* **A `key.json` for accessing the API**. Go to [this link](https://developers.google.com/analytics/trusted-testing/analytics-data) and initialize the key ↓
+* **A `key.json` for accessing the API**. Go to [this link](https://developers.google.com/analytics/trusted-testing/analytics-data/quickstart-client-libraries) and initialize the key ↓
   
 <img src='./images/2020-10-31-13-36-33.png' alt='' small />
 

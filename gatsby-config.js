@@ -7,9 +7,8 @@ module.exports = {
     title: `Lars Karbo 🌲`,
     author: {
       name: `Lars Karbo`,
-      summary: `I am funny guy working on websites, products and solutions that can
-      give value to the world. Sometimes I draw cartoons with the belief that
-       it makes it easier for people to understand. In my free time I learn 🇫🇷 french and play 🎶 music.`,
+      summary: `I work on websites, products and solutions that can
+      give value to the world. Part of 12xstartup.com.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://larskarbo.no`,
@@ -103,16 +102,22 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Lars Karbo`,
+        short_name: `Lars Karbo`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/profile-pic.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://larskarbo.no`,
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
