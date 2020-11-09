@@ -1,8 +1,7 @@
 ---
 title: IOrganize, annotate and share samples from Spotify and Youtube.
 author: Lars Karbo
-date: 2020-10-14
-draft: true
+date:
 excerpt: The story of why I expose myself on such a weird platform that nobody really understands.
 ---
 

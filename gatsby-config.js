@@ -8,7 +8,7 @@ module.exports = {
     author: {
       name: `Lars Karbo`,
       summary: `I work on websites, products and solutions that can
-      give value to the world. Part of 12xstartup.com.`,
+      give value to the world.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://larskarbo.no`,

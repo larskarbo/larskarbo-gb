@@ -28,7 +28,7 @@ const BlogIndex = ({ data, location }) => {
       <SEO title="All posts" />
       <Bio />
       <ol style={{ listStyle: `none` }}>
-        {posts.filter(p => !p.frontmatter.draft).map(post => {
+        {posts.filter(p => p.frontmatter.date).map(post => {
           const title = post.frontmatter.title || post.fields.slug
           const tags = post.frontmatter.tags || []
           console.log('post.frontmatter: ', post.frontmatter);
@@ -109,7 +109,6 @@ export const pageQuery = graphql`
           title
           description
           tags
-          draft
           excerpt
         }
       }

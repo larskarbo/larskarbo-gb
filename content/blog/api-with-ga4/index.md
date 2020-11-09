@@ -2,7 +2,6 @@
 title: Using the API with Google Analytics v4 (GA4)
 author: Lars Karbo
 date: 2020-11-01
-draft: false
 excerpt: The new Google Analytics v4 means we need to rewrite our APIs. Here we take a look at how to fetch data.
 # hero: ./images/hero.png
 showHeroSign: false

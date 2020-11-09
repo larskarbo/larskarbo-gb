@@ -323,7 +323,7 @@ a:focus {
   margin-bottom: var(--spacing-8);
 }
 
-img {
+img, iframe {
   margin-bottom: var(--spacing-8);
 }
 
