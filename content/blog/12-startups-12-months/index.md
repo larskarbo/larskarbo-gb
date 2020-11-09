@@ -1,5 +1,5 @@
 ---
-title: 12xstartup - I'm building 12 startups in 12 months
+title: 12xStartup - I'm building 12 startups in 12 months
 author: Lars Karbo
 date: 2020-11-09
 excerpt: Through the next 12 months, I will challenge my fears and push my limits. I will create 1 startup every month.
