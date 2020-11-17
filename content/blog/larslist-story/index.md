@@ -9,13 +9,13 @@ tags: ["startup-building"]
 ---
 
 
-*I want to tell about a quick website I made (LarsList.org) that became viral on tiktok. This is how it happened.*
+*I want to tell about a quick website I made (LarsList.org) that became viral on TikTok. It made 25$. This is how it happened.*
 
 ## The backstory.
 
 It all started one day when I was watching my messenger window. Suddenly I saw that the three top chats were all Larses. Crazy!
 
-<img src='./images/larses-in-messenger.png' alt='' small />
+<img src='./images/larses-in-messenger.png' alt='3 Larses in the messenger window' small />
 
 So being the genius procastinator I am, an idea popped into my head.
 
@@ -59,11 +59,11 @@ I mean, no one would *pay* to be on the LarsList anyways, right? Quick way of no
 
 So I added a simple gumroad link to the submit button. It now cost 2.5$ to be submitted to the LarsList.
 
-<img src='./images/popup2.png' alt='' />
+<img src='./images/popup2.png' alt='Popup showing a gumroad link' />
 
 And after some time, to my great surprise, I got this email:
 
-<img src='./images/lars-submission.png' alt='' />
+<img src='./images/lars-submission.png' alt='Gumroad payment' />
 
 Nice! Fun! Haha, it gave me a good laugh. Someone actually paid to be on my silly LarsList site!
 
