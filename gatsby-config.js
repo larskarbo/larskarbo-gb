@@ -11,10 +11,6 @@ module.exports = {
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://larskarbo.no`,
-    hero: {
-      heading: `👋 Hi! Welcome! You won't regret checking out my website.`,
-      maxWidth: 652,
-    },
     social: [
       {
         name: `twitter`,

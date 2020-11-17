@@ -4,7 +4,7 @@ author: Lars Karbo
 date: 2020-11-17
 excerpt: I created the website that nobody asked for, but ended up changing the popularity of the name "Lars" forever.
 hero: ./images/hero.png
-showHeroSign: true
+showHeroSign: false
 tags: ["startup-building"]
 ---
 
