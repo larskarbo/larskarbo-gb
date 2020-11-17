@@ -1,15 +1,15 @@
 ---
-title: How my joke LarsList.org took off on TikTok
+title: "LarsList: How my app went viral on TikTok...and made $25"
 author: Lars Karbo
-date:
-excerpt: Haha
-# hero: ./images/hero.png
-showHeroSign: false
+date: 2020-11-17
+excerpt: I created the website that nobody asked for, but ended up changing the popularity of the name "Lars" forever.
+hero: ./images/hero.png
+showHeroSign: true
 tags: ["startup-building"]
 ---
 
 
-*Want to tell about a quick website I made (LarsList.org) that became viral on tiktok. This is how it happened.*
+*I want to tell about a quick website I made (LarsList.org) that became viral on tiktok. This is how it happened.*
 
 ## The backstory.
 
@@ -23,9 +23,9 @@ So being the genius procastinator I am, an idea popped into my head.
 
 I spent an evening or two, and hacked together LarsList.org. It was a simple site listing me and my three Larses. I also added a form where you could add yourself, if you are a Lars, but didn't really think anyone would do it.
 
-<img src='./images/screenshot-first-site.png' alt='' />
+<img src='./images/screenshot-first-site.png' alt='Screenshot of the first LarsList.org site' />
 
-## Put it on tiktok for fun (it blew up)
+## Put it on TikTok for fun (it blew up)
 
 So, I went out and made a quick TikTok video. 15 seconds quickly explaining the site.
 
@@ -35,11 +35,14 @@ Usually my TikToks would get around 500 views. A good one would get 1000 views.
 
 This video had 5000 views in an hour. People were liking and sharing it like crazy.
 
-**Seems like I hit a nerve.**
+
+**Seems like I tapped into something.**
 
 People were submitting tons of Larses at the website. I got over 100 submissions the FIRST DAY. Submissions of Larses wanting to be on the LarsList. Crazy!
+<img src='./images/screenshot-now.png' alt='Screenshot of the site now' />
 
-## Added pay a paywall (many people paid)
+
+## Added pay a paywall (many paid)
 
 It turned out that going through submissions and manually adding new Larses to the site was a hassle. Took a lot of time.
 
@@ -56,7 +59,7 @@ I mean, no one would *pay* to be on the LarsList anyways, right? Quick way of no
 
 So I added a simple gumroad link to the submit button. It now cost 2.5$ to be submitted to the LarsList.
 
-<img src='./images/popup.png' alt='' />
+<img src='./images/popup2.png' alt='' />
 
 And after some time, to my great surprise, I got this email:
 
@@ -64,18 +67,63 @@ And after some time, to my great surprise, I got this email:
 
 Nice! Fun! Haha, it gave me a good laugh. Someone actually paid to be on my silly LarsList site!
 
+> Someone actually paid to be on my silly LarsList site!
+
 And over the next weeks, some other submissions rolled in. I have gotten almost 10 paid LarsList submissions now.
 
 That's 25$ in total. Not huge. But really fun.
 
-## The next step (what to do with a community of 150 larses)
 
-I envy people that can turn some viral moment into their benefit. That's what I tried to do and earned 25$. Not too bad.
+## Negative reactions to the paywall
 
-But now I'm wondering, should I do something more now?
+It is uncomfortable for me to ask for money. That's why I am practicing it.
 
-Or just leave this site floating in the void of the internet.
+Especially uncomfortable when it is something as silly as Lars List. **I knew there would be some negative reactions on the paywall.**
 
-I mean, I have 150 emails. But not sure what I would send them 😅
+Most of the negative feedback were from TikTok comments:
 
-Do you have any ideas? Let me know in the comments!
+![Negative comments on the paywall](./images/commentsnegative.png)
+
+This is something we have to live with. I am proud of keeping the paywall, even when I have (at least) 3 haters.
+
+## Reactions in the world
+
+Ori Brafman writes about how **similarity** can influence how connected strangers feel with each other.
+
+> "Having a similar name was certainly a significant factor that led them to connect."
+
+From: *Click - the magic of instant connection*
+
+The same way, it felt like many Larses liked the idea of this site. Perhaps by making Larses proud of their name?
+
+![Positive comments on LarsList](./images/commentspositive.png)
+
+
+### Google trends for Lars increased by 60%
+
+Seems like I also influenced the popularity of "Lars" in general.
+
+Google trends shows a 60% increase in search traffic for the word "Lars" when the video was released.
+
+<img src='./images/googletrends.png' alt='Google trends for Lars increased by 60%' />
+
+Will have a look at the birth statistics next year. Maybe we'll see a spike in Lars-babies from 2020?
+
+> Maybe we'll see a spike in Lars-babies from 2020?
+
+## The next step (what to do with a community of 150 Larses?)
+
+I envy people that can turn some viral moment into their benefit. That's what I tried to do and **earned 25$**. Not too bad.
+
+But now I'm wondering, should I do something more now? Or just leave this site floating in the void of the internet.
+
+I mean, I have 150 emails. But not sure what to do with them.
+
+<!-- ### Lars of the month
+
+Yes, we started with ads on LarsList, BUT you need to fulfill these requirements:
+
+* Only Larses can advertise
+* It costs 15$ for a month -->
+
+*Do you have any ideas? Let me know in the comments!*
