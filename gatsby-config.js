@@ -7,7 +7,7 @@ module.exports = {
     title: `Lars Karbo 🌲`,
     author: {
       name: `Lars Karbo`,
-      summary: `- A indie hacker currently working his way through his 12 startups in 12 months project.`,
+      summary: `- An indie hacker currently working his way through his 12 startups in 12 months project. Sharing insights from the journey.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://larskarbo.no`,
