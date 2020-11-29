@@ -4,8 +4,8 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { DiscussionEmbed } from "disqus-react"
 import Img from "gatsby-image"
+import {NewsletterForm} from "../pages/newsletter"
 
 
 
@@ -14,10 +14,6 @@ const BlogPostTemplate = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
 
-  const disqusConfig = {
-    shortname: process.env.GATSBY_DISQUS_NAME,
-    config: { identifier: data.site.siteMetadata?.slug, siteTitle },
-  }
 
   const ogImagePath = post.frontmatter.hero?.childImageSharp.fixed.src
 
@@ -69,8 +65,9 @@ const BlogPostTemplate = ({ data, location }) => {
         <footer>
           <Bio />
         </footer>
-        <DiscussionEmbed {...disqusConfig} />
       </article>
+      <p>Sign up to my personal newsletter:</p>
+      <NewsletterForm />
       <nav className="blog-post-nav">
         <ul
           style={{
