@@ -9,7 +9,7 @@ const Newsletter = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="Newsletter" />
+      <SEO title="Newsletter" description="Subscribe to my personal newsletter" />
       <h1>Personal newsletter</h1>
       <p>Subscribe to my newsletter and stay in touch with me and my projects. I won't send mails often.</p>
       <NewsletterForm />

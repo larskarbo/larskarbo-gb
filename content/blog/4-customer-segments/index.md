@@ -60,7 +60,7 @@ Or should I choose the most relevant usecase and double down on it?
 
 ![](./monica-comment.png)
 
-Monica told me to choose the ones that pay the most for it, but right now **I have excactly 0 premium plan sales**, so that's kind of useless.
+Monica told me to choose the ones that pay the most for it, but right now **I have exactly 0 premium plan sales**, so that's kind of useless.
 
 ## Conclusion
 
