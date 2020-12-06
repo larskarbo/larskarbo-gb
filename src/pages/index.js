@@ -26,6 +26,12 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
+      <div style={{
+        padding: 10,
+        border: "3px solid black",
+        marginBottom: 35,
+        marginTop: -15,
+      }}>Need a talented developer? Look at my <Link to="/consulting">consulting overview</Link></div>
       <Bio />
       <ol style={{ listStyle: `none` }}>
         {posts.filter(p => p.frontmatter.date).map(post => {

@@ -17,13 +17,9 @@ const Consulting = ({ data, location }) => {
 
   For 10 years, I have been building and shipping world-class web solutions.
 
-  For 10 years, I have been building and shipping world-class web solutions.
-
   I’m here to build web and app solutions that fits into your scalable technical infrastructure.  I focus on exeptional user experience, quick iterations and a creative touch.
 
-  My philosophies include rapid prototyping, modular components and microservices.
-
-  My projects:
+  My skills:
 
   - **React-native apps**: [Drowzee](https://drowzee.com) and SecondBrain
   - **Animations and design**: [Napchart - Sleep schedule planner](https://napchart.com)
@@ -31,7 +27,7 @@ const Consulting = ({ data, location }) => {
   - **Social media**: Made [viral videos](/larslist-story/) on TikTok
   - **SEO & content**: Writing [my personal blog](/)
 
-  Read more about my work, projects and thoughts in my [tech blog](/).
+  ​ 
   ` 
 
   return (
