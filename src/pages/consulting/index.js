@@ -7,8 +7,32 @@ import SEO from "../../components/seo"
 import './consulting.css'
 import sig from "./signature.png"
 
+import ReactMarkdown from 'react-markdown'
+
 const Consulting = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
+
+  const content = `
+  I help companies reach their goals.
+
+  For 10 years, I have been building and shipping world-class web solutions.
+
+  For 10 years, I have been building and shipping world-class web solutions.
+
+  I’m here to build web and app solutions that fits into your scalable technical infrastructure.  I focus on exeptional user experience, quick iterations and a creative touch.
+
+  My philosophies include rapid prototyping, modular components and microservices.
+
+  My projects:
+
+  - **React-native apps**: [Drowzee](https://drowzee.com) and SecondBrain
+  - **Animations and design**: [Napchart - Sleep schedule planner](https://napchart.com)
+  - **Speed dev. & marketing**: Building [12 startups in 12 months](/12-startups-12-months/)
+  - **Social media**: Made [viral videos](/larslist-story/) on TikTok
+  - **SEO & content**: Writing [my personal blog](/)
+
+  Read more about my work, projects and thoughts in my [tech blog](/).
+  ` 
 
   return (
     <div className="global-wrapper">
@@ -24,17 +48,10 @@ const Consulting = ({ data, location }) => {
       <main>
         <div className="consulting" style={{ padding: 20, border: "solid 2px black" }}>
 
-          <p className="consulting"><strong>Hi, I’m Lars!</strong></p>
+          <p><strong>Hi, I’m Lars!</strong></p>
 
-          <p className="consulting">I help companies reach their goals.</p>
-
-          <p className="consulting">For 10 years, I have been building and shipping world-class web solutions.</p>
-
-          <p className="consulting">I’m here to build web and app solutions that fits into your scalable technical infrastructure.  I focus on exeptional user experience, quick iterations and a creative touch.</p>
-
-          <p className="consulting">My philosophies include rapid prototyping, modular components and microservices.</p>
-
-          <p className="consulting">Read more about my work, projects and thoughts in my <Link className="" to="/">tech blog</Link>.</p>
+          <ReactMarkdown children={content} className="consulting" />
+          
 
           <button className="consulting" onClick={() => {
             window.location = "mailto:mail@larskarbo.no";
