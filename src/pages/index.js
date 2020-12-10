@@ -37,7 +37,6 @@ const BlogIndex = ({ data, location }) => {
         {posts.filter(p => p.frontmatter.date).map(post => {
           const title = post.frontmatter.title || post.fields.slug
           const tags = post.frontmatter.tags || []
-          console.log('post.frontmatter: ', post.frontmatter);
           return (
             <li key={post.fields.slug}>
               <article
