@@ -55,7 +55,7 @@ const statusToClass = {
 }
 
 const Consulting = ({ data, location }) => {
-  require('./projects.css')
+  // require('./projects.css')
   return (
 
     <Layout location={location}>
