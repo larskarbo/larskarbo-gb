@@ -21,6 +21,26 @@ const projects = [
     status: "inactive"
   },
   {
+    title: "Slapper",
+    time: "2020",
+    description: "Organize and annotate Spotify and Youtube samples.",
+    longDescription:`A web app that organizes songs and snippets from music services. Lets you annotate, collaborate and share your collection.
+
+    The app is written in React and Expo, and uses serverless functions, Netlify and FaunaDB to provide a seamless modern experience.`,
+    link: "https://slapper.io",
+    status: "active"
+  },
+  {
+    title: "FocusMonkey",
+    time: "2020",
+    description: "Smart productivity timer that connects to the Spotify API",
+    longDescription:`A smart productivity timer that gives you music as reward. This web-app connects to the Spotify API and let's you choose which playlist to play while working and which one to activate after a given amount of time.
+
+    FocusMonkey was launched on ProductHunt in 2020, and is still active. `,
+    link: "https://focusmonkey.io",
+    status: "active"
+  },
+  {
     title: "Mrfylke Auto Login",
     time: "2015-2016",
     description: "Chrome extension that logged me automatically into the high school wifi",
@@ -31,6 +51,8 @@ const projects = [
     title: "Napchart",
     time: "2014-present",
     description: "Polyphasic sleep calculator used by hundreds of sleep hackers every day.",
+    longDescription: `A visual time planner used for polyphasic sleep experimenting. The site is a web-app built with React and Firebase and hosted on Netlify. The core part of the app is a HTML5 Canvas with custom graphics, interactivity and animation.
+    Napchart is still used as the primary tool for sleep hackers, and recently hit 120.000 saved charts.`,
     link: "https://napchart.com",
     status: "active"
   },

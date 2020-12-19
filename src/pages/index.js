@@ -9,29 +9,15 @@ const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
 
-  if (posts.length === 0) {
-    return (
-      <Layout location={location} title={siteTitle}>
-        <SEO title="All posts" />
-        <Bio />
-        <p>
-          No blog posts found. Add markdown posts to "content/blog" (or the
-          directory you specified for the "gatsby-source-filesystem" plugin in
-          gatsby-config.js).
-        </p>
-      </Layout>
-    )
-  }
-
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
-      <div style={{
+      <SEO title="My personal blog" />
+      {/* <div style={{
         padding: 10,
         border: "3px solid black",
         marginBottom: 35,
         marginTop: -15,
-      }}>Need a talented developer? Look at my <Link to="/consulting">consulting overview</Link></div>
+      }}>Need a talented developer? Look at my <Link to="/consulting">consulting overview</Link></div> */}
       <Bio />
       <ol style={{ listStyle: `none` }}>
         {posts.filter(p => p.frontmatter.date).map(post => {
