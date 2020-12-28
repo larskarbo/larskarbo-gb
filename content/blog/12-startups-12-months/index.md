@@ -90,6 +90,19 @@ My first project (november) is called Slapper, and is aimed at people working wi
 
 Will be launching this soon to the public. Check out [slapper.io](https://slapper.io/) to become an early access beta user.
 
+⏳ Time spent: 1.5 months
+
+📝 Signups: 200
+
+🎖 Premium users: 1
+
+💰 Revenue: $5 MRR
+
+
+## Makers who have inspired me
+
+Pieter Levels ()
+
 ## Follow me on the journey
 
 I will be posting progress updates on [twitter](https://twitter.com/larskarbo). Be sure to follow me there!

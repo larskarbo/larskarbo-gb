@@ -23,12 +23,12 @@ export const NewsletterForm = () => {
     <form action="https://lesto.larskarbo.no/subscribe" method="POST" accept-charset="utf-8" style={{
       paddingBottom: 20
     }}>
-      <label for="name">Name</label><br />
+      <label htmlFor="name">Name</label><br />
       <input type="text" name="name" id="name" />
       <br />
-      <label for="email">Email</label><br />
+      <label htmlFor="email">Email</label><br />
       <input type="email" name="email" id="email" /><br /><div style={{ display: "none" }}>
-        <label for="hp">HP</label><br />
+        <label htmlFor="hp">HP</label><br />
         <input type="text" name="hp" id="hp" />
       </div>
       <br />
