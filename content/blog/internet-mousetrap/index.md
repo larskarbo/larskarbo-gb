@@ -16,7 +16,7 @@ For 100 years, the mice have reigned in this house, but now it's time for reveng
 
 ## The old, traditional mouse trap
 
-The traditional mouse trap works like this: You arm the trap, put some cheese on it, and wait. When the mouse comes for the cheese, the trap snaps a metal thing right over the mouse, leading to an instant death.
+The traditional mouse trap works like this: You arm the trap, put some cheese on it, and wait. When the mouse comes for the cheese, the trap snaps a metal thing right over the mouse, leading to instant death.
 
 ![Old, traditional mouse trap](./traditional-mouse-trap.png)
 
