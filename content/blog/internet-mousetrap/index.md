@@ -16,32 +16,32 @@ For 100 years, the mice have reigned in this house, but now it's time for reveng
 
 ## The old, traditional mouse trap
 
-The traditional mouse trap works like this: You arm the trap, put some cheese on it, and wait. When the mouse comes for the cheese, the trap snaps a metal thing right over the mouse, and it dies instantly.
+The traditional mouse trap works like this: You arm the trap, put some cheese on it, and wait. When the mouse comes for the cheese, the trap snaps a metal thing right over the mouse, leading to an instant death.
 
 ![Old, traditional mouse trap](./traditional-mouse-trap.png)
 
 The traditional mouse trap is boring. It doesn't even have software updates.
 
-Let's build a new version, suitable for the 21st century.
+Let's build a new version suitable for the 21st century.
 
 ## Internet-connected mouse trap
 
-The mouse trap will be connected to a small computer, and will send a notification to your phone when there is some action in the trap.
+The mouse trap will be connected to a small computer, and will send a notification to your phone when the trap catches something.
 
 ![Mouse trap chart showing mouse trap, Telegram and a phone](./mouse-trap-telegram-phone.png)
 
-To make the mouse trap smart, we connect it to an ESP32 microcontroller. This is a small and affordable internet-connected computer. It reads real time sensor data and can send messages on the internet.
+To make the mouse trap smart, we connect it to an ESP32 microcontroller. This is a small and affordable internet-connected computer. It reads real-time sensor data and can send messages on the internet.
 
 ![ESP32 in hand](./esp32-in-hand.png)
 
 
 ## Transforming the mouse trap into a sensor
 
-We need to be able to read the state of the mouse trap. Either it's on and armed, or it has snapped with a mouse inside. To check this, we will picture the mouse trap the same way we look at a button.
+We need to be able to read the state of the mouse trap. Either it's on and armed, or it has snapped with a mouse inside. To make this possible, we turn the mouse trap into a button.
 
 ![Mouse trap button](./mouse-trap-button.png)
 
-We add two springs with some wires to the mouse trap:
+We add some wires to two springs:
 
 ![Two springs in hand](./springs.jpg)
 
@@ -58,7 +58,7 @@ In the background, you can see that the LED lights up when the metal from the mo
 
 I will leave out the technical details and source code, but if you are interested you can find it all in this [Gist](https://gist.github.com/larskarbo/cb198a3465246d7c9d7f6cee2004ab9a).
 
-There are multiple ways to create notifications on a phone. One of the quickest is to use an existing app. We choose to send a message through the messaging app Telegram.
+There are multiple ways to send notifications to a phone. One of the quickest is to use an existing app. We choose to send messages through the messaging app Telegram.
 
 When running the code, we see it instantly on our iPhone:
 
@@ -82,16 +82,18 @@ Using hot glue and screws we take it all together, and add a logo. Doesn't it lo
 
 ## The mouse trap in action
 
-Time to test our creation. First, we arm the trap.
+Time to test our creation. Didn't find any mouse, so I'm using a banana instead.
 
-![State 1: Internet connected mouse trap is armed](./state-1-armed.png)
+It takes around 10 seconds before the notification shows up on the phone.
 
-Then we put a pencil on the trap to simulate a mouse. And... Notification! Wihu!
+`video: https://youtu.be/8B5CsR2bGn0`
 
-![State 2: Internet connected mouse sent a Telegram notification](./state-2-notification.png)
+And a gif version of the action.
 
-This invention shows that it's possible to hack together impressing things in a short time. The world of IoT devices like the ESP32 and services like Telegram make this possible.
+![Animated gif of a mouse trap](mouse-trap-gif.gif)
 
-It's maybe not the most useful thing in the world, but it's fun!
+This invention shows that it's possible to hack together impressing things in a short time. The world of IoT devices like the [ESP32](https://www.espressif.com/en/products/modules/esp-wroom-32/overview) and services like [Telegram](https://telegram.org/) make this possible.
+
+It might not be the most useful thing in the world, but it's fun!
 
 Do you have a dumb thing in your house you would like to make smart?
