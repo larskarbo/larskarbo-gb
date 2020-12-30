@@ -4,7 +4,6 @@ author: Lars Karbo
 date: 2020-11-09
 excerpt: Through the next 12 months, I will challenge my fears and push my limits. I will create 1 startup every month.
 hero: ./images/natur.png
-showHeroSign: false
 tags: ["startup-building"]
 ---
 
@@ -101,7 +100,7 @@ Will be launching this soon to the public. Check out [slapper.io](https://slappe
 
 ## Makers who have inspired me
 
-Pieter Levels ()
+- [Pieter Levels](!https://levels.io/)
 
 ## Follow me on the journey
 

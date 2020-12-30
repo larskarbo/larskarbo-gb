@@ -4,11 +4,10 @@ author: Lars Karbo
 date: 2020-12-13
 excerpt: My first startup in my project is Slapper. I built, launched and monetized it in a month
 hero: ./launches.jpeg
-showHeroSign: false
 tags: []
 ---
 
-This is the first startup I launched in my [12 startup in 12 months](/12-startups-12-months/) project.
+This is the first startup I launched in my [12 startups in 12 months](/12-startups-12-months/) project.
 
 
 I did the first of my projects in November. It was very fun. The project is [Slapper](https://slapper.io).

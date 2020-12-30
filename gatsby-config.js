@@ -63,21 +63,12 @@ module.exports = {
             }
           },
           {
-            resolve: `gatsby-remark-images-plus`,
+            resolve: `gatsby-remark-images`,
             options: {
               // Options here
-              withWebp: true,
               maxWidth: 630,
-              tracedSVG: true
             }
           },
-          // {
-          //   resolve: `gatsby-remark-images`,
-          //   options: {
-          //     maxWidth: 630,
-          //     tracedSVG: true
-          //   },
-          // },
           {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
@@ -87,8 +78,7 @@ module.exports = {
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
-          "@weknow/gatsby-remark-twitter",
-          `gatsby-plugin-postcss`
+          "@weknow/gatsby-remark-twitter"
         ],
       },
     },

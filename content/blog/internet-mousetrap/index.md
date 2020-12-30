@@ -4,7 +4,6 @@ author: Lars Karbo
 date: 2020-12-29
 excerpt: It sends you a message whenever there is a dead mouse in the trap.
 hero: ./mouse_trapper.jpeg
-showHeroSign: false
 tags: []
 ---
 
