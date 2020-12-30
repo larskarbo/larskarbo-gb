@@ -26,7 +26,7 @@ The app I am talking about is [Slapper](https://slapper.io) - the first startup 
 
 You might also end up with your own Peters, Elisas, Johannes and Alfreds.
 
-![](./slapper2.png)
+![Man holding computer with my web app on](./slapper2.png)
 
 ## Peter: The Instrumentalist
 

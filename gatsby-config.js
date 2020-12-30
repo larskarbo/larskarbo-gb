@@ -107,7 +107,12 @@ module.exports = {
         icon: `content/assets/profile-pic.jpg`,
       },
     },
-    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        exclude: [`/projects/`, `/consulting/`],
+      }
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-canonical-urls`,
