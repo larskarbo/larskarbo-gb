@@ -53,7 +53,7 @@ Subscribe to the 12xstartup [newsletter](https://12xstartup.com/) to get access 
 
 * [Monica Lent](https://monicalent.com/12x-startup/) (Berlin, Germany)
 * [Toheeb Ogunbiyi](https://twitter.com/ToheebDotCom/status/1311747021305503746) (Abuja, Nigeria)
-* [Dmitrii Pashutskii](https://dpashutskii.com/year-of-making) (Bali, Indonesia)
+* [Dmitrii Pashutskii](https://dpashutskii.com/a-year-of-making) (Bali, Indonesia)
 * [Stefanni Brasil](https://www.hexdevs.com/12xstartup/) (Vancouver, Canada)
 * [Dylan Wilson](https://www.dylanwilson.net/12x-startup-four-makers-building-open-startups-for-a-year/) (Brisbane, Australia)
 
