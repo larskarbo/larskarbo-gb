@@ -107,6 +107,7 @@ module.exports = {
         icon: `content/assets/profile-pic.jpg`,
       },
     },
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-canonical-urls`,

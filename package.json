@@ -19,6 +19,7 @@
     "gatsby-plugin-postcss": "^3.3.0",
     "gatsby-plugin-react-helmet": "^3.3.14",
     "gatsby-plugin-sharp": "^2.6.42",
+    "gatsby-plugin-sitemap": "^2.9.0",
     "gatsby-remark-copy-linked-files": "^2.3.19",
     "gatsby-remark-embed-video": "^3.0.10",
     "gatsby-remark-images": "^3.3.35",
