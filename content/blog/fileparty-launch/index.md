@@ -29,39 +29,49 @@ Had some insecurities about building this, and was very tired of it in the end. 
 
 ## How FileParty was born
 
-It was December, and I had just finished my previous product, Slapper. I even got some traction with that, but had to go on. I had to go on because of the project I have started. I'm doing 12 startups in 12 months. This was my second project, but in the beginning of December I was a bit unsure on what to do. For the first time in my life I was unsure. Never thought this would happen.
+(had to do a project in december)
 
-Before I quit my full-time job I always had multiple side projects -- too little time and too many ideas. An important part of my identity, and that was also what I told people all the time. But now I found myself in this weird situation where I wasn't sure on what to do next. I quit my job for this, and now I wasn't sure what to do.
+(struggled to find project)
 
-I took some time off, wandered around. Made a routine to write down my ideas. A week passed, I had some different ideas. 
+(took time off)
 
-Then I read something about WebRTC. The web API that makes it possible to do video calls in the browser. After some more research I figured out that this is all p2p. Meaning it goes directly from one computer to another. Just like torrent technology, you know, like we had on The Pirate Bay. I also figured out there were some people creating WebTorrent, a library based on WebRTC, that makes it possible to share any file between computers. All in the browser.
+Then I read something about WebRTC. The web API that makes it possible to do video calls in the browser. It makes it possible to send data directly from one computer to another. Just like torrent technology, like we had on The Pirate Bay. Could there be something for me here?
 
-I started thinking there could be something for me here.
+What about a high-quality replacement for screensharing? Where you share the actual video file instead of sharing a recording of your screen. I thought this could be valuable for presenters and teachers in the remote world. If you want to show a video or audio file over Zoom today, it sounds terrible.
 
-Then I thought of the concept that later became FileParty. What about a high-quality replacement for screensharing? Where you share the actual video file instead of sharing a recording of your screen. I thought this could be valuable for presenters and teachers in the remote world. If you want to show a video or audio file over Zoom today, it sounds terrible. I also realized it was good for friends wanting to watch a video file together.
+Ok, so I had an idea for a product. Not the best, but time had passed so much -- I was already 10 days into the month -- so I felt the need to start.
 
-Ok, so I had an idea for a product. Time had passed so much, I was already 10 days into the month, so I felt the need to start.
+This idea was definetely "cool tech" more than it was "something the market needed". I got interested in the tech, and made up a possible market need after. People say this approach is stupid, and you should identify user problems and then find a suitable solution. I get that. But I don't want to listen to it. I think there are multiple ways to make a successful project. Sometimes you might need to tinker with the technology, experiment with things, trust your intuition before you find something that works in the market. At least that's what I keep saying to myself.
 
-This idea was definetely "cool tech" more than it was "something the market needed". I got interested in the tech, and made up a possible market need after. People say this approach is stupid, and you should identify user problems and then find a suitable solution. I get that. But I don't want to listen to it. I think there are multiple ways to make a successful project. Sometimes you might need to tinker with the technology, experiment with things, trust your intuition before you find something that works in the market.
+> This idea was definetely "cool tech" more than it was "something the market needed".
 
-Also, in my situation, choosing something to build was better than doing nothing. At least I would increase my chance of serendipitous encounters and observations by doing it.
+In my situation, choosing something to build was better than doing nothing. At least I would increase my chance of serendipitous encounters and observations by doing it.
+
+So I sat down to do what I like the most. Let's build FileParty.
 
 ## Building FileParty
 
-The unique parts of FileParty is the p2p technology. WebRTC enables this in the browser, but there is still a lot of work needed to make it work reliably. The core of it is that you need to discover the other clients. So you need a server where clients can register and find which other clients to connect to. After trying to do this manually for a while, I figured out that the WebTorrent library and tooling around it makes it easier to set up. Kudos to @ferros and all the useful packages he has created in that ecosystem.
+The unique parts of FileParty is the p2p technology. Since the stable release in 2018, WebRTC has enabled this in the browser. This is why we can have video calls in browsers now without any plugins. When making a custom WebRTC app like I do, there is still a lot of work needed to make it work reliably. One common problem is peer discovert. You need to find the IP adresses of other computers visiting the same site.
 
-Just like Slapper, FileParty is a program full of bugs. There were bugs during development and there are bugs now. A lot of it comes from the fact that both apps are complex in nature, needing synchronization and relying on unstable external functions. But another part of it is that I need to be better at writing quality code. Need to be better at taking a step back and refactoring. Drawing system arcitecture on a piece of paper. Speed is important in the dev world, but if you never focus on the craft of quality code, you will never be fast.
+I got the mvp up. Using firebase, no authentication, trying to make it as simple as possible to test it out. I ended up using the amazing WebTorrent library, which gives technology similar to BitTorrent just for the browser.
+
+FileParty is full of bugs. There were bugs during development and there are bugs now. A lot of it comes from the fact that it is complex in nature, needing synchronization and relying on unstable external functions. 
+
+But another part of it is that I need to write better code. Need to be better at taking a step back and refactoring. Drawing system arcitecture on a piece of paper. Speed is important in the dev world, but if you never focus on the craft of quality code, you will never be fast.
 
 ## Launching FileParty
 
-As usual before launch, I get this feeling of disgust over the project. Can't stand it anymore. Just want it to be gone, over. I have seen this in real life too. People get tired of a 5-year college degree right before it ends the same way people get tired of a 1-year college degree right before it ends. I don't know the psychological reasons for this, but I think it's worth being aware of. There is definetely some insecurity. "Is this thing even useful?". "It doesn't work anyways". Maybe it's my mind trying to protect me from the irrational dangers of putting my work out there.
+As usual before launch, I get this feeling of disgust over the project. Can't stand it anymore. Just want it to be gone, over.
 
-I launched FileParty on Product Hunt, wrote the [twitter] post, sent a note to on my [personal newsletter].
+I have seen this in real life too. People get tired of a 5-year college degree right before it ends. People get tired of the 1-year military service right before it ends. I don't know the psychological reasons for this, but I think it's worth being aware of.
 
-The takeaways after 24 hours was:
+I always start to question myself before launching. "Is this thing even useful?". "It doesn't work anyways". Maybe it's my mind trying to protect me from the irrational dangers of putting my work out there.
 
-⏳ Time spent: 3 weeks
+Fuck that. I will launch things till I die.
+
+On monday 28th December, I posted FileParty on Product Hunt, wrote the [twitter] post, and sent a note to on my [personal newsletter]. Then I took a step back and waited for the responses.
+
+The takeaways after 48 hours was:
 
 ⬆️ Upvotes on ProductHunt: 192
 
@@ -71,24 +81,36 @@ The takeaways after 24 hours was:
 
 💰 Revenue (donations): 0$
 
-I got more upvotes than ever before (#1, #2), but didn't get that much engagement, but I was happy with the 3-4 responses I got about the product. I don't really care about numbers of upvotes or likes. I care about people that tested the product and sent me a message about it.
+⏳ Time spent: 3 weeks
+
+I got more upvotes than ever before (#1, #2), but didn't get that much engagement. Upvotes and likes aren't really important. I care about people that tested the product and sent me a message about it.
+
+I am happy with the launch. The feedback I get over time, and my coming weeks reflections will decide is FileParty will go on to evolve or be killed off.
 
 ## Some thoughts about instant feedback
 
-I added a input field on the site where you could instantly send feedback. I wanted to minimize the barriers for communication. As an experiment, I hooked the box up to a Slack bot. This is how my inbox looked:
+I added a input field on the site where people could instantly send feedback. I wanted to minimize the barriers for communication. As an experiment, I hooked the box up to a Slack bot. This is how my inbox looked after launch day.
 
 (slack inbox)
 
-XX responses like "asdf", and "test". I mean, why do people write "test"? I don't get it. But it did open for at least two interesting discussions.
+XX responses like "asdf", and "test". I mean, why do people write "test"? I don't get it.
+
+However, it did open for at least some interesting connections and discussions.
 
 ## An unexpected outcome
 
-I got in touch with a head of product of an interesting new video communication platform. He was interested if it was possible to integrate FileParty in some way. This was exciting, and excactly the kind of serendipity launching and putting your work out there can give. I am going to meet with him next week, and will let you know how it progresses.
+The head of product of an interesting new video communication platform contacted me. He was interested in integrating FileParty with their service. This was exciting, and excactly the kind of opportunities I hoped the launch would give. I am going to meet with him next week, and will let you know how it progresses.
+
+PS: I can't tell you the name of the platform yet. (But it's not Zoom.)
 
 ## Conclusion
 
-Happy to be done with the second startup of my 12 startups project.
+I successfully launched FileParty, even with some insecurities about it.
 
-Not sure about the future of FileParty, but I will let the serendipity and unknown powers of the universe work a bit with it. Maybe I will get a realization after a while? Maybe I will meet the right person that leads FileParty the right way? In any way, I am happy I pushed my comfort zones and got it out there.
+I'm not sure about the future of FileParty, so I will let serendipity and the unknown powers of the universe work on it for a while. Maybe I will get a realization after a while? Maybe I will meet the right person that gets excited and leads FileParty the right way? In any way, I am happy I pushed my comfort zones and got it out there.
 
-Launching muscle is getting stronger. Stay tuned for more launches and more insights.
+I did not earn any money on FileParty. That is not good. I need to start creating things I can sell.
+
+For my next launch I will earn 100$ on launch day.
+
+The launching muscle is getting stronger. Stay tuned for January.
