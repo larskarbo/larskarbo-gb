@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image";
 import {NewsletterForm} from "../pages/newsletter"
 
 
@@ -15,7 +15,7 @@ const BlogPostTemplate = ({ data, location }) => {
   const { previous, next } = data
 
 
-  const ogImagePath = post.frontmatter.hero?.childImageSharp.fixed.src
+  const ogImagePath = post.frontmatter.hero?.childImageSharp?.gatsbyImageData.src
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -76,50 +76,43 @@ const BlogPostTemplate = ({ data, location }) => {
 
 export default BlogPostTemplate
 
-export const pageQuery = graphql`
-  query BlogPostBySlug(
-    $id: String!
-    $previousPostId: String
-    $nextPostId: String
-  ) {
-    site {
-      siteMetadata {
-        title
-      }
+export const pageQuery = graphql`query BlogPostBySlug($id: String!, $previousPostId: String, $nextPostId: String) {
+  site {
+    siteMetadata {
+      title
     }
-    markdownRemark(id: { eq: $id }) {
-      id
-      excerpt(pruneLength: 160)
-      html
-      frontmatter {
-        title
-        date(formatString: "MMMM DD, YYYY")
-        description
-        excerpt
-        hero { 
-          childImageSharp {
-            fixed(width: 1200, height: 630) {
-              src
-            }
-          }
+  }
+  markdownRemark(id: {eq: $id}) {
+    id
+    excerpt(pruneLength: 160)
+    html
+    frontmatter {
+      title
+      date(formatString: "MMMM DD, YYYY")
+      description
+      excerpt
+      hero {
+        childImageSharp {
+          gatsbyImageData(width: 1200, height: 630, placeholder: BLURRED, layout: FIXED)
         }
       }
     }
-    previous: markdownRemark(id: { eq: $previousPostId }) {
-      fields {
-        slug
-      }
-      frontmatter {
-        title
-      }
+  }
+  previous: markdownRemark(id: {eq: $previousPostId}) {
+    fields {
+      slug
     }
-    next: markdownRemark(id: { eq: $nextPostId }) {
-      fields {
-        slug
-      }
-      frontmatter {
-        title
-      }
+    frontmatter {
+      title
     }
   }
+  next: markdownRemark(id: {eq: $nextPostId}) {
+    fields {
+      slug
+    }
+    frontmatter {
+      title
+    }
+  }
+}
 `
