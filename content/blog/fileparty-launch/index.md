@@ -1,5 +1,5 @@
 ---
-title: "Launching FileParty (Startup #2)"
+title: "Launching FileParty"
 author: Lars Karbo
 date: 
 excerpt: 

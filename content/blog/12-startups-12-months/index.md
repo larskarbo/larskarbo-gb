@@ -1,5 +1,5 @@
 ---
-title: 12xStartup - I'm building 12 startups in 12 months
+title: I'm building 12 startups in 12 months
 author: Lars Karbo
 date: 2020-11-09
 excerpt: Through the next 12 months, I will challenge my fears and push my limits. I will create 1 startup every month.
@@ -85,9 +85,9 @@ My first project (november) is called Slapper, and is aimed at people working wi
 
 **Solution:** Slapper is a tool to organize songs and segments of songs from *any* streaming platform. Let's you create shareable interactive documents of music.
 
-<img src='./images/slapperscreenshot.png' alt='' />
+**Launch stats:**
 
-Will be launching this soon to the public. Check out [slapper.io](https://slapper.io/) to become an early access beta user.
+Read [Launching Slapper (Startup #1)](/startup-1-slapper).
 
 ⏳ Time spent: 1.5 months
 
@@ -98,9 +98,27 @@ Will be launching this soon to the public. Check out [slapper.io](https://slappe
 💰 Revenue: $5 MRR
 
 
-## Makers who have inspired me
+### #2 [FileParty.co](https://fileparty.co/) - p2p real time file sharing
 
-- [Pieter Levels](!https://levels.io/)
+Read post here: [Launching FileParty (Startup #2)](/fileparty-launch).
+
+**Launch stats:**
+
+⏳ Time spent: 3 weeks
+
+⬆️ Upvotes on ProductHunt: 192
+
+👀 Visitors: 635
+
+🔗 Boards created: 1073
+
+💰 Revenue (donations): 0$
+
+
+## Makers who are inspiring me
+
+- [Alex West](https://www.alexwest.co/)
+- [Pieter Levels](https://levels.io/)
 
 ## Follow me on the journey
 

@@ -1,5 +1,5 @@
 ---
-title: "Startup #1 - Slapper"
+title: "Launching Slapper (Startup #1)"
 author: Lars Karbo
 date: 2020-12-13
 excerpt: My first startup in my project is Slapper. I built, launched and monetized it in a month
