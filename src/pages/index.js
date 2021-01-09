@@ -6,16 +6,14 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const BlogIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout location={location} title={"Lars Karbo"}>
       <SEO title="My personal blog" />
       <Bio />
       <ol style={{ listStyle: `none` }}>
         {posts.filter(p => p.frontmatter.date).map(post => {
-          const title = post.frontmatter.title || post.fields.slug
           const tags = post.frontmatter.tags || []
           return (
             <li key={post.fields.slug}>
@@ -25,21 +23,18 @@ const BlogIndex = ({ data, location }) => {
                 itemType="http://schema.org/Article"
               >
                 <header>
-                  <h2>
+                  <h2 className="text-2xl pt-4 font-bold">
                     <Link to={post.fields.slug} itemProp="url">
-                      <span itemProp="headline">{title}</span>
+                      <span itemProp="headline">{post.frontmatter.title}</span>
                     </Link>
                   </h2>
-                  {tags.map(t => <Tag tag={t} />)}
                   <small>{post.frontmatter.date}</small>
                 </header>
                 <section>
                   <p
-                    dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.excerpt || post.excerpt,
-                    }}
                     itemProp="description"
-                  />
+                    className="font-light"
+                  >{post.frontmatter.excerpt}</p>
                 </section>
               </article>
             </li>

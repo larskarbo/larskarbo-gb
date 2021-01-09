@@ -39,21 +39,15 @@ const Bio = () => {
   console.log("🚀 ~ avatar", avatar)
 
   return (
-    <div className="bio">
-      {avatar && (
+    <div className="flex pt-8 pb-12">
         <GatsbyImage
           image={avatar}
           alt={author?.name || ``}
-          className="bio-avatar"
-          imgStyle={{
-            borderRadius: `50%`,
-          }} />
-      )}
-      {author?.name && (
-        <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
-        </p>
-      )}
+          className="flex-shrink-0 mr-4 rounded-full overflow-hidden"
+          />
+      <p>
+        Written by <strong>{author.name}</strong> - {author?.summary || null}
+      </p>
     </div>
   );
 }

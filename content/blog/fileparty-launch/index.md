@@ -1,7 +1,7 @@
 ---
 title: "Launching FileParty"
 author: Lars Karbo
-date: 
+date: 2021-01-10
 excerpt: The story about how I launched FileParty, even with multiple insecurities about the project.
 # hero: ./launches.jpeg
 tags: []

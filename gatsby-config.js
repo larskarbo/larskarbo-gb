@@ -7,7 +7,7 @@ module.exports = {
     title: `Lars Karbo 🌲`,
     author: {
       name: `Lars Karbo`,
-      summary: `- An indie hacker currently working his way through his 12 startups in 12 months project. Sharing insights from the journey.`,
+      summary: `An indie hacker currently working his way through his 12 startups in 12 months project. Sharing insights from the journey.`,
     },
     description: `Lars Karbo's personal blog. I write about bootstrapping, coding and building small businesses.`,
     siteUrl: `https://larskarbo.no`,
@@ -111,6 +111,7 @@ module.exports = {
         siteUrl: `https://larskarbo.no`,
       },
     },
+    'gatsby-plugin-postcss',
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
