@@ -16,6 +16,7 @@ const BlogPostTemplate = ({ data, location }) => {
 
 
   const ogImagePath = post.frontmatter.hero?.childImageSharp?.gatsbyImageData.src
+  // console.log('post.frontmatter.hero?.childImageSharp?.gatsbyImageData: ', post.frontmatter.hero?.childImageSharp?.gatsbyImageData.images.sources[0]);
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -38,12 +39,12 @@ const BlogPostTemplate = ({ data, location }) => {
           itemProp="articleBody"
           className="article"
         />
-        <hr />
+        <hr className="mt-8" />
         <footer>
           <Bio />
         </footer>
       </article>
-      <p>Sign up to my personal newsletter:</p>
+      <p>Get notified for my next launch:</p>
       <NewsletterForm />
       <nav className="blog-post-nav">
         <ul

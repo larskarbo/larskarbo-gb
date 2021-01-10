@@ -3,5 +3,25 @@
 @tailwind utilities;
 
 .article p {
-    @apply py-4
+    @apply py-4;
+}
+
+.article h2 {
+    @apply text-xl font-medium;
+}
+
+.article h3 {
+    @apply text-lg font-medium;
+}
+
+.article a {
+    @apply underline;
+}
+
+.article blockquote {
+    @apply border-l-4 border-blue-300 pl-8;
+}
+
+.article ul {
+    @apply list-inside list-disc;
 }

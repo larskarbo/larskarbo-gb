@@ -39,7 +39,7 @@ const Bio = () => {
   console.log("🚀 ~ avatar", avatar)
 
   return (
-    <div className="flex pt-8 pb-12">
+    <div className="flex pt-16 pb-24">
         <GatsbyImage
           image={avatar}
           alt={author?.name || ``}
