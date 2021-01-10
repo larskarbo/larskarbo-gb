@@ -40,11 +40,11 @@ const Bio = () => {
 
   return (
     <div className="flex pt-16 pb-24">
-        <div className="flex-shrink-0 mr-4 rounded-full overflow-hidden">
+        <div className="flex-shrink-0 mr-4 rounded-full z-10  overflow-hidden ">
           <GatsbyImage
             image={avatar}
             alt={author?.name || ``}
-            className="rounded-full overflow-hidden"
+            className=""
             />
         </div>
       <p>

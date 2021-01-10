@@ -69,8 +69,7 @@ On monday 28th December, I posted FileParty on Product Hunt, wrote the [twitter 
 The takeaways after 48 hours was:
 
 ```
-
-⬆️ Upvotes on ProductHunt: 192
+⬆️ Upvotes on ProductHunt: 221
 👀 Visitors: 635
 🔗 Boards created: 1073
 💰 Revenue (donations): 0$
