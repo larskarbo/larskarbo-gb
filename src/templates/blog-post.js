@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { GatsbyImage } from "gatsby-plugin-image";
+import { GatsbyImage, getSrc } from "gatsby-plugin-image";
 import {NewsletterForm} from "../pages/newsletter"
 
 
@@ -15,7 +15,8 @@ const BlogPostTemplate = ({ data, location }) => {
   const { previous, next } = data
 
 
-  const ogImagePath = post.frontmatter.hero?.childImageSharp?.gatsbyImageData.src
+  const ogImagePath = getSrc(post.frontmatter.hero)
+  console.log('ogImagePath: ', ogImagePath);
   // console.log('post.frontmatter.hero?.childImageSharp?.gatsbyImageData: ', post.frontmatter.hero?.childImageSharp?.gatsbyImageData.images.sources[0]);
 
   return (
@@ -95,7 +96,7 @@ export const pageQuery = graphql`query BlogPostBySlug($id: String!, $previousPos
       excerpt
       hero {
         childImageSharp {
-          gatsbyImageData(width: 1200, height: 630, placeholder: BLURRED, layout: FIXED)
+          gatsbyImageData(width: 1200, height: 630, layout: FIXED)
         }
       }
     }
