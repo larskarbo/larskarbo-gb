@@ -40,13 +40,11 @@ const Bio = () => {
 
   return (
     <div className="flex pt-16 pb-24">
-        <div className="flex-shrink-0 mr-4 rounded-full z-10  overflow-hidden ">
-          <GatsbyImage
-            image={avatar}
-            alt={author?.name || ``}
-            className=""
-            />
-        </div>
+            <GatsbyImage
+              image={avatar}
+              alt={author?.name || ``}
+              className="flex-shrink-0 mr-4 rounded-full overflow-hidden"
+              />
       <p>
         Written by <strong>{author.name}</strong> - {author?.summary || null}
       </p>

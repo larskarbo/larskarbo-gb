@@ -4,7 +4,7 @@ author: Lars Karbo
 date: 2020-10-29
 excerpt: I am building a tool for music teachers, and I'm excited to show it to you. It let's you combine the power of existing music services, and effectively work with ...
 hero: ./images/hero.png
-tags: ["startup-building", "slapper.io"]
+tags: []
 ---
 
 Are you a **music teacher**?

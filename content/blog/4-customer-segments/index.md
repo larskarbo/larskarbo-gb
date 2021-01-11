@@ -4,6 +4,7 @@ author: Lars Karbo
 date: 2020-11-29
 excerpt: How I struggle to find the right user segment for my app. There are 4 different types of people that like it for different reasons.
 hero: ./hero.png
+tags: ["12x"]
 ---
 
 *Startup influencers often talk about how important it is to find your user segment.* Who are solving a problem for? [Figure out your niche](https://thebootstrappedfounder.com/finding-a-market-to-build-a-saas/), they say. Find your customer segment, they say.

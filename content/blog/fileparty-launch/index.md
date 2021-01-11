@@ -1,10 +1,10 @@
 ---
-title: "Launching FileParty"
+title: "Launching FileParty (Startup #2)"
 author: Lars Karbo
 date: 2021-01-10
 excerpt: The story about how I launched FileParty, and almost got my first B2B sale.
 hero: ./hero.png
-tags: []
+tags: ["12x"]
 ---
 
 **TLDR;** [FileParty](https://fileparty.co/) is a real time file sharing service I hacked together and launched on Product Hunt. It got over 200 upvotes, but no revenue.

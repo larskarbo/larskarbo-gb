@@ -1,17 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 
 .article p {
-    @apply py-4;
+    @apply py-2;
 }
 
 .article h2 {
-    @apply text-xl font-medium;
+    @apply text-xl font-medium py-4;
 }
 
 .article h3 {
-    @apply text-lg font-medium;
+    @apply text-lg font-medium py-4;
 }
 
 .article a {
@@ -19,9 +17,13 @@
 }
 
 .article blockquote {
-    @apply border-l-4 border-blue-300 pl-8;
+    @apply border-l-4 border-blue-300 pl-8 py-4;
 }
 
 .article ul {
     @apply list-inside list-disc;
+}
+
+.article img {
+    @apply py-4;
 }
