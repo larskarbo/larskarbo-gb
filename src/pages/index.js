@@ -57,6 +57,14 @@ const BlogIndex = ({ data, location }) => {
           <ul className="list-disc list-inside">
             <li className="py-1">
               <h2 className="pt-4 font-medium inline">
+                <Link to={"https://goimitate.com"} itemProp="url" className="underline">
+                  Imitate 
+                </Link>
+                <span> - (January)</span>
+              </h2>
+            </li>
+            <li className="py-1">
+              <h2 className="pt-4 font-medium inline">
                 <Link to={"https://FileParty.co"} itemProp="url" className="underline">
                   FileParty.co 
                 </Link>
