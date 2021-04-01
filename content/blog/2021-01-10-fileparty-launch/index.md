@@ -1,7 +1,6 @@
 ---
 title: "Launching FileParty (Startup #2)"
 author: Lars Karbo
-date: 2021-01-10
 excerpt: The story about how I launched FileParty, and almost got my first B2B sale.
 hero: ./hero.png
 tags: ["12x"]

@@ -1,7 +1,6 @@
 ---
 title: I just launched my indie hacking career on TikTok.
 author: Lars Karbo
-date: 2020-09-26
 hero: ./images/why-i-start-posting-on-tiktok.png
 excerpt: The story of why I expose myself on such a weird platform that nobody really understands.
 ---

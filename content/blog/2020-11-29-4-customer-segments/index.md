@@ -1,7 +1,6 @@
 ---
 title: Help! 4 different kinds of people like my app
 author: Lars Karbo
-date: 2020-11-29
 excerpt: How I struggle to find the right user segment for my app. There are 4 different types of people that like it for different reasons.
 hero: ./hero.png
 tags: ["12x"]

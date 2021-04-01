@@ -64,11 +64,18 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode })
+    // const hasDate =
+    const date = value.slice(1, 11)
 
     createNodeField({
       name: `slug`,
       node,
-      value,
+      value: value.replace(date, ""),
+    })
+    createNodeField({
+      name: `date`,
+      node,
+      value: date,
     })
   }
 }
