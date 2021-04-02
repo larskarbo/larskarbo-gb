@@ -95,7 +95,7 @@ export const pageQuery = graphql`query BlogPostBySlug($id: String!, $previousPos
       excerpt
       hero {
         childImageSharp {
-          gatsbyImageData(width: 1200, height: 630, layout: FIXED)
+          gatsbyImageData(width: 1200, height: 627, layout: FIXED)
         }
       }
     }
