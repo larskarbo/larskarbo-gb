@@ -24,6 +24,10 @@
     @apply list-inside list-disc;
 }
 
+.article li {
+    @apply my-4;
+}
+
 .article img {
     @apply py-4;
 }

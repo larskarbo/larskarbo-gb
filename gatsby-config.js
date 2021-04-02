@@ -5,10 +5,6 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `Lars Karbo 🌲`,
-    author: {
-      name: `Lars Karbo`,
-      summary: `An indie hacker currently working his way through his 12 startups in 12 months project. Sharing insights from the journey.`,
-    },
     description: `Lars Karbo's personal blog. I write about bootstrapping, coding and building small businesses.`,
     siteUrl: `https://larskarbo.no`,
     social: [
@@ -67,6 +63,7 @@ module.exports = {
             options: {
               // Options here
               maxWidth: 630,
+              linkImagesToOriginal: false,
             }
           },
           {

@@ -1,6 +1,5 @@
 ---
 title: "Launching Slapper (Startup #1)"
-author: Lars Karbo
 excerpt: My first startup in my project is Slapper. I built, launched and monetized it in a month
 hero: ./launches.jpeg
 tags: ["12x"]

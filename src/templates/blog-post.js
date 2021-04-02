@@ -16,7 +16,6 @@ const BlogPostTemplate = ({ data, location }) => {
 
 
   const ogImagePath = getSrc(post.frontmatter.hero)
-  console.log('ogImagePath: ', ogImagePath);
   // console.log('post.frontmatter.hero?.childImageSharp?.gatsbyImageData: ', post.frontmatter.hero?.childImageSharp?.gatsbyImageData.images.sources[0]);
 
   return (

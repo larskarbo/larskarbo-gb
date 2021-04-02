@@ -1,6 +1,5 @@
 ---
 title: I'm building 12 startups in 12 months
-author: Lars Karbo
 excerpt: Through the next 12 months, I will challenge my fears and push my limits. I will create 1 startup every month.
 hero: ./images/natur.png
 tags: ["12x"]
@@ -112,6 +111,22 @@ Read post here: [Launching FileParty (Startup #2)](/fileparty-launch).
 🔗 Boards created: 1073
 
 💰 Revenue (donations): 0$
+<!-- 
+### #2 [FileParty.co](https://fileparty.co/) - p2p real time file sharing
+
+Read post here: [Launching FileParty (Startup #2)](/fileparty-launch).
+
+**Launch stats:**
+
+⏳ Time spent: 3 weeks
+
+⬆️ Upvotes on ProductHunt: 192
+
+👀 Visitors: 635
+
+🔗 Boards created: 1073
+
+💰 Revenue (donations): 0$ -->
 
 
 ## Makers who are inspiring me

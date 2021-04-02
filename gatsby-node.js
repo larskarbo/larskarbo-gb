@@ -7,13 +7,19 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   // Define a template for blog post
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
 
+  const isLocal = process.env.NODE_ENV == 'development'
+  console.log('process.env.NODE_ENV: ', process.env.NODE_ENV);
+  console.log('isLocal: ', isLocal);
+
+
+
   // Get all markdown blog posts sorted by date
   const result = await graphql(
     `
       {
         allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: ASC }
-          filter: { frontmatter: { date: { ne: "" } } }
+          sort: { fields: [fields___date], order: ASC }
+          filter: { fields: { date: { ne: "" } ${!isLocal ? ", isDraft: { ne: true }" : ""} } }
           limit: 1000
         ) {
           nodes {
@@ -26,6 +32,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       }
     `
   )
+
 
   if (result.errors) {
     reporter.panicOnBuild(
@@ -64,18 +71,25 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode })
-    // const hasDate =
-    const date = value.slice(1, 11)
+
+    const isDraft = value.includes("draft")
+    const hasDate = /\d{4}-\d{2}-\d{2}-/.test(value)
+    const date = hasDate ? value.match(/\d{4}-\d{2}-\d{2}/)[0] : null
 
     createNodeField({
       name: `slug`,
       node,
-      value: value.replace(date, ""),
+      value: value.replace(/\d{4}-\d{2}-\d{2}-/, ""),
     })
     createNodeField({
       name: `date`,
       node,
       value: date,
+    })
+    createNodeField({
+      name: `isDraft`,
+      node,
+      value: isDraft,
     })
   }
 }
@@ -91,14 +105,8 @@ exports.createSchemaCustomization = ({ actions }) => {
   // blog posts are stored inside "content/blog" instead of returning an error
   createTypes(`
     type SiteSiteMetadata {
-      author: Author
       siteUrl: String
       social: Social
-    }
-
-    type Author {
-      name: String
-      summary: String
     }
 
     type Social {
@@ -113,11 +121,11 @@ exports.createSchemaCustomization = ({ actions }) => {
     type Frontmatter {
       title: String
       description: String
-      date: Date @dateformat
     }
-
+    
     type Fields {
       slug: String
+      date: Date @dateformat
     }
   `)
 }

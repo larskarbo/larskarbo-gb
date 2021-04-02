@@ -1,6 +1,5 @@
 ---
 title: "Launching FileParty (Startup #2)"
-author: Lars Karbo
 excerpt: The story about how I launched FileParty, and almost got my first B2B sale.
 hero: ./hero.png
 tags: ["12x"]
@@ -67,7 +66,7 @@ On monday 28th December, I posted FileParty on Product Hunt, wrote the [twitter 
 
 The takeaways after 48 hours was:
 
-```
+```text
 ⬆️ Upvotes on ProductHunt: 221
 👀 Visitors: 635
 🔗 Boards created: 1073
