@@ -20,7 +20,7 @@ const Newsletter = ({ data, location }) => {
 
 export const NewsletterForm = () => {
   return (
-    <form action="https://lesto.larskarbo.no/subscribe" className="py-4 pb-12" method="POST" accept-charset="utf-8" style={{
+    <form action="https://lesto.larskarbo.no/subscribe" className="py-4 pb-12" method="POST" acceptCharset="utf-8" style={{
     }}>
       <label htmlFor="name" className="block text-sm font-medium leading-5 text-gray-700">Name</label>
       <input type="text" name="name" id="name" className="block w-full px-3 py-2 placeholder-gray-400 transition duration-150 ease-in-out
@@ -30,7 +30,7 @@ export const NewsletterForm = () => {
       <input
         id="email"
         type="email"
-        tabindex="1"
+        tabIndex="1"
         name="email"
         placeholder="you@domain.com"
         required=""

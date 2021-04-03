@@ -5,9 +5,14 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { NewsletterForm } from "./newsletter"
 
+export const isLocal = () =>
+  typeof window != "undefined" &&
+  typeof window.location != "undefined" &&
+  window.location?.host?.includes("localhost")
+
 const BlogIndex = ({ data, location }) => {
   const posts = data.allMarkdownRemark.nodes.filter(
-    node => !node.fields.isDraft
+    node => isLocal() || !node.fields.isDraft
   )
 
   return (
