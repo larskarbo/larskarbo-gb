@@ -1,5 +1,5 @@
 ---
-title: "I did not launch Case Shortcut (Startup #4)"
+title: "I Did Not Launch Case Shortcut (Startup #4)"
 excerpt: I almost launched Case shortcut in five days but had to abort it.
 tags: ["12x"]
 hero: ./hero.png
