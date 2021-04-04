@@ -3,3 +3,7 @@
 
 [[plugins]]
   package = "netlify-plugin-gatsby-cache"
+
+[[redirects]]
+  from = "/contact"
+  to = "https://twitter.com/larskarbo"
