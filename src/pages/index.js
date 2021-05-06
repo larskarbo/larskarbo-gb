@@ -28,15 +28,11 @@ const BlogIndex = ({ data, location }) => {
           alt={`Picture of Lars Karbo`}
           className="flex-shrink-0 mr-4 w-14 h-14 rounded-full overflow-hidden"
         />
-        <div>
-          <p className="py-1">
-            Hi! I am Lars. My goal is to create something that will{" "}
-            <strong>change the world</strong>.
-          </p>
-          <p className="py-1">I will do it step by step.</p>
-          <p className="py-1">
-            First step is to create 12 startups and learn the tools of the 21st
-            century.
+        <div className="text-2xl font-normal">
+          <p className="py-2">I build premium tools for the world.</p>
+          <p className="py-2">
+            Giving value through <strong>profitable micro-startups</strong> that live and breathe in the
+            internet-ecosystem.
           </p>
         </div>
       </div>
@@ -62,6 +58,32 @@ const BlogIndex = ({ data, location }) => {
           </p>
           <p className="py-2 font-light">Startups:</p>
           <ul className="list-disc list-inside">
+            <li className="py-1">
+              <h2 className="pt-4 font-medium inline">
+                <Link
+                  to={"https://personate.ai"}
+                  itemProp="url"
+                  className="underline"
+                >
+                  Personate
+                </Link>
+                <span> - (May)</span>
+              </h2>
+            </li>
+            <li className="py-1">
+              <h2 className="pt-4 font-medium inline">
+                <span className="bg-yellow-100">
+                  <Link
+                    to={"https://focusmonkey.io"}
+                    itemProp="url"
+                    className="underline"
+                  >
+                    Focus Monkey
+                  </Link>
+                  <span> - (April) 🚧 NOT LAUNCHED YET 🚧 </span>
+                </span>
+              </h2>
+            </li>
             <li className="py-1">
               <h2 className="pt-4 font-medium inline">
                 <Link
