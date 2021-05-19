@@ -1,9 +1,7 @@
-import React from "react"
 import { graphql } from "gatsby"
-
+import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import ReactMarkdown from "react-markdown"
 
 const Now = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -39,9 +37,9 @@ const Now = ({ data, location }) => {
       <h2 className="text-2xl font-extrabold my-4 mt-8">Connect with me</h2>
       <ul className="list-disc list-inside">
         <li className="my-4">
-        ✉️ My monthly (ish) email newsletter:{" "}
+          ✉️ My monthly (ish) email newsletter:{" "}
           <a className="underline" href="https://larskarbo.no/newsletter">
-          subscribe here
+            subscribe here
           </a>{" "}
         </li>
         <li className="my-4">
@@ -52,7 +50,10 @@ const Now = ({ data, location }) => {
         </li>
         <li className="my-4">
           LinkedIn:{" "}
-          <a className="underline" href="https://www.linkedin.com/in/larskarbo/">
+          <a
+            className="underline"
+            href="https://www.linkedin.com/in/larskarbo/"
+          >
             @larskarbo
           </a>{" "}
         </li>
@@ -62,9 +63,7 @@ const Now = ({ data, location }) => {
             @larskarbo
           </a>{" "}
         </li>
-        <li className="my-4">
-          ...or come and have a coffee in Oslo 🇳🇴
-        </li>
+        <li className="my-4">...or come and have a coffee in Oslo 🇳🇴</li>
       </ul>
       <div style={{ padding: 100 }}></div>
     </Layout>

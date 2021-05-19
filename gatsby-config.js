@@ -23,6 +23,13 @@ module.exports = {
     ],
   },
   plugins: [
+
+    {
+      resolve: `gatsby-plugin-plausible`,
+      options: {
+        domain: `larskarbo.no`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
