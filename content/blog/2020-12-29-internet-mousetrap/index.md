@@ -53,7 +53,9 @@ In the background, you can see that the LED lights up when the metal from the mo
 
 ## Setting up the mouse trap to send notifications
 
-I will leave out the technical details and source code, but if you are interested you can find it all in this [Gist](https://gist.github.com/larskarbo/cb198a3465246d7c9d7f6cee2004ab9a).
+I will leave out the technical details and source code, but if you are interested [contact me](/now/) and I will show it.
+
+<!-- you can find it all in this [Gist](https://gist.github.com/larskarbo/cb198a3465246d7c9d7f6cee2004ab9a). -->
 
 There are multiple ways to send notifications to a phone. One of the quickest is to use an existing app. We choose to send messages through the messaging app Telegram.
 
@@ -89,7 +91,7 @@ And a gif version of the action.
 
 ![Animated gif of a mouse trap](mouse-trap-gif.gif)
 
-This invention shows that it's possible to hack together impressing things in a short time. The world of IoT devices like the [ESP32](https://www.espressif.com/en/products/modules/esp-wroom-32/overview) and services like [Telegram](https://telegram.org/) make this possible.
+This invention shows that it's possible to hack together impressing things in a short time. The world of IoT devices like the [ESP32](https://www.espressif.com/en/products/modules/esp32) and services like [Telegram](https://telegram.org/) make this possible.
 
 It might not be the most useful thing in the world, but it's fun!
 

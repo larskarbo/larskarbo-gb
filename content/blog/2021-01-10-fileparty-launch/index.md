@@ -14,7 +14,7 @@ This is the story of how I found the idea, build it and launched it succesfully.
 
 ## How FileParty was born
 
-I had to do a new project in December. It's part of my [12 startups in 12 months](/12-startups-12-months) project where I launch a new startup every month.
+I had to do a new project in December. It's part of my [12 startups in 12 months](/12-startups-12-months/) project where I launch a new startup every month.
 
 ### Killing my schedule
 

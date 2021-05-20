@@ -40,7 +40,7 @@ const Bio = () => {
               className="flex-shrink-0 mr-4 rounded-full overflow-hidden"
               />
       <p>
-        Written by <strong>Lars Karbo</strong> - An indie hacker currently working his way through his <Link className="underline text-blue-800" to="/12-startups-12-months">12 startups in 12 months</Link> project. Sharing insights from the journey.
+        Written by <strong>Lars Karbo</strong> - An indie hacker currently working his way through his <Link className="underline text-blue-800" to="/12-startups-12-months/">12 startups in 12 months</Link> project. Sharing insights from the journey.
       </p>
     </div>
   );
