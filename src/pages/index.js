@@ -24,7 +24,7 @@ const BlogIndex = ({ data, location }) => {
 
       <div className="flex pt-4 pb-24">
         <img
-          src="https://s.gravatar.com/avatar/4579b299730ddc53e3d523ec1cd5482a?s=100"
+          src="https://s.gravatar.com/avatar/4579b299730ddc53e3d523ec1cd5482a?s=112"
           alt={`Picture of Lars Karbo`}
           className="flex-shrink-0 mr-4 w-14 h-14 rounded-full overflow-hidden"
         />
