@@ -31,8 +31,8 @@ const BlogIndex = ({ data, location }) => {
         <div className="text-2xl font-normal">
           <p className="py-2">I build premium tools for the world.</p>
           <p className="py-2">
-            Giving value through <strong>profitable micro-startups</strong> that live and breathe in the
-            internet-ecosystem.
+            Giving value through <strong>profitable micro-startups</strong> that
+            live and breathe in the internet-ecosystem.
           </p>
         </div>
       </div>
@@ -166,6 +166,16 @@ const BlogIndex = ({ data, location }) => {
                 )
               })}
           </ul>
+
+          <div className="mt-8 mb-4">A Norwegian podcast I attended in January:</div>
+          <iframe
+            src="https://open.spotify.com/embed/episode/4cFwrDiSekGrSYYZk5mPLD"
+            width="100%"
+            height="232"
+            frameBorder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
         </div>
       </div>
 
