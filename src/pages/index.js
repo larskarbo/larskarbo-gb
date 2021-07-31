@@ -70,7 +70,7 @@ const BlogIndex = ({ data, location }) => {
                 <span> - (May)</span>
               </h2>
             </li>
-            <li className="py-1">
+            {/* <li className="py-1">
               <h2 className="pt-4 font-medium inline">
                 <span className="bg-yellow-100">
                   <Link
@@ -83,7 +83,7 @@ const BlogIndex = ({ data, location }) => {
                   <span> - (April) 🚧 NOT LAUNCHED YET 🚧 </span>
                 </span>
               </h2>
-            </li>
+            </li> */}
             <li className="py-1">
               <h2 className="pt-4 font-medium inline">
                 <Link
