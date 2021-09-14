@@ -61,6 +61,18 @@ const BlogIndex = ({ data, location }) => {
             <li className="py-1">
               <h2 className="pt-4 font-medium inline">
                 <Link
+                  to={"https://tokenbird.io"}
+                  itemProp="url"
+                  className="underline"
+                >
+                  TokenBird
+                </Link>
+                <span> - (Sept)</span>
+              </h2>
+            </li>
+            <li className="py-1">
+              <h2 className="pt-4 font-medium inline">
+                <Link
                   to={"https://personate.ai"}
                   itemProp="url"
                   className="underline"
