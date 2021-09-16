@@ -1,5 +1,5 @@
 ---
-title: "the Art of Doing Small and Simple Projects"
+title: "The Art of Doing Small and Simple Projects"
 excerpt: This is the most successful project I have done so far. Imitate is a web-app for practicing French pronunciation with the use of random YouTube segments.
 tags: ["12x"]
 ---
