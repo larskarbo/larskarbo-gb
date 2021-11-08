@@ -61,6 +61,30 @@ const BlogIndex = ({ data, location }) => {
             <li className="py-1">
               <h2 className="pt-4 font-medium inline">
                 <Link
+                  to={"https://videofly.io"}
+                  itemProp="url"
+                  className="underline"
+                >
+                  VideoFly
+                </Link>
+                <span> - (Nov)</span>
+              </h2>
+            </li>
+            <li className="py-1">
+              <h2 className="pt-4 font-medium inline">
+                <Link
+                  to={"https://tokenbird.io"}
+                  itemProp="url"
+                  className="underline"
+                >
+                  TokenBird (NFT API Pivot)
+                </Link>
+                <span> - (Nov)</span>
+              </h2>
+            </li>
+            <li className="py-1">
+              <h2 className="pt-4 font-medium inline">
+                <Link
                   to={"https://mediachopper.io"}
                   itemProp="url"
                   className="underline"
@@ -77,7 +101,7 @@ const BlogIndex = ({ data, location }) => {
                   itemProp="url"
                   className="underline"
                 >
-                  TokenBird
+                  TokenBird (Market Watch)
                 </Link>
                 <span> - (Sept)</span>
               </h2>
