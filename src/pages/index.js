@@ -17,7 +17,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={"Lars Karbo"}>
-      <SEO title="My personal blog" />
+      <SEO title="Home of Lars" />
       <h1 className="text-center font-bold text-gray-900 text-3xl py-12">
         <Link to="/">Lars Karbo</Link>
       </h1>
@@ -61,6 +61,18 @@ const BlogIndex = ({ data, location }) => {
             <li className="py-1">
               <h2 className="pt-4 font-medium inline">
                 <Link
+                  to={"https://tokenbird.io"}
+                  itemProp="url"
+                  className="underline"
+                >
+                  TokenBird
+                </Link>
+                <span> - (Dec)</span>
+              </h2>
+            </li>
+            <li className="py-1">
+              <h2 className="pt-4 font-medium inline">
+                <Link
                   to={"https://videofly.io"}
                   itemProp="url"
                   className="underline"
@@ -77,7 +89,7 @@ const BlogIndex = ({ data, location }) => {
                   itemProp="url"
                   className="underline"
                 >
-                  TokenBird (NFT API Pivot)
+                  TokenBird v2 (NFT API)
                 </Link>
                 <span> - (Nov)</span>
               </h2>
@@ -101,7 +113,7 @@ const BlogIndex = ({ data, location }) => {
                   itemProp="url"
                   className="underline"
                 >
-                  TokenBird (Market Watch)
+                  TokenBird v1 (CoinMarketCap for NFTs)
                 </Link>
                 <span> - (Sept)</span>
               </h2>
@@ -118,20 +130,6 @@ const BlogIndex = ({ data, location }) => {
                 <span> - (May)</span>
               </h2>
             </li>
-            {/* <li className="py-1">
-              <h2 className="pt-4 font-medium inline">
-                <span className="bg-yellow-100">
-                  <Link
-                    to={"https://focusmonkey.io"}
-                    itemProp="url"
-                    className="underline"
-                  >
-                    Focus Monkey
-                  </Link>
-                  <span> - (April) 🚧 NOT LAUNCHED YET 🚧 </span>
-                </span>
-              </h2>
-            </li> */}
             <li className="py-1">
               <h2 className="pt-4 font-medium inline">
                 <Link
@@ -146,7 +144,7 @@ const BlogIndex = ({ data, location }) => {
             </li>
             <li className="py-1">
               <h2 className="pt-4 font-medium inline">
-                <span className="bg-yellow-100">
+                <span className="">
                   <Link
                     to={"https://caseshortcut.com"}
                     itemProp="url"
@@ -154,7 +152,7 @@ const BlogIndex = ({ data, location }) => {
                   >
                     Case Shortcut
                   </Link>
-                  <span> - (February) 🚧 NOT LAUNCHED YET 🚧 </span>
+                  <span> - (February) 🚧 not launched yet 🚧 </span>
                 </span>
               </h2>
             </li>
