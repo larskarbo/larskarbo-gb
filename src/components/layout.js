@@ -25,7 +25,7 @@ const Layout = ({ location, title, children }) => {
       <footer className="pt-24 pb-4">
         © {new Date().getFullYear()}, Check me out on twitter: 
         {` `}
-        <a href="https://twitter.com/larskarbo">@larskarbo</a>. <Link to="/now/">What I am doing now</Link>.
+        <a className="underline" href="https://twitter.com/larskarbo">@larskarbo</a>.
       </footer>
     </div>
   )

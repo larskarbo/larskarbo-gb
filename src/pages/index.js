@@ -226,7 +226,6 @@ const BlogIndex = ({ data, location }) => {
       </div>
 
       <div className="mt-36 mb-12">
-        <p>Get notified of my next launch:</p>
         <NewsletterForm />
       </div>
 

@@ -44,7 +44,6 @@ const BlogPostTemplate = ({ data, location }) => {
           <Bio />
         </footer>
       </article>
-      <p>Get notified for my next launch:</p>
       <NewsletterForm />
       <nav className="blog-post-nav">
         <ul

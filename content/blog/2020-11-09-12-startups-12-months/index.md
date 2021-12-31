@@ -16,6 +16,8 @@ After years of creating stuff into the void. After years of building things and 
 
 I step into the ranks of the giants, and do the **12 startups in 12 months** challenge.
 
+PS: read my post-project post here: [A Year of Making Is Done](/year-of-making)
+
 <img src='./images/natur.png' alt='' />
 
 ## Startup is the new corporate
@@ -57,9 +59,6 @@ Subscribe to the 12xstartup [newsletter](https://12xstartup.com/) to get access 
 ![](images/team.png)
 
 
-## 12 Startups in 12 Months
-
-I will keep updating my progress here.
 
 **What do I want to build?**
 
@@ -70,63 +69,6 @@ I will keep updating my progress here.
 * Facilitate long term passive income
 * Some of them focused on my key areas: **music**, **time**, **psychology**.
 
-
-### #1 [Slapper.io](https://slapper.io/) - music snippets organizing tool
-
-My first project (november) is called Slapper, and is aimed at people working with music.
-
-**Problem:**
-
-* No way to annotate songs in playlists
-* No way to choose a specific segment of a song and store it or share it
-* Different streaming services can't be in the same list
-
-**Solution:** Slapper is a tool to organize songs and segments of songs from *any* streaming platform. Let's you create shareable interactive documents of music.
-
-**Launch stats:**
-
-Read [Launching Slapper (Startup #1)](/startup-1-slapper).
-
-⏳ Time spent: 1.5 months
-
-📝 Signups: 200
-
-🎖 Premium users: 1
-
-💰 Revenue: $5 MRR
-
-
-### #2 [FileParty.co](https://fileparty.co/) - p2p real time file sharing
-
-Read post here: [Launching FileParty (Startup #2)](/fileparty-launch).
-
-**Launch stats:**
-
-⏳ Time spent: 3 weeks
-
-⬆️ Upvotes on ProductHunt: 192
-
-👀 Visitors: 635
-
-🔗 Boards created: 1073
-
-💰 Revenue (donations): 0$
-<!-- 
-### #2 [FileParty.co](https://fileparty.co/) - p2p real time file sharing
-
-Read post here: [Launching FileParty (Startup #2)](/fileparty-launch).
-
-**Launch stats:**
-
-⏳ Time spent: 3 weeks
-
-⬆️ Upvotes on ProductHunt: 192
-
-👀 Visitors: 635
-
-🔗 Boards created: 1073
-
-💰 Revenue (donations): 0$ -->
 
 
 ## Makers who are inspiring me
