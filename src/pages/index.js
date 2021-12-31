@@ -37,7 +37,7 @@ const BlogIndex = ({ data, location }) => {
         </div>
       </div>
 
-      <div className="sm:rounded-2xl overflow-hidden sm:border sm:shadow-2xl border-gray-300 -mx-4 sm:mx-0">
+      <div className="sm:rounded-2xl mt-12 relative z-10 overflow-hidden sm:border bg-white sm:shadow-2xl border-gray-300 -mx-4 sm:mx-0">
         <StaticImage
           layout="constrained"
           width={672}
@@ -53,146 +53,16 @@ const BlogIndex = ({ data, location }) => {
             </Link>
           </h2>
           <p className="py-2 font-light">
-            Starting november 2020 I set out on a quest to build a profitable
-            startup every month.
+            In 2021 I set out on a quest to build a profitable startup every
+            month.
           </p>
-          <p className="py-2 font-light">Startups:</p>
-          <ul className="list-disc list-inside">
-            <li className="py-1">
-              <h2 className="pt-4 font-medium inline">
-                <Link
-                  to={"https://tokenbird.io"}
-                  itemProp="url"
-                  className="underline"
-                >
-                  TokenBird
-                </Link>
-                <span> - (Dec)</span>
-              </h2>
-            </li>
-            <li className="py-1">
-              <h2 className="pt-4 font-medium inline">
-                <Link
-                  to={"https://videofly.io"}
-                  itemProp="url"
-                  className="underline"
-                >
-                  VideoFly
-                </Link>
-                <span> - (Nov)</span>
-              </h2>
-            </li>
-            <li className="py-1">
-              <h2 className="pt-4 font-medium inline">
-                <Link
-                  to={"https://tokenbird.io"}
-                  itemProp="url"
-                  className="underline"
-                >
-                  TokenBird v2 (NFT API)
-                </Link>
-                <span> - (Nov)</span>
-              </h2>
-            </li>
-            <li className="py-1">
-              <h2 className="pt-4 font-medium inline">
-                <Link
-                  to={"https://mediachopper.io"}
-                  itemProp="url"
-                  className="underline"
-                >
-                  MediaChopper
-                </Link>
-                <span> - (Sept)</span>
-              </h2>
-            </li>
-            <li className="py-1">
-              <h2 className="pt-4 font-medium inline">
-                <Link
-                  to={"https://tokenbird.io"}
-                  itemProp="url"
-                  className="underline"
-                >
-                  TokenBird v1 (CoinMarketCap for NFTs)
-                </Link>
-                <span> - (Sept)</span>
-              </h2>
-            </li>
-            <li className="py-1">
-              <h2 className="pt-4 font-medium inline">
-                <Link
-                  to={"https://personate.ai"}
-                  itemProp="url"
-                  className="underline"
-                >
-                  Personate
-                </Link>
-                <span> - (May)</span>
-              </h2>
-            </li>
-            <li className="py-1">
-              <h2 className="pt-4 font-medium inline">
-                <Link
-                  to={"https://napchart.com"}
-                  itemProp="url"
-                  className="underline"
-                >
-                  Napchart
-                </Link>
-                <span> - (March)</span>
-              </h2>
-            </li>
-            <li className="py-1">
-              <h2 className="pt-4 font-medium inline">
-                <span className="">
-                  <Link
-                    to={"https://caseshortcut.com"}
-                    itemProp="url"
-                    className="underline"
-                  >
-                    Case Shortcut
-                  </Link>
-                  <span> - (February) 🚧 not launched yet 🚧 </span>
-                </span>
-              </h2>
-            </li>
-            <li className="py-1">
-              <h2 className="pt-4 font-medium inline">
-                <Link
-                  to={"https://goimitate.com"}
-                  itemProp="url"
-                  className="underline"
-                >
-                  Imitate
-                </Link>
-                <span> - (January)</span>
-              </h2>
-            </li>
-            <li className="py-1">
-              <h2 className="pt-4 font-medium inline">
-                <Link
-                  to={"https://FileParty.co"}
-                  itemProp="url"
-                  className="underline"
-                >
-                  FileParty.co
-                </Link>
-                <span> - (December)</span>
-              </h2>
-            </li>
-            <li className="py-1">
-              <h2 className="pt-4 font-medium inline">
-                <Link
-                  to={"https://slapper.io"}
-                  itemProp="url"
-                  className="underline"
-                >
-                  Slapper.io
-                </Link>
-                <span> - (November)</span>
-              </h2>
-            </li>
-          </ul>
+          <p className="py-2 font-light">
+            Read about how it went:{" "}
+            <a className="underline font-bold" href="/year-of-making">
+              A Year of Making is Done
+            </a>
+            .
+          </p>
           <p className="py-2 font-light">Writings:</p>
           <ul className="list-disc list-inside">
             {posts
@@ -212,8 +82,9 @@ const BlogIndex = ({ data, location }) => {
                 )
               })}
           </ul>
-
-          <div className="mt-8 mb-4">A Norwegian podcast I attended in January:</div>
+          <div className="mt-8 mb-4">
+            A Norwegian podcast I attended in January 2021:
+          </div>
           <iframe
             src="https://open.spotify.com/embed/episode/4cFwrDiSekGrSYYZk5mPLD"
             width="100%"

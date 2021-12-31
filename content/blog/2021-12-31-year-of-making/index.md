@@ -1,6 +1,6 @@
 ---
 title: "A Year of Making Is Done"
-excerpt: 
+excerpt: A year ago I started an ambitious project to create build 12 profitable small businesses. Now, a year later, I have a bunch of learnings under my belt.
 tags: ["12x"]
 hero: ./hero12xdone.png
 ---
@@ -85,11 +85,13 @@ This experience made me realize how important community is. Having deep connecti
 
 <img src='./foundercircle.jpeg' alt='' />
 
-Launch House is a new take on traditional business accellerators and universities. In the new modern world, information isn’t that valuable. You can learn most things online. The important thing is relationships.
+Launch House is a new take on traditional business accellerators and universities. In the new modern world, you can get all information online. The important thing to focus on is relationships.
+
+
 
 ## Next Steps
 
-I’m still thinking of what to do next year, but I’ll probably continue working in the Web3 space. Maybe I’ll go all in on TokenBird, or I’ll join another startup. I’ll focus on finding good people to work with and seek out and contribute to good communities.
+I’m still thinking of what to do next year, but I’ll probably continue working in the Web3 space. Maybe I’ll go all in on TokenBird, or I’ll join another startup. I’ll focus on finding good people to work with and seek to be part of good communities.
 
 This year has been a great experience. I am happy and proud of myself of finishing it through.
 

@@ -1,4 +1,5 @@
-
+body{
+}
 
 .article p {
     @apply py-2;
