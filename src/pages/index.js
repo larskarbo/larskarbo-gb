@@ -17,10 +17,22 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={"Lars Karbo"}>
-      <SEO title="Home of Lars" />
-      <h1 className="text-center font-bold text-gray-900 text-3xl py-12">
+      <SEO
+        title="Home of Lars"
+        description="Some kind of weird part of the internet where lars writes stuff. Can be thoughts or articles or anything really."
+      />
+      <h1 className="text-center hidden font-bold text-gray-900 text-3xl py-12">
         <Link to="/">Lars Karbo</Link>
       </h1>
+
+      <div className="my-36">
+        <div className="border-4 border-black">
+          <div className="loading text-center text-xl">New Lars loading...</div>
+        </div>
+      </div>
+      <div className="text-center text-sm text-gray-600 pb-36 ">
+        ↓ the old one is so 2021 ↓
+      </div>
 
       <div className="flex pt-4 pb-24">
         <img

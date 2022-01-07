@@ -7,9 +7,7 @@ const Layout = ({ location, title, children }) => {
   let header
 
   if (isRootPath) {
-    header = (
-      null
-    )
+    header = null
   } else {
     header = (
       <Link className="font-bold text-xl text-blue-800" to="/">
@@ -19,13 +17,19 @@ const Layout = ({ location, title, children }) => {
   }
 
   return (
-    <div className="w-full max-w-2xl mx-auto px-4 md:px-0" data-is-root-path={isRootPath}>
-      <header className="pt-8 pb-12">{header}</header>
+    <div
+      className="w-full max-w-2xl mx-auto px-4 md:px-0"
+      data-is-root-path={isRootPath}
+    >
+      {header && <header className="pt-8 pb-12">{header}</header>}
       <main className="">{children}</main>
       <footer className="pt-24 pb-4">
-        © {new Date().getFullYear()}, Check me out on twitter: 
+        © {new Date().getFullYear()}, Check me out on twitter:
         {` `}
-        <a className="underline" href="https://twitter.com/larskarbo">@larskarbo</a>.
+        <a className="underline" href="https://twitter.com/larskarbo">
+          @larskarbo
+        </a>
+        .
       </footer>
     </div>
   )

@@ -1,34 +1,58 @@
-body{
+body {
 }
 
 .article p {
-    @apply py-2;
+  @apply py-2;
 }
 
 .article h2 {
-    @apply text-xl font-medium py-4;
+  @apply text-xl font-medium py-4;
 }
 
 .article h3 {
-    @apply text-lg font-medium py-4;
+  @apply text-lg font-medium py-4;
 }
 
 .article a {
-    @apply underline;
+  @apply underline;
 }
 
 .article blockquote {
-    @apply border-l-4 border-blue-300 pl-8 py-4;
+  @apply border-l-4 border-blue-300 pl-8 py-4;
 }
 
 .article ul {
-    @apply list-inside list-disc;
+  @apply list-inside list-disc;
 }
 
 .article li {
-    @apply my-4;
+  @apply my-4;
 }
 
 .article img {
-    @apply py-4;
+  @apply py-4;
+}
+
+.loading {
+  animation: ellipsis 4s infinite;
+  transform: rotate(0);
+  color: black;
+}
+
+@keyframes ellipsis {
+  0% {
+    transform: rotate(0);
+    color: black;
+  }
+
+  50%{
+    transform: rotate(-10deg);
+    color: rgb(90, 43, 43);
+
+  }
+
+  100% {
+    transform: rotate(0);
+    color: black;
+  }
 }
