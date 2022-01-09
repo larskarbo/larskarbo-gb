@@ -1,6 +1,6 @@
 ---
 title: I'm building 12 startups in 12 months
-excerpt: Through the next 12 months, I will challenge my fears and push my limits. I will create 1 startup every month.
+excerpt: Through the next year, I will challenge my fears and push my limits. I will create 12 startups in 12 months.
 hero: ./images/natur.png
 tags: ["12x"]
 ---
