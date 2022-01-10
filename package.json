@@ -1,64 +1,11 @@
 {
-  "name": "larskarbo",
-  "private": true,
-  "version": "0.1.0",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
-  "dependencies": {
-    "@weknow/gatsby-remark-twitter": "^0.2.3",
-    "d3": "^6.6.2",
-    "gatsby": "^3.2.1",
-    "gatsby-image": "^3.2.0",
-    "gatsby-plugin-canonical-urls": "^3.2.0",
-    "gatsby-plugin-feed": "^3.2.0",
-    "gatsby-plugin-image": "^1.2.0",
-    "gatsby-plugin-manifest": "^3.2.0",
-    "gatsby-plugin-plausible": "^0.0.7",
-    "gatsby-plugin-postcss": "^4.2.0",
-    "gatsby-plugin-react-helmet": "^4.2.0",
-    "gatsby-plugin-sharp": "^3.2.0",
-    "gatsby-plugin-sitemap": "^3.2.0",
-    "gatsby-remark-copy-linked-files": "^3.2.0",
-    "gatsby-remark-embed-video": "^3.1.1",
-    "gatsby-remark-images": "^4.2.0",
-    "gatsby-remark-prismjs": "^4.2.0",
-    "gatsby-remark-responsive-iframe": "^3.2.0",
-    "gatsby-remark-smartypants": "^3.2.0",
-    "gatsby-source-filesystem": "^3.2.0",
-    "gatsby-transformer-remark": "^3.2.0",
-    "gatsby-transformer-sharp": "^3.2.0",
-    "ky": "^0.27.0",
-    "postcss": "^8.2.9",
-    "prismjs": "^1.23.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-helmet": "^6.1.0",
-    "react-markdown": "^5.0.3",
-    "tailwindcss": "^2.0.4",
-    "typeface-merriweather": "^1.1.13",
-    "typeface-montserrat": "^1.1.13"
-  },
-  "devDependencies": {
-    "prettier": "^2.2.1"
-  },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "0BSD",
-  "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
-  },
-  "scripts": {
-    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  }
+	"name": "kopolops-generated",
+	"dependencies": {},
+	"devDependencies": {
+		"husky": "^7.0.0"
+	},
+	"scripts": {
+		"start": "vercel dev",
+		"preinstall": "echo \"Don't add packages here\" && exit 1"
+	}
 }

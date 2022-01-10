@@ -1,28 +1,65 @@
-import { graphql, Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import { QuickSeo } from "next-quick-seo"
 import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { NewsletterForm } from "./newsletter"
-
+import Layout from "../components/Layout"
+import { NewsletterForm } from "../components/NewsletterForm"
+import { NextImage } from "../components/NextImage"
+import { SuperLink } from "../components/SuperLink"
 export const isLocal = () =>
   typeof window != "undefined" &&
   typeof window.location != "undefined" &&
   window.location?.host?.includes("localhost")
 
-const BlogIndex = ({ data, location }) => {
-  const posts = data.allMarkdownRemark.nodes.filter(
-    node => isLocal() || !node.fields.isDraft
+import { getPageTitle, getAllPagesInSpace } from "notion-utils"
+import { NotionAPI } from "notion-client"
+import { Collection, CollectionRow, NotionRenderer } from "react-notion-x"
+
+
+const notion = new NotionAPI()
+
+export const getStaticProps = async context => {
+  const rootNotionPageId = "fd68700ff66742999c0e41a4d5bc7c4a"
+  const rootNotionSpaceId = "5257cf0b-8124-4419-87b6-815988437df5"
+
+  // This crawls all public pages starting from the given root page in order
+  // for next.js to pre-generate all pages via static site generation (SSG).
+  // This is a useful optimization but not necessary; you could just as easily
+  // set paths to an empty array to not pre-generate any pages at build time.
+  const pages = await getAllPagesInSpace(
+    rootNotionPageId,
+    rootNotionSpaceId,
+    notion.getPage.bind(notion),
+    {
+      traverseCollections: false,
+    }
   )
 
+  const paths = Object.keys(pages).map((pageId) => `/${pageId}`)
+
+  return {
+    props: {
+      pages,
+      paths
+    },
+    revalidate: 10,
+  }
+}
+
+const BlogIndex = ({ pages, paths }) => {
+  console.log('pages: ', pages);
+  console.log('paths: ', paths);
+  // const posts = data.allMarkdownRemark.nodes.filter(
+  //   node => isLocal() || !node.fields.isDraft
+  // )
+  const posts = []
+
   return (
-    <Layout location={location} title={"Lars Karbo"}>
-      <SEO
+    <Layout>
+      <QuickSeo
         title="Home of Lars"
         description="Some kind of weird part of the internet where lars writes stuff. Can be thoughts or articles or anything really."
       />
       <h1 className="text-center hidden font-bold text-gray-900 text-3xl py-12">
-        <Link to="/">Lars Karbo</Link>
+        <SuperLink href="/">Lars Karbo</SuperLink>
       </h1>
 
       <div className="my-36">
@@ -50,19 +87,19 @@ const BlogIndex = ({ data, location }) => {
       </div>
 
       <div className="sm:rounded-2xl mt-12 relative z-10 overflow-hidden sm:border bg-white sm:shadow-2xl border-gray-300 -mx-4 sm:mx-0">
-        <StaticImage
-          layout="constrained"
+        <NextImage
           width={672}
-          src="./12s12m.png"
+          height={(1260 / 2400) * 672}
+          src="/12s12m.png"
           alt="12 startups in 12 months"
         />
         <div className="p-8 pb-12">
           <h2 className="text-2xl pt-4 font-bold pb-2">
-            <Link to={"/12-startups-12-months/"} itemProp="url">
+            <SuperLink href={"/12-startups-12-months/"} itemProp="url">
               <span itemProp="headline">
                 I'm building 12 startups in 12 months
               </span>
-            </Link>
+            </SuperLink>
           </h2>
           <p className="py-2 font-light">
             In 2021 I set out on a quest to build a profitable startup every
@@ -83,11 +120,11 @@ const BlogIndex = ({ data, location }) => {
                 return (
                   <li key={post.fields.slug} className="py-1">
                     <h2 className="pt-4 font-medium inline underline">
-                      <Link to={post.fields.slug} itemProp="url">
+                      <SuperLink href={post.fields.slug} itemProp="url">
                         <span itemProp="headline">
                           {post.frontmatter.title}
                         </span>
-                      </Link>
+                      </SuperLink>
                     </h2>
                     {/* <small className="text-gray-700 font-light"> ({post.fields.date})</small> */}
                   </li>
@@ -102,7 +139,7 @@ const BlogIndex = ({ data, location }) => {
             width="100%"
             height="232"
             frameBorder="0"
-            allowtransparency="true"
+            allowTransparency={true}
             allow="encrypted-media"
           ></iframe>
         </div>
@@ -131,11 +168,11 @@ const BlogIndex = ({ data, location }) => {
                 >
                   <header>
                     <h2 className="text-xl pt-4 font-bold underline">
-                      <Link to={post.fields.slug} itemProp="url">
+                      <SuperLink href={post.fields.slug} itemProp="url">
                         <span itemProp="headline">
                           {post.frontmatter.title}
                         </span>
-                      </Link>
+                      </SuperLink>
                     </h2>
                     <small>{post.fields.date}</small>
                   </header>
@@ -153,63 +190,4 @@ const BlogIndex = ({ data, location }) => {
   )
 }
 
-const tagInfo = {
-  "startup-building": {
-    name: "startup-building 🚀",
-    color: "#e49828",
-  },
-}
-
-const Tag = ({ tag }) => {
-  const info = tagInfo[tag] || {
-    name: tag,
-    color: "gray",
-  }
-  return (
-    <span
-      style={{
-        backgroundColor: info.color,
-        color: "white",
-        padding: 4,
-        boxShadow: "rgb(163 163 163) 1px 1px 2px 0px",
-        marginRight: 4,
-        fontSize: 12.8,
-      }}
-    >
-      {info.name}
-    </span>
-  )
-}
-
 export default BlogIndex
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    allMarkdownRemark(sort: { fields: [fields___date], order: DESC }) {
-      nodes {
-        excerpt
-        fields {
-          slug
-          date(formatString: "MMMM DD, YYYY")
-          isDraft
-        }
-        frontmatter {
-          title
-          description
-          tags
-          excerpt
-          hero {
-            childImageSharp {
-              gatsbyImageData(width: 1200, height: 627, layout: FIXED)
-            }
-          }
-        }
-      }
-    }
-  }
-`

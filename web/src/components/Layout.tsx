@@ -1,18 +1,19 @@
+import { useRouter } from "next/router"
 import React from "react"
-import { Link } from "gatsby"
+import { SuperLink } from "./SuperLink"
 
-const Layout = ({ location, title, children }) => {
-  const rootPath = `${__PATH_PREFIX__}/`
-  const isRootPath = location.pathname === rootPath
+const Layout = ({ children }) => {
+  const rootPath = `/`
+  const isRootPath = useRouter().pathname === rootPath
   let header
 
   if (isRootPath) {
     header = null
   } else {
     header = (
-      <Link className="font-bold text-xl text-blue-800" to="/">
+      <SuperLink className="font-bold text-xl text-blue-800" href="/">
         Lars Karbo 🌲
-      </Link>
+      </SuperLink>
     )
   }
 
