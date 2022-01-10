@@ -2,7 +2,7 @@ import React from "react"
 import { getBlockIcon, getBlockTitle } from "notion-utils"
 import { Block, PageBlock, CalloutBlock } from "notion-types"
 
-import { cs, defaultMapImageUrl, isUrl } from "../utils"
+import { cs, isUrl } from "../utils"
 
 const isIconBlock = (value: Block): value is PageBlock | CalloutBlock => {
   return (
@@ -34,16 +34,17 @@ export const PageIcon: React.FC<{
   const title = getBlockTitle(block, recordMap)
 
   if (icon && isUrl(icon)) {
-    const url = defaultMapImageUrl(icon, block)
+    return null
+    // const url = defaultMapImageUrl(icon, block)
 
-    return (
-      <img
-        className={cs(className, "notion-page-icon")}
-        src={url}
-        alt={title ? title : "Icon"}
-        loading="lazy"
-      />
-    )
+    // return (
+    //   <img
+    //     className={cs(className, "notion-page-icon")}
+    //     src={url}
+    //     alt={title ? title : "Icon"}
+    //     loading="lazy"
+    //   />
+    // )
   } else {
     const iconValue = icon?.trim()
 

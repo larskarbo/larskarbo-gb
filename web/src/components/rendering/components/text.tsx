@@ -3,7 +3,7 @@ import { parsePageId } from "notion-utils"
 import React from "react"
 import { SuperLink } from "../../SuperLink"
 import { useArticle } from "../article-context"
-import { defaultMapPageUrl, formatDate } from "../utils"
+import { formatDate } from "../utils"
 import { PageTitle } from "./page-title"
 
 export const Text: React.FC<{
@@ -71,12 +71,12 @@ export const Text: React.FC<{
               const pathname = v.substr(1)
               const id = parsePageId(pathname, { uuid: true })
 
-              if ((v[0] === '/' || v.includes("rootDomain")) && id) {
+              if ((v[0] === "/" || v.includes("rootDomain")) && id) {
                 // console.log('a', id)
 
                 return (
                   <SuperLink
-                    className='notion-link'
+                    className="notion-link"
                     href={v.includes("rootDomain") ? v : id}
                     {...linkProps}
                   >
@@ -86,7 +86,7 @@ export const Text: React.FC<{
               } else {
                 return (
                   <a
-                    className='notion-link'
+                    className="notion-link"
                     href={
                       linkProtocol
                         ? `${linkProtocol}:${decorator[1]}`
