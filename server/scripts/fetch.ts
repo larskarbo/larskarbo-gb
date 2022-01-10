@@ -1,13 +1,11 @@
-import {
-  getPageTitle,
-  getAllPagesInSpace,
-  getBlockTitle,
-  getDateValue,
-  getBlockIcon,
-} from "notion-utils";
+import download from "download";
+import { pathExists, readJson, writeFile, writeJson } from "fs-extra";
+import { entries } from "lodash";
 import { NotionAPI } from "notion-client";
-import { Collection, CollectionRow, NotionRenderer } from "react-notion-x";
-import { writeJson } from "fs-extra";
+import { getAllPagesInSpace } from "notion-utils";
+import sharp from "sharp";
+import { encodeImageToBlurhash, getPageMeta, mapImageUrl } from "./utils";
+import { getPlaiceholder } from "plaiceholder";
 
 const notion = new NotionAPI();
 
@@ -33,80 +31,63 @@ const fetchAll = async () => {
   const pages = [];
 
   for (const pageId of Object.keys(notionPages)) {
-    if (pageId != "8711af9b-3254-48b8-9b35-f8d6be011914") {
-      continue;
-    }
+    console.log("pageId: ", pageId);
     const recordMap = await notion.getPage(pageId);
-    const { meta, recordMapCleaned } = getPageMeta(pageId, recordMap);
+    const { meta } = getPageMeta(pageId, recordMap);
+
+    for (const info of entries(recordMap.block)) {
+      const [blockId, blockthing] = info;
+      const block = blockthing.value;
+      if (block.type === "image") {
+        const rawsrc = block.properties?.source?.[0]?.[0];
+        const filename = rawsrc.split("/").pop();
+        const imgsrc = mapImageUrl(rawsrc, block);
+        const dir = `../web/public/images/${block.id}/`;
+        const imgPath = dir + `${filename}`;
+        const extraPath = dir + `extra.json`;
+
+        if (!(await pathExists(imgPath))) {
+          await download(imgsrc, dir, {
+            filename: filename,
+          });
+        }
+
+        if (true || !(await pathExists(extraPath))) {
+          console.log('imgPath: ', imgPath);
+          // const hash = await encodeImageToBlurhash(imgPath);
+          const result = await sharp(imgPath).metadata();
+          
+          console.log('result: ', result);
+          await writeJson(extraPath, {
+            base64: (await getPlaiceholder("/../"+imgPath)).base64,
+            width: result.width,
+            height: result.height,
+          });
+        }
+
+        console.log("path: ", imgPath);
+
+        //@ts-ignore
+        block.properties.extra = await readJson(extraPath);
+      }
+    }
     pages.push({
       id: pageId,
-      recordMap: recordMapCleaned || recordMap,
+      recordMap: recordMap || recordMap,
       meta,
     });
   }
 
-  await writeJson("../web/content/notionData.json", {
-    pages,
-  });
-};
-
-const getPageMeta = (pageId, recordMap) => {
-  const mainBlock = recordMap.block[pageId];
-  const toggleBlockId = mainBlock.value.content.find((bId) => {
-    return recordMap.block[bId].value.type === "toggle";
-  });
-
-  if (!toggleBlockId) {
-    return {};
-  }
-
-  const toggleBlock = recordMap.block[toggleBlockId];
-  const date = getDateValue(
-    toggleBlock.value.properties.title[0][1]
-  )?.start_date;
-
-  if (!date || date.length !== 10) {
-    return {};
-  }
-
-  const imageBlock = getBlock(
-    toggleBlock.value.content.find((bId) => {
-      return getBlock(bId, recordMap).value.type === "image";
-    }),
-    recordMap
+  await writeFile(
+    "../web/content/notionData.json",
+    JSON.stringify(
+      {
+        pages,
+      },
+      null,
+      2
+    )
   );
-  const restOfText = toggleBlock.value.content
-    .filter((bId) => {
-      return getBlock(bId, recordMap).value.type === "text";
-    })
-    .map((id) => getBlock(id, recordMap).value.properties.title[0][0]);
-  const slug = restOfText.find((t) => t.startsWith("/"));
-  const tags = restOfText
-    .find((t: string) => t.startsWith("Tags: "))
-    .replace("Tags: ", "")
-    .split(",");
-  const description = restOfText[0];
-  const meta = {
-    image: imageBlock.value.format.display_source,
-    slug,
-    tags,
-    description,
-    date,
-    title: getPageTitle(recordMap),
-  };
-  mainBlock.value.content = mainBlock.value.content.filter(
-    (bId) => bId !== toggleBlockId
-  );
-
-  return {
-    meta,
-    recordMapCleaned: recordMap,
-  };
-};
-
-const getBlock = (blockId, recordMap) => {
-  const block = recordMap.block[blockId];
-  return block;
 };
 
 fetchAll();

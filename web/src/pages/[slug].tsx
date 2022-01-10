@@ -1,6 +1,11 @@
+import clsx from "clsx"
 import { getPageTitle } from "notion-utils"
 import { Collection, CollectionRow, NotionRenderer } from "react-notion-x"
 import notionData from "../../content/notionData.json"
+import Layout from "../components/Layout"
+import { ArticleProvider } from "../components/rendering/article-context"
+import { NotionBlockRenderer } from "../components/rendering/NotionBlock"
+import { useTheme } from "../components/theme-context"
 
 const isDev = process.env.NODE_ENV === "development" || !process.env.NODE_ENV
 
@@ -32,26 +37,23 @@ export default function NotionPage({ page }) {
   }
 
   const title = getPageTitle(recordMap)
+  const { dark } = useTheme()
   console.log(recordMap.block[page.id].value.content)
 
   return (
-    <>
-      {/* <Head>
-        <meta name='description' content='React Notion X demo renderer.' />
-        <title>{title}</title>
-      </Head> */}
-
-      <NotionRenderer
-        recordMap={recordMap}
-        fullPage={true}
-        darkMode={false}
-        rootDomain="localhost:3000" // used to detect root domain links and open this in the same tab
-        components={{
-          collection: Collection,
-          collectionRow: CollectionRow,
-        }}
-      />
-    </>
+    <Layout>
+      <ArticleProvider recordMap={recordMap}>
+        <article className={clsx("max-w-2xl mx-auto prose prose-lg", dark && "")}>
+          <h1 className={"font-  text-4xl my-8"}>{title}</h1>
+          {recordMap.block[page.id]?.value.content?.map(contentBlockId => (
+            <NotionBlockRenderer
+              key={contentBlockId}
+              blockId={contentBlockId}
+            />
+          ))}
+        </article>
+      </ArticleProvider>
+    </Layout>
   )
 }
 
