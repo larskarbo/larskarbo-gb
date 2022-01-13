@@ -9,7 +9,6 @@ const Layout = ({ children }) => {
   const isRootPath = useRouter().pathname === rootPath
   let header
 
-  const { dark } = useTheme()
   if (isRootPath) {
     header = null
   } else {
@@ -17,7 +16,7 @@ const Layout = ({ children }) => {
       <SuperLink
         className={clsx(
           "font-bold text-xl ",
-          dark ? "text-blue-300" : "text-blue-800"
+          "dark:text-blue-300 text-blue-800"
         )}
         href="/"
       >
@@ -26,9 +25,8 @@ const Layout = ({ children }) => {
     )
   }
 
-
   return (
-    <div className={clsx("w-full ", dark && "bg-gray-900 text-gray-100")}>
+    <div className={clsx("w-full d-ark", "dark:bg-gray-900 dark:text-gray-100")}>
       <div className={clsx("w-full max-w-2xl mx-auto px-4 md:px-0")}>
         {header && <header className="pt-8 pb-12">{header}</header>}
         <main className="">{children}</main>

@@ -32,7 +32,7 @@
     "data-forge": "^1.8.17",
     "data-forge-fs": "^0.0.9",
     "data-forge-plot": "^1.0.2",
-    "date-fns": "^2.23.0",
+    "date-fns": "^2.28.0",
     "date-fns-timezone": "^0.1.4",
     "delay": "^5.0.0",
     "dotenv": "^8.2.0",

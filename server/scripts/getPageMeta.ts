@@ -2,12 +2,15 @@ import { encode } from "blurhash";
 import { Block, ExtendedRecordMap } from "notion-types";
 import { getDateValue, getPageTitle } from "notion-utils";
 import sharp from "sharp";
+import { Meta } from "../../web/src/types";
+import { parse } from "date-fns";
 
 export const getPageMeta = (pageId, recordMap: ExtendedRecordMap) => {
   const mainBlock = recordMap.block[pageId];
   const toggleBlockId = mainBlock.value.content.find((bId) => {
     return recordMap.block[bId].value.type === "toggle";
   });
+  console.log("toggleBlockId: ", toggleBlockId);
 
   if (!toggleBlockId) {
     return {};
@@ -15,12 +18,16 @@ export const getPageMeta = (pageId, recordMap: ExtendedRecordMap) => {
 
   const toggleBlock = recordMap.block[toggleBlockId];
   const date = getDateValue(
-    toggleBlock.value.properties.title[0][1]
+    toggleBlock.value.properties?.title?.[0][1]
   )?.start_date;
 
-  if (!date || date.length !== 10) {
-    return {};
-  }
+  // if (!date || date.length !== 10) {
+  //   return {};
+  // }
+
+  //@ts-ignore
+  const icon = mainBlock.value.format?.page_icon;
+  console.log("icon: ", pageId, icon);
 
   const imageBlock = getBlock(
     toggleBlock.value.content.find((bId) => {
@@ -28,23 +35,25 @@ export const getPageMeta = (pageId, recordMap: ExtendedRecordMap) => {
     }),
     recordMap
   );
+  console.log("toggleBlock.value.content: ", toggleBlock.value.content);
   const restOfText = toggleBlock.value.content
-    .filter((bId) => {
-      return getBlock(bId, recordMap).value.type === "text";
-    })
-    .map((id) => getBlock(id, recordMap).value.properties.title[0][0]);
+    .map((bId) => getBlock(bId, recordMap))
+    .filter((block) => block.value.type === "text")
+    .filter((block) => block.value.properties?.title)
+    .map((block) => block.value.properties.title[0][0]);
   const slug = restOfText.find((t) => t.startsWith("/"));
   const tags = restOfText
     .find((t: string) => t.startsWith("Tags: "))
-    .replace("Tags: ", "")
+    ?.replace("Tags: ", "")
     .split(",");
   const description = restOfText[0];
-  const meta = {
-    image: imageBlock.value.format.display_source,
+  const meta: Meta = {
+    image: imageBlock ? imageBlock.value.format.display_source : undefined,
     slug,
-    tags,
+    tags: tags || [],
     description,
-    date,
+    icon: icon ? { type: "emoji", value: icon } : undefined,
+    date: date ? parse(date, "yyyy-MM-dd", new Date()) : undefined,
     title: getPageTitle(recordMap),
   };
   mainBlock.value.content = mainBlock.value.content.filter(
@@ -103,8 +112,7 @@ export const encodeImageToBlurhash = (path) =>
       .ensureAlpha()
       .resize(32, 32, { fit: "inside" })
       .toBuffer((err, buffer, obj) => {
-          console.log('obj: ', obj);
-          const { width, height } = obj
+        const { width, height } = obj;
         if (err) return reject(err);
         resolve(encode(new Uint8ClampedArray(buffer), width, height, 4, 4));
       });

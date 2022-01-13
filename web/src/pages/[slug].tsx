@@ -37,13 +37,12 @@ export default function NotionPage({ page }) {
   }
 
   const title = getPageTitle(recordMap)
-  const { dark } = useTheme()
   console.log(recordMap.block[page.id].value.content)
 
   return (
     <Layout>
       <ArticleProvider recordMap={recordMap}>
-        <article className={clsx("max-w-2xl mx-auto prose prose-lg", dark && "")}>
+        <article className={clsx("max-w-2xl mx-auto prose prose-lg",)}>
           <h1 className={"font-  text-4xl my-8"}>{title}</h1>
           {recordMap.block[page.id]?.value.content?.map(contentBlockId => (
             <NotionBlockRenderer

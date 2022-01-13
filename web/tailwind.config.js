@@ -2,7 +2,7 @@ const colors = require('tailwindcss/colors');
 
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
-  // darkMode: false, // or 'media' or 'class'
+  darkMode: "class",
   theme: {
     extend: {
       fontFamily: {

@@ -4,7 +4,7 @@ import { entries } from "lodash";
 import { NotionAPI } from "notion-client";
 import { getAllPagesInSpace } from "notion-utils";
 import sharp from "sharp";
-import { encodeImageToBlurhash, getPageMeta, mapImageUrl } from "./utils";
+import { encodeImageToBlurhash, getPageMeta, mapImageUrl } from "./getPageMeta";
 import { getPlaiceholder } from "plaiceholder";
 
 const notion = new NotionAPI();
@@ -26,14 +26,15 @@ const fetchAll = async () => {
     }
   );
 
-  const paths = Object.keys(notionPages).map((pageId) => `/${pageId}`);
-
   const pages = [];
 
   for (const pageId of Object.keys(notionPages)) {
-    console.log("pageId: ", pageId);
+    
     const recordMap = await notion.getPage(pageId);
     const { meta } = getPageMeta(pageId, recordMap);
+    if(!meta) {
+      continue;
+    }
 
     for (const info of entries(recordMap.block)) {
       const [blockId, blockthing] = info;
@@ -53,11 +54,11 @@ const fetchAll = async () => {
         }
 
         if (true || !(await pathExists(extraPath))) {
-          console.log('imgPath: ', imgPath);
+          
           // const hash = await encodeImageToBlurhash(imgPath);
           const result = await sharp(imgPath).metadata();
           
-          console.log('result: ', result);
+          
           await writeJson(extraPath, {
             base64: (await getPlaiceholder("/../"+imgPath)).base64,
             width: result.width,
@@ -65,7 +66,7 @@ const fetchAll = async () => {
           });
         }
 
-        console.log("path: ", imgPath);
+        
 
         //@ts-ignore
         block.properties.extra = await readJson(extraPath);

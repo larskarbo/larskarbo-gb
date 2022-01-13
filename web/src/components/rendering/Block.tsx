@@ -197,7 +197,7 @@ export const Block: React.FC<{
       return isTopLevel ? wrapList(output, start) : output
 
     case "tweet":
-    // fallthrough
+      return <p>(tweet)</p>
     case "maps":
     // fallthrough
     case "pdf":

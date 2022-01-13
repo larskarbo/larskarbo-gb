@@ -9,44 +9,27 @@ export const isLocal = () =>
   typeof window.location != "undefined" &&
   window.location?.host?.includes("localhost")
 
-import { getPageTitle, getAllPagesInSpace } from "notion-utils"
-import { NotionAPI } from "notion-client"
-import { Collection, CollectionRow, NotionRenderer } from "react-notion-x"
+import { getPages } from "../components/utils/getPages"
+import { Page } from "../types"
 
-
-const notion = new NotionAPI()
 
 export const getStaticProps = async context => {
-  const rootNotionPageId = "fd68700ff66742999c0e41a4d5bc7c4a"
-  const rootNotionSpaceId = "5257cf0b-8124-4419-87b6-815988437df5"
-
   // This crawls all public pages starting from the given root page in order
   // for next.js to pre-generate all pages via static site generation (SSG).
   // This is a useful optimization but not necessary; you could just as easily
   // set paths to an empty array to not pre-generate any pages at build time.
-  const pages = await getAllPagesInSpace(
-    rootNotionPageId,
-    rootNotionSpaceId,
-    notion.getPage.bind(notion),
-    {
-      traverseCollections: false,
-    }
-  )
-
-  const paths = Object.keys(pages).map((pageId) => `/${pageId}`)
+  const pages = getPages()
 
   return {
     props: {
       pages,
-      paths
     },
     revalidate: 10,
   }
 }
 
-const BlogIndex = ({ pages, paths }) => {
+const BlogIndex = ({ pages }: {pages: Page[]}) => {
   console.log('pages: ', pages);
-  console.log('paths: ', paths);
   // const posts = data.allMarkdownRemark.nodes.filter(
   //   node => isLocal() || !node.fields.isDraft
   // )
@@ -62,10 +45,19 @@ const BlogIndex = ({ pages, paths }) => {
         <SuperLink href="/">Lars Karbo</SuperLink>
       </h1>
 
-      <div className="my-36">
-        <div className="border-4 border-black">
-          <div className="loading text-center text-xl">New Lars loading...</div>
-        </div>
+      <div className="my-36 max-w-sm mx-auto">
+        {pages?.map(page => (
+          <SuperLink href={page.meta.slug}>
+            <div className="flex gap-1 hover:bg-gray-100 p-1 my-1">
+              {page.meta.icon && (
+                <div>{page.meta.icon.value}</div>
+              )}
+              <div className="font-semibold underline underline-offset-4 decoration-gray-300">{page.meta.title}{
+                !page.meta.date && " (draft)"
+              }</div>
+            </div> 
+          </SuperLink>
+        ))}
       </div>
       <div className="text-center text-sm text-gray-600 pb-36 ">
         ↓ the old one is so 2021 ↓
