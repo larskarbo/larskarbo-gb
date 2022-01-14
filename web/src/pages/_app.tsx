@@ -17,7 +17,8 @@ function MyApp({ Component, pageProps }) {
       <PlausibleProvider domain="rudeboys.io">
         <ThemeProvider>
           <Head>
-            <meta property="og:site_name" content="Rude Boy's" />
+            <meta name="color-scheme" content="dark light"></meta>
+            <meta property="og:site_name" content="Lars Karbo" />
           </Head>
           <Component {...pageProps} />
         </ThemeProvider>

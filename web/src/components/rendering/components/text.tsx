@@ -3,7 +3,7 @@ import { parsePageId } from "notion-utils"
 import React from "react"
 import { SuperLink } from "../../SuperLink"
 import { useArticle } from "../article-context"
-import { formatDate } from "../utils"
+import { formatDate, getLink as getSlug } from "../utils"
 import { PageTitle } from "./page-title"
 
 export const Text: React.FC<{
@@ -13,7 +13,7 @@ export const Text: React.FC<{
   linkProtocol?: string
   inline?: boolean // TODO: currently unused
 }> = ({ value, block, linkProps, linkProtocol }) => {
-  const { recordMap } = useArticle()
+  const { recordMap, linkMap } = useArticle()
 
   return (
     <React.Fragment>
@@ -72,12 +72,16 @@ export const Text: React.FC<{
               const id = parsePageId(pathname, { uuid: true })
 
               if ((v[0] === "/" || v.includes("rootDomain")) && id) {
-                // console.log('a', id)
+                const slug = getSlug(id, linkMap)
+
+                if(!slug) {
+                  return element
+                }
 
                 return (
                   <SuperLink
                     className="notion-link"
-                    href={v.includes("rootDomain") ? v : id}
+                    href={"/" + slug}
                     {...linkProps}
                   >
                     {element}

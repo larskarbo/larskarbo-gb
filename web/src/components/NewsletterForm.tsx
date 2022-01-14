@@ -1,6 +1,6 @@
 export const NewsletterForm = () => {
   return (
-    <div className="font-mono bg-blue-100 p-4 mb-8">
+    <div className="font-mono bg-blue-100 dark:bg-blue-800 p-4 mb-8">
       <p className=" text-sm">
         subscribe to my exclusive newsletter with about 30 other lost souls:
       </p>
@@ -15,7 +15,7 @@ export const NewsletterForm = () => {
           <div className="">
             <label
               htmlFor="name"
-              className="block text-sm font-medium leading-5 text-gray-700"
+              className="block text-sm font-medium leading-5 opacity-75"
             >
               name
             </label>
@@ -31,7 +31,7 @@ export const NewsletterForm = () => {
           <div className="">
             <label
               htmlFor="email"
-              className="block text-sm font-medium leading-5 text-gray-700"
+              className="block text-sm font-medium leading-5 opacity-75"
             >
               email
             </label>
@@ -61,7 +61,7 @@ export const NewsletterForm = () => {
           id="submit"
           value="I'm awesome"
           className="mt-2 shadow-sm w-full flex justify-center cursor-pointer py-2 px-4 border
-                border-transparent text-sm font-medium rounded-md text-gray-900
+                border-transparent text-sm font-medium rounded-md 
                  focus:outline-none focus:border-gray-700 focus:shadow-outline-indigo active:bg-gray-700 transition duration-150 ease-in-out"
         />
       </form>

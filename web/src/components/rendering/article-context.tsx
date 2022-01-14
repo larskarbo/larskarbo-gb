@@ -2,16 +2,18 @@
 import * as React from "react"
 
 import * as types from "notion-types"
+import { LinkMap } from "../../types"
 
 const ArticleContext = React.createContext<{
-  recordMap: types.ExtendedRecordMap
+  recordMap: types.ExtendedRecordMap,
+  linkMap: LinkMap
 }>(undefined)
 
 // const spotifyOriginal = new Spotify()
 
-export function ArticleProvider({ recordMap, children }) {
+export function ArticleProvider({ recordMap, linkMap, children }) {
   return (
-    <ArticleContext.Provider value={{ recordMap }}>
+    <ArticleContext.Provider value={{ recordMap, linkMap }}>
       {children}
     </ArticleContext.Provider>
   )

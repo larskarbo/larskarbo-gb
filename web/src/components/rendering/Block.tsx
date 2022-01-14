@@ -92,7 +92,7 @@ export const Block: React.FC<{
 
       const classNameStr = clsx(
         isH1 && "notion-h notion-h1",
-        isH2 && "notion-h notion-h2",
+        isH2 && "notion-h notion-h2 dark:text-orange-300",
         isH3 && "notion-h notion-h3",
         blockColor && `notion-${blockColor}`,
         indentLevelClass
@@ -220,13 +220,15 @@ export const Block: React.FC<{
       const aspect = extra.width / extra.height
 
       return (
-        <NextImage
-          src={source}
-          blurDataURL={extra.base64}
-          placeholder="blur"
-          width={600}
-          height={600 / aspect}
-        />
+        <div className="dark:brightness-90 hover:dark:brightness-100 filter ">
+          <NextImage
+            src={source}
+            blurDataURL={extra.base64}
+            placeholder="blur"
+            width={600}
+            height={600 / aspect}
+          />
+        </div>
       )
     case "gist":
     // fallthrough

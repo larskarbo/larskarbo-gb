@@ -1,4 +1,15 @@
+:root {
+  color-scheme: light dark; /* both supported */
+}
+
 body {
+  background: rgb(254, 254, 252)
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: rgb(21, 20, 15)
+  }
 }
 
 .article p {

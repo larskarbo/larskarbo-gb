@@ -48,7 +48,7 @@ const BlogIndex = ({ pages }: {pages: Page[]}) => {
       <div className="my-36 max-w-sm mx-auto">
         {pages?.map(page => (
           <SuperLink href={page.meta.slug}>
-            <div className="flex gap-1 hover:bg-gray-100 p-1 my-1">
+            <div className="flex gap-1 hover:bg-gray-100 dark:hover:bg-gray-800 rounded px-2 p-1 my-1 transition-colors duration-75">
               {page.meta.icon && (
                 <div>{page.meta.icon.value}</div>
               )}
@@ -58,9 +58,6 @@ const BlogIndex = ({ pages }: {pages: Page[]}) => {
             </div> 
           </SuperLink>
         ))}
-      </div>
-      <div className="text-center text-sm text-gray-600 pb-36 ">
-        ↓ the old one is so 2021 ↓
       </div>
 
       <div className="flex pt-4 pb-24">
@@ -78,7 +75,7 @@ const BlogIndex = ({ pages }: {pages: Page[]}) => {
         </div>
       </div>
 
-      <div className="sm:rounded-2xl mt-12 relative z-10 overflow-hidden sm:border bg-white sm:shadow-2xl border-gray-300 -mx-4 sm:mx-0">
+      <div className="sm:rounded-2xl mt-12 relative z-10 overflow-hidden sm:border bg-white dark:bg-inherit sm:shadow-2xl border-gray-300 -mx-4 sm:mx-0">
         <NextImage
           width={672}
           height={(1260 / 2400) * 672}
@@ -126,14 +123,17 @@ const BlogIndex = ({ pages }: {pages: Page[]}) => {
           <div className="mt-8 mb-4">
             A Norwegian podcast I attended in January 2021:
           </div>
-          <iframe
-            src="https://open.spotify.com/embed/episode/4cFwrDiSekGrSYYZk5mPLD"
-            width="100%"
-            height="232"
-            frameBorder="0"
-            allowTransparency={true}
-            allow="encrypted-media"
-          ></iframe>
+          <div className="rounded-xl overflow-hidden">
+            <iframe
+              src="https://open.spotify.com/embed/episode/4cFwrDiSekGrSYYZk5mPLD"
+              width="100%"
+              height="232"
+              frameBorder="0"
+              className=""
+              allowTransparency={true}
+              allow="encrypted-media"
+            ></iframe>
+          </div>
         </div>
       </div>
 
