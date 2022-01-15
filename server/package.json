@@ -70,6 +70,7 @@
     "slonik": "^24.0.1",
     "slonik-utilities": "^1.8.3",
     "slugify": "^1.5.0",
+    "sort-json": "^2.0.0",
     "superagent": "^6.1.0",
     "uuid": "^8.3.2",
     "v": "^0.3.0",

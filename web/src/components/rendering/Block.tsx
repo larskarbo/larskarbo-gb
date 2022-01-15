@@ -9,6 +9,7 @@ import {
   uuidToId,
 } from "notion-utils"
 import * as types from "notion-types"
+import TweetEmbed from "react-tweet-embed"
 
 // import { PageIcon } from './components/page-icon'
 // import { PageTitle } from './components/page-title'
@@ -197,7 +198,12 @@ export const Block: React.FC<{
       return isTopLevel ? wrapList(output, start) : output
 
     case "tweet":
-      return <p>(tweet)</p>
+      console.log("block:", block)
+      return (
+        <div className="flex justify-center w-full">
+          <TweetEmbed id={block.properties.source[0][0].split("/").pop()} />
+        </div>
+      )
     case "maps":
     // fallthrough
     case "pdf":
@@ -215,20 +221,28 @@ export const Block: React.FC<{
       const source = getBlockSource(block)
 
       console.log("block.properties: ", block.properties)
+      const caption = block.properties?.caption
       // @ts-ignore
       const extra = block.properties.extra
       const aspect = extra.width / extra.height
 
       return (
-        <div className="dark:brightness-90 hover:dark:brightness-100 filter ">
-          <NextImage
-            src={source}
-            blurDataURL={extra.base64}
-            placeholder="blur"
-            width={600}
-            height={600 / aspect}
-          />
-        </div>
+        <figure className="  ">
+          <div className="w-full flex justify-center dark:brightness-90 hover:dark:brightness-100 filter">
+            <NextImage
+              src={source}
+              blurDataURL={extra.base64}
+              placeholder="blur"
+              width={672}
+              height={672 / aspect}
+            />
+          </div>
+          {caption && (
+            <figcaption className="">
+              <Text value={caption} block={block} />
+            </figcaption>
+          )}
+        </figure>
       )
     case "gist":
     // fallthrough

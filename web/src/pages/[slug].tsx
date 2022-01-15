@@ -8,6 +8,8 @@ import { NotionBlockRenderer } from "../components/rendering/NotionBlock"
 import { useTheme } from "../components/theme-context"
 import { getPages } from "../components/utils/getPages"
 import { LinkMap, Page } from "../types"
+import {format, parse} from "date-fns"
+import { QuickSeo  } from "next-quick-seo"
 
 const isDev = process.env.NODE_ENV === "development" || !process.env.NODE_ENV
 
@@ -23,7 +25,7 @@ export const getStaticProps = async context => {
     props: {
       page,
       slug,
-      linkMap
+      linkMap,
     },
     revalidate: 10,
   }
@@ -36,7 +38,13 @@ export async function getStaticPaths() {
   }
 }
 
-export default function NotionPage({ page, linkMap }: { page: Page, linkMap: LinkMap }) {
+export default function NotionPage({
+  page,
+  linkMap,
+}: {
+  page: Page
+  linkMap: LinkMap
+}) {
   console.log("page: ", page)
   const recordMap = page?.recordMap
   if (!recordMap) {
@@ -48,27 +56,38 @@ export default function NotionPage({ page, linkMap }: { page: Page, linkMap: Lin
 
   return (
     <Layout>
+      <QuickSeo
+        title={title}
+        description={page.meta?.description}
+        image={page.meta?.image}
+      />
       <ArticleProvider recordMap={recordMap} linkMap={linkMap}>
-        <article
-          className={clsx("max-w-2xl mx-auto ")}
-        >
+        <article className={clsx("max-w-2xl mx-auto ")}>
           <div className="flex items-center flex-col">
             {page.meta.icon && (
-              <div className="w-full dark:hidden">
-                <div className="aspect-square overflow-hidden border w-20 bg-white dark:bg-transparent border-black -mb-2 ml-4">
-                  <div className="" style={{
-                    fontSize: 50
-                  }}>{page.meta.icon.value}</div>
+              <div className="w-full flex justify-center dark:hidden">
+                <div className="aspect-square flex justify-center overflow-hidden border w-20 bg-white dark:bg-transparent border-gray-300 rounded -mb-2">
+                  <div
+                    className=""
+                    style={{
+                      fontSize: 50,
+                    }}
+                  >
+                    {page.meta.icon.value}
+                  </div>
                 </div>
               </div>
             )}
-            <h1
-              className={
-                "font- text-center font-bold  text-5xl mt-16 mb-32 font-serif text-gray-800 dark:text-gray-200"
-              }
-            >
-              {title}
-            </h1>
+            <div className="mb-32">
+              <h1
+                className={
+                  "font- text-center font-bold  text-2xl sm:text-4xl md:text-5xl mt-8  font-serif text-gray-800 dark:text-gray-200"
+                }
+              >
+                {title}
+              </h1>
+              <div className="text-center mt-4 text-gray-600">by Lars Karbo • {format(page.meta.date ? new Date(page.meta.date) : new Date(), "do MMM yyy")}</div>
+            </div>
           </div>
           <div className="prose dark:prose-invert prose-base md:prose-lg">
             {recordMap.block[page.id]?.value.content?.map(contentBlockId => (

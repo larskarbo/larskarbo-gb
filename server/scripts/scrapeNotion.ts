@@ -6,6 +6,8 @@ import { getAllPagesInSpace } from "notion-utils";
 import sharp from "sharp";
 import { encodeImageToBlurhash, getPageMeta, mapImageUrl } from "./getPageMeta";
 import { getPlaiceholder } from "plaiceholder";
+import { Page } from "../../web/src/types";
+const sortJson = require('sort-json');
 
 const notion = new NotionAPI();
 
@@ -26,7 +28,7 @@ const fetchAll = async () => {
     }
   );
 
-  const pages = [];
+  const pages: Page[] = [];
 
   for (const pageId of Object.keys(notionPages)) {
     
@@ -79,11 +81,14 @@ const fetchAll = async () => {
     });
   }
 
+  // we sort to make git diffs better
+  const sortedPages = sortJson(pages, { depth: 10});
+
   await writeFile(
     "../web/content/notionData.json",
     JSON.stringify(
       {
-        pages,
+        pages: sortedPages,
       },
       null,
       2

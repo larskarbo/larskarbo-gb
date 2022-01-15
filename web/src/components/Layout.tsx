@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
             <SuperLink
               className={clsx(
                 "font-bold text-xl ",
-                "dark:text-gray-100 text-orange-800"
+                "dark:text-gray-100 text-gray-800"
               )}
               href="/"
             >

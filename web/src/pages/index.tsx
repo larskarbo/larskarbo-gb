@@ -11,7 +11,7 @@ export const isLocal = () =>
 
 import { getPages } from "../components/utils/getPages"
 import { Page } from "../types"
-
+import x12pic from '../../public/12s12m.png'
 
 export const getStaticProps = async context => {
   // This crawls all public pages starting from the given root page in order
@@ -53,7 +53,7 @@ const BlogIndex = ({ pages }: {pages: Page[]}) => {
                 <div>{page.meta.icon.value}</div>
               )}
               <div className="font-semibold underline underline-offset-4 decoration-gray-300">{page.meta.title}{
-                !page.meta.date && " (draft)"
+                !page.meta.date && "*"
               }</div>
             </div> 
           </SuperLink>
@@ -79,7 +79,8 @@ const BlogIndex = ({ pages }: {pages: Page[]}) => {
         <NextImage
           width={672}
           height={(1260 / 2400) * 672}
-          src="/12s12m.png"
+          src={x12pic}
+          placeholder="blur"
           alt="12 startups in 12 months"
         />
         <div className="p-8 pb-12">
