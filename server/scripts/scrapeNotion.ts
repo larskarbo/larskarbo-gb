@@ -32,7 +32,9 @@ const fetchAll = async () => {
 
   for (const pageId of Object.keys(notionPages)) {
     
-    const recordMap = await notion.getPage(pageId);
+    const recordMap = await notion.getPage(pageId, {
+      signFileUrls: false
+    });
     const { meta } = getPageMeta(pageId, recordMap);
     if(!meta) {
       continue;
@@ -81,8 +83,11 @@ const fetchAll = async () => {
     });
   }
 
+
   // we sort to make git diffs better
   const sortedPages = sortJson(pages, { depth: 10});
+
+
 
   await writeFile(
     "../web/content/notionData.json",

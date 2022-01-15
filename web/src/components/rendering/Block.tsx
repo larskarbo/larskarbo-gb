@@ -116,21 +116,21 @@ export const Block: React.FC<{
       //page title takes the h1 so all header blocks are greater
       if (isH1) {
         return (
+          <h1 className={classNameStr} data-id={id}>
+            {innerHeader}
+          </h1>
+        )
+      } else if (isH2) {
+        return (
           <h2 className={classNameStr} data-id={id}>
             {innerHeader}
           </h2>
         )
-      } else if (isH2) {
+      } else {
         return (
           <h3 className={classNameStr} data-id={id}>
             {innerHeader}
           </h3>
-        )
-      } else {
-        return (
-          <h4 className={classNameStr} data-id={id}>
-            {innerHeader}
-          </h4>
         )
       }
     }

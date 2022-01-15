@@ -8,26 +8,28 @@ import { NotionBlockRenderer } from "../components/rendering/NotionBlock"
 import { useTheme } from "../components/theme-context"
 import { getPages } from "../components/utils/getPages"
 import { LinkMap, Page } from "../types"
-import {format, parse} from "date-fns"
-import { QuickSeo  } from "next-quick-seo"
+import { format, parse } from "date-fns"
+import { QuickSeo } from "next-quick-seo"
+import Head from "next/head"
+import { GetStaticProps } from "next"
 
 const isDev = process.env.NODE_ENV === "development" || !process.env.NODE_ENV
 
-export const getStaticProps = async context => {
+export const getStaticProps: GetStaticProps = async context => {
   const slug = context.params.slug as string
-  const page = notionData.pages.find(page => page.meta?.slug === "/" + slug)
+  const page = notionData.pages.find(page => page.meta?.slug === slug)
   const linkMap = getPages().map(page => ({
     id: page.id,
     slug: page.meta.slug,
   }))
 
   return {
+    notFound: !page,
     props: {
       page,
       slug,
       linkMap,
     },
-    revalidate: 10,
   }
 }
 
@@ -50,6 +52,8 @@ export default function NotionPage({
     return null
   }
 
+  console.log("page.meta.date:", page.meta.date)
+
   const title = page.meta.title
 
   return (
@@ -59,6 +63,12 @@ export default function NotionPage({
         description={page.meta?.description}
         image={page.meta?.image}
       />
+      <Head>
+        <link
+          rel="canonical"
+          href={`https://www.larskarbo.no/${page.meta.slug}`}
+        />
+      </Head>
       <ArticleProvider recordMap={recordMap} linkMap={linkMap}>
         <article className={clsx("max-w-2xl mx-auto ")}>
           <div className="flex items-center flex-col">
@@ -84,7 +94,13 @@ export default function NotionPage({
               >
                 {title}
               </h1>
-              <div className="text-center mt-4 text-gray-600">by Lars Karbo • {format(page.meta.date ? new Date(page.meta.date) : new Date(), "do MMM yyy")}</div>
+              <div className="text-center mt-4 text-gray-600">
+                by Lars Karbo •{" "}
+                {format(
+                  page.meta.date ? new Date(page.meta.date) : new Date(),
+                  "do MMM yyy"
+                )}
+              </div>
             </div>
           </div>
           <div className="prose dark:prose-invert prose-base md:prose-lg">

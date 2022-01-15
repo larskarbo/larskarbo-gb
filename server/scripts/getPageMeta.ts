@@ -3,7 +3,7 @@ import { Block, ExtendedRecordMap } from "notion-types";
 import { getDateValue, getPageTitle } from "notion-utils";
 import sharp from "sharp";
 import { Meta } from "../../web/src/types";
-import { parse } from "date-fns";
+import { formatISO, parse } from "date-fns";
 
 export const getPageMeta = (pageId, recordMap: ExtendedRecordMap) => {
   const mainBlock = recordMap.block[pageId];
@@ -53,9 +53,10 @@ export const getPageMeta = (pageId, recordMap: ExtendedRecordMap) => {
     tags: tags || [],
     description,
     icon: icon ? { type: "emoji", value: icon } : undefined,
-    date: date ? parse(date, "yyyy-MM-dd", new Date()) : undefined,
+    date: date ? formatISO(parse(date, "yyyy-MM-dd", new Date())) : undefined,
     title: getPageTitle(recordMap),
   };
+  console.log('meta: ', meta);
   mainBlock.value.content = mainBlock.value.content.filter(
     (bId) => bId !== toggleBlockId
   );

@@ -9,7 +9,7 @@ export type Page = {
 export type Meta = {
   image?: string
   description?: string
-  date?: Date
+  date?: Date | string
   icon?: {
     type: "emoji" | "url"
     value: string
