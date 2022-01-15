@@ -1,7 +1,7 @@
 import { Block, BlockMap } from "notion-types"
 import isUrl from "is-url-superb"
 import { format } from "date-fns"
-import { RecordMap } from "notion-types"
+import { RecordMap, ExtendedRecordMap } from "notion-types"
 import { LinkMap } from "../../types"
 
 export const cs = (...classes: Array<string | undefined | false>) =>
@@ -14,6 +14,7 @@ export const getLink = (blockId: string, linkMap: LinkMap) => {
   console.log('blockId: ', blockId);
   return linkMap.find(link => link.id === blockId)?.slug
 }
+
 
 const groupBlockContent = (blockMap: BlockMap): string[][] => {
   const output: string[][] = []

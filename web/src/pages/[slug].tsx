@@ -45,14 +45,12 @@ export default function NotionPage({
   page: Page
   linkMap: LinkMap
 }) {
-  console.log("page: ", page)
   const recordMap = page?.recordMap
   if (!recordMap) {
     return null
   }
 
-  const title = getPageTitle(recordMap)
-  console.log(recordMap.block[page.id].value.content)
+  const title = page.meta.title
 
   return (
     <Layout>

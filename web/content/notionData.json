@@ -8,7 +8,7 @@
           "type": "emoji",
           "value": "✨"
         },
-        "slug": "/goals-of-larskarbo-no",
+        "slug": "goals-of-larskarbo-no",
         "tags": [],
         "title": "Goals of larskarbo.no"
       },
@@ -690,7 +690,7 @@
         "date": {},
         "description": "A year ago I started an ambitious project to create build 12 profitable small businesses. Now, a year later, I have a bunch of learnings under my belt.",
         "image": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1af2adc2-2dd5-4f00-8bbf-7e09e3c849d9/hero12xdone.png",
-        "slug": "/year-of-making",
+        "slug": "year-of-making",
         "tags": [
           "12x"
         ],
@@ -2497,13 +2497,13 @@
         "collection_view": {},
         "notion_user": {},
         "signed_urls": {
-          "01b3a0c5-8bd4-422b-b274-7f7bddb6666c": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1198908b-3913-4003-979c-9f0ca4810319/foundercircle.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T130159Z&X-Amz-Expires=86400&X-Amz-Signature=c00c7763c67d261b7957ee9dff7279311e7be51ca3c23a162f4a8a83ebfda3fb&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "1c69d12f-af5f-4358-884e-76422fe02216": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b7334ad1-1a5c-4dde-85a3-92587e07bcc1/ihawesome.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T130159Z&X-Amz-Expires=86400&X-Amz-Signature=315db629a47d08097a6e69b1855f0931c5ab93b928b1b3c0c3143901bba406d7&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "39162fa7-4850-4784-a61c-29555513efb9": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/60ebe179-a7bf-41c5-b61d-c1def4ec0283/projects.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T130159Z&X-Amz-Expires=86400&X-Amz-Signature=a23b968cb3c1999602dfc63aeedb4cdbcb732f660c5005438b9a1ff0dbd795d3&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "8a89010a-e7d9-46e0-bf52-6ffbdc4a28dd": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/aaa42855-6df4-488a-892f-0473f3837323/launchhouse.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T130159Z&X-Amz-Expires=86400&X-Amz-Signature=3fce6456e6c0563b266e88feb427698dfb0d8f1086711d341155622dfb6a4698&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "9940dd05-ad4b-436e-bb6b-cadf918ba3a4": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/98f09d39-740f-4090-a78b-9ac1014c50f6/hackernews.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T130159Z&X-Amz-Expires=86400&X-Amz-Signature=a554e892f8bfd469b5ab61cf9607697a28af6ccaefd7080d5e096ffb41eaf1b4&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "a9d55927-bb4b-4b8d-86e8-4b5935ffa276": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1af2adc2-2dd5-4f00-8bbf-7e09e3c849d9/hero12xdone.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T130159Z&X-Amz-Expires=86400&X-Amz-Signature=46cd3558f875bc6017c8f663bc0dc6b9e3a2b969111d3aca61dce81b5cf5baa0&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "e0f007de-58d4-41df-9634-62ef0fe26252": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f4546747-fa9a-4d2f-a39a-cb63a4606282/herodone.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T130159Z&X-Amz-Expires=86400&X-Amz-Signature=f0ad2953ff6cced8ad08673f12867dd020909232ae4784c1ecf0ed8ac53cf288&X-Amz-SignedHeaders=host&x-id=GetObject"
+          "01b3a0c5-8bd4-422b-b274-7f7bddb6666c": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1198908b-3913-4003-979c-9f0ca4810319/foundercircle.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T133938Z&X-Amz-Expires=86400&X-Amz-Signature=1da5e796b33d21c13eaa5faad232b8b6086104d97d69b9400615d4e7d3d30b65&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "1c69d12f-af5f-4358-884e-76422fe02216": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b7334ad1-1a5c-4dde-85a3-92587e07bcc1/ihawesome.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T133938Z&X-Amz-Expires=86400&X-Amz-Signature=94fe84289c81f0e0210982be539766564133cbdb6b97ba61130a4f2a5cd61957&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "39162fa7-4850-4784-a61c-29555513efb9": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/60ebe179-a7bf-41c5-b61d-c1def4ec0283/projects.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T133938Z&X-Amz-Expires=86400&X-Amz-Signature=f807133c8ea3949dd318e9e85382395f62d6977601e4612e7ec2ff839f4bcf85&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "8a89010a-e7d9-46e0-bf52-6ffbdc4a28dd": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/aaa42855-6df4-488a-892f-0473f3837323/launchhouse.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T133938Z&X-Amz-Expires=86400&X-Amz-Signature=dd554e9211a069b971c8da25558473196ab9b0cdb966d4d19d9cf835c378dc4a&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "9940dd05-ad4b-436e-bb6b-cadf918ba3a4": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/98f09d39-740f-4090-a78b-9ac1014c50f6/hackernews.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T133938Z&X-Amz-Expires=86400&X-Amz-Signature=531bb975c3d32f43e5622b426d64709385f5685339813d6528ab72dc79471d70&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "a9d55927-bb4b-4b8d-86e8-4b5935ffa276": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1af2adc2-2dd5-4f00-8bbf-7e09e3c849d9/hero12xdone.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T133938Z&X-Amz-Expires=86400&X-Amz-Signature=47b77221070bd84e793c2c50952cfaecf0c1fd7b94e3d4078ea28db8727649ca&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "e0f007de-58d4-41df-9634-62ef0fe26252": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f4546747-fa9a-4d2f-a39a-cb63a4606282/herodone.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T133938Z&X-Amz-Expires=86400&X-Amz-Signature=62e81cc44af75c275c2b323e4bbed372c9ed99a0e4ce3c22d95c3fdfecb7ed52&X-Amz-SignedHeaders=host&x-id=GetObject"
         },
         "space": {}
       }
@@ -2517,7 +2517,7 @@
           "value": "🚁"
         },
         "image": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/56b0f9f0-ab28-4e10-848a-fa85ad092473/og.png",
-        "slug": "/helication",
+        "slug": "helication",
         "tags": [],
         "title": "Helication - Doing Nothing as a Productivity Strategy"
       },
@@ -3459,9 +3459,9 @@
         "collection_view": {},
         "notion_user": {},
         "signed_urls": {
-          "4033a46f-e92a-4b2b-9cb9-7cbcddb97bda": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f1d44dff-9730-4c6f-8afe-7c3920aeed4d/Frame_14.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T130201Z&X-Amz-Expires=86400&X-Amz-Signature=d5ed3b8e4487783bce7b8d7f510e51d5a7edd068505f6cb8b76f0da4fda2a7ad&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "7af26722-8b5a-4110-b007-381c7590fcdf": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0ee7e21a-030b-442f-a302-7c100d0acceb/shower-helicopter.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T130201Z&X-Amz-Expires=86400&X-Amz-Signature=cb8ddf58cedb14de7958e27280843a97b6062ec31f0546603c1daee0cc67fad7&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "9e274003-727d-4ef8-93a3-58b944275182": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/56b0f9f0-ab28-4e10-848a-fa85ad092473/og.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T130201Z&X-Amz-Expires=86400&X-Amz-Signature=f862840fe9d6fc1fed7c7b6d761a19730fb2e04caf51a2917c3a6f8a20e9705f&X-Amz-SignedHeaders=host&x-id=GetObject"
+          "4033a46f-e92a-4b2b-9cb9-7cbcddb97bda": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f1d44dff-9730-4c6f-8afe-7c3920aeed4d/Frame_14.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T133940Z&X-Amz-Expires=86400&X-Amz-Signature=ecb890a2a096aacb52edeed21da2509136d30d1463d5823038c4f70034a634d9&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "7af26722-8b5a-4110-b007-381c7590fcdf": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0ee7e21a-030b-442f-a302-7c100d0acceb/shower-helicopter.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T133940Z&X-Amz-Expires=86400&X-Amz-Signature=d9be6289ceff4f849c4819ebf982ee53bedebff8ae89b9fa89a8926ad0b3c0f2&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "9e274003-727d-4ef8-93a3-58b944275182": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/56b0f9f0-ab28-4e10-848a-fa85ad092473/og.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T133940Z&X-Amz-Expires=86400&X-Amz-Signature=09cc380646da74462da3d52d6b5bab1a89911a1bc5543e44a2f3d13cbe77f8d0&X-Amz-SignedHeaders=host&x-id=GetObject"
         },
         "space": {}
       }
@@ -3470,7 +3470,7 @@
       "id": "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
       "meta": {
         "description": "/designing-my-new-blog",
-        "slug": "/designing-my-new-blog",
+        "slug": "designing-my-new-blog",
         "tags": [],
         "title": "Designing my new blog"
       },
@@ -4501,9 +4501,9 @@
         "collection_view": {},
         "notion_user": {},
         "signed_urls": {
-          "58c495eb-e4a4-415c-96d1-e9ccd073170a": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/dac7732c-2d7c-4aa3-bb68-8b611163d6bd/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T130202Z&X-Amz-Expires=86400&X-Amz-Signature=9ac7201924b773a6c963c62f9df8b1a094424e320d4d77839c3bf20bbfaada55&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "7a4d60a5-4ac9-44c7-a5fc-932e61668521": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c91911f2-4987-41f6-9362-928ca10300c2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T130202Z&X-Amz-Expires=86400&X-Amz-Signature=b76c72dd8b206c7dc5c247adfede5aa2d33619d22dcdd4e51a3c8aaa86edb9eb&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "b5593cd1-3f06-44a9-b99d-465c3ed480fa": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/765cf3df-ae03-40f6-8ecf-fe8df4523af8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T130202Z&X-Amz-Expires=86400&X-Amz-Signature=1bb85ba957f888c7488089a2d9ce73d186c83c74c81fb02a2f96a1b37bd3479b&X-Amz-SignedHeaders=host&x-id=GetObject"
+          "58c495eb-e4a4-415c-96d1-e9ccd073170a": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/dac7732c-2d7c-4aa3-bb68-8b611163d6bd/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T133941Z&X-Amz-Expires=86400&X-Amz-Signature=ac9508b5369824ef01c86781f98b410ffc00b7ebf6846df57d856b7fa3fa5823&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "7a4d60a5-4ac9-44c7-a5fc-932e61668521": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c91911f2-4987-41f6-9362-928ca10300c2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T133941Z&X-Amz-Expires=86400&X-Amz-Signature=efb365b9824ced966845e2629d028aa0958546e852feb1e4f54a83b2ced16d94&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "b5593cd1-3f06-44a9-b99d-465c3ed480fa": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/765cf3df-ae03-40f6-8ecf-fe8df4523af8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T133941Z&X-Amz-Expires=86400&X-Amz-Signature=a1f10c7f2f2e529239a9a1010d9c208eb3e046c52bc2fefb1f02c33ab0a22762&X-Amz-SignedHeaders=host&x-id=GetObject"
         },
         "space": {}
       }

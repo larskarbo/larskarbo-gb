@@ -41,7 +41,7 @@ export const getPageMeta = (pageId, recordMap: ExtendedRecordMap) => {
     .filter((block) => block.value.type === "text")
     .filter((block) => block.value.properties?.title)
     .map((block) => block.value.properties.title[0][0]);
-  const slug = restOfText.find((t) => t.startsWith("/"));
+  const slug = restOfText.find((t) => t.startsWith("/"))?.replace("/", "");
   const tags = restOfText
     .find((t: string) => t.startsWith("Tags: "))
     ?.replace("Tags: ", "")
