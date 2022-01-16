@@ -12,7 +12,8 @@ export const isLocal = () =>
 import { getPages } from "../components/utils/getPages"
 import { Page } from "../types"
 import x12pic from "../../public/12s12m.png"
-import { isAfter, startOfYear } from "date-fns"
+import { isAfter, parse, startOfYear } from "date-fns"
+import { groupBy, entries, reverse } from "lodash"
 
 export const getStaticProps = async context => {
   // This crawls all public pages starting from the given root page in order
@@ -20,11 +21,11 @@ export const getStaticProps = async context => {
   // This is a useful optimization but not necessary; you could just as easily
   // set paths to an empty array to not pre-generate any pages at build time.
   const pages = getPages()
-  .filter(page => page.meta?.date)
-  .map(page => ({
-    ...page,
-    recordMap: null,
-  }))
+    .filter(page => page.meta?.date)
+    .map(page => ({
+      ...page,
+      recordMap: null,
+    }))
 
   return {
     props: {
@@ -70,7 +71,10 @@ const BlogIndex = ({ pages }: { pages: Page[] }) => {
           ?.filter(
             page =>
               !page.meta.date ||
-              isAfter(new Date(page.meta.date), startOfYear(new Date()))
+              isAfter(
+                new Date(page.meta.date),
+                parse("2022-01-01", "yyyy-MM-dd", new Date())
+              )
           )
           .map(page => (
             <PageLink key={page.id} page={page} />
@@ -119,7 +123,7 @@ const BlogIndex = ({ pages }: { pages: Page[] }) => {
             </a>
             .
           </p>
-          <p className="py-2 font-light">Writings:</p>
+          <p className="py-2 font-light">Writings about 12x:</p>
           <ul className="list-disc list-inside">
             {pages
               .filter(p => p.meta.tags?.includes("12x"))
@@ -148,14 +152,24 @@ const BlogIndex = ({ pages }: { pages: Page[] }) => {
         <NewsletterForm />
       </div>
 
-      <p className="py-2 font-light">Other writings from 2021 and before:</p>
+      <p className="py-2 font-light">Older writings:</p>
 
-      {pages
-        ?.filter(p => !p.meta.tags?.includes("12x"))
-        .filter(p => p.meta.date)
-        .map(page => (
-          <PageLink key={page.id} page={page} />
-        ))}
+      {reverse(
+        entries(groupBy(pages, p => new Date(p.meta.date)?.getFullYear()))
+      )
+      .filter(([year]) => year !== "2022")
+      .map(([year, pages]) => (
+        <div>
+          <p className="py-2 font-light">{year}:</p>
+
+          {pages
+            // ?.filter(p => !p.meta.tags?.includes("12x"))
+            .filter(p => p.meta.date)
+            .map(page => (
+              <PageLink key={page.id} page={page} />
+            ))}
+        </div>
+      ))}
     </Layout>
   )
 }
