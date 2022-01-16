@@ -1,6 +1,6 @@
 import download from "download";
 import { pathExists, readJson, writeFile, writeJson } from "fs-extra";
-import { entries } from "lodash";
+import { entries, sortBy } from "lodash";
 import { NotionAPI } from "notion-client";
 import { getAllPagesInSpace } from "notion-utils";
 import sharp from "sharp";
@@ -52,13 +52,13 @@ const fetchAll = async () => {
         const extraPath = dir + `extra.json`;
 
         if (!(await pathExists(imgPath))) {
+          console.log("fetching image...")
           await download(imgsrc, dir, {
             filename: filename,
           });
         }
 
-        if (true || !(await pathExists(extraPath))) {
-          
+        if (!(await pathExists(extraPath))) {
           // const hash = await encodeImageToBlurhash(imgPath);
           const result = await sharp(imgPath).metadata();
           
@@ -85,7 +85,7 @@ const fetchAll = async () => {
 
 
   // we sort to make git diffs better
-  const sortedPages = sortJson(pages, { depth: 10});
+  const sortedPages = sortBy(sortJson(pages, { depth: 10}), "id")
 
 
 

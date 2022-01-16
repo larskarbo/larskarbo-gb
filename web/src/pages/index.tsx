@@ -11,7 +11,8 @@ export const isLocal = () =>
 
 import { getPages } from "../components/utils/getPages"
 import { Page } from "../types"
-import x12pic from '../../public/12s12m.png'
+import x12pic from "../../public/12s12m.png"
+import { isAfter, startOfYear } from "date-fns"
 
 export const getStaticProps = async context => {
   // This crawls all public pages starting from the given root page in order
@@ -19,6 +20,11 @@ export const getStaticProps = async context => {
   // This is a useful optimization but not necessary; you could just as easily
   // set paths to an empty array to not pre-generate any pages at build time.
   const pages = getPages()
+  .filter(page => page.meta?.date)
+  .map(page => ({
+    ...page,
+    recordMap: null,
+  }))
 
   return {
     props: {
@@ -28,8 +34,22 @@ export const getStaticProps = async context => {
   }
 }
 
-const BlogIndex = ({ pages }: {pages: Page[]}) => {
-  console.log('pages: ', pages);
+const PageLink = ({ page }: { page: Page }) => {
+  return (
+    <SuperLink href={page.meta.slug}>
+      <div className="flex gap-1 hover:bg-gray-100 dark:hover:bg-gray-800 rounded px-2 p-1 my-1 transition-colors duration-75">
+        {page.meta.icon && <div>{page.meta.icon.value}</div>}
+        <div className="font-semibold underline underline-offset-4 decoration-gray-300">
+          {page.meta.title}
+          {!page.meta.date && "*"}
+        </div>
+      </div>
+    </SuperLink>
+  )
+}
+
+const BlogIndex = ({ pages }: { pages: Page[] }) => {
+  console.log("pages: ", pages)
   // const posts = data.allMarkdownRemark.nodes.filter(
   //   node => isLocal() || !node.fields.isDraft
   // )
@@ -45,19 +65,16 @@ const BlogIndex = ({ pages }: {pages: Page[]}) => {
         <SuperLink href="/">Lars Karbo</SuperLink>
       </h1>
 
-      <div className="my-36 max-w-sm mx-auto">
-        {pages?.map(page => (
-          <SuperLink href={page.meta.slug}>
-            <div className="flex gap-1 hover:bg-gray-100 dark:hover:bg-gray-800 rounded px-2 p-1 my-1 transition-colors duration-75">
-              {page.meta.icon && (
-                <div>{page.meta.icon.value}</div>
-              )}
-              <div className="font-semibold underline underline-offset-4 decoration-gray-300">{page.meta.title}{
-                !page.meta.date && "*"
-              }</div>
-            </div> 
-          </SuperLink>
-        ))}
+      <div className="my-36 max- flex flex-col items-center mx-auto">
+        {pages
+          ?.filter(
+            page =>
+              !page.meta.date ||
+              isAfter(new Date(page.meta.date), startOfYear(new Date()))
+          )
+          .map(page => (
+            <PageLink key={page.id} page={page} />
+          ))}
       </div>
 
       <div className="flex pt-4 pb-24">
@@ -104,21 +121,10 @@ const BlogIndex = ({ pages }: {pages: Page[]}) => {
           </p>
           <p className="py-2 font-light">Writings:</p>
           <ul className="list-disc list-inside">
-            {posts
-              .filter(p => p.fields.date && p.frontmatter.tags?.includes("12x"))
-              .map(post => {
-                return (
-                  <li key={post.fields.slug} className="py-1">
-                    <h2 className="pt-4 font-medium inline underline">
-                      <SuperLink href={post.fields.slug} itemProp="url">
-                        <span itemProp="headline">
-                          {post.frontmatter.title}
-                        </span>
-                      </SuperLink>
-                    </h2>
-                    {/* <small className="text-gray-700 font-light"> ({post.fields.date})</small> */}
-                  </li>
-                )
+            {pages
+              .filter(p => p.meta.tags?.includes("12x"))
+              .map(page => {
+                return <PageLink key={page.id} page={page} />
               })}
           </ul>
           <div className="mt-8 mb-4">
@@ -142,43 +148,14 @@ const BlogIndex = ({ pages }: {pages: Page[]}) => {
         <NewsletterForm />
       </div>
 
-      <p className="py-2 font-light">Other writings:</p>
+      <p className="py-2 font-light">Other writings from 2021 and before:</p>
 
-      <ol style={{ listStyle: `none` }}>
-        {posts
-          .filter(p => p.fields.date)
-          .filter(
-            p => !p.frontmatter.tags || !p.frontmatter.tags.includes("12x")
-          )
-          .map(post => {
-            const tags = post.frontmatter.tags || []
-            return (
-              <li key={post.fields.slug}>
-                <article
-                  className="post-list-item"
-                  itemScope
-                  itemType="http://schema.org/Article"
-                >
-                  <header>
-                    <h2 className="text-xl pt-4 font-bold underline">
-                      <SuperLink href={post.fields.slug} itemProp="url">
-                        <span itemProp="headline">
-                          {post.frontmatter.title}
-                        </span>
-                      </SuperLink>
-                    </h2>
-                    <small>{post.fields.date}</small>
-                  </header>
-                  <section>
-                    <p itemProp="description" className="font-light">
-                      {post.frontmatter.excerpt}
-                    </p>
-                  </section>
-                </article>
-              </li>
-            )
-          })}
-      </ol>
+      {pages
+        ?.filter(p => !p.meta.tags?.includes("12x"))
+        .filter(p => p.meta.date)
+        .map(page => (
+          <PageLink key={page.id} page={page} />
+        ))}
     </Layout>
   )
 }

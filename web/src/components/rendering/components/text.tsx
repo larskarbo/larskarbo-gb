@@ -48,7 +48,7 @@ export const Text: React.FC<{
               return <span className={`notion-${decorator[1]}`}>{element}</span>
 
             case "c":
-              return <code className="notion-inline-code">{element}</code>
+              return <code className="">{element}</code>
 
             case "b":
               return <b>{element}</b>

@@ -1,26 +1,22 @@
-import React from "react"
-import throttle from "lodash.throttle"
+import clsx from "clsx"
+import * as types from "notion-types"
 import {
-  getBlockIcon,
-  getBlockTitle,
-  getTextContent,
-  getPageTableOfContents,
   getBlockParentPage,
+  getPageTableOfContents,
+  getTextContent,
   uuidToId,
 } from "notion-utils"
-import * as types from "notion-types"
+import React from "react"
 import TweetEmbed from "react-tweet-embed"
-
+import { NextImage } from "../NextImage"
+import { useArticle } from "./article-context"
 // import { PageIcon } from './components/page-icon'
 // import { PageTitle } from './components/page-title'
 // import { LinkIcon } from './icons/link-icon'
 // import { cs, getListNumber, isUrl } from './utils'
 import { Text } from "./components/text"
-import isUrl from "is-url-superb"
-import clsx from "clsx"
 import { getBlockSource, getListNumber } from "./utils"
-import { useArticle } from "./article-context"
-import { NextImage } from "../NextImage"
+
 // import { SyncPointerBlock } from './components/sync-pointer-block'
 // import { AssetWrapper } from './components/asset-wrapper'
 
@@ -243,6 +239,12 @@ export const Block: React.FC<{
             </figcaption>
           )}
         </figure>
+      )
+    case "code":
+      return (
+        <pre className="notion-code">
+          <Text value={block.properties.title} block={block} />
+        </pre>
       )
     case "gist":
     // fallthrough
