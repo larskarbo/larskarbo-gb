@@ -216,7 +216,6 @@ export const Block: React.FC<{
       // fallthrough
       const source = getBlockSource(block)
 
-      console.log("block.properties: ", block.properties)
       const caption = block.properties?.caption
       // @ts-ignore
       const extra = block.properties.extra

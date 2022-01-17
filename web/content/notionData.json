@@ -1,11 +1,628 @@
 {
   "pages": [
     {
+      "id": "03324020-6778-4180-8f0b-6cb30b51035e",
+      "meta": {
+        "date": "2022-01-17T00:00:00+01:00",
+        "description": "/focus-blog-one-topic-17-jan-2022",
+        "icon": {
+          "type": "emoji",
+          "value": "🤔"
+        },
+        "slug": "focus-blog-one-topic-17-jan-2022",
+        "tags": [
+          "random"
+        ],
+        "title": "Should I focus this blog on one topic? - 17. jan 2022"
+      },
+      "recordMap": {
+        "block": {
+          "03324020-6778-4180-8f0b-6cb30b51035e": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "content": [
+                "cd8f2f0d-7fde-4ccd-9475-ff484ff4c880",
+                "ca98e187-67d4-4118-a072-59bab3ee0e07",
+                "43687dc7-c268-4aeb-9e48-b38b76d104de",
+                "29627a31-3407-4149-b209-52a253c5e03c",
+                "04d625d5-20c0-41b8-9cb0-d5b66c88ebf9",
+                "341e4cb6-d32b-49c1-ad5a-e85c7147e715",
+                "97961e1c-bb60-4b6e-b0b0-78654490f6d1",
+                "c5317b98-79fa-4c37-b6ec-108faa00d720",
+                "4174bc4d-08f5-4502-b3a5-2c212cb9960e",
+                "3ccdabe6-d191-4a9b-8cd4-607828f612c9",
+                "dc4dd2e0-c7ec-49b3-8efc-e89d690c2c2d"
+              ],
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414155982,
+              "format": {
+                "page_icon": "🤔"
+              },
+              "id": "03324020-6778-4180-8f0b-6cb30b51035e",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642429080000,
+              "parent_id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Should I focus this blog on one topic? - 17. jan 2022"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "page",
+              "version": 28
+            }
+          },
+          "04d625d5-20c0-41b8-9cb0-d5b66c88ebf9": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414156707,
+              "id": "04d625d5-20c0-41b8-9cb0-d5b66c88ebf9",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642414200000,
+              "parent_id": "03324020-6778-4180-8f0b-6cb30b51035e",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Web3",
+                    [
+                      [
+                        "b"
+                      ]
+                    ]
+                  ],
+                  [
+                    ". I am already half-deep into the waters here, and will probably join an early stage web3 startup shortly."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "bulleted_list",
+              "version": 4
+            }
+          },
+          "13a5be2c-951e-400a-a06d-1cb7f5237e7b": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642428360000,
+              "id": "13a5be2c-951e-400a-a06d-1cb7f5237e7b",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642428360000,
+              "parent_id": "48171df9-321b-4e64-8312-26a84c923ec0",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Tags: random"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 16
+            }
+          },
+          "1ae94a0f-f4d8-414b-af15-bf71f3b0f149": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "content": [
+                "1621eb48-4e23-4aed-8475-08f7534ccd50",
+                "91663518-55ff-47eb-bcae-b3235c786b49",
+                "20307935-6964-4de0-9a84-dda44ac77935",
+                "748a8ff1-c195-4d61-bb6c-95fced3fe0d6",
+                "7f15ea8a-ce3a-4273-960a-477cae913fa5",
+                "bf92034d-f557-4355-b7f3-285e45c2a761",
+                "ac02fa16-3119-4c62-97fb-2cd21bd594b7",
+                "076b9590-dfec-4e0c-81db-1f7107f00b3a",
+                "6fd9928b-a6b7-4d51-9f3d-1e89e56b8f9b",
+                "5d3c3c75-ead1-48c8-859c-b392687cd8c2",
+                "c5760020-33ce-4815-b2bc-21fa053fc2c4",
+                "ccfac0bf-264f-4b49-9530-1c915acc8f70",
+                "9efb8cb7-96ce-4785-90ed-bc57ea498b7a",
+                "95959d44-4e67-4d71-9e65-0692bf1939c7",
+                "e4bb5ae3-f408-4e93-bf9e-376ef6e7d83d",
+                "4d239310-2753-46d7-9d8e-7edfa07b2420",
+                "9520a668-c814-49f4-af20-5bf48814c1ed",
+                "7310a332-b927-47b8-9024-323714cd4be1",
+                "3a6ecb10-deac-4a40-98a6-fb4e9957f9cf",
+                "88cab162-0c4d-4dfb-b141-aed775d1b38a",
+                "c05dccea-83fc-4563-92e4-cdee470b30eb",
+                "049d4d89-d143-4a3e-a627-b0c2c05689c2",
+                "63c18bcf-599f-4783-b9d0-2c17b8f5bb04",
+                "c8bd8db5-ada8-4a8c-a18c-6bba778e74b7",
+                "d96a1d5e-98df-4acb-8bf5-f4660c6ef2e1",
+                "7b780ed3-6773-470d-a6cc-72bf35573bed",
+                "76f69802-e0e6-403f-989f-0ec16b5ba569",
+                "190dc94a-6ee7-4a66-92eb-9e862c2715ca",
+                "df90120c-afc5-4b71-b199-94e231f8e3c9",
+                "f354c501-56ac-4ff6-a66a-1f8099ec23b6",
+                "01e06a92-cebd-4db8-b221-912dd7cf1cda",
+                "a5f9476e-1108-42df-b897-b15d14a8f5cc",
+                "e47ef59c-b80c-4184-a971-3a533f89a31e",
+                "53de6371-1214-4e80-be18-dc25ddbb2881",
+                "d927a624-0f2d-4f65-8437-7e6d8406d3e7",
+                "69c24ae1-5f7c-49db-9ae1-c22a44ef18f3",
+                "9f8eca56-a920-480b-bd13-622e542a2add",
+                "22685c28-c445-4970-a949-d1ad712fd349",
+                "f9e238a8-adb3-426e-aeb1-8040e69753de",
+                "6834c652-006d-46f5-ac2c-6deb56e4353f",
+                "844776c2-e3e0-4aaf-a026-a9b8f144c22a"
+              ],
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642342587113,
+              "id": "1ae94a0f-f4d8-414b-af15-bf71f3b0f149",
+              "ignore_block_count": true,
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642342860000,
+              "parent_id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "I'm building 12 startups in 12 months"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "page",
+              "version": 21
+            }
+          },
+          "29627a31-3407-4149-b209-52a253c5e03c": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414156706,
+              "id": "29627a31-3407-4149-b209-52a253c5e03c",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642414140000,
+              "parent_id": "03324020-6778-4180-8f0b-6cb30b51035e",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Right now I am thinking of what to do next. There are multiple things I think I could be good at, and go deep into:"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 2
+            }
+          },
+          "341e4cb6-d32b-49c1-ad5a-e85c7147e715": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414156707,
+              "id": "341e4cb6-d32b-49c1-ad5a-e85c7147e715",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642414200000,
+              "parent_id": "03324020-6778-4180-8f0b-6cb30b51035e",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Video encoding and streaming",
+                    [
+                      [
+                        "b"
+                      ]
+                    ]
+                  ],
+                  [
+                    ". I made fileparty.co and videofly.io, and realize I have a little guilty pleasure for video encoding technology. It fascinates me. I could dive deep into this."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "bulleted_list",
+              "version": 4
+            }
+          },
+          "3ccdabe6-d191-4a9b-8cd4-607828f612c9": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414156707,
+              "id": "3ccdabe6-d191-4a9b-8cd4-607828f612c9",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642414140000,
+              "parent_id": "03324020-6778-4180-8f0b-6cb30b51035e",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "I'm thinking of a description like this: "
+                  ],
+                  [
+                    "\"This website is a chaotic place for my thoughts, projects and writings. It is not centered around one topic, but rather a conglemeration of my articles, short notes and random ideas. It is like my brain: some good parts, some messy parts, and all in all a huge interconnected web of interesting topics and creative ideas\".",
+                    [
+                      [
+                        "b"
+                      ]
+                    ]
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 2
+            }
+          },
+          "4174bc4d-08f5-4502-b3a5-2c212cb9960e": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414156707,
+              "id": "4174bc4d-08f5-4502-b3a5-2c212cb9960e",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642414140000,
+              "parent_id": "03324020-6778-4180-8f0b-6cb30b51035e",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "It makes sense to focus on one thing, but at the same time, larskarbo.no is a website about me, and I'm a complex creature with lots of different interests. Maybe I could focus more on one topic on Twitter, and keep this place messy and chaotic?"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 2
+            }
+          },
+          "43687dc7-c268-4aeb-9e48-b38b76d104de": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414156706,
+              "id": "43687dc7-c268-4aeb-9e48-b38b76d104de",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642429080000,
+              "parent_id": "03324020-6778-4180-8f0b-6cb30b51035e",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Right now this blog is a about many things. I am all over the place. Indie hacking, bootstrapping, productivity, web3. I think this is ok for now, but it might be more powerful to focus on one thing. Then people know what to expect and I can spend one or two years going deep into it."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 20
+            }
+          },
+          "48171df9-321b-4e64-8312-26a84c923ec0": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "content": [
+                "ed0db433-34c7-4d6a-8a24-1ac0e6443efd",
+                "13a5be2c-951e-400a-a06d-1cb7f5237e7b"
+              ],
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414260000,
+              "id": "48171df9-321b-4e64-8312-26a84c923ec0",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642428360000,
+              "parent_id": "03324020-6778-4180-8f0b-6cb30b51035e",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "‣",
+                    [
+                      [
+                        "d",
+                        {
+                          "type": "date",
+                          "start_date": "2022-01-17",
+                          "date_format": "relative"
+                        }
+                      ]
+                    ]
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "toggle",
+              "version": 21
+            }
+          },
+          "97961e1c-bb60-4b6e-b0b0-78654490f6d1": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414156707,
+              "id": "97961e1c-bb60-4b6e-b0b0-78654490f6d1",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642414200000,
+              "parent_id": "03324020-6778-4180-8f0b-6cb30b51035e",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Indie hacking or bootstrapping",
+                    [
+                      [
+                        "b"
+                      ]
+                    ]
+                  ],
+                  [
+                    ". Much like my writings in 2021 about my "
+                  ],
+                  [
+                    "12 startups in 12 months",
+                    [
+                      [
+                        "a",
+                        "/1ae94a0ff4d8414baf15bf71f3b0f149"
+                      ]
+                    ]
+                  ],
+                  [
+                    " project."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "bulleted_list",
+              "version": 11
+            }
+          },
+          "c5317b98-79fa-4c37-b6ec-108faa00d720": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414156707,
+              "id": "c5317b98-79fa-4c37-b6ec-108faa00d720",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642414140000,
+              "parent_id": "03324020-6778-4180-8f0b-6cb30b51035e",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Or maybe my blog should just be chaotic?"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "sub_header",
+              "version": 8
+            }
+          },
+          "ca98e187-67d4-4118-a072-59bab3ee0e07": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414156706,
+              "id": "ca98e187-67d4-4118-a072-59bab3ee0e07",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642414140000,
+              "parent_id": "03324020-6778-4180-8f0b-6cb30b51035e",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Should the blog be focused around one topic?"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "sub_header",
+              "version": 6
+            }
+          },
+          "cd8f2f0d-7fde-4ccd-9475-ff484ff4c880": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414156706,
+              "id": "cd8f2f0d-7fde-4ccd-9475-ff484ff4c880",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642414140000,
+              "parent_id": "03324020-6778-4180-8f0b-6cb30b51035e",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "There is a power in focusing on one thing. You can start blogging about that topic, you can become an expert in that topic."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 2
+            }
+          },
+          "dc4dd2e0-c7ec-49b3-8efc-e89d690c2c2d": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414260000,
+              "id": "dc4dd2e0-c7ec-49b3-8efc-e89d690c2c2d",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642414260000,
+              "parent_id": "03324020-6778-4180-8f0b-6cb30b51035e",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "I’ll think more about this..."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "sub_header",
+              "version": 46
+            }
+          },
+          "ed0db433-34c7-4d6a-8a24-1ac0e6443efd": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414260000,
+              "id": "ed0db433-34c7-4d6a-8a24-1ac0e6443efd",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642414320000,
+              "parent_id": "48171df9-321b-4e64-8312-26a84c923ec0",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "/focus-blog-one-topic-17-jan-2022"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 40
+            }
+          },
+          "fd68700f-f667-4299-9c0e-41a4d5bc7c4a": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "content": [
+                "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "5214e504-f066-49dd-96ed-ff7928cd7321",
+                "03324020-6778-4180-8f0b-6cb30b51035e",
+                "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
+                "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
+                "e05b5977-2196-4834-993c-9c899b3eb7ec",
+                "af74fadd-24c3-4e17-a933-fea1da00744a",
+                "2580bfab-7590-4a52-91ac-f6c9f7bbb298",
+                "e7a2c00d-8752-4fe6-b38c-6bde14a21050",
+                "2b574b0e-e20a-4aa3-884e-45d3b8a20495",
+                "8711af9b-3254-48b8-9b35-f8d6be011914",
+                "23829438-a093-44c0-af44-261f9ca20011",
+                "85fd5181-bcf6-470a-8026-902d969db9d2",
+                "bdaf0be2-96e8-47f6-a0c1-9abf91f6627b",
+                "54791f79-ddc8-4b58-a0e6-d4fce6d24a23",
+                "14d4263c-a202-40d3-9ad5-d0904af0581c",
+                "3e07e6cf-7cfb-43a9-a48b-2ff31568cb27",
+                "c22aad82-c82e-46d3-a89f-5b71210d1ec5",
+                "67b5a629-6522-4c26-847c-283dda23eed7",
+                "72b6bc97-dda7-4b1d-a6cc-f3e0bb473e6c",
+                "fb16959e-d347-4c36-9ecd-3f58f86dd8d5",
+                "1ae94a0f-f4d8-414b-af15-bf71f3b0f149",
+                "1ed377a5-0def-4d54-bceb-f39165b8b42d",
+                "3d671266-fe0e-4466-9e14-ae5805d83ff0",
+                "d8f9876e-715e-48bd-81a0-e061b81e69f8",
+                "21cdde62-aff9-4826-8895-edc17a6ea16a",
+                "a91e816d-1938-4d17-a98a-4bc3de948d50",
+                "d8968792-180d-4ced-83cd-d7d128ff679a"
+              ],
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1641725520000,
+              "format": {
+                "page_icon": "🦢"
+              },
+              "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642414920000,
+              "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "parent_table": "space",
+              "permissions": [
+                {
+                  "role": "editor",
+                  "type": "user_permission",
+                  "user_id": "ece1e643-dda1-43f8-89a6-686da3b80c23"
+                },
+                {
+                  "added_timestamp": 1641725580869,
+                  "allow_duplicate": false,
+                  "role": "reader",
+                  "type": "public_permission"
+                }
+              ],
+              "properties": {
+                "title": [
+                  [
+                    "larskarbo.no"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "page",
+              "version": 205
+            }
+          }
+        },
+        "collection": {},
+        "collection_query": {},
+        "collection_view": {},
+        "notion_user": {},
+        "signed_urls": {},
+        "space": {}
+      }
+    },
+    {
       "id": "14d4263c-a202-40d3-9ad5-d0904af0581c",
       "meta": {
         "date": "2021-02-02T00:00:00+01:00",
         "description": "Imitate is the most successful project I have done so far. It is a web-app for practicing French pronunciation with the use of random YouTube segments.",
-        "image": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7ae98ab9-5c18-4c2f-b29e-49632c57dba1/hero.png",
+        "image": "/images/6cf77307-870a-4c4d-962c-e22113508b49/hero.png",
         "slug": "imitate-launch",
         "tags": [
           "12x"
@@ -1691,8 +2308,10 @@
             "value": {
               "alive": true,
               "content": [
+                "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "5214e504-f066-49dd-96ed-ff7928cd7321",
+                "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
-                "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
@@ -1727,7 +2346,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642345080000,
+              "last_edited_time": 1642414920000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -1752,7 +2371,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 195
+              "version": 205
             }
           },
           "fdae85c8-1478-4c4d-ad87-596ff11468d0": {
@@ -1794,7 +2413,7 @@
       "meta": {
         "date": "2020-11-09T00:00:00+01:00",
         "description": "Through the next year, I will challenge my fears and push my limits. I will create 12 startups in 12 months.",
-        "image": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e46f80ae-681d-49a4-abe1-c35f4986ebc4/12s12m.png",
+        "image": "/images/3ad1147f-ecca-4e7c-8fc6-aaeed593979e/12s12m.png",
         "slug": "12-startups-12-months",
         "tags": [
           "12x"
@@ -3380,8 +3999,10 @@
             "value": {
               "alive": true,
               "content": [
+                "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "5214e504-f066-49dd-96ed-ff7928cd7321",
+                "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
-                "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
@@ -3416,7 +4037,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642345080000,
+              "last_edited_time": 1642414920000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -3441,7 +4062,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 195
+              "version": 205
             }
           }
         },
@@ -3458,7 +4079,7 @@
       "meta": {
         "date": "2020-10-31T00:00:00+01:00",
         "description": "After 157 failed projects I have started to figure out how and what to do to make my online creations successful.",
-        "image": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f8ff57ce-aa16-41f4-9d5a-0ef2eba7c03f/hero.png",
+        "image": "/images/201011d4-7f2b-401d-9270-4c1343d7baaf/hero.png",
         "slug": "the-three-phases-of-creating-useful-stuff-on-the-web",
         "tags": [],
         "title": "The three Phases of Creating Useful Stuff on the Web"
@@ -5007,8 +5628,10 @@
             "value": {
               "alive": true,
               "content": [
+                "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "5214e504-f066-49dd-96ed-ff7928cd7321",
+                "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
-                "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
@@ -5043,7 +5666,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642345080000,
+              "last_edited_time": 1642414920000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -5068,7 +5691,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 195
+              "version": 205
             }
           }
         },
@@ -5085,7 +5708,7 @@
       "meta": {
         "date": "2020-09-26T00:00:00+02:00",
         "description": "The story of why I expose myself on such a weird platform that nobody really understands.",
-        "image": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ce0852c0-d6af-4ff4-860c-8ea2764ed951/why-i-start-posting-on-tiktok.png",
+        "image": "/images/a8ba3e71-136b-4f7b-ac65-a5cdfbbae638/why-i-start-posting-on-tiktok.png",
         "slug": "start-of-my-tiktok-career",
         "tags": [],
         "title": "I just launched my indie hacking career on TikTok"
@@ -6445,8 +7068,10 @@
             "value": {
               "alive": true,
               "content": [
+                "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "5214e504-f066-49dd-96ed-ff7928cd7321",
+                "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
-                "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
@@ -6481,7 +7106,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642345080000,
+              "last_edited_time": 1642414920000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -6506,7 +7131,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 195
+              "version": 205
             }
           }
         },
@@ -7785,8 +8410,10 @@
             "value": {
               "alive": true,
               "content": [
+                "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "5214e504-f066-49dd-96ed-ff7928cd7321",
+                "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
-                "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
@@ -7821,7 +8448,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642345080000,
+              "last_edited_time": 1642414920000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -7846,7 +8473,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 195
+              "version": 205
             }
           }
         },
@@ -7864,7 +8491,7 @@
         "description": "/designing-my-new-blog",
         "slug": "designing-my-new-blog",
         "tags": [],
-        "title": "Designing my new blog"
+        "title": "How should I design my blog?"
       },
       "recordMap": {
         "block": {
@@ -8082,19 +8709,19 @@
               "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642281540000,
+              "last_edited_time": 1642414980000,
               "parent_id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "parent_table": "block",
               "properties": {
                 "title": [
                   [
-                    "Designing my new blog"
+                    "How should I design my blog?"
                   ]
                 ]
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 134
+              "version": 137
             }
           },
           "3ef6e535-d8a4-4b14-9942-56da913f44f3": {
@@ -8807,8 +9434,10 @@
             "value": {
               "alive": true,
               "content": [
+                "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "5214e504-f066-49dd-96ed-ff7928cd7321",
+                "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
-                "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
@@ -8843,7 +9472,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642345080000,
+              "last_edited_time": 1642414920000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -8868,7 +9497,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 195
+              "version": 205
             }
           }
         },
@@ -8885,7 +9514,7 @@
       "meta": {
         "date": "2020-10-29T00:00:00+01:00",
         "description": "I am building a tool for music teachers, and I'm excited to show it to you. It let's you combine the power of existing music services, and effectively work with ...",
-        "image": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3a26ed3f-ed6a-41b2-a5bc-5123a0c0483a/hero.png",
+        "image": "/images/4170152c-727f-487c-a247-3884b4474db2/hero.png",
         "slug": "organize-annotate-share-samples-from-spotify-youtube",
         "tags": [],
         "title": "Organize, annotate and share samples from Spotify and Youtube"
@@ -10357,8 +10986,10 @@
             "value": {
               "alive": true,
               "content": [
+                "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "5214e504-f066-49dd-96ed-ff7928cd7321",
+                "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
-                "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
@@ -10393,7 +11024,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642345080000,
+              "last_edited_time": 1642414920000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -10418,7 +11049,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 195
+              "version": 205
             }
           }
         },
@@ -10435,7 +11066,7 @@
       "meta": {
         "date": "2021-01-10T00:00:00+01:00",
         "description": "The story about how I launched FileParty, and almost got my first B2B sale. ",
-        "image": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b5d54124-7cd2-4504-a153-6af3be99560c/hero.png",
+        "image": "/images/65789379-189d-4047-9370-ed3fd6127c21/hero.png",
         "slug": "fileparty-launch",
         "tags": [
           "12x"
@@ -12078,8 +12709,10 @@
             "value": {
               "alive": true,
               "content": [
+                "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "5214e504-f066-49dd-96ed-ff7928cd7321",
+                "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
-                "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
@@ -12114,7 +12747,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642345080000,
+              "last_edited_time": 1642414920000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -12139,7 +12772,865 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 195
+              "version": 205
+            }
+          }
+        },
+        "collection": {},
+        "collection_query": {},
+        "collection_view": {},
+        "notion_user": {},
+        "signed_urls": {},
+        "space": {}
+      }
+    },
+    {
+      "id": "5214e504-f066-49dd-96ed-ff7928cd7321",
+      "meta": {
+        "date": "2022-01-17T00:00:00+01:00",
+        "description": "/three-writing-sections-17-jan-2022",
+        "icon": {
+          "type": "emoji",
+          "value": "🤔"
+        },
+        "slug": "three-writing-sections-17-jan-2022",
+        "tags": [
+          "random"
+        ],
+        "title": "Having three writing sections: articles, random thoughts and random logs - 17. Jan 2022"
+      },
+      "recordMap": {
+        "block": {
+          "03324020-6778-4180-8f0b-6cb30b51035e": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "content": [
+                "48171df9-321b-4e64-8312-26a84c923ec0",
+                "cd8f2f0d-7fde-4ccd-9475-ff484ff4c880",
+                "ca98e187-67d4-4118-a072-59bab3ee0e07",
+                "43687dc7-c268-4aeb-9e48-b38b76d104de",
+                "29627a31-3407-4149-b209-52a253c5e03c",
+                "04d625d5-20c0-41b8-9cb0-d5b66c88ebf9",
+                "341e4cb6-d32b-49c1-ad5a-e85c7147e715",
+                "97961e1c-bb60-4b6e-b0b0-78654490f6d1",
+                "c5317b98-79fa-4c37-b6ec-108faa00d720",
+                "4174bc4d-08f5-4502-b3a5-2c212cb9960e",
+                "3ccdabe6-d191-4a9b-8cd4-607828f612c9",
+                "dc4dd2e0-c7ec-49b3-8efc-e89d690c2c2d"
+              ],
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414155982,
+              "format": {
+                "page_icon": "🤔"
+              },
+              "id": "03324020-6778-4180-8f0b-6cb30b51035e",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642429080000,
+              "parent_id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Should I focus this blog on one topic? - 17. jan 2022"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "page",
+              "version": 28
+            }
+          },
+          "1293b553-fc50-4669-970a-9ec406c9aded": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414394920,
+              "id": "1293b553-fc50-4669-970a-9ec406c9aded",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642414500000,
+              "parent_id": "5214e504-f066-49dd-96ed-ff7928cd7321",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Articles.",
+                    [
+                      [
+                        "b"
+                      ]
+                    ]
+                  ],
+                  [
+                    " These are well-written, thoroughly researched articles, written for a public audience. Example: "
+                  ],
+                  [
+                    "‣",
+                    [
+                      [
+                        "p",
+                        "af74fadd-24c3-4e17-a933-fea1da00744a",
+                        "5257cf0b-8124-4419-87b6-815988437df5"
+                      ]
+                    ]
+                  ],
+                  [
+                    " "
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "bulleted_list",
+              "version": 42
+            }
+          },
+          "1abe9d5b-5411-4898-b7c1-83b9da68f294": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414394919,
+              "id": "1abe9d5b-5411-4898-b7c1-83b9da68f294",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642414380000,
+              "parent_id": "5214e504-f066-49dd-96ed-ff7928cd7321",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Julian Shapiro talks about getting the wastewater out when you write. Just start writing, write something poorly first, don't judge yourself. After a while - when you have gotten the wastewater out - good writing will come out."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 2
+            }
+          },
+          "22198c56-901b-49bc-9fd7-a80b8063e92f": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414394920,
+              "id": "22198c56-901b-49bc-9fd7-a80b8063e92f",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642414620000,
+              "parent_id": "5214e504-f066-49dd-96ed-ff7928cd7321",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Random thoughts.",
+                    [
+                      [
+                        "b"
+                      ]
+                    ]
+                  ],
+                  [
+                    " Internal thoughts, ideas, or questions. More like an inner dialouge. This can be bad. Maybe some of the posts will be raw material for an "
+                  ],
+                  [
+                    "article",
+                    [
+                      [
+                        "i"
+                      ]
+                    ]
+                  ],
+                  [
+                    ". I shouldn’t surface these posts as much as the "
+                  ],
+                  [
+                    "articles",
+                    [
+                      [
+                        "i"
+                      ]
+                    ]
+                  ],
+                  [
+                    ", but maybe some readers find them interesting. They should be timestamped to avoid conflicts if I make an "
+                  ],
+                  [
+                    "article",
+                    [
+                      [
+                        "i"
+                      ]
+                    ]
+                  ],
+                  [
+                    " with the same name. Example: "
+                  ],
+                  [
+                    "‣",
+                    [
+                      [
+                        "p",
+                        "03324020-6778-4180-8f0b-6cb30b51035e",
+                        "5257cf0b-8124-4419-87b6-815988437df5"
+                      ]
+                    ]
+                  ],
+                  [
+                    " "
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "bulleted_list",
+              "version": 229
+            }
+          },
+          "2be5e864-06f3-485e-abdc-92b8aa37600f": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414394919,
+              "id": "2be5e864-06f3-485e-abdc-92b8aa37600f",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642414440000,
+              "parent_id": "5214e504-f066-49dd-96ed-ff7928cd7321",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "I want to write more quality stuff. I admire people who write well and get an audience around their ideas. At the same time, aiming for perfection can become a prison."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 23
+            }
+          },
+          "305be4b1-2dbb-4fb8-9f96-fe56481487b3": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "content": [
+                "db0ece17-c61e-46a4-87e9-b60b1b8d390c",
+                "da81be84-b0cf-4f91-bfe1-f9c4ea15f096",
+                "cf92449f-f0d1-4d9f-9b33-60eaa5e819c4",
+                "8705b468-1667-41b6-bc24-14b21e25ef64",
+                "6ddab557-41d3-405b-8df2-6858030e0d99",
+                "141cad48-afae-4b5a-8148-d2af27c92bc5",
+                "e3b29ddc-78ac-4158-a7eb-631f75d5c241",
+                "65994d38-6c43-4fa5-88b7-ef80ba6fb314",
+                "53358874-a7b5-4b8a-9225-d3447fdcdc3d",
+                "5d0d92e9-a74d-4451-9023-ddd399cabd11",
+                "1b803a02-f7fc-49c1-aea6-fa44aa38a9c1",
+                "58c495eb-e4a4-415c-96d1-e9ccd073170a",
+                "1350170d-ecaf-4a53-8fbf-776ac63147a6",
+                "4158448c-c69d-4e64-96f1-92c709b584da",
+                "e9372753-bdda-4b2e-bcd7-e1b18ef8be5c",
+                "d41f1e38-9800-424d-9a71-8c0d732118db",
+                "9c0894e3-2334-49fd-822a-8b0386200c7a",
+                "d7eefe4e-291b-4db4-bbd1-6214e09f6d3a",
+                "5fe92573-3a30-4a07-8f22-48affce866ac",
+                "03c50460-49c5-4027-bda2-7cc99afa2712",
+                "6cab83bb-4568-45f8-a201-9de8a7ba3688",
+                "84e0b888-db28-4cf7-b26c-e0c8f0b7fed6",
+                "29f02436-2d0c-48c4-9a0f-a0f73fae2fa2",
+                "3ef6e535-d8a4-4b14-9942-56da913f44f3",
+                "03c84846-f533-4291-99b3-42c5b6035dc4"
+              ],
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1641826677894,
+              "id": "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642414980000,
+              "parent_id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "How should I design my blog?"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "page",
+              "version": 137
+            }
+          },
+          "3cfe7672-a41e-4473-95e4-c79c651b088b": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414394919,
+              "id": "3cfe7672-a41e-4473-95e4-c79c651b088b",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642414500000,
+              "parent_id": "5214e504-f066-49dd-96ed-ff7928cd7321",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "I'm thinking of a system that lets me work on high-quality well-written articles "
+                  ],
+                  [
+                    "in addition to",
+                    [
+                      [
+                        "i"
+                      ]
+                    ]
+                  ],
+                  [
+                    " habit-enforcing waste-water small writings and notes."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 27
+            }
+          },
+          "3f456033-875f-4184-be20-9a6553146865": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414394920,
+              "id": "3f456033-875f-4184-be20-9a6553146865",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642414740000,
+              "parent_id": "5214e504-f066-49dd-96ed-ff7928cd7321",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "The random logs section might actually make most sense if you are working on a clear goal on a clear path. Like being an Indie Hacker and tracking MRR."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 189
+            }
+          },
+          "5214e504-f066-49dd-96ed-ff7928cd7321": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "content": [
+                "1abe9d5b-5411-4898-b7c1-83b9da68f294",
+                "bded0f92-840f-4356-9b88-24f3d50e9386",
+                "ebb85ccf-3b2b-438b-ae95-00e5f92d4b93",
+                "2be5e864-06f3-485e-abdc-92b8aa37600f",
+                "3cfe7672-a41e-4473-95e4-c79c651b088b",
+                "a9400bbe-1ff0-4e65-9828-e0ae0c304a98",
+                "910a5481-a03b-4307-a6ff-fb2f18656cd3",
+                "1293b553-fc50-4669-970a-9ec406c9aded",
+                "22198c56-901b-49bc-9fd7-a80b8063e92f",
+                "91a1b59f-a423-4895-9ef6-d21c46d601c0",
+                "3f456033-875f-4184-be20-9a6553146865",
+                "545db4a7-a96a-46a6-9e69-784d9e4b49ba"
+              ],
+              "copied_from": "03324020-6778-4180-8f0b-6cb30b51035e",
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414367839,
+              "format": {
+                "copied_from_pointer": {
+                  "id": "03324020-6778-4180-8f0b-6cb30b51035e",
+                  "spaceId": "5257cf0b-8124-4419-87b6-815988437df5",
+                  "table": "block"
+                },
+                "page_icon": "🤔"
+              },
+              "id": "5214e504-f066-49dd-96ed-ff7928cd7321",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642428360000,
+              "parent_id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Having three writing sections: articles, random thoughts and random logs - 17. Jan 2022"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "page",
+              "version": 244
+            }
+          },
+          "545db4a7-a96a-46a6-9e69-784d9e4b49ba": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414740000,
+              "id": "545db4a7-a96a-46a6-9e69-784d9e4b49ba",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642414800000,
+              "parent_id": "5214e504-f066-49dd-96ed-ff7928cd7321",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "I’ll start writing some "
+                  ],
+                  [
+                    "random thoughts",
+                    [
+                      [
+                        "b"
+                      ]
+                    ]
+                  ],
+                  [
+                    "-articles (like this one), and see how that works. Maybe I’ll do "
+                  ],
+                  [
+                    "random logs",
+                    [
+                      [
+                        "b"
+                      ]
+                    ]
+                  ],
+                  [
+                    " when I nail down a clear goal for this year."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 185
+            }
+          },
+          "7fa64ac1-cb87-40bf-a89f-aff0b507c62e": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414380000,
+              "id": "7fa64ac1-cb87-40bf-a89f-aff0b507c62e",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642414860000,
+              "parent_id": "d9971acb-b8b9-4f9a-86d9-08f0eea78ecc",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "/three-writing-sections-17-jan-2022"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 23
+            }
+          },
+          "910a5481-a03b-4307-a6ff-fb2f18656cd3": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414394919,
+              "id": "910a5481-a03b-4307-a6ff-fb2f18656cd3",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642414500000,
+              "parent_id": "5214e504-f066-49dd-96ed-ff7928cd7321",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Three writing sections"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "sub_header",
+              "version": 7
+            }
+          },
+          "91a1b59f-a423-4895-9ef6-d21c46d601c0": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414394920,
+              "id": "91a1b59f-a423-4895-9ef6-d21c46d601c0",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642414920000,
+              "parent_id": "5214e504-f066-49dd-96ed-ff7928cd7321",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Random logs.",
+                    [
+                      [
+                        "b"
+                      ]
+                    ]
+                  ],
+                  [
+                    " These are like a diary. I don't try to focus them around a topic or make them interesting for the general public. In some cases, if I am working towards a goal, it can be interesting to follow. "
+                  ],
+                  [
+                    "Alex West",
+                    [
+                      [
+                        "a",
+                        "http://alexwest.co"
+                      ]
+                    ]
+                  ],
+                  [
+                    " has an interesting system for this, wehre he writes "
+                  ],
+                  [
+                    "daily logs",
+                    [
+                      [
+                        "i"
+                      ]
+                    ]
+                  ],
+                  [
+                    " and consolidates them into "
+                  ],
+                  [
+                    "monthly reviews",
+                    [
+                      [
+                        "i"
+                      ]
+                    ]
+                  ],
+                  [
+                    " and eventually into larger articles."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "bulleted_list",
+              "version": 166
+            }
+          },
+          "a9400bbe-1ff0-4e65-9828-e0ae0c304a98": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414500000,
+              "id": "a9400bbe-1ff0-4e65-9828-e0ae0c304a98",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642414500000,
+              "parent_id": "5214e504-f066-49dd-96ed-ff7928cd7321",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Here is the system I have been thinking of:"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 50
+            }
+          },
+          "af74fadd-24c3-4e17-a933-fea1da00744a": {
+            "role": "comment_only",
+            "value": {
+              "alive": true,
+              "content": [
+                "c183f786-dacc-4e77-9cec-517116f90dc6",
+                "c1d70937-88a7-440b-9532-2a13d1e9beb2",
+                "b5108a28-e195-498f-9daa-648ceeccccc5",
+                "f69a66fc-dba0-478c-89bf-194a3dff8d6c",
+                "817bd077-41f8-411a-abf5-e9b8db9ea848",
+                "4033a46f-e92a-4b2b-9cb9-7cbcddb97bda",
+                "9d087c79-02bf-4ebe-9b28-a7707fca35c9",
+                "c29bcc86-8b0f-4f6c-8820-d635e5bcaa17",
+                "f245bea5-7170-4294-9730-349d391c9b9c",
+                "be76dc66-41f3-4234-9761-fa99731e4d6e",
+                "7af26722-8b5a-4110-b007-381c7590fcdf",
+                "1e497d77-9a97-4c2e-acc4-432f709074a1",
+                "18423b5c-a028-4f06-a7b0-d4a3ac823fcb",
+                "44a02a9f-8c41-4f0b-b356-1d41a94a5234",
+                "d9b4f7dd-f4a0-4cdd-a205-0b30f3c23cac",
+                "99df847e-f5e2-4f92-856c-e5fd58188034",
+                "9d5ed9c2-e999-4563-af90-54085010c48c",
+                "7c24c074-b87a-4689-a644-e0ea770b7696",
+                "ec304d56-424a-4533-8a97-9b428d1991a4",
+                "fb6b6c71-3dde-45e7-b681-a8c2c198365f",
+                "81d12b13-e628-4b31-bdb9-85242414d9b3",
+                "0ce462a3-e90c-4c01-9ca7-dff8e899bb8e"
+              ],
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642022202882,
+              "format": {
+                "page_icon": "🚁"
+              },
+              "id": "af74fadd-24c3-4e17-a933-fea1da00744a",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642346100000,
+              "parent_id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
+              "parent_table": "block",
+              "permissions": [
+                {
+                  "added_timestamp": 1642259990367,
+                  "allow_duplicate": false,
+                  "role": "comment_only",
+                  "type": "public_permission"
+                }
+              ],
+              "properties": {
+                "title": [
+                  [
+                    "Helication - Doing Nothing as a Productivity Strategy"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "page",
+              "version": 181
+            }
+          },
+          "bded0f92-840f-4356-9b88-24f3d50e9386": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414945539,
+              "id": "bded0f92-840f-4356-9b88-24f3d50e9386",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642414920000,
+              "parent_id": "5214e504-f066-49dd-96ed-ff7928cd7321",
+              "parent_table": "block",
+              "properties": {
+                "source": [
+                  [
+                    "https://twitter.com/julian/status/1402356384570626049"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "tweet",
+              "version": 6
+            }
+          },
+          "d9971acb-b8b9-4f9a-86d9-08f0eea78ecc": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "content": [
+                "7fa64ac1-cb87-40bf-a89f-aff0b507c62e",
+                "dcbdb69f-2ede-4288-a3fa-b2d1b18cbb1d"
+              ],
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414380000,
+              "id": "d9971acb-b8b9-4f9a-86d9-08f0eea78ecc",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642428360000,
+              "parent_id": "5214e504-f066-49dd-96ed-ff7928cd7321",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "‣",
+                    [
+                      [
+                        "d",
+                        {
+                          "type": "date",
+                          "start_date": "2022-01-17",
+                          "date_format": "relative"
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    " "
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "toggle",
+              "version": 19
+            }
+          },
+          "dcbdb69f-2ede-4288-a3fa-b2d1b18cbb1d": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642428360000,
+              "id": "dcbdb69f-2ede-4288-a3fa-b2d1b18cbb1d",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642428360000,
+              "parent_id": "d9971acb-b8b9-4f9a-86d9-08f0eea78ecc",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Tags: random"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 23
+            }
+          },
+          "ebb85ccf-3b2b-438b-ae95-00e5f92d4b93": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642414394919,
+              "id": "ebb85ccf-3b2b-438b-ae95-00e5f92d4b93",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642414440000,
+              "parent_id": "5214e504-f066-49dd-96ed-ff7928cd7321",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Over new years I have been rebuilding and "
+                  ],
+                  [
+                    "redesigning this blog",
+                    [
+                      [
+                        "a",
+                        "/305be4b12dbb4fb89f96fe56481487b3"
+                      ]
+                    ]
+                  ],
+                  [
+                    ". Where should I take this blog?"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 38
+            }
+          },
+          "fd68700f-f667-4299-9c0e-41a4d5bc7c4a": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "content": [
+                "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "5214e504-f066-49dd-96ed-ff7928cd7321",
+                "03324020-6778-4180-8f0b-6cb30b51035e",
+                "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
+                "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
+                "e05b5977-2196-4834-993c-9c899b3eb7ec",
+                "af74fadd-24c3-4e17-a933-fea1da00744a",
+                "2580bfab-7590-4a52-91ac-f6c9f7bbb298",
+                "e7a2c00d-8752-4fe6-b38c-6bde14a21050",
+                "2b574b0e-e20a-4aa3-884e-45d3b8a20495",
+                "8711af9b-3254-48b8-9b35-f8d6be011914",
+                "23829438-a093-44c0-af44-261f9ca20011",
+                "85fd5181-bcf6-470a-8026-902d969db9d2",
+                "bdaf0be2-96e8-47f6-a0c1-9abf91f6627b",
+                "54791f79-ddc8-4b58-a0e6-d4fce6d24a23",
+                "14d4263c-a202-40d3-9ad5-d0904af0581c",
+                "3e07e6cf-7cfb-43a9-a48b-2ff31568cb27",
+                "c22aad82-c82e-46d3-a89f-5b71210d1ec5",
+                "67b5a629-6522-4c26-847c-283dda23eed7",
+                "72b6bc97-dda7-4b1d-a6cc-f3e0bb473e6c",
+                "fb16959e-d347-4c36-9ecd-3f58f86dd8d5",
+                "1ae94a0f-f4d8-414b-af15-bf71f3b0f149",
+                "1ed377a5-0def-4d54-bceb-f39165b8b42d",
+                "3d671266-fe0e-4466-9e14-ae5805d83ff0",
+                "d8f9876e-715e-48bd-81a0-e061b81e69f8",
+                "21cdde62-aff9-4826-8895-edc17a6ea16a",
+                "a91e816d-1938-4d17-a98a-4bc3de948d50",
+                "d8968792-180d-4ced-83cd-d7d128ff679a"
+              ],
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1641725520000,
+              "format": {
+                "page_icon": "🦢"
+              },
+              "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642414920000,
+              "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "parent_table": "space",
+              "permissions": [
+                {
+                  "role": "editor",
+                  "type": "user_permission",
+                  "user_id": "ece1e643-dda1-43f8-89a6-686da3b80c23"
+                },
+                {
+                  "added_timestamp": 1641725580869,
+                  "allow_duplicate": false,
+                  "role": "reader",
+                  "type": "public_permission"
+                }
+              ],
+              "properties": {
+                "title": [
+                  [
+                    "larskarbo.no"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "page",
+              "version": 205
             }
           }
         },
@@ -12156,7 +13647,7 @@
       "meta": {
         "date": "2021-04-03T00:00:00+02:00",
         "description": "I almost launched Case shortcut in five days but had to abort it.",
-        "image": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c892481f-3871-4375-9b0f-569f2b579db9/hero.png",
+        "image": "/images/bd37e0b9-80bc-4e96-94d9-05d125e6ed71/hero.png",
         "slug": "case-shortcut-almost-launch",
         "tags": [
           "12x"
@@ -13128,8 +14619,10 @@
             "value": {
               "alive": true,
               "content": [
+                "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "5214e504-f066-49dd-96ed-ff7928cd7321",
+                "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
-                "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
@@ -13164,7 +14657,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642345080000,
+              "last_edited_time": 1642414920000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -13189,7 +14682,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 195
+              "version": 205
             }
           }
         },
@@ -13206,7 +14699,7 @@
       "meta": {
         "date": "2020-12-13T00:00:00+01:00",
         "description": "My first startup in my project is Slapper. I built, launched and monetized it in a month",
-        "image": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/493efa19-fd83-4418-8102-1e8308afaa52/launches.jpeg",
+        "image": "/images/028d29d8-87fd-4c49-92d3-2db9a75bc64a/launches.jpeg",
         "slug": "startup-1-slapper",
         "tags": [
           "12x"
@@ -14452,8 +15945,10 @@
             "value": {
               "alive": true,
               "content": [
+                "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "5214e504-f066-49dd-96ed-ff7928cd7321",
+                "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
-                "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
@@ -14488,7 +15983,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642345080000,
+              "last_edited_time": 1642414920000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -14513,7 +16008,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 195
+              "version": 205
             }
           }
         },
@@ -14530,7 +16025,7 @@
       "meta": {
         "date": "2020-11-29T00:00:00+01:00",
         "description": "How I struggle to find the right user segment for my app. There are 4 different types of people that like it for different reasons.",
-        "image": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c7150f4d-c05d-4051-945a-9322741b6db3/hero.png",
+        "image": "/images/01b21218-0497-4206-87fe-f3036a84c377/hero.png",
         "slug": "4-customer-segments",
         "tags": [
           "12x"
@@ -15858,8 +17353,10 @@
             "value": {
               "alive": true,
               "content": [
+                "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "5214e504-f066-49dd-96ed-ff7928cd7321",
+                "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
-                "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
@@ -15894,7 +17391,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642345080000,
+              "last_edited_time": 1642414920000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -15919,7 +17416,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 195
+              "version": 205
             }
           },
           "fe3f812e-4137-4c02-8908-4ea025d4a699": {
@@ -15987,7 +17484,7 @@
       "meta": {
         "date": "2021-08-31T00:00:00+02:00",
         "description": "After 7 months on the internet, I have decided to shut down ",
-        "image": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ca79a0c0-f340-4381-8956-56309d39a85b/hero.png",
+        "image": "/images/e487c424-c74f-490c-a6f9-a56face62f8c/hero.png",
         "slug": "shutting-down-slapper",
         "tags": [],
         "title": "I'm Shutting Down Slapper.io"
@@ -16604,8 +18101,10 @@
             "value": {
               "alive": true,
               "content": [
+                "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "5214e504-f066-49dd-96ed-ff7928cd7321",
+                "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
-                "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
@@ -16640,7 +18139,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642345080000,
+              "last_edited_time": 1642414920000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -16665,7 +18164,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 195
+              "version": 205
             }
           }
         },
@@ -16682,7 +18181,7 @@
       "meta": {
         "date": "2021-12-31T00:00:00+01:00",
         "description": "A year ago I started an ambitious project to create build 12 profitable small businesses. Now, a year later, I have a bunch of learnings under my belt.",
-        "image": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1af2adc2-2dd5-4f00-8bbf-7e09e3c849d9/hero12xdone.png",
+        "image": "/images/a9d55927-bb4b-4b8d-86e8-4b5935ffa276/hero12xdone.png",
         "slug": "year-of-making",
         "tags": [
           "12x"
@@ -18439,8 +19938,10 @@
             "value": {
               "alive": true,
               "content": [
+                "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "5214e504-f066-49dd-96ed-ff7928cd7321",
+                "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
-                "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
@@ -18475,7 +19976,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642345080000,
+              "last_edited_time": 1642414920000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -18500,675 +20001,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 195
-            }
-          }
-        },
-        "collection": {},
-        "collection_query": {},
-        "collection_view": {},
-        "notion_user": {},
-        "signed_urls": {},
-        "space": {}
-      }
-    },
-    {
-      "id": "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
-      "meta": {
-        "description": "/goals-of-larskarbo-no",
-        "icon": {
-          "type": "emoji",
-          "value": "✨"
-        },
-        "slug": "goals-of-larskarbo-no",
-        "tags": [],
-        "title": "Goals of larskarbo.no"
-      },
-      "recordMap": {
-        "block": {
-          "305be4b1-2dbb-4fb8-9f96-fe56481487b3": {
-            "role": "reader",
-            "value": {
-              "alive": true,
-              "content": [
-                "db0ece17-c61e-46a4-87e9-b60b1b8d390c",
-                "da81be84-b0cf-4f91-bfe1-f9c4ea15f096",
-                "cf92449f-f0d1-4d9f-9b33-60eaa5e819c4",
-                "8705b468-1667-41b6-bc24-14b21e25ef64",
-                "6ddab557-41d3-405b-8df2-6858030e0d99",
-                "141cad48-afae-4b5a-8148-d2af27c92bc5",
-                "e3b29ddc-78ac-4158-a7eb-631f75d5c241",
-                "65994d38-6c43-4fa5-88b7-ef80ba6fb314",
-                "53358874-a7b5-4b8a-9225-d3447fdcdc3d",
-                "5d0d92e9-a74d-4451-9023-ddd399cabd11",
-                "1b803a02-f7fc-49c1-aea6-fa44aa38a9c1",
-                "58c495eb-e4a4-415c-96d1-e9ccd073170a",
-                "1350170d-ecaf-4a53-8fbf-776ac63147a6",
-                "4158448c-c69d-4e64-96f1-92c709b584da",
-                "e9372753-bdda-4b2e-bcd7-e1b18ef8be5c",
-                "d41f1e38-9800-424d-9a71-8c0d732118db",
-                "9c0894e3-2334-49fd-822a-8b0386200c7a",
-                "d7eefe4e-291b-4db4-bbd1-6214e09f6d3a",
-                "5fe92573-3a30-4a07-8f22-48affce866ac",
-                "03c50460-49c5-4027-bda2-7cc99afa2712",
-                "6cab83bb-4568-45f8-a201-9de8a7ba3688",
-                "84e0b888-db28-4cf7-b26c-e0c8f0b7fed6",
-                "29f02436-2d0c-48c4-9a0f-a0f73fae2fa2",
-                "3ef6e535-d8a4-4b14-9942-56da913f44f3",
-                "03c84846-f533-4291-99b3-42c5b6035dc4"
-              ],
-              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "created_by_table": "notion_user",
-              "created_time": 1641826677894,
-              "id": "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
-              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642281540000,
-              "parent_id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
-              "parent_table": "block",
-              "properties": {
-                "title": [
-                  [
-                    "Designing my new blog"
-                  ]
-                ]
-              },
-              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
-              "type": "page",
-              "version": 134
-            }
-          },
-          "44819378-7a3b-4a82-8aa5-3554451a428c": {
-            "role": "reader",
-            "value": {
-              "alive": true,
-              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "created_by_table": "notion_user",
-              "created_time": 1641725880000,
-              "id": "44819378-7a3b-4a82-8aa5-3554451a428c",
-              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "last_edited_by_table": "notion_user",
-              "last_edited_time": 1641726000000,
-              "parent_id": "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
-              "parent_table": "block",
-              "properties": {
-                "title": [
-                  [
-                    "Make a system of linking different pieces of content. A web of small and big content pieces linked together beautifully."
-                  ]
-                ]
-              },
-              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
-              "type": "text",
-              "version": 135
-            }
-          },
-          "49720f22-faab-4836-ba56-0e12df6e83ef": {
-            "role": "reader",
-            "value": {
-              "alive": true,
-              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "created_by_table": "notion_user",
-              "created_time": 1641725880000,
-              "id": "49720f22-faab-4836-ba56-0e12df6e83ef",
-              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "last_edited_by_table": "notion_user",
-              "last_edited_time": 1641726000000,
-              "parent_id": "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
-              "parent_table": "block",
-              "properties": {
-                "title": [
-                  [
-                    "Don’t focus too much on finding "
-                  ],
-                  [
-                    "one",
-                    [
-                      [
-                        "i"
-                      ]
-                    ]
-                  ],
-                  [
-                    " superstrict niche. That will probably happen by itself after a year or two when I figure out which writings resonate the most with my readers."
-                  ]
-                ]
-              },
-              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
-              "type": "text",
-              "version": 238
-            }
-          },
-          "4d2b9d01-9240-48dc-a343-3e628a103789": {
-            "role": "reader",
-            "value": {
-              "alive": true,
-              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "created_by_table": "notion_user",
-              "created_time": 1641725820000,
-              "id": "4d2b9d01-9240-48dc-a343-3e628a103789",
-              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "last_edited_by_table": "notion_user",
-              "last_edited_time": 1641725820000,
-              "parent_id": "53c8d04c-90f3-4a7c-a735-b905893f8cf7",
-              "parent_table": "block",
-              "properties": {
-                "title": [
-                  [
-                    "Startups, indie hacking, bootstrapping"
-                  ]
-                ]
-              },
-              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
-              "type": "bulleted_list",
-              "version": 48
-            }
-          },
-          "53c8d04c-90f3-4a7c-a735-b905893f8cf7": {
-            "role": "reader",
-            "value": {
-              "alive": true,
-              "content": [
-                "4d2b9d01-9240-48dc-a343-3e628a103789",
-                "6fc28fff-59d9-4874-b37c-297a03e29bd2",
-                "5e1bb16c-7397-46b5-82b0-1bf8de1373a9",
-                "f543f861-5677-4bfd-aae9-71fff5724041"
-              ],
-              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "created_by_table": "notion_user",
-              "created_time": 1641725820000,
-              "id": "53c8d04c-90f3-4a7c-a735-b905893f8cf7",
-              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "last_edited_by_table": "notion_user",
-              "last_edited_time": 1641725880000,
-              "parent_id": "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
-              "parent_table": "block",
-              "properties": {
-                "title": [
-                  [
-                    "What I want to write about on larskarbo.no:"
-                  ]
-                ]
-              },
-              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
-              "type": "text",
-              "version": 54
-            }
-          },
-          "55749f73-b1e7-4dc7-b585-503d6aca4dae": {
-            "role": "reader",
-            "value": {
-              "alive": true,
-              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "created_by_table": "notion_user",
-              "created_time": 1641726360000,
-              "id": "55749f73-b1e7-4dc7-b585-503d6aca4dae",
-              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "last_edited_by_table": "notion_user",
-              "last_edited_time": 1641726420000,
-              "parent_id": "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
-              "parent_table": "block",
-              "properties": {
-                "title": [
-                  [
-                    "There is something beautiful about keeping your entire blog in git. It makes it possible to time travel. I like that."
-                  ]
-                ]
-              },
-              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
-              "type": "text",
-              "version": 122
-            }
-          },
-          "5e1bb16c-7397-46b5-82b0-1bf8de1373a9": {
-            "role": "reader",
-            "value": {
-              "alive": true,
-              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "created_by_table": "notion_user",
-              "created_time": 1641725820000,
-              "id": "5e1bb16c-7397-46b5-82b0-1bf8de1373a9",
-              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "last_edited_by_table": "notion_user",
-              "last_edited_time": 1641725880000,
-              "parent_id": "53c8d04c-90f3-4a7c-a735-b905893f8cf7",
-              "parent_table": "block",
-              "properties": {
-                "title": [
-                  [
-                    "Coliving, best ways to live and work as humans"
-                  ]
-                ]
-              },
-              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
-              "type": "bulleted_list",
-              "version": 51
-            }
-          },
-          "666439a4-a354-40e3-b215-66de47cb9fe5": {
-            "role": "reader",
-            "value": {
-              "alive": true,
-              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "created_by_table": "notion_user",
-              "created_time": 1641726000000,
-              "id": "666439a4-a354-40e3-b215-66de47cb9fe5",
-              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "last_edited_by_table": "notion_user",
-              "last_edited_time": 1641726000000,
-              "parent_id": "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
-              "parent_table": "block",
-              "properties": {
-                "title": [
-                  [
-                    "Should I update things?"
-                  ]
-                ]
-              },
-              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
-              "type": "sub_header",
-              "version": 32
-            }
-          },
-          "6977490a-4f2d-4d5a-b1b6-10e94ef18fc9": {
-            "role": "reader",
-            "value": {
-              "alive": true,
-              "content": [
-                "c8e2bc24-171f-43ba-8d0f-d4340ef84202"
-              ],
-              "copied_from": "5702745c-a828-4cf3-83c9-21b92aaa08ba",
-              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "created_by_table": "notion_user",
-              "created_time": 1641825956006,
-              "format": {
-                "copied_from_pointer": {
-                  "id": "5702745c-a828-4cf3-83c9-21b92aaa08ba",
-                  "spaceId": "5257cf0b-8124-4419-87b6-815988437df5",
-                  "table": "block"
-                }
-              },
-              "id": "6977490a-4f2d-4d5a-b1b6-10e94ef18fc9",
-              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642075500000,
-              "parent_id": "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
-              "parent_table": "block",
-              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
-              "type": "toggle",
-              "version": 19
-            }
-          },
-          "6fc28fff-59d9-4874-b37c-297a03e29bd2": {
-            "role": "reader",
-            "value": {
-              "alive": true,
-              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "created_by_table": "notion_user",
-              "created_time": 1641725820000,
-              "id": "6fc28fff-59d9-4874-b37c-297a03e29bd2",
-              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "last_edited_by_table": "notion_user",
-              "last_edited_time": 1641725820000,
-              "parent_id": "53c8d04c-90f3-4a7c-a735-b905893f8cf7",
-              "parent_table": "block",
-              "properties": {
-                "title": [
-                  [
-                    "Mental health, productivity, philosophy"
-                  ]
-                ]
-              },
-              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
-              "type": "bulleted_list",
-              "version": 45
-            }
-          },
-          "8b2e7909-4542-46e2-a894-ddb53299d96a": {
-            "role": "reader",
-            "value": {
-              "alive": true,
-              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "created_by_table": "notion_user",
-              "created_time": 1641726060000,
-              "id": "8b2e7909-4542-46e2-a894-ddb53299d96a",
-              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "last_edited_by_table": "notion_user",
-              "last_edited_time": 1641859080000,
-              "parent_id": "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
-              "parent_table": "block",
-              "properties": {
-                "title": [
-                  [
-                    "Should I treat everything I have written as a snapshot of a past. I wrote it the way I wrote it, even if I am ashamed of it now? One example is my "
-                  ],
-                  [
-                    "12 startups in 12 months",
-                    [
-                      [
-                        "a",
-                        "https://larskarbo.no/12-startups-12-months"
-                      ]
-                    ]
-                  ],
-                  [
-                    " post. I am not super happy about that post. The project is very cool, but the post is kind of shallow and not my best piece of content."
-                  ]
-                ]
-              },
-              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
-              "type": "text",
-              "version": 372
-            }
-          },
-          "8fe8b72f-77bd-4dbd-90cf-1e58a8a81138": {
-            "role": "reader",
-            "value": {
-              "alive": true,
-              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "created_by_table": "notion_user",
-              "created_time": 1641726360000,
-              "id": "8fe8b72f-77bd-4dbd-90cf-1e58a8a81138",
-              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "last_edited_by_table": "notion_user",
-              "last_edited_time": 1641726360000,
-              "parent_id": "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
-              "parent_table": "block",
-              "properties": {
-                "title": [
-                  [
-                    "Should I keep things in git?"
-                  ]
-                ]
-              },
-              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
-              "type": "sub_header",
-              "version": 48
-            }
-          },
-          "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb": {
-            "role": "reader",
-            "value": {
-              "alive": true,
-              "content": [
-                "e775d989-4c76-4a79-ae8e-9924a8b4650e",
-                "53c8d04c-90f3-4a7c-a735-b905893f8cf7",
-                "49720f22-faab-4836-ba56-0e12df6e83ef",
-                "44819378-7a3b-4a82-8aa5-3554451a428c",
-                "666439a4-a354-40e3-b215-66de47cb9fe5",
-                "bf45df4d-4ce1-4479-9a2a-d80598d492e4",
-                "8b2e7909-4542-46e2-a894-ddb53299d96a",
-                "acf57bb2-61cc-4dee-959e-cec8e91670e0",
-                "8fe8b72f-77bd-4dbd-90cf-1e58a8a81138",
-                "55749f73-b1e7-4dc7-b585-503d6aca4dae",
-                "a584c1ed-44d4-469d-93a2-3a02d41d7baf"
-              ],
-              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "created_by_table": "notion_user",
-              "created_time": 1641725739060,
-              "format": {
-                "page_icon": "✨"
-              },
-              "id": "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
-              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642281540000,
-              "parent_id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
-              "parent_table": "block",
-              "properties": {
-                "title": [
-                  [
-                    "Goals of larskarbo.no"
-                  ]
-                ]
-              },
-              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
-              "type": "page",
-              "version": 106
-            }
-          },
-          "a584c1ed-44d4-469d-93a2-3a02d41d7baf": {
-            "role": "reader",
-            "value": {
-              "alive": true,
-              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "created_by_table": "notion_user",
-              "created_time": 1641826620000,
-              "id": "a584c1ed-44d4-469d-93a2-3a02d41d7baf",
-              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "last_edited_by_table": "notion_user",
-              "last_edited_time": 1641859140000,
-              "parent_id": "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
-              "parent_table": "block",
-              "properties": {
-                "title": [
-                  [
-                    "Have a beautifully designed and weird blog ("
-                  ],
-                  [
-                    "‣",
-                    [
-                      [
-                        "p",
-                        "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
-                        "5257cf0b-8124-4419-87b6-815988437df5"
-                      ]
-                    ]
-                  ],
-                  [
-                    ")."
-                  ]
-                ]
-              },
-              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
-              "type": "text",
-              "version": 69
-            }
-          },
-          "acf57bb2-61cc-4dee-959e-cec8e91670e0": {
-            "role": "reader",
-            "value": {
-              "alive": true,
-              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "created_by_table": "notion_user",
-              "created_time": 1641726240000,
-              "id": "acf57bb2-61cc-4dee-959e-cec8e91670e0",
-              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "last_edited_by_table": "notion_user",
-              "last_edited_time": 1641859080000,
-              "parent_id": "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
-              "parent_table": "block",
-              "properties": {
-                "title": [
-                  [
-                    "When thinking of this now, I think I should try to leave old content as it is. Maybe update it and improve it the first weeks after publishing, but after that it should be considered a relic of the past. I can always add notes at the top or bottom linking to relevant new content or new takes on the idea if I feel the need."
-                  ]
-                ]
-              },
-              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
-              "type": "text",
-              "version": 360
-            }
-          },
-          "bf45df4d-4ce1-4479-9a2a-d80598d492e4": {
-            "role": "reader",
-            "value": {
-              "alive": true,
-              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "created_by_table": "notion_user",
-              "created_time": 1641726000000,
-              "id": "bf45df4d-4ce1-4479-9a2a-d80598d492e4",
-              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "last_edited_by_table": "notion_user",
-              "last_edited_time": 1641726060000,
-              "parent_id": "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
-              "parent_table": "block",
-              "properties": {
-                "title": [
-                  [
-                    "I often end up unsure if I should keep old pieces of content up to date or not."
-                  ]
-                ]
-              },
-              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
-              "type": "text",
-              "version": 110
-            }
-          },
-          "c8e2bc24-171f-43ba-8d0f-d4340ef84202": {
-            "role": "reader",
-            "value": {
-              "alive": true,
-              "copied_from": "1b7f5570-c281-4a1f-8642-70b8c290d273",
-              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "created_by_table": "notion_user",
-              "created_time": 1641825956007,
-              "format": {
-                "copied_from_pointer": {
-                  "id": "1b7f5570-c281-4a1f-8642-70b8c290d273",
-                  "spaceId": "5257cf0b-8124-4419-87b6-815988437df5",
-                  "table": "block"
-                }
-              },
-              "id": "c8e2bc24-171f-43ba-8d0f-d4340ef84202",
-              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "last_edited_by_table": "notion_user",
-              "last_edited_time": 1641825960000,
-              "parent_id": "6977490a-4f2d-4d5a-b1b6-10e94ef18fc9",
-              "parent_table": "block",
-              "properties": {
-                "title": [
-                  [
-                    "/goals-of-larskarbo-no"
-                  ]
-                ]
-              },
-              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
-              "type": "text",
-              "version": 24
-            }
-          },
-          "e775d989-4c76-4a79-ae8e-9924a8b4650e": {
-            "role": "reader",
-            "value": {
-              "alive": true,
-              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "created_by_table": "notion_user",
-              "created_time": 1641725700000,
-              "id": "e775d989-4c76-4a79-ae8e-9924a8b4650e",
-              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "last_edited_by_table": "notion_user",
-              "last_edited_time": 1641859140000,
-              "parent_id": "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
-              "parent_table": "block",
-              "properties": {
-                "title": [
-                  [
-                    "I have been interesting in writing for a long time. At least a couple of years."
-                  ]
-                ]
-              },
-              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
-              "type": "text",
-              "version": 2
-            }
-          },
-          "f543f861-5677-4bfd-aae9-71fff5724041": {
-            "role": "reader",
-            "value": {
-              "alive": true,
-              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "created_by_table": "notion_user",
-              "created_time": 1641725880000,
-              "id": "f543f861-5677-4bfd-aae9-71fff5724041",
-              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "last_edited_by_table": "notion_user",
-              "last_edited_time": 1641725880000,
-              "parent_id": "53c8d04c-90f3-4a7c-a735-b905893f8cf7",
-              "parent_table": "block",
-              "properties": {
-                "title": [
-                  [
-                    "Web3, genius or bullshit?"
-                  ]
-                ]
-              },
-              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
-              "type": "bulleted_list",
-              "version": 29
-            }
-          },
-          "fd68700f-f667-4299-9c0e-41a4d5bc7c4a": {
-            "role": "reader",
-            "value": {
-              "alive": true,
-              "content": [
-                "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
-                "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
-                "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
-                "e05b5977-2196-4834-993c-9c899b3eb7ec",
-                "af74fadd-24c3-4e17-a933-fea1da00744a",
-                "2580bfab-7590-4a52-91ac-f6c9f7bbb298",
-                "e7a2c00d-8752-4fe6-b38c-6bde14a21050",
-                "2b574b0e-e20a-4aa3-884e-45d3b8a20495",
-                "8711af9b-3254-48b8-9b35-f8d6be011914",
-                "23829438-a093-44c0-af44-261f9ca20011",
-                "85fd5181-bcf6-470a-8026-902d969db9d2",
-                "bdaf0be2-96e8-47f6-a0c1-9abf91f6627b",
-                "54791f79-ddc8-4b58-a0e6-d4fce6d24a23",
-                "14d4263c-a202-40d3-9ad5-d0904af0581c",
-                "3e07e6cf-7cfb-43a9-a48b-2ff31568cb27",
-                "c22aad82-c82e-46d3-a89f-5b71210d1ec5",
-                "67b5a629-6522-4c26-847c-283dda23eed7",
-                "72b6bc97-dda7-4b1d-a6cc-f3e0bb473e6c",
-                "fb16959e-d347-4c36-9ecd-3f58f86dd8d5",
-                "1ae94a0f-f4d8-414b-af15-bf71f3b0f149",
-                "1ed377a5-0def-4d54-bceb-f39165b8b42d",
-                "3d671266-fe0e-4466-9e14-ae5805d83ff0",
-                "d8f9876e-715e-48bd-81a0-e061b81e69f8",
-                "21cdde62-aff9-4826-8895-edc17a6ea16a",
-                "a91e816d-1938-4d17-a98a-4bc3de948d50",
-                "d8968792-180d-4ced-83cd-d7d128ff679a"
-              ],
-              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "created_by_table": "notion_user",
-              "created_time": 1641725520000,
-              "format": {
-                "page_icon": "🦢"
-              },
-              "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
-              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642345080000,
-              "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
-              "parent_table": "space",
-              "permissions": [
-                {
-                  "role": "editor",
-                  "type": "user_permission",
-                  "user_id": "ece1e643-dda1-43f8-89a6-686da3b80c23"
-                },
-                {
-                  "added_timestamp": 1641725580869,
-                  "allow_duplicate": false,
-                  "role": "reader",
-                  "type": "public_permission"
-                }
-              ],
-              "properties": {
-                "title": [
-                  [
-                    "larskarbo.no"
-                  ]
-                ]
-              },
-              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
-              "type": "page",
-              "version": 195
+              "version": 205
             }
           }
         },
@@ -19189,7 +20022,7 @@
           "type": "emoji",
           "value": "🚴🏼‍♂️"
         },
-        "image": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/496027a1-6cef-42d8-9a33-48f92b11d17a/senses.png",
+        "image": "/images/f23576f4-b5b4-4444-81bb-0588a728d0d5/senses.png",
         "slug": "bike-4000-km-to-find-myself",
         "tags": [],
         "title": "I biked 4000 km alone to find myself. Don't repeat my mistakes!"
@@ -20569,8 +21402,10 @@
             "value": {
               "alive": true,
               "content": [
+                "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "5214e504-f066-49dd-96ed-ff7928cd7321",
+                "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
-                "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
@@ -20605,7 +21440,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642345080000,
+              "last_edited_time": 1642414920000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -20630,7 +21465,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 195
+              "version": 205
             }
           }
         },
@@ -20651,7 +21486,7 @@
           "type": "emoji",
           "value": "🚁"
         },
-        "image": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/56b0f9f0-ab28-4e10-848a-fa85ad092473/og.png",
+        "image": "/images/9e274003-727d-4ef8-93a3-58b944275182/og.png",
         "slug": "helication",
         "tags": [],
         "title": "Helication - Doing Nothing as a Productivity Strategy"
@@ -21571,8 +22406,10 @@
             "value": {
               "alive": true,
               "content": [
+                "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "5214e504-f066-49dd-96ed-ff7928cd7321",
+                "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
-                "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
@@ -21607,7 +22444,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642345080000,
+              "last_edited_time": 1642414920000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -21632,7 +22469,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 195
+              "version": 205
             }
           }
         },
@@ -21649,7 +22486,7 @@
       "meta": {
         "date": "2021-06-08T00:00:00+02:00",
         "description": "We just signed a deal with a company for a BIG B2B sale. I am so excited to see where this project leads.",
-        "image": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/76721cee-0571-41a4-8ee6-16cfb7915295/hero.png",
+        "image": "/images/8ae240a4-1c6f-4bcf-96ce-9faf0427dd22/hero.png",
         "slug": "first-b2b-sale",
         "tags": [
           "12x"
@@ -22252,8 +23089,10 @@
             "value": {
               "alive": true,
               "content": [
+                "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "5214e504-f066-49dd-96ed-ff7928cd7321",
+                "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
-                "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
@@ -22288,7 +23127,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642345080000,
+              "last_edited_time": 1642414920000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -22313,7 +23152,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 195
+              "version": 205
             }
           },
           "ff606ba3-3c7f-4052-a952-1e5f3f639a38": {
@@ -22360,7 +23199,7 @@
           "type": "emoji",
           "value": "🐀"
         },
-        "image": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e2d9a29e-15ab-4b6f-a203-38fe226e8fc1/mouse_trapper.jpeg",
+        "image": "/images/b98b26c9-1fb2-41d4-a028-6784f904d3c3/mouse_trapper.jpeg",
         "slug": "internet-mousetrap",
         "tags": [],
         "title": "Making an Internet-Connected Mouse Trap"
@@ -24085,8 +24924,10 @@
             "value": {
               "alive": true,
               "content": [
+                "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "5214e504-f066-49dd-96ed-ff7928cd7321",
+                "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
-                "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
@@ -24121,7 +24962,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642345080000,
+              "last_edited_time": 1642414920000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -24146,7 +24987,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 195
+              "version": 205
             }
           }
         },
@@ -24167,7 +25008,7 @@
           "type": "emoji",
           "value": "🥁"
         },
-        "image": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/17450e1f-7a2e-4209-9eca-aca6b45b851a/shot.png",
+        "image": "/images/ae6f6208-0b87-4fdc-a2e6-dc7d4b0658db/shot.png",
         "slug": "ankibot-telegram-bot-to-record-sounds-to-your-anki-collection",
         "tags": [],
         "title": "AnkiBot - Telegram Bot to Record Sounds to Your Anki Collection"
@@ -26021,8 +26862,10 @@
             "value": {
               "alive": true,
               "content": [
+                "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "5214e504-f066-49dd-96ed-ff7928cd7321",
+                "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
-                "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
@@ -26057,7 +26900,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642345080000,
+              "last_edited_time": 1642414920000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -26082,7 +26925,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 195
+              "version": 205
             }
           },
           "fe3688e4-fb8c-4d3d-aaa7-b886ecd95044": {
@@ -26117,7 +26960,7 @@
       "meta": {
         "date": "2020-10-20T00:00:00+02:00",
         "description": "I spent 21 days posting daily on TikTok about indie hacking and programming. The platform works differently than other platforms for sure.",
-        "image": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1d2e12b4-589c-4abf-a3fe-031870581f05/hero.png",
+        "image": "/images/7f9d1c42-b4bd-41f0-a440-84925f2d4298/hero.png",
         "slug": "tiktok-100000-views",
         "tags": [],
         "title": "How I got 100.000 views and 22.50$ revenue from 21 days on TikTok"
@@ -28042,8 +28885,10 @@
             "value": {
               "alive": true,
               "content": [
+                "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "5214e504-f066-49dd-96ed-ff7928cd7321",
+                "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
-                "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
@@ -28078,7 +28923,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642345080000,
+              "last_edited_time": 1642414920000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -28103,7 +28948,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 195
+              "version": 205
             }
           },
           "fdd47798-c8f3-4d43-a313-227215844051": {
@@ -28146,7 +28991,7 @@
       "meta": {
         "date": "2020-11-17T00:00:00+01:00",
         "description": "I created the website that nobody asked for, but ended up changing the popularity of the name \"Lars\" forever.",
-        "image": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c3880d08-ff75-4cca-922f-741f454d4370/hero.png",
+        "image": "/images/a15e6830-d958-4722-9bd7-c5e2b3dbbcbd/hero.png",
         "slug": "larslist-story",
         "tags": [
           "12x"
@@ -30250,8 +31095,10 @@
             "value": {
               "alive": true,
               "content": [
+                "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "5214e504-f066-49dd-96ed-ff7928cd7321",
+                "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
-                "9f2ebdf9-9dde-47bc-9b79-7655bdbd43cb",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
@@ -30286,7 +31133,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642345080000,
+              "last_edited_time": 1642414920000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -30311,7 +31158,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 195
+              "version": 205
             }
           }
         },

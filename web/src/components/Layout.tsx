@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
   const isRootPath = useRouter().pathname === rootPath
 
   return (
-    <div className={clsx("w-full d-ark", " dark:text-gray-100")}>
+    <div className={clsx("w-full", " dark:text-gray-100")}>
       <div className={clsx("w-full max-w-2xl mx-auto px-4 md:px-0")}>
         {!isRootPath && (
           <header className="pt-8 pb-12 flex justify-center">

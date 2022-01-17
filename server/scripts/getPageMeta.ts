@@ -46,9 +46,14 @@ export const getPageMeta = (pageId, recordMap: ExtendedRecordMap) => {
     .find((t: string) => t.startsWith("Tags: "))
     ?.replace("Tags: ", "")
     .split(",");
-  const description = restOfText[0];
+  const description = restOfText.length > 2 ? restOfText[0] : undefined;
+
   const meta: Meta = {
-    image: imageBlock ? imageBlock.value.format.display_source : undefined,
+    image: imageBlock
+      ? `/images/${imageBlock.value.id}/${imageBlock.value.format.display_source
+          .split("/")
+          .pop()}`
+      : undefined,
     slug,
     tags: tags || [],
     description,
@@ -56,7 +61,7 @@ export const getPageMeta = (pageId, recordMap: ExtendedRecordMap) => {
     date: date ? formatISO(parse(date, "yyyy-MM-dd", new Date())) : undefined,
     title: getPageTitle(recordMap),
   };
-  console.log('meta: ', meta);
+  console.log("meta: ", meta);
   mainBlock.value.content = mainBlock.value.content.filter(
     (bId) => bId !== toggleBlockId
   );

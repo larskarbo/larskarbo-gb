@@ -61,7 +61,10 @@ export default function NotionPage({
       <QuickSeo
         title={title}
         description={page.meta?.description}
-        image={page.meta?.image}
+        image={
+          page.meta?.image &&
+          "https://larskarbo-gb.vercel.app" + page.meta?.image
+        }
       />
       <Head>
         <link
