@@ -11,7 +11,7 @@ import { LinkMap, Page } from "../types"
 import { format, parse } from "date-fns"
 import { QuickSeo } from "next-quick-seo"
 import Head from "next/head"
-import { GetStaticProps } from "next"
+import { GetStaticPaths, GetStaticPathsResult, GetStaticProps } from "next"
 
 const isDev = process.env.NODE_ENV === "development" || !process.env.NODE_ENV
 
@@ -35,8 +35,10 @@ export const getStaticProps: GetStaticProps = async context => {
 
 export async function getStaticPaths() {
   return {
-    paths: [],
-    fallback: true,
+    paths: getPages().map(page => ({
+      params: { slug: page.meta.slug },
+    })),
+    fallback: false,
   }
 }
 
