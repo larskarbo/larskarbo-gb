@@ -4,14 +4,13 @@
       "id": "03324020-6778-4180-8f0b-6cb30b51035e",
       "meta": {
         "date": "2022-01-17T00:00:00+01:00",
-        "description": "/focus-blog-one-topic-17-jan-2022",
         "icon": {
           "type": "emoji",
           "value": "🤔"
         },
         "slug": "focus-blog-one-topic-17-jan-2022",
         "tags": [
-          "random"
+          "scribble"
         ],
         "title": "Should I focus this blog on one topic? - 17. jan 2022"
       },
@@ -32,7 +31,8 @@
                 "c5317b98-79fa-4c37-b6ec-108faa00d720",
                 "4174bc4d-08f5-4502-b3a5-2c212cb9960e",
                 "3ccdabe6-d191-4a9b-8cd4-607828f612c9",
-                "dc4dd2e0-c7ec-49b3-8efc-e89d690c2c2d"
+                "dc4dd2e0-c7ec-49b3-8efc-e89d690c2c2d",
+                "5fb51c95-7bc3-44f4-a109-f06ad6fcb65d"
               ],
               "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "created_by_table": "notion_user",
@@ -44,7 +44,7 @@
               "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642429080000,
+              "last_edited_time": 1642600560000,
               "parent_id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "parent_table": "block",
               "properties": {
@@ -56,7 +56,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 28
+              "version": 31
             }
           },
           "04d625d5-20c0-41b8-9cb0-d5b66c88ebf9": {
@@ -102,19 +102,19 @@
               "id": "13a5be2c-951e-400a-a06d-1cb7f5237e7b",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642428360000,
+              "last_edited_time": 1642600560000,
               "parent_id": "48171df9-321b-4e64-8312-26a84c923ec0",
               "parent_table": "block",
               "properties": {
                 "title": [
                   [
-                    "Tags: random"
+                    "Tags: scribble"
                   ]
                 ]
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "text",
-              "version": 16
+              "version": 26
             }
           },
           "1ae94a0f-f4d8-414b-af15-bf71f3b0f149": {
@@ -367,6 +367,24 @@
               "version": 21
             }
           },
+          "5fb51c95-7bc3-44f4-a109-f06ad6fcb65d": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642453560000,
+              "id": "5fb51c95-7bc3-44f4-a109-f06ad6fcb65d",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642453560000,
+              "parent_id": "03324020-6778-4180-8f0b-6cb30b51035e",
+              "parent_table": "block",
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 3
+            }
+          },
           "97961e1c-bb60-4b6e-b0b0-78654490f6d1": {
             "role": "reader",
             "value": {
@@ -580,7 +598,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642414920000,
+              "last_edited_time": 1642429980000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -605,7 +623,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 205
+              "version": 206
             }
           }
         },
@@ -2346,7 +2364,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642414920000,
+              "last_edited_time": 1642429980000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -2371,7 +2389,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 205
+              "version": 206
             }
           },
           "fdae85c8-1478-4c4d-ad87-596ff11468d0": {
@@ -4037,7 +4055,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642414920000,
+              "last_edited_time": 1642429980000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -4062,7 +4080,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 205
+              "version": 206
             }
           }
         },
@@ -4078,7 +4096,6 @@
       "id": "1ed377a5-0def-4d54-bceb-f39165b8b42d",
       "meta": {
         "date": "2020-10-31T00:00:00+01:00",
-        "description": "After 157 failed projects I have started to figure out how and what to do to make my online creations successful.",
         "image": "/images/201011d4-7f2b-401d-9270-4c1343d7baaf/hero.png",
         "slug": "the-three-phases-of-creating-useful-stuff-on-the-web",
         "tags": [],
@@ -5666,7 +5683,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642414920000,
+              "last_edited_time": 1642429980000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -5691,7 +5708,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 205
+              "version": 206
             }
           }
         },
@@ -5707,7 +5724,6 @@
       "id": "21cdde62-aff9-4826-8895-edc17a6ea16a",
       "meta": {
         "date": "2020-09-26T00:00:00+02:00",
-        "description": "The story of why I expose myself on such a weird platform that nobody really understands.",
         "image": "/images/a8ba3e71-136b-4f7b-ac65-a5cdfbbae638/why-i-start-posting-on-tiktok.png",
         "slug": "start-of-my-tiktok-career",
         "tags": [],
@@ -7106,7 +7122,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642414920000,
+              "last_edited_time": 1642429980000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -7131,7 +7147,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 205
+              "version": 206
             }
           }
         },
@@ -7147,7 +7163,6 @@
       "id": "23829438-a093-44c0-af44-261f9ca20011",
       "meta": {
         "date": "2021-09-16T00:00:00+02:00",
-        "description": "When I started my 12 startups in 12 months project, I aspired towards freedom. But I realize, if you play your cards wrong, you'll just end up with less freedom and more liabilities.",
         "slug": "art-of-simplifying",
         "tags": [],
         "title": "The Art of Doing Small and Simple Projects"
@@ -8448,7 +8463,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642414920000,
+              "last_edited_time": 1642429980000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -8473,7 +8488,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 205
+              "version": 206
             }
           }
         },
@@ -8488,7 +8503,10 @@
     {
       "id": "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
       "meta": {
-        "description": "/designing-my-new-blog",
+        "icon": {
+          "type": "emoji",
+          "value": "🎨"
+        },
         "slug": "designing-my-new-blog",
         "tags": [],
         "title": "How should I design my blog?"
@@ -8705,11 +8723,14 @@
               "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "created_by_table": "notion_user",
               "created_time": 1641826677894,
+              "format": {
+                "page_icon": "🎨"
+              },
               "id": "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
               "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642414980000,
+              "last_edited_time": 1642430040000,
               "parent_id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "parent_table": "block",
               "properties": {
@@ -8721,7 +8742,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 137
+              "version": 141
             }
           },
           "3ef6e535-d8a4-4b14-9942-56da913f44f3": {
@@ -9472,7 +9493,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642414920000,
+              "last_edited_time": 1642429980000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -9497,7 +9518,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 205
+              "version": 206
             }
           }
         },
@@ -9513,7 +9534,6 @@
       "id": "3d671266-fe0e-4466-9e14-ae5805d83ff0",
       "meta": {
         "date": "2020-10-29T00:00:00+01:00",
-        "description": "I am building a tool for music teachers, and I'm excited to show it to you. It let's you combine the power of existing music services, and effectively work with ...",
         "image": "/images/4170152c-727f-487c-a247-3884b4474db2/hero.png",
         "slug": "organize-annotate-share-samples-from-spotify-youtube",
         "tags": [],
@@ -11024,7 +11044,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642414920000,
+              "last_edited_time": 1642429980000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -11049,7 +11069,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 205
+              "version": 206
             }
           }
         },
@@ -12747,7 +12767,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642414920000,
+              "last_edited_time": 1642429980000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -12772,7 +12792,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 205
+              "version": 206
             }
           }
         },
@@ -12788,14 +12808,13 @@
       "id": "5214e504-f066-49dd-96ed-ff7928cd7321",
       "meta": {
         "date": "2022-01-17T00:00:00+01:00",
-        "description": "/three-writing-sections-17-jan-2022",
         "icon": {
           "type": "emoji",
           "value": "🤔"
         },
         "slug": "three-writing-sections-17-jan-2022",
         "tags": [
-          "random"
+          "scribble"
         ],
         "title": "Having three writing sections: articles, random thoughts and random logs - 17. Jan 2022"
       },
@@ -12817,7 +12836,8 @@
                 "c5317b98-79fa-4c37-b6ec-108faa00d720",
                 "4174bc4d-08f5-4502-b3a5-2c212cb9960e",
                 "3ccdabe6-d191-4a9b-8cd4-607828f612c9",
-                "dc4dd2e0-c7ec-49b3-8efc-e89d690c2c2d"
+                "dc4dd2e0-c7ec-49b3-8efc-e89d690c2c2d",
+                "5fb51c95-7bc3-44f4-a109-f06ad6fcb65d"
               ],
               "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "created_by_table": "notion_user",
@@ -12829,7 +12849,7 @@
               "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642429080000,
+              "last_edited_time": 1642600560000,
               "parent_id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "parent_table": "block",
               "properties": {
@@ -12841,7 +12861,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 28
+              "version": 31
             }
           },
           "1293b553-fc50-4669-970a-9ec406c9aded": {
@@ -13053,11 +13073,14 @@
               "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "created_by_table": "notion_user",
               "created_time": 1641826677894,
+              "format": {
+                "page_icon": "🎨"
+              },
               "id": "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
               "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642414980000,
+              "last_edited_time": 1642430040000,
               "parent_id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "parent_table": "block",
               "properties": {
@@ -13069,7 +13092,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 137
+              "version": 141
             }
           },
           "3cfe7672-a41e-4473-95e4-c79c651b088b": {
@@ -13167,7 +13190,7 @@
               "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642428360000,
+              "last_edited_time": 1642600560000,
               "parent_id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "parent_table": "block",
               "properties": {
@@ -13179,7 +13202,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 244
+              "version": 245
             }
           },
           "545db4a7-a96a-46a6-9e69-784d9e4b49ba": {
@@ -13510,19 +13533,19 @@
               "id": "dcbdb69f-2ede-4288-a3fa-b2d1b18cbb1d",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642428360000,
+              "last_edited_time": 1642600560000,
               "parent_id": "d9971acb-b8b9-4f9a-86d9-08f0eea78ecc",
               "parent_table": "block",
               "properties": {
                 "title": [
                   [
-                    "Tags: random"
+                    "Tags: scribble"
                   ]
                 ]
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "text",
-              "version": 23
+              "version": 33
             }
           },
           "ebb85ccf-3b2b-438b-ae95-00e5f92d4b93": {
@@ -13605,7 +13628,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642414920000,
+              "last_edited_time": 1642429980000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -13630,7 +13653,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 205
+              "version": 206
             }
           }
         },
@@ -14657,7 +14680,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642414920000,
+              "last_edited_time": 1642429980000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -14682,7 +14705,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 205
+              "version": 206
             }
           }
         },
@@ -15983,7 +16006,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642414920000,
+              "last_edited_time": 1642429980000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -16008,7 +16031,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 205
+              "version": 206
             }
           }
         },
@@ -17391,7 +17414,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642414920000,
+              "last_edited_time": 1642429980000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -17416,7 +17439,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 205
+              "version": 206
             }
           },
           "fe3f812e-4137-4c02-8908-4ea025d4a699": {
@@ -17483,7 +17506,6 @@
       "id": "85fd5181-bcf6-470a-8026-902d969db9d2",
       "meta": {
         "date": "2021-08-31T00:00:00+02:00",
-        "description": "After 7 months on the internet, I have decided to shut down ",
         "image": "/images/e487c424-c74f-490c-a6f9-a56face62f8c/hero.png",
         "slug": "shutting-down-slapper",
         "tags": [],
@@ -18139,7 +18161,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642414920000,
+              "last_edited_time": 1642429980000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -18164,7 +18186,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 205
+              "version": 206
             }
           }
         },
@@ -18181,7 +18203,7 @@
       "meta": {
         "date": "2021-12-31T00:00:00+01:00",
         "description": "A year ago I started an ambitious project to create build 12 profitable small businesses. Now, a year later, I have a bunch of learnings under my belt.",
-        "image": "/images/a9d55927-bb4b-4b8d-86e8-4b5935ffa276/hero12xdone.png",
+        "image": "/images/46ef1bba-0f1e-41d0-a355-9d1ba6620eb9/12xfdone_(1).png",
         "slug": "year-of-making",
         "tags": [
           "12x"
@@ -18773,6 +18795,57 @@
               "version": 1
             }
           },
+          "46ef1bba-0f1e-41d0-a355-9d1ba6620eb9": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642429740000,
+              "file_ids": [
+                "5f808037-7542-47e2-b66d-907a61b4a569"
+              ],
+              "format": {
+                "block_aspect_ratio": 0.525,
+                "block_full_width": false,
+                "block_page_width": false,
+                "block_preserve_scale": true,
+                "block_width": 240,
+                "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5f808037-7542-47e2-b66d-907a61b4a569/12xfdone_(1).png"
+              },
+              "id": "46ef1bba-0f1e-41d0-a355-9d1ba6620eb9",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642429740000,
+              "parent_id": "5702745c-a828-4cf3-83c9-21b92aaa08ba",
+              "parent_table": "block",
+              "properties": {
+                "extra": {
+                  "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAACCAIAAADwyuo0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAI0lEQVQImWPYtW//mjVrKqurV2/YxvD//2dHa01xBgYnY0kAv8cL953MKEoAAAAASUVORK5CYII=",
+                  "height": 630,
+                  "width": 1200
+                },
+                "size": [
+                  [
+                    "978.9KB"
+                  ]
+                ],
+                "source": [
+                  [
+                    "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5f808037-7542-47e2-b66d-907a61b4a569/12xfdone_(1).png"
+                  ]
+                ],
+                "title": [
+                  [
+                    "12xfdone (1).png"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "image",
+              "version": 10
+            }
+          },
           "5021e4e8-39be-49a5-9776-b631dcc73f6c": {
             "role": "reader",
             "value": {
@@ -18903,7 +18976,7 @@
             "value": {
               "alive": true,
               "content": [
-                "a9d55927-bb4b-4b8d-86e8-4b5935ffa276",
+                "46ef1bba-0f1e-41d0-a355-9d1ba6620eb9",
                 "982b6041-bd8d-4e11-9ea3-d8835e33e28d",
                 "650d2fc3-3c26-4d48-8614-ae277c40d444",
                 "1b7f5570-c281-4a1f-8642-70b8c290d273"
@@ -18914,7 +18987,7 @@
               "id": "5702745c-a828-4cf3-83c9-21b92aaa08ba",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1641850500000,
+              "last_edited_time": 1642429740000,
               "parent_id": "8711af9b-3254-48b8-9b35-f8d6be011914",
               "parent_table": "block",
               "properties": {
@@ -18939,7 +19012,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "toggle",
-              "version": 25
+              "version": 28
             }
           },
           "58e79381-cf59-401d-b553-3e00315f050e": {
@@ -19137,7 +19210,7 @@
               "id": "8711af9b-3254-48b8-9b35-f8d6be011914",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642346280000,
+              "last_edited_time": 1642429740000,
               "parent_id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "parent_table": "block",
               "properties": {
@@ -19149,7 +19222,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 91
+              "version": 92
             }
           },
           "8a4249a0-52fe-4f06-b0e1-0fa9e6317574": {
@@ -19356,57 +19429,6 @@
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "text",
               "version": 3
-            }
-          },
-          "a9d55927-bb4b-4b8d-86e8-4b5935ffa276": {
-            "role": "reader",
-            "value": {
-              "alive": true,
-              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "created_by_table": "notion_user",
-              "created_time": 1641820080000,
-              "file_ids": [
-                "1af2adc2-2dd5-4f00-8bbf-7e09e3c849d9"
-              ],
-              "format": {
-                "block_aspect_ratio": 0.525,
-                "block_full_width": false,
-                "block_page_width": false,
-                "block_preserve_scale": true,
-                "block_width": 192,
-                "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1af2adc2-2dd5-4f00-8bbf-7e09e3c849d9/hero12xdone.png"
-              },
-              "id": "a9d55927-bb4b-4b8d-86e8-4b5935ffa276",
-              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
-              "last_edited_by_table": "notion_user",
-              "last_edited_time": 1641820080000,
-              "parent_id": "5702745c-a828-4cf3-83c9-21b92aaa08ba",
-              "parent_table": "block",
-              "properties": {
-                "extra": {
-                  "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAACCAIAAADwyuo0AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAI0lEQVQImWOYsnZ2Y1/rhGnTf/z9z6DZys8gxJAZFfz3/2cArZAM9n6Jd9QAAAAASUVORK5CYII=",
-                  "height": 1260,
-                  "width": 2400
-                },
-                "size": [
-                  [
-                    "2730.8KB"
-                  ]
-                ],
-                "source": [
-                  [
-                    "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1af2adc2-2dd5-4f00-8bbf-7e09e3c849d9/hero12xdone.png"
-                  ]
-                ],
-                "title": [
-                  [
-                    "hero12xdone.png"
-                  ]
-                ]
-              },
-              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
-              "type": "image",
-              "version": 10
             }
           },
           "ac1387e2-a769-42ff-b778-c3ae16e432d8": {
@@ -19976,7 +19998,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642414920000,
+              "last_edited_time": 1642429980000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -20001,7 +20023,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 205
+              "version": 206
             }
           }
         },
@@ -20017,7 +20039,6 @@
       "id": "a91e816d-1938-4d17-a98a-4bc3de948d50",
       "meta": {
         "date": "2020-09-13T00:00:00+02:00",
-        "description": "When I was younger I set out on a grand trip to bike from Norway to Italy. Here are some of the lessons I learned.",
         "icon": {
           "type": "emoji",
           "value": "🚴🏼‍♂️"
@@ -21440,7 +21461,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642414920000,
+              "last_edited_time": 1642429980000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -21465,7 +21486,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 205
+              "version": 206
             }
           }
         },
@@ -21481,7 +21502,6 @@
       "id": "af74fadd-24c3-4e17-a933-fea1da00744a",
       "meta": {
         "date": "2022-01-16T00:00:00+01:00",
-        "description": "/helication",
         "icon": {
           "type": "emoji",
           "value": "🚁"
@@ -21868,7 +21888,7 @@
               "id": "8711af9b-3254-48b8-9b35-f8d6be011914",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642346280000,
+              "last_edited_time": 1642429740000,
               "parent_id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "parent_table": "block",
               "properties": {
@@ -21880,7 +21900,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 91
+              "version": 92
             }
           },
           "99df847e-f5e2-4f92-856c-e5fd58188034": {
@@ -22444,7 +22464,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642414920000,
+              "last_edited_time": 1642429980000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -22469,7 +22489,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 205
+              "version": 206
             }
           }
         },
@@ -23127,7 +23147,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642414920000,
+              "last_edited_time": 1642429980000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -23152,7 +23172,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 205
+              "version": 206
             }
           },
           "ff606ba3-3c7f-4052-a952-1e5f3f639a38": {
@@ -23194,7 +23214,6 @@
       "id": "c22aad82-c82e-46d3-a89f-5b71210d1ec5",
       "meta": {
         "date": "2020-12-29T00:00:00+01:00",
-        "description": "Instructions on how to make an internet connected mouse trap that sends you a message whenever there is a dead mouse in the trap.",
         "icon": {
           "type": "emoji",
           "value": "🐀"
@@ -24962,7 +24981,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642414920000,
+              "last_edited_time": 1642429980000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -24987,7 +25006,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 205
+              "version": 206
             }
           }
         },
@@ -25003,7 +25022,6 @@
       "id": "d8968792-180d-4ced-83cd-d7d128ff679a",
       "meta": {
         "date": "2020-06-07T00:00:00+02:00",
-        "description": "The Ankibot lets you easily record sounds into your Anki cards using Telegram. It is a great tool to have in your language-learning toolbox.",
         "icon": {
           "type": "emoji",
           "value": "🥁"
@@ -26900,7 +26918,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642414920000,
+              "last_edited_time": 1642429980000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -26925,7 +26943,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 205
+              "version": 206
             }
           },
           "fe3688e4-fb8c-4d3d-aaa7-b886ecd95044": {
@@ -26959,7 +26977,6 @@
       "id": "d8f9876e-715e-48bd-81a0-e061b81e69f8",
       "meta": {
         "date": "2020-10-20T00:00:00+02:00",
-        "description": "I spent 21 days posting daily on TikTok about indie hacking and programming. The platform works differently than other platforms for sure.",
         "image": "/images/7f9d1c42-b4bd-41f0-a440-84925f2d4298/hero.png",
         "slug": "tiktok-100000-views",
         "tags": [],
@@ -28923,7 +28940,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642414920000,
+              "last_edited_time": 1642429980000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -28948,7 +28965,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 205
+              "version": 206
             }
           },
           "fdd47798-c8f3-4d43-a313-227215844051": {
@@ -31133,7 +31150,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642414920000,
+              "last_edited_time": 1642429980000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -31158,7 +31175,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 205
+              "version": 206
             }
           }
         },

@@ -74,13 +74,12 @@ export const Text: React.FC<{
               if ((v[0] === "/" || v.includes("rootDomain")) && id) {
                 const slug = getSlug(id, linkMap)
 
-                if(!slug) {
+                if (!slug) {
                   return element
                 }
 
                 return (
                   <SuperLink
-                    className="notion-link"
                     href={"/" + slug}
                     {...linkProps}
                   >
@@ -89,8 +88,7 @@ export const Text: React.FC<{
                 )
               } else {
                 return (
-                  <a
-                    className="notion-link"
+                  <SuperLink
                     href={
                       linkProtocol
                         ? `${linkProtocol}:${decorator[1]}`
@@ -99,7 +97,7 @@ export const Text: React.FC<{
                     {...linkProps}
                   >
                     {element}
-                  </a>
+                  </SuperLink>
                 )
               }
             }
