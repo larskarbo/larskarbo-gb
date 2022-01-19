@@ -1,17 +1,14 @@
 import clsx from "clsx"
-import { getPageTitle } from "notion-utils"
-import { Collection, CollectionRow, NotionRenderer } from "react-notion-x"
+import { format } from "date-fns"
+import { GetStaticProps } from "next"
+import { QuickSeo } from "next-quick-seo"
+import Head from "next/head"
 import notionData from "../../content/notionData.json"
 import Layout from "../components/Layout"
 import { ArticleProvider } from "../components/rendering/article-context"
 import { NotionBlockRenderer } from "../components/rendering/NotionBlock"
-import { useTheme } from "../components/theme-context"
 import { getPages } from "../components/utils/getPages"
 import { LinkMap, Page } from "../types"
-import { format, parse } from "date-fns"
-import { QuickSeo } from "next-quick-seo"
-import Head from "next/head"
-import { GetStaticPaths, GetStaticPathsResult, GetStaticProps } from "next"
 
 const isDev = process.env.NODE_ENV === "development" || !process.env.NODE_ENV
 

@@ -140,9 +140,9 @@ const BlogIndex = ({ pages }: { pages: Page[] }) => {
 Hi, I'm [Lars](https://larslist.org/).
 
 
-This website is a place for my thoughts, projects and writings. It is
-not centered around one topic, but rather a conglemeration of [my articles](),
-[scribbles]() and random ideas.
+This website is a place for my thoughts, projects, and writings. It is
+not centered around one topic, but rather a conglomeration of [my articles](),
+[scribbles](), and random ideas.
 
 
 Like my brain: some good parts, some messy parts, and all in all a
