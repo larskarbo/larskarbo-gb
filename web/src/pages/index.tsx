@@ -65,7 +65,7 @@ const Cat = ({ title, pages }: { title: string; pages: Page[] }) => {
 
 const Talk = ({ md }) => {
   return (
-    <div className="flex pt-4 pb-24 -left-7 relative max-w-xl mx-auto">
+    <div className="flex  md:-left-7 relative max-w-xl mx-auto">
       <img
         src="https://s.gravatar.com/avatar/4579b299730ddc53e3d523ec1cd5482a?s=112"
         alt={`Picture of Lars Karbo`}
@@ -119,14 +119,14 @@ const BlogIndex = ({ pages }: { pages: Page[] }) => {
         description="Some kind of weird part of the internet where lars writes stuff. Can be thoughts or articles or anything really."
       />
 
-      <div className="min-h-screen px-8 flex flex-col">
-        <div className="w-screen py-24 max-w-6xl mx-auto grid gap-8 grid-cols-2 ">
+      <div className="min-h-screen px-8 flex flex-col pt-24 gap-12">
+        <div className="order-1 md:order-first w-screen max-w-6xl mx-auto md:grid gap-8 grid-cols-2 ">
           <Cat title="Most notable articles" pages={bestArticles} />
           <Cat title="Recent articles" pages={articles.slice(0, 4)} />
         </div>
 
-        <div className="flex flex-grow gap-8  grid-cols-3">
-          <div className="w-96">
+        <div className="order- block xl:flex  xl:flex-grow gap-4">
+          <div className="xl:block hidden w-96">
             <Cat
               title="Things I like"
               pages={newPages.filter(
@@ -134,7 +134,7 @@ const BlogIndex = ({ pages }: { pages: Page[] }) => {
               )}
             />
           </div>
-          <div className="flex flex-grow flex-col items-center">
+          <div className="flex flex-grow flex-col items-center xl:pl-8">
             <Talk
               md={`
 Hi, I'm [Lars](https://larslist.org/).
@@ -151,9 +151,20 @@ huge interconnected web of interesting topics and creative ideas
             />
             {/* <div className="flex-grow border-l border-gray-300 mb-8"></div> */}
           </div>
-          <div className="w-96">
+          <div className="xl:block hidden w-96">
             <Cat title="Recent scribbles" pages={scribbles} />
           </div>
+        </div>
+
+        <div className="xl:hidden md:grid grid-cols-2">
+          {" "}
+          <Cat
+            title="Things I like"
+            pages={newPages.filter(
+              page => !page.meta.tags?.includes("scribble")
+            )}
+          />
+          <Cat title="Recent scribbles" pages={scribbles} />
         </div>
       </div>
 
@@ -164,7 +175,7 @@ huge interconnected web of interesting topics and creative ideas
         <div className="h-48 border-l border-gray-300 mx-auto w-1"></div>
       </div> */}
 
-      <div className="grid grid-cols-2  items-center">
+      <div className="xl:grid grid-cols-2 flex flex-col items-center pt-24">
         <Talk
           md={`
 In 2021 I built 12 startups in 12 months.
