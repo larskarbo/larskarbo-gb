@@ -45,6 +45,7 @@ export const Text: React.FC<{
             }
 
             case "h":
+              console.log('decorator: ', decorator);
               return <span className={`notion-${decorator[1]}`}>{element}</span>
 
             case "c":
@@ -60,7 +61,7 @@ export const Text: React.FC<{
               return <s>{element}</s>
 
             case "_":
-              return <span className="notion-inline-underscore">{element}</span>
+              return <span className="underline">{element}</span>
 
             case "m":
               // comment / discussion

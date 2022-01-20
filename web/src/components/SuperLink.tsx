@@ -8,7 +8,7 @@ export const SuperLink = ({ href, children, noStyle = false, ...props }) => {
       <a
         className={clsx(
           !noStyle &&
-            "underline  underline-offset-4 decoration-gray-300 hover:decoration-gray-400 opacity-80 "
+            "underline   underline-offset-4 decoration-gray-300 hover:decoration-gray-400 opacity-80  font-medium "
         )}
         {...(external
           ? {

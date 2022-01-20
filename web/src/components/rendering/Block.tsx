@@ -196,9 +196,7 @@ export const Block: React.FC<{
     case "tweet":
       console.log("block:", block)
       return (
-        <div className="flex justify-center w-full">
-          <TweetEmbed id={block.properties.source[0][0].split("/").pop()} />
-        </div>
+        <TweetEmbed className="w-full flex justify-center" id={block.properties.source[0][0].split("/").pop()} />
       )
     case "maps":
     // fallthrough
@@ -256,7 +254,7 @@ export const Block: React.FC<{
 
       return (
         <blockquote
-          className={clsx("notion-quote", blockColor && `notion-${blockColor}`)}
+          className={clsx("notion-quote whitespace-pre-wrap", blockColor && `notion-${blockColor}`)}
         >
           {/* @ts-ignore */}
           <Text value={block.properties.title} block={block} />

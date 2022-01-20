@@ -561,6 +561,7 @@
               "alive": true,
               "content": [
                 "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
                 "5214e504-f066-49dd-96ed-ff7928cd7321",
                 "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
@@ -598,7 +599,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642429980000,
+              "last_edited_time": 1642675440000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -623,7 +624,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 206
+              "version": 210
             }
           }
         },
@@ -2327,6 +2328,7 @@
               "alive": true,
               "content": [
                 "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
                 "5214e504-f066-49dd-96ed-ff7928cd7321",
                 "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
@@ -2364,7 +2366,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642429980000,
+              "last_edited_time": 1642675440000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -2389,7 +2391,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 206
+              "version": 210
             }
           },
           "fdae85c8-1478-4c4d-ad87-596ff11468d0": {
@@ -4018,6 +4020,7 @@
               "alive": true,
               "content": [
                 "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
                 "5214e504-f066-49dd-96ed-ff7928cd7321",
                 "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
@@ -4055,7 +4058,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642429980000,
+              "last_edited_time": 1642675440000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -4080,7 +4083,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 206
+              "version": 210
             }
           }
         },
@@ -5646,6 +5649,7 @@
               "alive": true,
               "content": [
                 "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
                 "5214e504-f066-49dd-96ed-ff7928cd7321",
                 "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
@@ -5683,7 +5687,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642429980000,
+              "last_edited_time": 1642675440000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -5708,7 +5712,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 206
+              "version": 210
             }
           }
         },
@@ -7085,6 +7089,7 @@
               "alive": true,
               "content": [
                 "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
                 "5214e504-f066-49dd-96ed-ff7928cd7321",
                 "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
@@ -7122,7 +7127,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642429980000,
+              "last_edited_time": 1642675440000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -7147,7 +7152,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 206
+              "version": 210
             }
           }
         },
@@ -8426,6 +8431,7 @@
               "alive": true,
               "content": [
                 "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
                 "5214e504-f066-49dd-96ed-ff7928cd7321",
                 "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
@@ -8463,7 +8469,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642429980000,
+              "last_edited_time": 1642675440000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -8488,7 +8494,697 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 206
+              "version": 210
+            }
+          }
+        },
+        "collection": {},
+        "collection_query": {},
+        "collection_view": {},
+        "notion_user": {},
+        "signed_urls": {},
+        "space": {}
+      }
+    },
+    {
+      "id": "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
+      "meta": {
+        "date": "2022-01-20T00:00:00+01:00",
+        "slug": "shutting-down-side-projects-find-focus",
+        "tags": [],
+        "title": "Shutting down my side projects to find focus"
+      },
+      "recordMap": {
+        "block": {
+          "08661002-9444-47e1-82a1-22f04fab2ee6": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642675729376,
+              "id": "08661002-9444-47e1-82a1-22f04fab2ee6",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642676220000,
+              "parent_id": "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "I will shut down Slapper, Imitate, MediaChopper, VideoFly, and TokenBird, and I pause new development work with freelance clients ("
+                  ],
+                  [
+                    "Rude Boy's",
+                    [
+                      [
+                        "a",
+                        "https://rudeboys.io"
+                      ]
+                    ]
+                  ],
+                  [
+                    " and "
+                  ],
+                  [
+                    "Holo World",
+                    [
+                      [
+                        "a",
+                        "https://holoworld.io"
+                      ]
+                    ]
+                  ],
+                  [
+                    ")."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 5
+            }
+          },
+          "0cbb7d15-2066-437a-9bb4-6fe2ad1b5ec6": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642675729375,
+              "id": "0cbb7d15-2066-437a-9bb4-6fe2ad1b5ec6",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642676460000,
+              "parent_id": "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "For the new chapter of my life, I should rethink my strategy. Make sure that I don't drag over habits and patterns from the experiment that don't serve me anymore."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 4
+            }
+          },
+          "0e1ebbb3-eb83-4bc8-8296-08e0ac02c95d": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642676160000,
+              "id": "0e1ebbb3-eb83-4bc8-8296-08e0ac02c95d",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642676220000,
+              "parent_id": "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Let’s go."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 17
+            }
+          },
+          "1ae94a0f-f4d8-414b-af15-bf71f3b0f149": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "content": [
+                "1621eb48-4e23-4aed-8475-08f7534ccd50",
+                "91663518-55ff-47eb-bcae-b3235c786b49",
+                "20307935-6964-4de0-9a84-dda44ac77935",
+                "748a8ff1-c195-4d61-bb6c-95fced3fe0d6",
+                "7f15ea8a-ce3a-4273-960a-477cae913fa5",
+                "bf92034d-f557-4355-b7f3-285e45c2a761",
+                "ac02fa16-3119-4c62-97fb-2cd21bd594b7",
+                "076b9590-dfec-4e0c-81db-1f7107f00b3a",
+                "6fd9928b-a6b7-4d51-9f3d-1e89e56b8f9b",
+                "5d3c3c75-ead1-48c8-859c-b392687cd8c2",
+                "c5760020-33ce-4815-b2bc-21fa053fc2c4",
+                "ccfac0bf-264f-4b49-9530-1c915acc8f70",
+                "9efb8cb7-96ce-4785-90ed-bc57ea498b7a",
+                "95959d44-4e67-4d71-9e65-0692bf1939c7",
+                "e4bb5ae3-f408-4e93-bf9e-376ef6e7d83d",
+                "4d239310-2753-46d7-9d8e-7edfa07b2420",
+                "9520a668-c814-49f4-af20-5bf48814c1ed",
+                "7310a332-b927-47b8-9024-323714cd4be1",
+                "3a6ecb10-deac-4a40-98a6-fb4e9957f9cf",
+                "88cab162-0c4d-4dfb-b141-aed775d1b38a",
+                "c05dccea-83fc-4563-92e4-cdee470b30eb",
+                "049d4d89-d143-4a3e-a627-b0c2c05689c2",
+                "63c18bcf-599f-4783-b9d0-2c17b8f5bb04",
+                "c8bd8db5-ada8-4a8c-a18c-6bba778e74b7",
+                "d96a1d5e-98df-4acb-8bf5-f4660c6ef2e1",
+                "7b780ed3-6773-470d-a6cc-72bf35573bed",
+                "76f69802-e0e6-403f-989f-0ec16b5ba569",
+                "190dc94a-6ee7-4a66-92eb-9e862c2715ca",
+                "df90120c-afc5-4b71-b199-94e231f8e3c9",
+                "f354c501-56ac-4ff6-a66a-1f8099ec23b6",
+                "01e06a92-cebd-4db8-b221-912dd7cf1cda",
+                "a5f9476e-1108-42df-b897-b15d14a8f5cc",
+                "e47ef59c-b80c-4184-a971-3a533f89a31e",
+                "53de6371-1214-4e80-be18-dc25ddbb2881",
+                "d927a624-0f2d-4f65-8437-7e6d8406d3e7",
+                "69c24ae1-5f7c-49db-9ae1-c22a44ef18f3",
+                "9f8eca56-a920-480b-bd13-622e542a2add",
+                "22685c28-c445-4970-a949-d1ad712fd349",
+                "f9e238a8-adb3-426e-aeb1-8040e69753de",
+                "6834c652-006d-46f5-ac2c-6deb56e4353f",
+                "844776c2-e3e0-4aaf-a026-a9b8f144c22a"
+              ],
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642342587113,
+              "id": "1ae94a0f-f4d8-414b-af15-bf71f3b0f149",
+              "ignore_block_count": true,
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642342860000,
+              "parent_id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "I'm building 12 startups in 12 months"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "page",
+              "version": 21
+            }
+          },
+          "2e5e075a-34b4-492d-b879-c0ada1ecbb8b": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "content": [
+                "f5da6e4b-d3a0-4f00-b2bf-ac8529d430da",
+                "bf6be6b4-f4d9-483d-8dac-79ab485eeacf",
+                "0cbb7d15-2066-437a-9bb4-6fe2ad1b5ec6",
+                "c2df83d4-fe9a-42b7-b714-539462d54707",
+                "81cc187b-7b86-47ad-ba70-4a427f1bce12",
+                "ffe1ec2f-595d-46e1-a536-aed65bd2104a",
+                "08661002-9444-47e1-82a1-22f04fab2ee6",
+                "ef978510-ecaf-453d-9da1-2d05ea094a36",
+                "5b4c0e66-1d42-406c-99eb-05c8acf1178a",
+                "9bc1821c-61f1-4648-af18-218600697021",
+                "c7286ade-44ea-4573-b542-d6242b19e326",
+                "432ca1fc-6eaf-4199-916d-4b041aee00c9",
+                "0e1ebbb3-eb83-4bc8-8296-08e0ac02c95d"
+              ],
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642675453222,
+              "id": "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642678080000,
+              "parent_id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Shutting down my side projects to find focus"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "page",
+              "version": 59
+            }
+          },
+          "432ca1fc-6eaf-4199-916d-4b041aee00c9": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642675920000,
+              "id": "432ca1fc-6eaf-4199-916d-4b041aee00c9",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642676520000,
+              "parent_id": "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Oliver Burkeman’s book "
+                  ],
+                  [
+                    "4000 weeks",
+                    [
+                      [
+                        "a",
+                        "https://www.goodreads.com/en/book/show/54785515-four-thousand-weeks"
+                      ]
+                    ]
+                  ],
+                  [
+                    " hit me hard. I'm going to cultivate the "
+                  ],
+                  [
+                    "Joy of missing out",
+                    [
+                      [
+                        "i"
+                      ]
+                    ]
+                  ],
+                  [
+                    " and seek to be intentional about where my focus and attention will go."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 173
+            }
+          },
+          "5865f1c7-3ac0-4eba-b912-c5753d86a595": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642676580000,
+              "id": "5865f1c7-3ac0-4eba-b912-c5753d86a595",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642676580000,
+              "parent_id": "855e2525-959a-42b4-b311-ba4163346dbe",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "/shutting-down-side-projects-find-focus"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 49
+            }
+          },
+          "5b4c0e66-1d42-406c-99eb-05c8acf1178a": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642675729376,
+              "id": "5b4c0e66-1d42-406c-99eb-05c8acf1178a",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642676940000,
+              "parent_id": "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Why can't you keep XXX running? You don't need to do anything.",
+                    [
+                      [
+                        "i"
+                      ],
+                      [
+                        "b"
+                      ]
+                    ]
+                  ],
+                  [
+                    " ",
+                    [
+                      [
+                        "i"
+                      ]
+                    ]
+                  ],
+                  [
+                    "It’s easy to fall into the trap that you can have things running without interfering with your main attention. Things will take space in the mind."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 141
+            }
+          },
+          "81cc187b-7b86-47ad-ba70-4a427f1bce12": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642675729375,
+              "id": "81cc187b-7b86-47ad-ba70-4a427f1bce12",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642675680000,
+              "parent_id": "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "I strive to be a human that is present with work, life, play, and the ecosystem around me. In order to do this, I need a simple life. That means developing a different attitude towards opportunities."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 2
+            }
+          },
+          "855e2525-959a-42b4-b311-ba4163346dbe": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "content": [
+                "5865f1c7-3ac0-4eba-b912-c5753d86a595"
+              ],
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642676575880,
+              "id": "855e2525-959a-42b4-b311-ba4163346dbe",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642676580000,
+              "parent_id": "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "‣",
+                    [
+                      [
+                        "d",
+                        {
+                          "type": "date",
+                          "start_date": "2022-01-20",
+                          "date_format": "relative"
+                        }
+                      ]
+                    ]
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "toggle",
+              "version": 15
+            }
+          },
+          "9bc1821c-61f1-4648-af18-218600697021": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642676280000,
+              "id": "9bc1821c-61f1-4648-af18-218600697021",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642676520000,
+              "parent_id": "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Multiple projects can give you the illusion of making progress when all it’s doing is giving you a reason to procrastinate from something hard."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 166
+            }
+          },
+          "bf6be6b4-f4d9-483d-8dac-79ab485eeacf": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642675729375,
+              "id": "bf6be6b4-f4d9-483d-8dac-79ab485eeacf",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642675680000,
+              "parent_id": "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "I purposefully went out and started more things than I could maintain. I allowed myself to do things I knew weren't sustainable in the long term. Be contrarian to common advice."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 2
+            }
+          },
+          "c2df83d4-fe9a-42b7-b714-539462d54707": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642675729375,
+              "id": "c2df83d4-fe9a-42b7-b714-539462d54707",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642676460000,
+              "parent_id": "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "I will be joining a company and working there for at least a year. I will go deep into this project. On the side of my main tasks, I will learn new relevant things, and interact with communities."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 13
+            }
+          },
+          "c7286ade-44ea-4573-b542-d6242b19e326": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642675729376,
+              "id": "c7286ade-44ea-4573-b542-d6242b19e326",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642678080000,
+              "parent_id": "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "The most appealing way to resist the truth about your finite time is to initiate a large number of projects at once. You get to feel as though you’re keeping plenty of irons in the fire and making progress on all fronts. Instead, what usually ends up happening is that you make progress on no fronts—because "
+                  ],
+                  [
+                    "each time a project starts to feel difficult, or frightening, or boring, you can bounce off to a different one instead",
+                    [
+                      [
+                        "h",
+                        "yellow_background"
+                      ]
+                    ]
+                  ],
+                  [
+                    ". You get to preserve your sense of being in control of things, but at the cost of never finishing anything important.\n"
+                  ],
+                  [
+                    "- Oliver Burkeman, 4000 weeks",
+                    [
+                      [
+                        "h",
+                        "gray"
+                      ]
+                    ]
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "quote",
+              "version": 110
+            }
+          },
+          "ef978510-ecaf-453d-9da1-2d05ea094a36": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642675729376,
+              "id": "ef978510-ecaf-453d-9da1-2d05ea094a36",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642676520000,
+              "parent_id": "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "This means changing the landing pages to goodbye pages, redirecting the domains, or closing them altogether. Forcibly shut them down."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 18
+            }
+          },
+          "f5da6e4b-d3a0-4f00-b2bf-ac8529d430da": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642675729375,
+              "id": "f5da6e4b-d3a0-4f00-b2bf-ac8529d430da",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642675740000,
+              "parent_id": "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Last year was all about generating opportunities. Saying yes to everything. Building a "
+                  ],
+                  [
+                    "new startup every month",
+                    [
+                      [
+                        "a",
+                        "/1ae94a0ff4d8414baf15bf71f3b0f149"
+                      ]
+                    ]
+                  ],
+                  [
+                    "."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 6
+            }
+          },
+          "fd68700f-f667-4299-9c0e-41a4d5bc7c4a": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "content": [
+                "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
+                "5214e504-f066-49dd-96ed-ff7928cd7321",
+                "03324020-6778-4180-8f0b-6cb30b51035e",
+                "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
+                "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
+                "e05b5977-2196-4834-993c-9c899b3eb7ec",
+                "af74fadd-24c3-4e17-a933-fea1da00744a",
+                "2580bfab-7590-4a52-91ac-f6c9f7bbb298",
+                "e7a2c00d-8752-4fe6-b38c-6bde14a21050",
+                "2b574b0e-e20a-4aa3-884e-45d3b8a20495",
+                "8711af9b-3254-48b8-9b35-f8d6be011914",
+                "23829438-a093-44c0-af44-261f9ca20011",
+                "85fd5181-bcf6-470a-8026-902d969db9d2",
+                "bdaf0be2-96e8-47f6-a0c1-9abf91f6627b",
+                "54791f79-ddc8-4b58-a0e6-d4fce6d24a23",
+                "14d4263c-a202-40d3-9ad5-d0904af0581c",
+                "3e07e6cf-7cfb-43a9-a48b-2ff31568cb27",
+                "c22aad82-c82e-46d3-a89f-5b71210d1ec5",
+                "67b5a629-6522-4c26-847c-283dda23eed7",
+                "72b6bc97-dda7-4b1d-a6cc-f3e0bb473e6c",
+                "fb16959e-d347-4c36-9ecd-3f58f86dd8d5",
+                "1ae94a0f-f4d8-414b-af15-bf71f3b0f149",
+                "1ed377a5-0def-4d54-bceb-f39165b8b42d",
+                "3d671266-fe0e-4466-9e14-ae5805d83ff0",
+                "d8f9876e-715e-48bd-81a0-e061b81e69f8",
+                "21cdde62-aff9-4826-8895-edc17a6ea16a",
+                "a91e816d-1938-4d17-a98a-4bc3de948d50",
+                "d8968792-180d-4ced-83cd-d7d128ff679a"
+              ],
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1641725520000,
+              "format": {
+                "page_icon": "🦢"
+              },
+              "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642675440000,
+              "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "parent_table": "space",
+              "permissions": [
+                {
+                  "role": "editor",
+                  "type": "user_permission",
+                  "user_id": "ece1e643-dda1-43f8-89a6-686da3b80c23"
+                },
+                {
+                  "added_timestamp": 1641725580869,
+                  "allow_duplicate": false,
+                  "role": "reader",
+                  "type": "public_permission"
+                }
+              ],
+              "properties": {
+                "title": [
+                  [
+                    "larskarbo.no"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "page",
+              "version": 210
+            }
+          },
+          "ffe1ec2f-595d-46e1-a536-aed65bd2104a": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642675729375,
+              "id": "ffe1ec2f-595d-46e1-a536-aed65bd2104a",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642675740000,
+              "parent_id": "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Shutting down side projects"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "sub_header",
+              "version": 9
             }
           }
         },
@@ -9456,6 +10152,7 @@
               "alive": true,
               "content": [
                 "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
                 "5214e504-f066-49dd-96ed-ff7928cd7321",
                 "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
@@ -9493,7 +10190,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642429980000,
+              "last_edited_time": 1642675440000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -9518,7 +10215,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 206
+              "version": 210
             }
           }
         },
@@ -11007,6 +11704,7 @@
               "alive": true,
               "content": [
                 "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
                 "5214e504-f066-49dd-96ed-ff7928cd7321",
                 "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
@@ -11044,7 +11742,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642429980000,
+              "last_edited_time": 1642675440000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -11069,7 +11767,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 206
+              "version": 210
             }
           }
         },
@@ -12730,6 +13428,7 @@
               "alive": true,
               "content": [
                 "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
                 "5214e504-f066-49dd-96ed-ff7928cd7321",
                 "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
@@ -12767,7 +13466,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642429980000,
+              "last_edited_time": 1642675440000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -12792,7 +13491,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 206
+              "version": 210
             }
           }
         },
@@ -13591,6 +14290,7 @@
               "alive": true,
               "content": [
                 "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
                 "5214e504-f066-49dd-96ed-ff7928cd7321",
                 "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
@@ -13628,7 +14328,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642429980000,
+              "last_edited_time": 1642675440000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -13653,7 +14353,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 206
+              "version": 210
             }
           }
         },
@@ -14643,6 +15343,7 @@
               "alive": true,
               "content": [
                 "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
                 "5214e504-f066-49dd-96ed-ff7928cd7321",
                 "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
@@ -14680,7 +15381,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642429980000,
+              "last_edited_time": 1642675440000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -14705,7 +15406,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 206
+              "version": 210
             }
           }
         },
@@ -15969,6 +16670,7 @@
               "alive": true,
               "content": [
                 "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
                 "5214e504-f066-49dd-96ed-ff7928cd7321",
                 "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
@@ -16006,7 +16708,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642429980000,
+              "last_edited_time": 1642675440000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -16031,7 +16733,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 206
+              "version": 210
             }
           }
         },
@@ -17377,6 +18079,7 @@
               "alive": true,
               "content": [
                 "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
                 "5214e504-f066-49dd-96ed-ff7928cd7321",
                 "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
@@ -17414,7 +18117,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642429980000,
+              "last_edited_time": 1642675440000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -17439,7 +18142,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 206
+              "version": 210
             }
           },
           "fe3f812e-4137-4c02-8908-4ea025d4a699": {
@@ -18124,6 +18827,7 @@
               "alive": true,
               "content": [
                 "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
                 "5214e504-f066-49dd-96ed-ff7928cd7321",
                 "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
@@ -18161,7 +18865,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642429980000,
+              "last_edited_time": 1642675440000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -18186,7 +18890,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 206
+              "version": 210
             }
           }
         },
@@ -19961,6 +20665,7 @@
               "alive": true,
               "content": [
                 "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
                 "5214e504-f066-49dd-96ed-ff7928cd7321",
                 "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
@@ -19998,7 +20703,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642429980000,
+              "last_edited_time": 1642675440000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -20023,7 +20728,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 206
+              "version": 210
             }
           }
         },
@@ -21424,6 +22129,7 @@
               "alive": true,
               "content": [
                 "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
                 "5214e504-f066-49dd-96ed-ff7928cd7321",
                 "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
@@ -21461,7 +22167,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642429980000,
+              "last_edited_time": 1642675440000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -21486,7 +22192,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 206
+              "version": 210
             }
           }
         },
@@ -22427,6 +23133,7 @@
               "alive": true,
               "content": [
                 "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
                 "5214e504-f066-49dd-96ed-ff7928cd7321",
                 "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
@@ -22464,7 +23171,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642429980000,
+              "last_edited_time": 1642675440000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -22489,7 +23196,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 206
+              "version": 210
             }
           }
         },
@@ -23110,6 +23817,7 @@
               "alive": true,
               "content": [
                 "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
                 "5214e504-f066-49dd-96ed-ff7928cd7321",
                 "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
@@ -23147,7 +23855,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642429980000,
+              "last_edited_time": 1642675440000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -23172,7 +23880,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 206
+              "version": 210
             }
           },
           "ff606ba3-3c7f-4052-a952-1e5f3f639a38": {
@@ -24944,6 +25652,7 @@
               "alive": true,
               "content": [
                 "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
                 "5214e504-f066-49dd-96ed-ff7928cd7321",
                 "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
@@ -24981,7 +25690,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642429980000,
+              "last_edited_time": 1642675440000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -25006,7 +25715,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 206
+              "version": 210
             }
           }
         },
@@ -26881,6 +27590,7 @@
               "alive": true,
               "content": [
                 "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
                 "5214e504-f066-49dd-96ed-ff7928cd7321",
                 "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
@@ -26918,7 +27628,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642429980000,
+              "last_edited_time": 1642675440000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -26943,7 +27653,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 206
+              "version": 210
             }
           },
           "fe3688e4-fb8c-4d3d-aaa7-b886ecd95044": {
@@ -28903,6 +29613,7 @@
               "alive": true,
               "content": [
                 "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
                 "5214e504-f066-49dd-96ed-ff7928cd7321",
                 "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
@@ -28940,7 +29651,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642429980000,
+              "last_edited_time": 1642675440000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -28965,7 +29676,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 206
+              "version": 210
             }
           },
           "fdd47798-c8f3-4d43-a313-227215844051": {
@@ -31113,6 +31824,7 @@
               "alive": true,
               "content": [
                 "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
                 "5214e504-f066-49dd-96ed-ff7928cd7321",
                 "03324020-6778-4180-8f0b-6cb30b51035e",
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
@@ -31150,7 +31862,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642429980000,
+              "last_edited_time": 1642675440000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -31175,7 +31887,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 206
+              "version": 210
             }
           }
         },

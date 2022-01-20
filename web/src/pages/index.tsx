@@ -102,6 +102,12 @@ const BlogIndex = ({ pages }: { pages: Page[] }) => {
     .map(slug => articles.find(page => page.meta.slug === slug))
     .filter(Boolean)
 
+  const bestArticles2022 = [
+    "helication",
+  ]
+    .map(slug => articles.find(page => page.meta.slug === slug))
+    .filter(Boolean)
+
   const scribbles = pages.filter(page => page.meta.tags?.includes("scribble"))
 
   const newPages = pages?.filter(
@@ -119,10 +125,10 @@ const BlogIndex = ({ pages }: { pages: Page[] }) => {
         description="Some kind of weird part of the internet where lars writes stuff. Can be thoughts or articles or anything really."
       />
 
-      <div className="min-h-screen px-8 flex flex-col pt-24 gap-12">
+      <div className="min-h-screen px-8 flex flex-col pt-24 gap-12 xl:gap-24">
         <div className="order-1 md:order-first w-screen max-w-6xl mx-auto md:grid gap-8 grid-cols-2 ">
-          <Cat title="Most notable articles" pages={bestArticles} />
-          <Cat title="Recent articles" pages={articles.slice(0, 4)} />
+          <Cat title="Most notable old articles" pages={bestArticles} />
+          <Cat title="Most notable articles 2022" pages={bestArticles2022} />
         </div>
 
         <div className="order- block xl:flex  xl:flex-grow gap-4">
@@ -152,7 +158,7 @@ huge interconnected web of interesting topics and creative ideas
             {/* <div className="flex-grow border-l border-gray-300 mb-8"></div> */}
           </div>
           <div className="xl:block hidden w-96">
-            <Cat title="Recent scribbles" pages={scribbles} />
+            <Cat title="Recent posts" pages={newPages} />
           </div>
         </div>
 
@@ -180,12 +186,12 @@ huge interconnected web of interesting topics and creative ideas
           md={`
 In 2021 I built 12 startups in 12 months.
 
-Giving value through **profitable micro-startups**
-that live and breathe in the internet-ecosystem.
+My mission that year was "Giving value through **profitable micro-startups**
+that live and breathe in the internet-ecosystem."
             `}
         />
 
-        <div className="max-w-2xl sm:rounded-2xl mt-12 relative z-10 overflow-hidden sm:border bg-white dark:bg-inherit sm:shadow-2xl border-black -mx-4 sm:mx-0">
+        <div className="max-w-2xl sm:rounded-2xl mt-12 relative z-10 overflow-hidden sm:border bg-white dark:bg-black sm:shadow-2xl border-black -mx-4 sm:mx-0">
           <NextImage
             width={672}
             height={(1260 / 2400) * 672}
@@ -196,7 +202,7 @@ that live and breathe in the internet-ecosystem.
           <div className="p-8 pb-12">
             <h2 className="text-2xl pt-4 font-bold pb-2">
               <SuperLink href={"/12-startups-12-months/"} itemProp="url">
-                <span itemProp="headline">
+                <span className="font-bold" itemProp="headline ">
                   I'm building 12 startups in 12 months
                 </span>
               </SuperLink>

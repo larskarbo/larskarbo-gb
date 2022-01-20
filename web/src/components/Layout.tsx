@@ -35,13 +35,12 @@ export default Layout
 
 export const Footer = () => {
   return (
-    <footer className="pt-24 pb-4">
-      © {new Date().getFullYear()}, Check me out on twitter:
-      {` `}
-      <a className="underline" href="https://twitter.com/larskarbo">
-        @larskarbo
-      </a>
-      .
+    <footer className="pt-36 pb-4 text-sm">
+      Please{" "}
+      <SuperLink href="https://twitter.com/larskarbo">
+        DM me on twitter
+      </SuperLink>{" "}
+      with some ideas for my footer.
     </footer>
   )
 }

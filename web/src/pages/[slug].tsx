@@ -105,7 +105,7 @@ export default function NotionPage({
               </div>
             </div>
           </div>
-          <div className="prose dark:prose-invert prose-base md:prose-lg">
+          <div className="prose prose-a:not-prose dark:prose-invert prose-base md:prose-lg">
             {recordMap.block[page.id]?.value.content?.map(contentBlockId => (
               <NotionBlockRenderer
                 key={contentBlockId}
