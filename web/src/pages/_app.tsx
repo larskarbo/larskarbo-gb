@@ -14,7 +14,7 @@ import { ThemeProvider } from "../components/theme-context"
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <PlausibleProvider domain="rudeboys.io">
+      <PlausibleProvider domain="larskarbo.no">
         <ThemeProvider>
           <Head>
             <meta name="color-scheme" content="dark light"></meta>
