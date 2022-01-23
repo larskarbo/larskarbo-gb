@@ -33,19 +33,20 @@ export const Text: React.FC<{
               const blockId = decorator[1]
               const linkedBlock = recordMap.block[blockId]?.value
               if (!linkedBlock) {
-                console.log('"p" missing block', blockId)
+                
                 return null
               }
+              const slug = getSlug(linkedBlock.id, linkMap)
 
               return (
-                <SuperLink className="" href={""}>
+                <SuperLink className="" href={"/" + slug}>
                   <PageTitle block={linkedBlock} />
                 </SuperLink>
               )
             }
 
             case "h":
-              console.log('decorator: ', decorator);
+              
               return <span className={`notion-${decorator[1]}`}>{element}</span>
 
             case "c":
@@ -125,7 +126,7 @@ export const Text: React.FC<{
 
             default:
               if (process.env.NODE_ENV !== "production") {
-                console.log("unsupported text format", decorator)
+                
               }
 
               return element

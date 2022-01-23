@@ -5,6 +5,9 @@ module.exports = {
   // darkMode: "class",
   theme: {
     extend: {
+      fontSize: {
+        'xxs': '.6rem',
+      },
       fontFamily: {
         serif:
           '"Merriweather", "Georgia", Cambria, "Times New Roman", Times, serif',

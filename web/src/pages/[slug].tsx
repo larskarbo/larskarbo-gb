@@ -62,7 +62,7 @@ export default function NotionPage({
         description={page.meta?.description}
         image={
           page.meta?.image &&
-          "https://larskarbo-gb.vercel.app" + page.meta?.image
+          "https://www.larskarbo.no" + page.meta?.image
         }
       />
       <Head>
@@ -76,7 +76,7 @@ export default function NotionPage({
           <div className="flex items-center flex-col">
             {page.meta.icon && (
               <div className="w-full flex justify-center dark:hidden">
-                <div className="aspect-square flex justify-center overflow-hidden border w-20 bg-white dark:bg-transparent border-gray-300 rounded -mb-2">
+                <div className="aspect-square select-none flex justify-center overflow-hidden border w-20 bg-white dark:bg-transparent border-gray-300 rounded -mb-2">
                   <div
                     className=""
                     style={{
@@ -96,7 +96,7 @@ export default function NotionPage({
               >
                 {title}
               </h1>
-              <div className="text-center mt-4 text-gray-600">
+              <div className="text-center mt-4 text-gray-600 dark:text-gray-400">
                 by Lars Karbo •{" "}
                 {format(
                   page.meta.date ? new Date(page.meta.date) : new Date(),

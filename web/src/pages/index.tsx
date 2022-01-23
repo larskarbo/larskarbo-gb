@@ -12,9 +12,10 @@ export const isLocal = () =>
 import { getPages } from "../components/utils/getPages"
 import { Page } from "../types"
 import x12pic from "../../public/12s12m.png"
-import { isAfter, parse, startOfYear } from "date-fns"
+import { format, isAfter, parse, startOfYear } from "date-fns"
 import { groupBy, entries, reverse, sampleSize } from "lodash"
 import ReactMarkdown from "react-markdown"
+import clsx from "clsx"
 
 export const getStaticProps = async context => {
   // This crawls all public pages starting from the given root page in order
@@ -36,28 +37,60 @@ export const getStaticProps = async context => {
   }
 }
 
-const PageLink = ({ page }: { page: Page }) => {
+const PageLink = ({
+  page,
+  includeDate = false,
+}: {
+  page: Page
+  includeDate?: boolean
+}) => {
   return (
     <SuperLink href={page.meta.slug} noStyle>
-      <div className="flex gap-1 hover:bg-gray-100 dark:hover:bg-gray-800 rounded px-2 p-1 my-1 transition-colors duration-75">
+      <div
+        className={clsx(
+          "flex gap-1  hover:bg-gray-100 dark:hover:bg-gray-800 rounded px-2 p-1  transition-colors duration-75",
+          includeDate ? "my-1" : "my-1"
+        )}
+      >
         {page.meta.icon && <div className="">{page.meta.icon.value}</div>}
-        <div className="font-semibold underline underline-offset-4 decoration-gray-300 hover:decoration-gray-400  whitespace-nowrap overflow-ellipsis overflow-hidden">
+        <div
+          className={clsx(
+            "font-semibold underline underline-offset-4 decoration-gray-300 hover:decoration-gray-400",
+            false && "  whitespace-nowrap overflow-ellipsis overflow-hidden"
+          )}
+        >
           {page.meta.title}
           {!page.meta.date && "*"}
+          {includeDate && (
+            <span className="text-xxs uppercase text-gray-400 font-mono">
+              {" "}{format(
+                page.meta.date ? new Date(page.meta.date) : new Date(),
+                "do MMM"
+              )}
+            </span>
+          )}
         </div>
       </div>
     </SuperLink>
   )
 }
 
-const Cat = ({ title, pages }: { title: string; pages: Page[] }) => {
+const Cat = ({
+  title,
+  pages,
+  includeDate = false,
+}: {
+  title: string
+  pages: Page[]
+  includeDate?: boolean
+}) => {
   return (
     <div className="opacity-7f0">
       <h2 className="text-sm text-gray-400 font-medium upperfcase font-mon ">
         {title}
       </h2>
       {pages.map(page => (
-        <PageLink key={page.id} page={page} />
+        <PageLink key={page.id} page={page} includeDate={includeDate} />
       ))}
     </div>
   )
@@ -93,18 +126,11 @@ const BlogIndex = ({ pages }: { pages: Page[] }) => {
 
   const articles = pages.filter(page => !page.meta.tags?.includes("scribble"))
 
-  const bestArticles = [
-    "year-of-making",
-    "12-startups-12-months",
-    "bike-4000-km-to-find-myself",
-    "internet-mousetrap",
-  ]
+  const bestArticles12x = ["year-of-making", "12-startups-12-months"]
     .map(slug => articles.find(page => page.meta.slug === slug))
     .filter(Boolean)
 
-  const bestArticles2022 = [
-    "helication",
-  ]
+  const bestArticles2022 = ["helication"]
     .map(slug => articles.find(page => page.meta.slug === slug))
     .filter(Boolean)
 
@@ -125,52 +151,26 @@ const BlogIndex = ({ pages }: { pages: Page[] }) => {
         description="Some kind of weird part of the internet where lars writes stuff. Can be thoughts or articles or anything really."
       />
 
-      <div className="min-h-screen px-8 flex flex-col pt-24 gap-12 xl:gap-24">
-        <div className="order-1 md:order-first w-screen max-w-6xl mx-auto md:grid gap-8 grid-cols-2 ">
-          <Cat title="Most notable old articles" pages={bestArticles} />
-          <Cat title="Most notable articles 2022" pages={bestArticles2022} />
-        </div>
-
-        <div className="order- block xl:flex  xl:flex-grow gap-4">
-          <div className="xl:block hidden w-96">
-            <Cat
-              title="Things I like"
-              pages={newPages.filter(
-                page => !page.meta.tags?.includes("scribble")
-              )}
-            />
-          </div>
-          <div className="flex flex-grow flex-col items-center xl:pl-8">
-            <Talk
-              md={`
+      <div className="min-h-screen px-8 flex flex-col justify-center gap-12 xl:gap-24">
+        <div className="max-w-xl block mx-auto">
+          <Talk
+            md={`
 Hi, I'm [Lars](https://larslist.org/).
 
 
 This website is a place for my thoughts, projects, and writings. It is
-not centered around one topic, but rather a conglomeration of [my articles](),
-[scribbles](), and random ideas.
+not centered around one topic, but rather a conglomeration of my articles,
+scribbles, and random ideas.
 
 
 Like my brain: some good parts, some messy parts, and all in all a
 huge interconnected web of interesting topics and creative ideas
             `}
-            />
-            {/* <div className="flex-grow border-l border-gray-300 mb-8"></div> */}
-          </div>
-          <div className="xl:block hidden w-96">
-            <Cat title="Recent posts" pages={newPages} />
-          </div>
-        </div>
-
-        <div className="xl:hidden md:grid grid-cols-2">
-          {" "}
-          <Cat
-            title="Things I like"
-            pages={newPages.filter(
-              page => !page.meta.tags?.includes("scribble")
-            )}
           />
-          <Cat title="Recent scribbles" pages={scribbles} />
+          <div className="mt-12">
+            <Cat title="Recent posts" pages={newPages} includeDate />
+          </div>
+          <div className="pt-12"> </div>
         </div>
       </div>
 
@@ -182,14 +182,20 @@ huge interconnected web of interesting topics and creative ideas
       </div> */}
 
       <div className="xl:grid grid-cols-2 flex flex-col items-center pt-24">
-        <Talk
-          md={`
+        <div className="max-w-xl mx-auto">
+          <Talk
+            md={`
 In 2021 I built 12 startups in 12 months.
 
 My mission that year was "Giving value through **profitable micro-startups**
 that live and breathe in the internet-ecosystem."
-            `}
-        />
+              `}
+          />
+
+          <div className="mt-12">
+            <Cat title="Notable writings" pages={bestArticles12x} />
+          </div>
+        </div>
 
         <div className="max-w-2xl sm:rounded-2xl mt-12 relative z-10 overflow-hidden sm:border bg-white dark:bg-black sm:shadow-2xl border-black -mx-4 sm:mx-0">
           <NextImage
@@ -245,11 +251,11 @@ that live and breathe in the internet-ecosystem."
       </div>
 
       <div className="max-w-xl mx-auto pt-48">
-        <p className="py-2 font-light">Older writings:</p>
+        <p className="py-2 font-light">All writings:</p>
         {reverse(
           entries(groupBy(pages, p => new Date(p.meta.date)?.getFullYear()))
         )
-          .filter(([year]) => year !== "2022")
+          // .filter(([year]) => year !== "2022")
           .map(([year, pages]) => (
             <div>
               <p className="py-2 font-light">{year}:</p>
