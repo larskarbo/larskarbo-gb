@@ -51,7 +51,7 @@ export default function NotionPage({
     return null
   }
 
-  console.log("page.meta.date:", page.meta.date)
+  console.log("page.meta:", page.meta)
 
   const title = page.meta.title
 

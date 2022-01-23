@@ -46,7 +46,7 @@ export const getPageMeta = (pageId, recordMap: ExtendedRecordMap) => {
     .find((t: string) => t.startsWith("Tags: "))
     ?.replace("Tags: ", "")
     .split(",");
-  const description = restOfText.length > 2 ? restOfText[0] : undefined;
+  const description = restOfText.length > 1 ? restOfText[0] : undefined;
 
   const meta: Meta = {
     image: imageBlock

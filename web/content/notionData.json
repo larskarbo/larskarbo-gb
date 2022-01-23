@@ -4,6 +4,7 @@
       "id": "03324020-6778-4180-8f0b-6cb30b51035e",
       "meta": {
         "date": "2022-01-17T00:00:00+01:00",
+        "description": "/focus-blog-one-topic-17-jan-2022",
         "icon": {
           "type": "emoji",
           "value": "🤔"
@@ -4099,6 +4100,7 @@
       "id": "1ed377a5-0def-4d54-bceb-f39165b8b42d",
       "meta": {
         "date": "2020-10-31T00:00:00+01:00",
+        "description": "After 157 failed projects I have started to figure out how and what to do to make my online creations successful.",
         "image": "/images/201011d4-7f2b-401d-9270-4c1343d7baaf/hero.png",
         "slug": "the-three-phases-of-creating-useful-stuff-on-the-web",
         "tags": [],
@@ -5728,6 +5730,7 @@
       "id": "21cdde62-aff9-4826-8895-edc17a6ea16a",
       "meta": {
         "date": "2020-09-26T00:00:00+02:00",
+        "description": "The story of why I expose myself on such a weird platform that nobody really understands.",
         "image": "/images/a8ba3e71-136b-4f7b-ac65-a5cdfbbae638/why-i-start-posting-on-tiktok.png",
         "slug": "start-of-my-tiktok-career",
         "tags": [],
@@ -7168,6 +7171,7 @@
       "id": "23829438-a093-44c0-af44-261f9ca20011",
       "meta": {
         "date": "2021-09-16T00:00:00+02:00",
+        "description": "When I started my 12 startups in 12 months project, I aspired towards freedom. But I realize, if you play your cards wrong, you'll just end up with less freedom and more liabilities.",
         "slug": "art-of-simplifying",
         "tags": [],
         "title": "The Art of Doing Small and Simple Projects"
@@ -10676,6 +10680,7 @@
       "id": "3d671266-fe0e-4466-9e14-ae5805d83ff0",
       "meta": {
         "date": "2020-10-29T00:00:00+01:00",
+        "description": "I am building a tool for music teachers, and I'm excited to show it to you. It let's you combine the power of existing music services, and effectively work with ...",
         "image": "/images/4170152c-727f-487c-a247-3884b4474db2/hero.png",
         "slug": "organize-annotate-share-samples-from-spotify-youtube",
         "tags": [],
@@ -13952,6 +13957,7 @@
       "id": "5214e504-f066-49dd-96ed-ff7928cd7321",
       "meta": {
         "date": "2022-01-17T00:00:00+01:00",
+        "description": "/three-writing-sections-17-jan-2022",
         "icon": {
           "type": "emoji",
           "value": "🤔"
@@ -14621,7 +14627,7 @@
               "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642936740000,
+              "last_edited_time": 1642937640000,
               "parent_id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "parent_table": "block",
               "permissions": [
@@ -14641,7 +14647,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 184
+              "version": 187
             }
           },
           "bded0f92-840f-4356-9b88-24f3d50e9386": {
@@ -18699,6 +18705,7 @@
       "id": "85fd5181-bcf6-470a-8026-902d969db9d2",
       "meta": {
         "date": "2021-08-31T00:00:00+02:00",
+        "description": "After 7 months on the internet, I have decided to shut down ",
         "image": "/images/e487c424-c74f-490c-a6f9-a56face62f8c/hero.png",
         "slug": "shutting-down-slapper",
         "tags": [],
@@ -21234,6 +21241,7 @@
       "id": "a91e816d-1938-4d17-a98a-4bc3de948d50",
       "meta": {
         "date": "2020-09-13T00:00:00+02:00",
+        "description": "When I was younger I set out on a grand trip to bike from Norway to Italy. Here are some of the lessons I learned.",
         "icon": {
           "type": "emoji",
           "value": "🚴🏼‍♂️"
@@ -22698,6 +22706,7 @@
       "id": "af74fadd-24c3-4e17-a933-fea1da00744a",
       "meta": {
         "date": "2022-01-16T00:00:00+01:00",
+        "description": "After finishing 12 startups in 12 months, I was struck by one big question: \"what the heck should I do now?\" Choose one of the projects and go all-in? Find a company or startup...",
         "icon": {
           "type": "emoji",
           "value": "🚁"
@@ -22782,6 +22791,32 @@
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "text",
               "version": 29
+            }
+          },
+          "1f1c6108-92e0-41e0-98a7-fb35cc45fb96": {
+            "role": "comment_only",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1642937373155,
+              "id": "1f1c6108-92e0-41e0-98a7-fb35cc45fb96",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1642937640000,
+              "parent_id": "c183f786-dacc-4e77-9cec-517116f90dc6",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "After finishing 12 startups in 12 months, I was struck by one big question: \"what the heck should I do now?\" Choose one of the projects and go all-in? Find a company or startup..."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 16
             }
           },
           "4033a46f-e92a-4b2b-9cb9-7cbcddb97bda": {
@@ -23294,7 +23329,7 @@
               "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642936740000,
+              "last_edited_time": 1642937640000,
               "parent_id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "parent_table": "block",
               "permissions": [
@@ -23314,7 +23349,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 184
+              "version": 187
             }
           },
           "b5108a28-e195-498f-9daa-648ceeccccc5": {
@@ -23372,6 +23407,7 @@
             "value": {
               "alive": true,
               "content": [
+                "1f1c6108-92e0-41e0-98a7-fb35cc45fb96",
                 "9e274003-727d-4ef8-93a3-58b944275182",
                 "57830442-71ed-4e90-a244-c4a7671a292e",
                 "a09a14c4-d514-4391-951f-edd818dfc28e"
@@ -23382,7 +23418,7 @@
               "id": "c183f786-dacc-4e77-9cec-517116f90dc6",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642346100000,
+              "last_edited_time": 1642937340000,
               "parent_id": "af74fadd-24c3-4e17-a933-fea1da00744a",
               "parent_table": "block",
               "properties": {
@@ -23407,7 +23443,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "toggle",
-              "version": 30
+              "version": 34
             }
           },
           "c1d70937-88a7-440b-9532-2a13d1e9beb2": {
@@ -24425,6 +24461,7 @@
       "id": "c22aad82-c82e-46d3-a89f-5b71210d1ec5",
       "meta": {
         "date": "2020-12-29T00:00:00+01:00",
+        "description": "Instructions on how to make an internet connected mouse trap that sends you a message whenever there is a dead mouse in the trap.",
         "icon": {
           "type": "emoji",
           "value": "🐀"
@@ -26234,6 +26271,7 @@
       "id": "d8968792-180d-4ced-83cd-d7d128ff679a",
       "meta": {
         "date": "2020-06-07T00:00:00+02:00",
+        "description": "The Ankibot lets you easily record sounds into your Anki cards using Telegram. It is a great tool to have in your language-learning toolbox.",
         "icon": {
           "type": "emoji",
           "value": "🥁"
@@ -28190,6 +28228,7 @@
       "id": "d8f9876e-715e-48bd-81a0-e061b81e69f8",
       "meta": {
         "date": "2020-10-20T00:00:00+02:00",
+        "description": "I spent 21 days posting daily on TikTok about indie hacking and programming. The platform works differently than other platforms for sure.",
         "image": "/images/7f9d1c42-b4bd-41f0-a440-84925f2d4298/hero.png",
         "slug": "tiktok-100000-views",
         "tags": [],
