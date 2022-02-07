@@ -3,7 +3,7 @@
     {
       "id": "03324020-6778-4180-8f0b-6cb30b51035e",
       "meta": {
-        "date": "2022-01-17T00:00:00+01:00",
+        "date": "2022-01-17T00:00:00-07:00",
         "description": "/focus-blog-one-topic-17-jan-2022",
         "icon": {
           "type": "emoji",
@@ -568,6 +568,7 @@
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
+                "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
                 "2580bfab-7590-4a52-91ac-f6c9f7bbb298",
                 "e7a2c00d-8752-4fe6-b38c-6bde14a21050",
@@ -600,7 +601,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642675440000,
+              "last_edited_time": 1643819700000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -625,7 +626,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 210
+              "version": 214
             }
           }
         },
@@ -640,7 +641,7 @@
     {
       "id": "14d4263c-a202-40d3-9ad5-d0904af0581c",
       "meta": {
-        "date": "2021-02-02T00:00:00+01:00",
+        "date": "2021-02-02T00:00:00-07:00",
         "description": "Imitate is the most successful project I have done so far. It is a web-app for practicing French pronunciation with the use of random YouTube segments.",
         "image": "/images/6cf77307-870a-4c4d-962c-e22113508b49/hero.png",
         "slug": "imitate-launch",
@@ -2335,6 +2336,7 @@
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
+                "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
                 "2580bfab-7590-4a52-91ac-f6c9f7bbb298",
                 "e7a2c00d-8752-4fe6-b38c-6bde14a21050",
@@ -2367,7 +2369,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642675440000,
+              "last_edited_time": 1643819700000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -2392,7 +2394,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 210
+              "version": 214
             }
           },
           "fdae85c8-1478-4c4d-ad87-596ff11468d0": {
@@ -2432,7 +2434,7 @@
     {
       "id": "1ae94a0f-f4d8-414b-af15-bf71f3b0f149",
       "meta": {
-        "date": "2020-11-09T00:00:00+01:00",
+        "date": "2020-11-09T00:00:00-07:00",
         "description": "Through the next year, I will challenge my fears and push my limits. I will create 12 startups in 12 months.",
         "image": "/images/3ad1147f-ecca-4e7c-8fc6-aaeed593979e/12s12m.png",
         "slug": "12-startups-12-months",
@@ -4027,6 +4029,7 @@
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
+                "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
                 "2580bfab-7590-4a52-91ac-f6c9f7bbb298",
                 "e7a2c00d-8752-4fe6-b38c-6bde14a21050",
@@ -4059,7 +4062,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642675440000,
+              "last_edited_time": 1643819700000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -4084,7 +4087,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 210
+              "version": 214
             }
           }
         },
@@ -4099,7 +4102,7 @@
     {
       "id": "1ed377a5-0def-4d54-bceb-f39165b8b42d",
       "meta": {
-        "date": "2020-10-31T00:00:00+01:00",
+        "date": "2020-10-31T00:00:00-06:00",
         "description": "After 157 failed projects I have started to figure out how and what to do to make my online creations successful.",
         "image": "/images/201011d4-7f2b-401d-9270-4c1343d7baaf/hero.png",
         "slug": "the-three-phases-of-creating-useful-stuff-on-the-web",
@@ -5657,6 +5660,7 @@
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
+                "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
                 "2580bfab-7590-4a52-91ac-f6c9f7bbb298",
                 "e7a2c00d-8752-4fe6-b38c-6bde14a21050",
@@ -5689,7 +5693,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642675440000,
+              "last_edited_time": 1643819700000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -5714,7 +5718,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 210
+              "version": 214
             }
           }
         },
@@ -5729,7 +5733,7 @@
     {
       "id": "21cdde62-aff9-4826-8895-edc17a6ea16a",
       "meta": {
-        "date": "2020-09-26T00:00:00+02:00",
+        "date": "2020-09-26T00:00:00-06:00",
         "description": "The story of why I expose myself on such a weird platform that nobody really understands.",
         "image": "/images/a8ba3e71-136b-4f7b-ac65-a5cdfbbae638/why-i-start-posting-on-tiktok.png",
         "slug": "start-of-my-tiktok-career",
@@ -7098,6 +7102,7 @@
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
+                "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
                 "2580bfab-7590-4a52-91ac-f6c9f7bbb298",
                 "e7a2c00d-8752-4fe6-b38c-6bde14a21050",
@@ -7130,7 +7135,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642675440000,
+              "last_edited_time": 1643819700000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -7155,7 +7160,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 210
+              "version": 214
             }
           }
         },
@@ -7170,7 +7175,7 @@
     {
       "id": "23829438-a093-44c0-af44-261f9ca20011",
       "meta": {
-        "date": "2021-09-16T00:00:00+02:00",
+        "date": "2021-09-16T00:00:00-06:00",
         "description": "When I started my 12 startups in 12 months project, I aspired towards freedom. But I realize, if you play your cards wrong, you'll just end up with less freedom and more liabilities.",
         "slug": "art-of-simplifying",
         "tags": [],
@@ -8441,6 +8446,7 @@
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
+                "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
                 "2580bfab-7590-4a52-91ac-f6c9f7bbb298",
                 "e7a2c00d-8752-4fe6-b38c-6bde14a21050",
@@ -8473,7 +8479,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642675440000,
+              "last_edited_time": 1643819700000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -8498,7 +8504,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 210
+              "version": 214
             }
           }
         },
@@ -8513,7 +8519,7 @@
     {
       "id": "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
       "meta": {
-        "date": "2022-01-20T00:00:00+01:00",
+        "date": "2022-01-20T00:00:00-07:00",
         "slug": "shutting-down-side-projects-find-focus",
         "tags": [],
         "title": "Shutting down my side projects to find focus"
@@ -9106,6 +9112,7 @@
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
+                "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
                 "2580bfab-7590-4a52-91ac-f6c9f7bbb298",
                 "e7a2c00d-8752-4fe6-b38c-6bde14a21050",
@@ -9138,7 +9145,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642675440000,
+              "last_edited_time": 1643819700000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -9163,7 +9170,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 210
+              "version": 214
             }
           },
           "ffe1ec2f-595d-46e1-a536-aed65bd2104a": {
@@ -9203,7 +9210,7 @@
     {
       "id": "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
       "meta": {
-        "date": "2022-01-15T00:00:00+01:00",
+        "date": "2022-01-15T00:00:00-07:00",
         "icon": {
           "type": "emoji",
           "value": "🎨"
@@ -10607,6 +10614,7 @@
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
+                "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
                 "2580bfab-7590-4a52-91ac-f6c9f7bbb298",
                 "e7a2c00d-8752-4fe6-b38c-6bde14a21050",
@@ -10639,7 +10647,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642675440000,
+              "last_edited_time": 1643819700000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -10664,7 +10672,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 210
+              "version": 214
             }
           }
         },
@@ -10679,7 +10687,7 @@
     {
       "id": "3d671266-fe0e-4466-9e14-ae5805d83ff0",
       "meta": {
-        "date": "2020-10-29T00:00:00+01:00",
+        "date": "2020-10-29T00:00:00-06:00",
         "description": "I am building a tool for music teachers, and I'm excited to show it to you. It let's you combine the power of existing music services, and effectively work with ...",
         "image": "/images/4170152c-727f-487c-a247-3884b4474db2/hero.png",
         "slug": "organize-annotate-share-samples-from-spotify-youtube",
@@ -12160,6 +12168,7 @@
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
+                "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
                 "2580bfab-7590-4a52-91ac-f6c9f7bbb298",
                 "e7a2c00d-8752-4fe6-b38c-6bde14a21050",
@@ -12192,7 +12201,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642675440000,
+              "last_edited_time": 1643819700000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -12217,7 +12226,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 210
+              "version": 214
             }
           }
         },
@@ -12232,7 +12241,7 @@
     {
       "id": "3e07e6cf-7cfb-43a9-a48b-2ff31568cb27",
       "meta": {
-        "date": "2021-01-10T00:00:00+01:00",
+        "date": "2021-01-10T00:00:00-07:00",
         "description": "The story about how I launched FileParty, and almost got my first B2B sale. ",
         "image": "/images/65789379-189d-4047-9370-ed3fd6127c21/hero.png",
         "slug": "fileparty-launch",
@@ -13884,6 +13893,7 @@
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
+                "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
                 "2580bfab-7590-4a52-91ac-f6c9f7bbb298",
                 "e7a2c00d-8752-4fe6-b38c-6bde14a21050",
@@ -13916,7 +13926,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642675440000,
+              "last_edited_time": 1643819700000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -13941,7 +13951,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 210
+              "version": 214
             }
           }
         },
@@ -13956,7 +13966,7 @@
     {
       "id": "5214e504-f066-49dd-96ed-ff7928cd7321",
       "meta": {
-        "date": "2022-01-17T00:00:00+01:00",
+        "date": "2022-01-17T00:00:00-07:00",
         "description": "/three-writing-sections-17-jan-2022",
         "icon": {
           "type": "emoji",
@@ -14792,6 +14802,7 @@
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
+                "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
                 "2580bfab-7590-4a52-91ac-f6c9f7bbb298",
                 "e7a2c00d-8752-4fe6-b38c-6bde14a21050",
@@ -14824,7 +14835,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642675440000,
+              "last_edited_time": 1643819700000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -14849,7 +14860,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 210
+              "version": 214
             }
           }
         },
@@ -14864,7 +14875,7 @@
     {
       "id": "54791f79-ddc8-4b58-a0e6-d4fce6d24a23",
       "meta": {
-        "date": "2021-04-03T00:00:00+02:00",
+        "date": "2021-04-03T00:00:00-06:00",
         "description": "I almost launched Case shortcut in five days but had to abort it.",
         "image": "/images/bd37e0b9-80bc-4e96-94d9-05d125e6ed71/hero.png",
         "slug": "case-shortcut-almost-launch",
@@ -15845,6 +15856,7 @@
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
+                "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
                 "2580bfab-7590-4a52-91ac-f6c9f7bbb298",
                 "e7a2c00d-8752-4fe6-b38c-6bde14a21050",
@@ -15877,7 +15889,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642675440000,
+              "last_edited_time": 1643819700000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -15902,7 +15914,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 210
+              "version": 214
             }
           }
         },
@@ -15917,7 +15929,7 @@
     {
       "id": "67b5a629-6522-4c26-847c-283dda23eed7",
       "meta": {
-        "date": "2020-12-13T00:00:00+01:00",
+        "date": "2020-12-13T00:00:00-07:00",
         "description": "My first startup in my project is Slapper. I built, launched and monetized it in a month",
         "image": "/images/028d29d8-87fd-4c49-92d3-2db9a75bc64a/launches.jpeg",
         "slug": "startup-1-slapper",
@@ -17172,6 +17184,7 @@
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
+                "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
                 "2580bfab-7590-4a52-91ac-f6c9f7bbb298",
                 "e7a2c00d-8752-4fe6-b38c-6bde14a21050",
@@ -17204,7 +17217,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642675440000,
+              "last_edited_time": 1643819700000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -17229,7 +17242,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 210
+              "version": 214
             }
           }
         },
@@ -17244,7 +17257,7 @@
     {
       "id": "72b6bc97-dda7-4b1d-a6cc-f3e0bb473e6c",
       "meta": {
-        "date": "2020-11-29T00:00:00+01:00",
+        "date": "2020-11-29T00:00:00-07:00",
         "description": "How I struggle to find the right user segment for my app. There are 4 different types of people that like it for different reasons.",
         "image": "/images/01b21218-0497-4206-87fe-f3036a84c377/hero.png",
         "slug": "4-customer-segments",
@@ -18581,6 +18594,7 @@
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
+                "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
                 "2580bfab-7590-4a52-91ac-f6c9f7bbb298",
                 "e7a2c00d-8752-4fe6-b38c-6bde14a21050",
@@ -18613,7 +18627,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642675440000,
+              "last_edited_time": 1643819700000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -18638,7 +18652,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 210
+              "version": 214
             }
           },
           "fe3f812e-4137-4c02-8908-4ea025d4a699": {
@@ -18704,7 +18718,7 @@
     {
       "id": "85fd5181-bcf6-470a-8026-902d969db9d2",
       "meta": {
-        "date": "2021-08-31T00:00:00+02:00",
+        "date": "2021-08-31T00:00:00-06:00",
         "description": "After 7 months on the internet, I have decided to shut down ",
         "image": "/images/e487c424-c74f-490c-a6f9-a56face62f8c/hero.png",
         "slug": "shutting-down-slapper",
@@ -19330,6 +19344,7 @@
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
+                "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
                 "2580bfab-7590-4a52-91ac-f6c9f7bbb298",
                 "e7a2c00d-8752-4fe6-b38c-6bde14a21050",
@@ -19362,7 +19377,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642675440000,
+              "last_edited_time": 1643819700000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -19387,7 +19402,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 210
+              "version": 214
             }
           }
         },
@@ -19402,7 +19417,7 @@
     {
       "id": "8711af9b-3254-48b8-9b35-f8d6be011914",
       "meta": {
-        "date": "2021-12-31T00:00:00+01:00",
+        "date": "2021-12-31T00:00:00-07:00",
         "description": "A year ago I started an ambitious project to create build 12 profitable small businesses. Now, a year later, I have a bunch of learnings under my belt.",
         "image": "/images/46ef1bba-0f1e-41d0-a355-9d1ba6620eb9/12xfdone_(1).png",
         "slug": "year-of-making",
@@ -21168,6 +21183,7 @@
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
+                "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
                 "2580bfab-7590-4a52-91ac-f6c9f7bbb298",
                 "e7a2c00d-8752-4fe6-b38c-6bde14a21050",
@@ -21200,7 +21216,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642675440000,
+              "last_edited_time": 1643819700000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -21225,7 +21241,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 210
+              "version": 214
             }
           }
         },
@@ -21240,7 +21256,7 @@
     {
       "id": "a91e816d-1938-4d17-a98a-4bc3de948d50",
       "meta": {
-        "date": "2020-09-13T00:00:00+02:00",
+        "date": "2020-09-13T00:00:00-06:00",
         "description": "When I was younger I set out on a grand trip to bike from Norway to Italy. Here are some of the lessons I learned.",
         "icon": {
           "type": "emoji",
@@ -22633,6 +22649,7 @@
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
+                "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
                 "2580bfab-7590-4a52-91ac-f6c9f7bbb298",
                 "e7a2c00d-8752-4fe6-b38c-6bde14a21050",
@@ -22665,7 +22682,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642675440000,
+              "last_edited_time": 1643819700000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -22690,7 +22707,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 210
+              "version": 214
             }
           }
         },
@@ -22705,7 +22722,7 @@
     {
       "id": "af74fadd-24c3-4e17-a933-fea1da00744a",
       "meta": {
-        "date": "2022-01-16T00:00:00+01:00",
+        "date": "2022-01-16T00:00:00-07:00",
         "description": "After finishing 12 startups in 12 months, I was struck by one big question: \"what the heck should I do now?\" Choose one of the projects and go all-in? Find a company or startup...",
         "icon": {
           "type": "emoji",
@@ -23678,6 +23695,7 @@
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
+                "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
                 "2580bfab-7590-4a52-91ac-f6c9f7bbb298",
                 "e7a2c00d-8752-4fe6-b38c-6bde14a21050",
@@ -23710,7 +23728,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642675440000,
+              "last_edited_time": 1643819700000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -23735,7 +23753,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 210
+              "version": 214
             }
           }
         },
@@ -23750,7 +23768,7 @@
     {
       "id": "bdaf0be2-96e8-47f6-a0c1-9abf91f6627b",
       "meta": {
-        "date": "2021-06-08T00:00:00+02:00",
+        "date": "2021-06-08T00:00:00-06:00",
         "description": "We just signed a deal with a company for a BIG B2B sale. I am so excited to see where this project leads.",
         "image": "/images/8ae240a4-1c6f-4bcf-96ce-9faf0427dd22/hero.png",
         "slug": "first-b2b-sale",
@@ -24362,6 +24380,7 @@
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
+                "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
                 "2580bfab-7590-4a52-91ac-f6c9f7bbb298",
                 "e7a2c00d-8752-4fe6-b38c-6bde14a21050",
@@ -24394,7 +24413,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642675440000,
+              "last_edited_time": 1643819700000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -24419,7 +24438,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 210
+              "version": 214
             }
           },
           "ff606ba3-3c7f-4052-a952-1e5f3f639a38": {
@@ -24460,7 +24479,7 @@
     {
       "id": "c22aad82-c82e-46d3-a89f-5b71210d1ec5",
       "meta": {
-        "date": "2020-12-29T00:00:00+01:00",
+        "date": "2020-12-29T00:00:00-07:00",
         "description": "Instructions on how to make an internet connected mouse trap that sends you a message whenever there is a dead mouse in the trap.",
         "icon": {
           "type": "emoji",
@@ -26198,6 +26217,7 @@
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
+                "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
                 "2580bfab-7590-4a52-91ac-f6c9f7bbb298",
                 "e7a2c00d-8752-4fe6-b38c-6bde14a21050",
@@ -26230,7 +26250,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642675440000,
+              "last_edited_time": 1643819700000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -26255,7 +26275,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 210
+              "version": 214
             }
           }
         },
@@ -26270,7 +26290,7 @@
     {
       "id": "d8968792-180d-4ced-83cd-d7d128ff679a",
       "meta": {
-        "date": "2020-06-07T00:00:00+02:00",
+        "date": "2020-06-07T00:00:00-06:00",
         "description": "The Ankibot lets you easily record sounds into your Anki cards using Telegram. It is a great tool to have in your language-learning toolbox.",
         "icon": {
           "type": "emoji",
@@ -28137,6 +28157,7 @@
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
+                "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
                 "2580bfab-7590-4a52-91ac-f6c9f7bbb298",
                 "e7a2c00d-8752-4fe6-b38c-6bde14a21050",
@@ -28169,7 +28190,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642675440000,
+              "last_edited_time": 1643819700000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -28194,7 +28215,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 210
+              "version": 214
             }
           },
           "fe3688e4-fb8c-4d3d-aaa7-b886ecd95044": {
@@ -28227,7 +28248,7 @@
     {
       "id": "d8f9876e-715e-48bd-81a0-e061b81e69f8",
       "meta": {
-        "date": "2020-10-20T00:00:00+02:00",
+        "date": "2020-10-20T00:00:00-06:00",
         "description": "I spent 21 days posting daily on TikTok about indie hacking and programming. The platform works differently than other platforms for sure.",
         "image": "/images/7f9d1c42-b4bd-41f0-a440-84925f2d4298/hero.png",
         "slug": "tiktok-100000-views",
@@ -30161,6 +30182,7 @@
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
+                "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
                 "2580bfab-7590-4a52-91ac-f6c9f7bbb298",
                 "e7a2c00d-8752-4fe6-b38c-6bde14a21050",
@@ -30193,7 +30215,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642675440000,
+              "last_edited_time": 1643819700000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -30218,7 +30240,7 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
-              "version": 210
+              "version": 214
             }
           },
           "fdd47798-c8f3-4d43-a313-227215844051": {
@@ -30259,7 +30281,7 @@
     {
       "id": "fb16959e-d347-4c36-9ecd-3f58f86dd8d5",
       "meta": {
-        "date": "2020-11-17T00:00:00+01:00",
+        "date": "2020-11-17T00:00:00-07:00",
         "description": "I created the website that nobody asked for, but ended up changing the popularity of the name \"Lars\" forever.",
         "image": "/images/a15e6830-d958-4722-9bd7-c5e2b3dbbcbd/hero.png",
         "slug": "larslist-story",
@@ -32372,6 +32394,7 @@
                 "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
                 "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
                 "e05b5977-2196-4834-993c-9c899b3eb7ec",
+                "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
                 "af74fadd-24c3-4e17-a933-fea1da00744a",
                 "2580bfab-7590-4a52-91ac-f6c9f7bbb298",
                 "e7a2c00d-8752-4fe6-b38c-6bde14a21050",
@@ -32404,7 +32427,7 @@
               "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
               "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
               "last_edited_by_table": "notion_user",
-              "last_edited_time": 1642675440000,
+              "last_edited_time": 1643819700000,
               "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "parent_table": "space",
               "permissions": [
@@ -32429,7 +32452,989 @@
               },
               "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
               "type": "page",
+              "version": 214
+            }
+          }
+        },
+        "collection": {},
+        "collection_query": {},
+        "collection_view": {},
+        "notion_user": {},
+        "signed_urls": {},
+        "space": {}
+      }
+    },
+    {
+      "id": "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
+      "meta": {
+        "date": "2022-02-07T00:00:00-07:00",
+        "description": "Today, I’m excited to announcing I’m joining Layer3 to help build a future where anyone, anywhere, can earn crypto by contributing to Web3.",
+        "image": "/images/80d64eef-3ac5-4ce9-9174-01a13297fdc3/FIMzDJXXwAQaz9_.jpeg",
+        "slug": "joining-layer3",
+        "tags": [],
+        "title": "I’m Joining Layer3"
+      },
+      "recordMap": {
+        "block": {
+          "06c70a2a-7dd1-4f5d-935d-776dddbc17a1": {
+            "role": "comment_only",
+            "value": {
+              "alive": true,
+              "copied_from": "39906cdb-97eb-4b3c-ab76-9a9f7ac94aca",
+              "created_by_id": "611a0148-d0ac-4f2d-860b-f5174f34858c",
+              "created_by_table": "notion_user",
+              "created_time": 1644166157339,
+              "format": {
+                "copied_from_pointer": {
+                  "id": "39906cdb-97eb-4b3c-ab76-9a9f7ac94aca",
+                  "spaceId": "1c0d1d4f-ce72-4439-a0f6-134b77e57ec1",
+                  "table": "block"
+                }
+              },
+              "id": "06c70a2a-7dd1-4f5d-935d-776dddbc17a1",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1644166140000,
+              "parent_id": "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Layer3’s mission is to onboard the next 100 million people by providing the tools to contribute to Web3 in a simple intuitive way. "
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 4
+            }
+          },
+          "246975b8-4a0e-47c5-841e-6b6638a711a7": {
+            "role": "comment_only",
+            "value": {
+              "alive": true,
+              "copied_from": "421414dd-15a6-4c6a-8900-f78a6b0aa512",
+              "created_by_id": "82a0fdcc-5820-402f-8ebb-12d63806d28a",
+              "created_by_table": "notion_user",
+              "created_time": 1644166157339,
+              "format": {
+                "copied_from_pointer": {
+                  "id": "421414dd-15a6-4c6a-8900-f78a6b0aa512",
+                  "spaceId": "1c0d1d4f-ce72-4439-a0f6-134b77e57ec1",
+                  "table": "block"
+                }
+              },
+              "id": "246975b8-4a0e-47c5-841e-6b6638a711a7",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1644166140000,
+              "parent_id": "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Today, all across the DAO ecosystem, we are seeing a clear market need for talent, and a population who wants to contribute. We are seeing huge communities around projects. People are holding tokens and hanging out in Discord communities, but it’s often very hard to figure out where to get started to actually contribute."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 4
+            }
+          },
+          "293ab90a-249f-4a29-8a76-0a52c93d6681": {
+            "role": "comment_only",
+            "value": {
+              "alive": true,
+              "copied_from": "a09a14c4-d514-4391-951f-edd818dfc28e",
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1644166246298,
+              "format": {
+                "copied_from_pointer": {
+                  "id": "a09a14c4-d514-4391-951f-edd818dfc28e",
+                  "spaceId": "5257cf0b-8124-4419-87b6-815988437df5",
+                  "table": "block"
+                }
+              },
+              "id": "293ab90a-249f-4a29-8a76-0a52c93d6681",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1644166200000,
+              "parent_id": "6b752f5c-1bf8-4433-8504-35c13a6b1ce7",
+              "parent_table": "block",
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 2
+            }
+          },
+          "2f0b8b0a-6c24-4b16-9bb3-32b952c70335": {
+            "role": "comment_only",
+            "value": {
+              "alive": true,
+              "copied_from": "80d64eef-3ac5-4ce9-9174-01a13297fdc3",
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1644169021841,
+              "file_ids": [
+                "f0e94142-c211-4c2a-83d5-720683a3cf3b"
+              ],
+              "format": {
+                "block_aspect_ratio": 0.5434782608695652,
+                "block_full_width": false,
+                "block_page_width": false,
+                "block_preserve_scale": true,
+                "block_width": 576,
+                "copied_from_pointer": {
+                  "id": "80d64eef-3ac5-4ce9-9174-01a13297fdc3",
+                  "spaceId": "5257cf0b-8124-4419-87b6-815988437df5",
+                  "table": "block"
+                },
+                "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f0e94142-c211-4c2a-83d5-720683a3cf3b/FIMzDJXXwAQaz9_.jpeg"
+              },
+              "id": "2f0b8b0a-6c24-4b16-9bb3-32b952c70335",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1644169080000,
+              "parent_id": "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
+              "parent_table": "block",
+              "properties": {
+                "extra": {
+                  "base64": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAACAAQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAhEAABAwIHAQAAAAAAAAAAAAABAAMRAgYEBxIUI0FCUf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAEx/9oADAMBAAIRAxEAPwCT59gbixHY5X7UwLjtfpyqXBqqPZgASfgREUmD/9k=",
+                  "height": 1100,
+                  "width": 2024
+                },
+                "size": [
+                  [
+                    "451.2KB"
+                  ]
+                ],
+                "source": [
+                  [
+                    "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f0e94142-c211-4c2a-83d5-720683a3cf3b/FIMzDJXXwAQaz9_.jpeg"
+                  ]
+                ],
+                "title": [
+                  [
+                    "FIMzDJXXwAQaz9_.jpeg"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "image",
+              "version": 11
+            }
+          },
+          "3166170d-feae-476f-a8c7-e370926ff71f": {
+            "role": "comment_only",
+            "value": {
+              "alive": true,
+              "copied_from": "07085b13-2f37-4450-85d4-e658cbba43af",
+              "created_by_id": "611a0148-d0ac-4f2d-860b-f5174f34858c",
+              "created_by_table": "notion_user",
+              "created_time": 1644166157339,
+              "format": {
+                "copied_from_pointer": {
+                  "id": "07085b13-2f37-4450-85d4-e658cbba43af",
+                  "spaceId": "1c0d1d4f-ce72-4439-a0f6-134b77e57ec1",
+                  "table": "block"
+                }
+              },
+              "id": "3166170d-feae-476f-a8c7-e370926ff71f",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1644166140000,
+              "parent_id": "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "LFG!!!"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 5
+            }
+          },
+          "33f55f5a-fbdc-4b2b-85cc-43e922372c6c": {
+            "role": "comment_only",
+            "value": {
+              "alive": true,
+              "copied_from": "57830442-71ed-4e90-a244-c4a7671a292e",
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1644166246298,
+              "format": {
+                "copied_from_pointer": {
+                  "id": "57830442-71ed-4e90-a244-c4a7671a292e",
+                  "spaceId": "5257cf0b-8124-4419-87b6-815988437df5",
+                  "table": "block"
+                }
+              },
+              "id": "33f55f5a-fbdc-4b2b-85cc-43e922372c6c",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1644166260000,
+              "parent_id": "6b752f5c-1bf8-4433-8504-35c13a6b1ce7",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "/joining-layer3"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 20
+            }
+          },
+          "371d8367-69af-4474-adce-5840d3eecf4c": {
+            "role": "comment_only",
+            "value": {
+              "alive": true,
+              "copied_from": "5a121234-3e49-490b-a0ea-2c7e19236d76",
+              "created_by_id": "611a0148-d0ac-4f2d-860b-f5174f34858c",
+              "created_by_table": "notion_user",
+              "created_time": 1644166157339,
+              "format": {
+                "copied_from_pointer": {
+                  "id": "5a121234-3e49-490b-a0ea-2c7e19236d76",
+                  "spaceId": "1c0d1d4f-ce72-4439-a0f6-134b77e57ec1",
+                  "table": "block"
+                }
+              },
+              "id": "371d8367-69af-4474-adce-5840d3eecf4c",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1644166140000,
+              "parent_id": "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "I believe the most important layer of crypto is the people and want to help build a platform that enables mainstream users to get involved in a more meaningful way."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 4
+            }
+          },
+          "4acdfc7b-d85a-4f3f-9deb-f449314f32e3": {
+            "role": "comment_only",
+            "value": {
+              "alive": true,
+              "copied_from": "cd93046d-4756-4e8a-b96e-c59d5f6bfd51",
+              "created_by_id": "611a0148-d0ac-4f2d-860b-f5174f34858c",
+              "created_by_table": "notion_user",
+              "created_time": 1644166157338,
+              "format": {
+                "copied_from_pointer": {
+                  "id": "cd93046d-4756-4e8a-b96e-c59d5f6bfd51",
+                  "spaceId": "1c0d1d4f-ce72-4439-a0f6-134b77e57ec1",
+                  "table": "block"
+                }
+              },
+              "id": "4acdfc7b-d85a-4f3f-9deb-f449314f32e3",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1644166140000,
+              "parent_id": "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Today, I’m excited to announcing I’m joining Layer3 to help build a future where anyone, anywhere, can earn crypto by contributing to Web3."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 4
+            }
+          },
+          "599f1e30-01c7-4897-8cc4-ffa7d4cf9ec7": {
+            "role": "comment_only",
+            "value": {
+              "alive": true,
+              "copied_from": "2f0b8b0a-6c24-4b16-9bb3-32b952c70335",
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1644245962218,
+              "file_ids": [
+                "f0e94142-c211-4c2a-83d5-720683a3cf3b"
+              ],
+              "format": {
+                "block_aspect_ratio": 0.5434782608695652,
+                "block_full_width": false,
+                "block_page_width": false,
+                "block_preserve_scale": true,
+                "block_width": 576,
+                "copied_from_pointer": {
+                  "id": "2f0b8b0a-6c24-4b16-9bb3-32b952c70335",
+                  "spaceId": "5257cf0b-8124-4419-87b6-815988437df5",
+                  "table": "block"
+                },
+                "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f0e94142-c211-4c2a-83d5-720683a3cf3b/FIMzDJXXwAQaz9_.jpeg"
+              },
+              "id": "599f1e30-01c7-4897-8cc4-ffa7d4cf9ec7",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1644245940000,
+              "parent_id": "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
+              "parent_table": "block",
+              "properties": {
+                "extra": {
+                  "base64": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAACAAQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAhEAABAwIHAQAAAAAAAAAAAAABAAMRAgYEBxIUI0FCUf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAEx/9oADAMBAAIRAxEAPwCT59gbixHY5X7UwLjtfpyqXBqqPZgASfgREUmD/9k=",
+                  "height": 1100,
+                  "width": 2024
+                },
+                "size": [
+                  [
+                    "451.2KB"
+                  ]
+                ],
+                "source": [
+                  [
+                    "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f0e94142-c211-4c2a-83d5-720683a3cf3b/FIMzDJXXwAQaz9_.jpeg"
+                  ]
+                ],
+                "title": [
+                  [
+                    "FIMzDJXXwAQaz9_.jpeg"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "image",
+              "version": 3
+            }
+          },
+          "5f2aeea9-69a5-432e-968b-f4c1f78dbfbc": {
+            "role": "comment_only",
+            "value": {
+              "alive": true,
+              "copied_from": "d6d4963e-64bd-4c56-9737-306ee5676f17",
+              "created_by_id": "7ee14ca7-5e38-4407-83b9-60484bef9719",
+              "created_by_table": "notion_user",
+              "created_time": 1644166157339,
+              "format": {
+                "copied_from_pointer": {
+                  "id": "d6d4963e-64bd-4c56-9737-306ee5676f17",
+                  "spaceId": "1c0d1d4f-ce72-4439-a0f6-134b77e57ec1",
+                  "table": "block"
+                }
+              },
+              "id": "5f2aeea9-69a5-432e-968b-f4c1f78dbfbc",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1644166140000,
+              "parent_id": "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "I’m excited to get started, and work on a future where globally distributed projects work towards a shared vision of human collaboration and prosperity."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 4
+            }
+          },
+          "63b1b4e9-70b9-4b70-b78c-17da1769375f": {
+            "role": "comment_only",
+            "value": {
+              "alive": true,
+              "copied_from": "e3bcab56-9eb9-4acc-811e-3088aea573b9",
+              "created_by_id": "611a0148-d0ac-4f2d-860b-f5174f34858c",
+              "created_by_table": "notion_user",
+              "created_time": 1644166157338,
+              "format": {
+                "copied_from_pointer": {
+                  "id": "e3bcab56-9eb9-4acc-811e-3088aea573b9",
+                  "spaceId": "1c0d1d4f-ce72-4439-a0f6-134b77e57ec1",
+                  "table": "block"
+                }
+              },
+              "id": "63b1b4e9-70b9-4b70-b78c-17da1769375f",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1644166140000,
+              "parent_id": "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Honestly, it took me some time to really “get it”. "
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 4
+            }
+          },
+          "6b752f5c-1bf8-4433-8504-35c13a6b1ce7": {
+            "role": "comment_only",
+            "value": {
+              "alive": true,
+              "content": [
+                "fa982222-4646-4b16-b675-4d4a4c92c4db",
+                "80d64eef-3ac5-4ce9-9174-01a13297fdc3",
+                "33f55f5a-fbdc-4b2b-85cc-43e922372c6c",
+                "293ab90a-249f-4a29-8a76-0a52c93d6681"
+              ],
+              "copied_from": "c183f786-dacc-4e77-9cec-517116f90dc6",
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1644166246298,
+              "format": {
+                "copied_from_pointer": {
+                  "id": "c183f786-dacc-4e77-9cec-517116f90dc6",
+                  "spaceId": "5257cf0b-8124-4419-87b6-815988437df5",
+                  "table": "block"
+                }
+              },
+              "id": "6b752f5c-1bf8-4433-8504-35c13a6b1ce7",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1644245640000,
+              "parent_id": "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "‣",
+                    [
+                      [
+                        "d",
+                        {
+                          "type": "date",
+                          "start_date": "2022-02-07",
+                          "date_format": "relative"
+                        }
+                      ]
+                    ]
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "toggle",
+              "version": 19
+            }
+          },
+          "77cb072f-6f47-4a34-a36c-ff5a61ef472b": {
+            "role": "comment_only",
+            "value": {
+              "alive": true,
+              "copied_from": "f21d8c39-ce96-4e6f-90df-96039f409f20",
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1644166157339,
+              "format": {
+                "copied_from_pointer": {
+                  "id": "f21d8c39-ce96-4e6f-90df-96039f409f20",
+                  "spaceId": "1c0d1d4f-ce72-4439-a0f6-134b77e57ec1",
+                  "table": "block"
+                }
+              },
+              "id": "77cb072f-6f47-4a34-a36c-ff5a61ef472b",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1644166140000,
+              "parent_id": "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Tokens can facilitate systems not possible earlier. Out in the world right now, there are lots of smart people iterating on governance structure, incentive alignment and logistics of running globally distributed projects. These projects — called DAOs — have goals ranging from "
+                  ],
+                  [
+                    "solving the climate crisis",
+                    [
+                      [
+                        "a",
+                        "https://climatedao.xyz/"
+                      ]
+                    ]
+                  ],
+                  [
+                    ", "
+                  ],
+                  [
+                    "breaking up big pharma",
+                    [
+                      [
+                        "a",
+                        "https://www.molecule.to/"
+                      ]
+                    ]
+                  ],
+                  [
+                    ", or "
+                  ],
+                  [
+                    "crowd-buying an NBA team",
+                    [
+                      [
+                        "a",
+                        "https://twitter.com/KrauseHouseDAO"
+                      ]
+                    ]
+                  ],
+                  [
+                    "."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 4
+            }
+          },
+          "80d64eef-3ac5-4ce9-9174-01a13297fdc3": {
+            "role": "comment_only",
+            "value": {
+              "alive": true,
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1644166320000,
+              "file_ids": [
+                "f0e94142-c211-4c2a-83d5-720683a3cf3b"
+              ],
+              "format": {
+                "block_aspect_ratio": 0.5434782608695652,
+                "block_full_width": false,
+                "block_page_width": false,
+                "block_preserve_scale": true,
+                "block_width": 288,
+                "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f0e94142-c211-4c2a-83d5-720683a3cf3b/FIMzDJXXwAQaz9_.jpeg"
+              },
+              "id": "80d64eef-3ac5-4ce9-9174-01a13297fdc3",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1644166320000,
+              "parent_id": "6b752f5c-1bf8-4433-8504-35c13a6b1ce7",
+              "parent_table": "block",
+              "properties": {
+                "extra": {
+                  "base64": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAACAAQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAhEAABAwIHAQAAAAAAAAAAAAABAAMRAgYEBxIUI0FCUf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAEx/9oADAMBAAIRAxEAPwCT59gbixHY5X7UwLjtfpyqXBqqPZgASfgREUmD/9k=",
+                  "height": 1100,
+                  "width": 2024
+                },
+                "size": [
+                  [
+                    "451.2KB"
+                  ]
+                ],
+                "source": [
+                  [
+                    "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f0e94142-c211-4c2a-83d5-720683a3cf3b/FIMzDJXXwAQaz9_.jpeg"
+                  ]
+                ],
+                "title": [
+                  [
+                    "FIMzDJXXwAQaz9_.jpeg"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "image",
+              "version": 10
+            }
+          },
+          "9ddd216f-2421-49fe-b650-aa9688d38b16": {
+            "role": "comment_only",
+            "value": {
+              "alive": true,
+              "copied_from": "afee35e0-7677-4d47-8447-9cd873ac82de",
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1644166157339,
+              "format": {
+                "copied_from_pointer": {
+                  "id": "afee35e0-7677-4d47-8447-9cd873ac82de",
+                  "spaceId": "1c0d1d4f-ce72-4439-a0f6-134b77e57ec1",
+                  "table": "block"
+                }
+              },
+              "id": "9ddd216f-2421-49fe-b650-aa9688d38b16",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1644166140000,
+              "parent_id": "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "The concept of a DAO is still very early. The idea is good. The dream of what the technology can unlock is awesome. The people lining up to contribute and work in the space are massively talented. But there is still a massive amount of people who want to contribute, but don’t know where to start."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 4
+            }
+          },
+          "b968930c-8995-4c08-a8dc-a22f51b06607": {
+            "role": "comment_only",
+            "value": {
+              "alive": true,
+              "copied_from": "d04acac8-9aac-4c97-81a7-4c465afec024",
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1644166157338,
+              "format": {
+                "copied_from_pointer": {
+                  "id": "d04acac8-9aac-4c97-81a7-4c465afec024",
+                  "spaceId": "1c0d1d4f-ce72-4439-a0f6-134b77e57ec1",
+                  "table": "block"
+                }
+              },
+              "id": "b968930c-8995-4c08-a8dc-a22f51b06607",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1644166140000,
+              "parent_id": "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "It wasn’t until a few months ago, when reading "
+                  ],
+                  [
+                    "this 200-page",
+                    [
+                      [
+                        "a",
+                        "https://messari.io/pdf/messari-report-crypto-theses-for-2022.pdf"
+                      ]
+                    ]
+                  ],
+                  [
+                    " post that it really clicked."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 4
+            }
+          },
+          "bba12576-38f9-47fb-bddd-3944a5a28acc": {
+            "role": "comment_only",
+            "value": {
+              "alive": true,
+              "copied_from": "29972269-1955-479e-a893-853ce4ece5e4",
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1644166157339,
+              "format": {
+                "copied_from_pointer": {
+                  "id": "29972269-1955-479e-a893-853ce4ece5e4",
+                  "spaceId": "1c0d1d4f-ce72-4439-a0f6-134b77e57ec1",
+                  "table": "block"
+                }
+              },
+              "id": "bba12576-38f9-47fb-bddd-3944a5a28acc",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1644166140000,
+              "parent_id": "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Why Layer3?"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "sub_header",
+              "version": 4
+            }
+          },
+          "c8120b45-bd1d-45be-9f74-b9380f04b033": {
+            "role": "comment_only",
+            "value": {
+              "alive": true,
+              "copied_from": "c9c675ef-7a07-403c-a77a-c5c8cd343dd7",
+              "created_by_id": "611a0148-d0ac-4f2d-860b-f5174f34858c",
+              "created_by_table": "notion_user",
+              "created_time": 1644166157338,
+              "format": {
+                "copied_from_pointer": {
+                  "id": "c9c675ef-7a07-403c-a77a-c5c8cd343dd7",
+                  "spaceId": "1c0d1d4f-ce72-4439-a0f6-134b77e57ec1",
+                  "table": "block"
+                }
+              },
+              "id": "c8120b45-bd1d-45be-9f74-b9380f04b033",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1644166140000,
+              "parent_id": "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Why Web3?"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "sub_header",
+              "version": 4
+            }
+          },
+          "dbba0488-fa70-4539-98ec-52adc83fca6c": {
+            "role": "comment_only",
+            "value": {
+              "alive": true,
+              "copied_from": "2801610c-90fd-4af3-91b4-b49d19705ec7",
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1644166157338,
+              "format": {
+                "copied_from_pointer": {
+                  "id": "2801610c-90fd-4af3-91b4-b49d19705ec7",
+                  "spaceId": "1c0d1d4f-ce72-4439-a0f6-134b77e57ec1",
+                  "table": "block"
+                }
+              },
+              "id": "dbba0488-fa70-4539-98ec-52adc83fca6c",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1644166140000,
+              "parent_id": "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Programmable tokens on blockchains make new forms of governance and collaboration possible. Just like democracy is a technology for running nations, the LLC is a technology for creating businesses, tokens unlock new and powerful methods of collaboration."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 4
+            }
+          },
+          "e6b44d7d-31dd-49d4-8ddb-f9a9663d987f": {
+            "role": "comment_only",
+            "value": {
+              "alive": true,
+              "copied_from": "7212d186-e4a4-4e93-934a-ccd67b89c2ca",
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1644166157339,
+              "format": {
+                "copied_from_pointer": {
+                  "id": "7212d186-e4a4-4e93-934a-ccd67b89c2ca",
+                  "spaceId": "1c0d1d4f-ce72-4439-a0f6-134b77e57ec1",
+                  "table": "block"
+                }
+              },
+              "id": "e6b44d7d-31dd-49d4-8ddb-f9a9663d987f",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1644166140000,
+              "parent_id": "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "The area where DAOs really have the potential to shine, is in cases where the current incentive structure works against the core mission. DAOs figuring out big world problems, or creating better dating apps, benefit from having incentives aligned with the mission, instead of incentives aligned with shareholders."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 4
+            }
+          },
+          "fa982222-4646-4b16-b675-4d4a4c92c4db": {
+            "role": "comment_only",
+            "value": {
+              "alive": true,
+              "copied_from": "1f1c6108-92e0-41e0-98a7-fb35cc45fb96",
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1644166246298,
+              "format": {
+                "copied_from_pointer": {
+                  "id": "1f1c6108-92e0-41e0-98a7-fb35cc45fb96",
+                  "spaceId": "5257cf0b-8124-4419-87b6-815988437df5",
+                  "table": "block"
+                }
+              },
+              "id": "fa982222-4646-4b16-b675-4d4a4c92c4db",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1644166260000,
+              "parent_id": "6b752f5c-1bf8-4433-8504-35c13a6b1ce7",
+              "parent_table": "block",
+              "properties": {
+                "title": [
+                  [
+                    "Today, I’m excited to announcing I’m joining Layer3 to help build a future where anyone, anywhere, can earn crypto by contributing to Web3."
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "text",
+              "version": 5
+            }
+          },
+          "fb52dac2-2291-4bf4-84f0-897f1b97c6cb": {
+            "role": "comment_only",
+            "value": {
+              "alive": true,
+              "content": [
+                "599f1e30-01c7-4897-8cc4-ffa7d4cf9ec7",
+                "4acdfc7b-d85a-4f3f-9deb-f449314f32e3",
+                "c8120b45-bd1d-45be-9f74-b9380f04b033",
+                "63b1b4e9-70b9-4b70-b78c-17da1769375f",
+                "b968930c-8995-4c08-a8dc-a22f51b06607",
+                "dbba0488-fa70-4539-98ec-52adc83fca6c",
+                "77cb072f-6f47-4a34-a36c-ff5a61ef472b",
+                "e6b44d7d-31dd-49d4-8ddb-f9a9663d987f",
+                "9ddd216f-2421-49fe-b650-aa9688d38b16",
+                "bba12576-38f9-47fb-bddd-3944a5a28acc",
+                "06c70a2a-7dd1-4f5d-935d-776dddbc17a1",
+                "2f0b8b0a-6c24-4b16-9bb3-32b952c70335",
+                "246975b8-4a0e-47c5-841e-6b6638a711a7",
+                "371d8367-69af-4474-adce-5840d3eecf4c",
+                "5f2aeea9-69a5-432e-968b-f4c1f78dbfbc",
+                "3166170d-feae-476f-a8c7-e370926ff71f"
+              ],
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1643819743720,
+              "id": "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
+              "last_edited_by": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1644245940000,
+              "parent_id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
+              "parent_table": "block",
+              "permissions": [
+                {
+                  "added_timestamp": 1643829541384,
+                  "allow_duplicate": false,
+                  "role": "comment_only",
+                  "type": "public_permission"
+                }
+              ],
+              "properties": {
+                "title": [
+                  [
+                    "I’m Joining Layer3"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "page",
               "version": 210
+            }
+          },
+          "fd68700f-f667-4299-9c0e-41a4d5bc7c4a": {
+            "role": "reader",
+            "value": {
+              "alive": true,
+              "content": [
+                "b5e75302-a227-4ed3-af6b-e1f4f6f261f3",
+                "2e5e075a-34b4-492d-b879-c0ada1ecbb8b",
+                "5214e504-f066-49dd-96ed-ff7928cd7321",
+                "03324020-6778-4180-8f0b-6cb30b51035e",
+                "305be4b1-2dbb-4fb8-9f96-fe56481487b3",
+                "e5ab1ab7-a94d-43cc-8383-c9aa08093c1e",
+                "e05b5977-2196-4834-993c-9c899b3eb7ec",
+                "fb52dac2-2291-4bf4-84f0-897f1b97c6cb",
+                "af74fadd-24c3-4e17-a933-fea1da00744a",
+                "2580bfab-7590-4a52-91ac-f6c9f7bbb298",
+                "e7a2c00d-8752-4fe6-b38c-6bde14a21050",
+                "2b574b0e-e20a-4aa3-884e-45d3b8a20495",
+                "8711af9b-3254-48b8-9b35-f8d6be011914",
+                "23829438-a093-44c0-af44-261f9ca20011",
+                "85fd5181-bcf6-470a-8026-902d969db9d2",
+                "bdaf0be2-96e8-47f6-a0c1-9abf91f6627b",
+                "54791f79-ddc8-4b58-a0e6-d4fce6d24a23",
+                "14d4263c-a202-40d3-9ad5-d0904af0581c",
+                "3e07e6cf-7cfb-43a9-a48b-2ff31568cb27",
+                "c22aad82-c82e-46d3-a89f-5b71210d1ec5",
+                "67b5a629-6522-4c26-847c-283dda23eed7",
+                "72b6bc97-dda7-4b1d-a6cc-f3e0bb473e6c",
+                "fb16959e-d347-4c36-9ecd-3f58f86dd8d5",
+                "1ae94a0f-f4d8-414b-af15-bf71f3b0f149",
+                "1ed377a5-0def-4d54-bceb-f39165b8b42d",
+                "3d671266-fe0e-4466-9e14-ae5805d83ff0",
+                "d8f9876e-715e-48bd-81a0-e061b81e69f8",
+                "21cdde62-aff9-4826-8895-edc17a6ea16a",
+                "a91e816d-1938-4d17-a98a-4bc3de948d50",
+                "d8968792-180d-4ced-83cd-d7d128ff679a"
+              ],
+              "created_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "created_by_table": "notion_user",
+              "created_time": 1641725520000,
+              "format": {
+                "page_icon": "🦢"
+              },
+              "id": "fd68700f-f667-4299-9c0e-41a4d5bc7c4a",
+              "last_edited_by_id": "ece1e643-dda1-43f8-89a6-686da3b80c23",
+              "last_edited_by_table": "notion_user",
+              "last_edited_time": 1643819700000,
+              "parent_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "parent_table": "space",
+              "permissions": [
+                {
+                  "role": "editor",
+                  "type": "user_permission",
+                  "user_id": "ece1e643-dda1-43f8-89a6-686da3b80c23"
+                },
+                {
+                  "added_timestamp": 1641725580869,
+                  "allow_duplicate": false,
+                  "role": "reader",
+                  "type": "public_permission"
+                }
+              ],
+              "properties": {
+                "title": [
+                  [
+                    "larskarbo.no"
+                  ]
+                ]
+              },
+              "space_id": "5257cf0b-8124-4419-87b6-815988437df5",
+              "type": "page",
+              "version": 214
             }
           }
         },

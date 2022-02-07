@@ -157,14 +157,9 @@ const BlogIndex = ({ pages }: { pages: Page[] }) => {
             md={`
 Hi, I'm [Lars](https://larslist.org/).
 
-
-This website is a place for my thoughts, projects, and writings. It is
-not centered around one topic, but rather a conglomeration of my articles,
-scribbles, and random ideas.
+I'm working in [Layer3](https://layer3.xyz), where we on enable anyone to contribute to DAOs.
 
 
-Like my brain: some good parts, some messy parts, and all in all a
-huge interconnected web of interesting topics and creative ideas
             `}
           />
           <div className="mt-12">
@@ -242,7 +237,6 @@ that live and breathe in the internet-ecosystem."
                 height="232"
                 frameBorder="0"
                 className=""
-                allowTransparency={true}
                 allow="encrypted-media"
               ></iframe>
             </div>

@@ -44,3 +44,11 @@ export const Footer = () => {
     </footer>
   )
 }
+
+// This website is a place for my thoughts, projects, and writings. It is
+// not centered around one topic, but rather a conglomeration of my articles,
+// scribbles, and random ideas.
+
+
+// Like my brain: some good parts, some messy parts, and all in all a
+// huge interconnected web of interesting topics and creative ideas
