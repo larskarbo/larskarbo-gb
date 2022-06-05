@@ -158,6 +158,8 @@ const BlogIndex = ({ pages }: { pages: Page[] }) => {
 Hi, I'm [Lars](https://larslist.org/).
 
 I'm working in [Layer3](https://layer3.xyz), where we on enable anyone to contribute to DAOs.
+
+Check out [my dev blog](https://www.turfemon.com/) too :)
             `}
           />
           <div className="mt-12">
