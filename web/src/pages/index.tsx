@@ -63,7 +63,8 @@ const PageLink = ({
           {!page.meta.date && "*"}
           {includeDate && (
             <span className="text-xxs uppercase text-gray-400 font-mono">
-              {" "}{format(
+              {" "}
+              {format(
                 page.meta.date ? new Date(page.meta.date) : new Date(),
                 "do MMM"
               )}
@@ -157,7 +158,7 @@ const BlogIndex = ({ pages }: { pages: Page[] }) => {
             md={`
 Hi, I'm [Lars](https://larslist.org/).
 
-I'm working in [Layer3](https://layer3.xyz), where we on enable anyone to contribute to DAOs.
+I'm currently heads down working in [Layer3](https://layer3.xyz).
 
 Check out [my dev blog](https://www.turfemon.com/) too :)
             `}
