@@ -45,8 +45,8 @@ dependencies:
     specifier: ^4.13.0
     version: 4.13.0
   notion-types:
-    specifier: ^6.16.0
-    version: 6.16.0
+    specifier: ^4.19.8
+    version: 4.19.8
   notion-utils:
     specifier: ^4.12.0
     version: 4.12.0
@@ -3060,11 +3060,6 @@ packages:
 
   /notion-types@4.19.8:
     resolution: {integrity: sha512-KLszLpe2UtejnX0bCoLe8JFZPeQyUS15F29LW4iRPFwnlNZePWz0h303F0IBhxOXQRiWIwy4mEGzRDu45a+dhA==}
-    engines: {node: '>=12'}
-    dev: false
-
-  /notion-types@6.16.0:
-    resolution: {integrity: sha512-Cv83GaAczx57q1qsnuG8DHOuOb63c83u9LX2IainG5aqBEB0GUuLZ4DUQfB6MaXt+FMY9fO+KTgPeZWwX9hbrQ==}
     engines: {node: '>=12'}
     dev: false
 
