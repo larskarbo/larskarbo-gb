@@ -142,7 +142,7 @@ const BlogIndex = ({ pages }: { pages: Page[] }) => {
       !page.meta.date ||
       isAfter(
         new Date(page.meta.date),
-        parse("2022-01-01", "yyyy-MM-dd", new Date())
+        parse("2023-08-14", "yyyy-MM-dd", new Date())
       )
   )
   return (
@@ -164,7 +164,9 @@ Check out [my dev blog](https://www.turfemon.com/) too :)
             `}
           />
           <div className="mt-12">
-            <Cat title="Recent posts" pages={newPages} includeDate />
+            {newPages.length > 0 && (
+              <Cat title="Recent posts" pages={newPages} includeDate />
+            )}
           </div>
           <div className="pt-12"> </div>
         </div>
