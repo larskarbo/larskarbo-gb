@@ -16,6 +16,7 @@ import { format, isAfter, parse, startOfYear } from "date-fns"
 import { groupBy, entries, reverse, sampleSize } from "lodash"
 import ReactMarkdown from "react-markdown"
 import clsx from "clsx"
+import LineDrawing from "../components/LineDrawing"
 
 export const getStaticProps = async context => {
   // This crawls all public pages starting from the given root page in order
@@ -152,7 +153,8 @@ const BlogIndex = ({ pages }: { pages: Page[] }) => {
         description="Some kind of weird part of the internet where lars writes stuff. Can be thoughts or articles or anything really."
       />
 
-      <div className="min-h-screen px-8 flex flex-col justify-center gap-12 xl:gap-24">
+      <div className="min-h-screen px-8 flex flex-col justify-center gap-12 xl:gap-24 relative">
+        <LineDrawing />
         <div className="max-w-xl block mx-auto">
           <Talk
             md={`
@@ -254,7 +256,7 @@ that live and breathe in the internet-ecosystem."
         )
           // .filter(([year]) => year !== "2022")
           .map(([year, pages]) => (
-            <div>
+            <div key={year}>
               <p className="py-2 font-light">{year}:</p>
               {pages
                 // ?.filter(p => !p.meta.tags?.includes("12x"))
