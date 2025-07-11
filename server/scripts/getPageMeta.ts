@@ -1,8 +1,8 @@
 import { encode } from "blurhash";
-import { Block, ExtendedRecordMap } from "notion-types";
+import type { Block, ExtendedRecordMap } from "notion-types";
 import { getDateValue, getPageTitle } from "notion-utils";
 import sharp from "sharp";
-import { Meta } from "../../web/src/types";
+import type { Meta } from "../../web/src/types";
 import { formatISO, parse } from "date-fns";
 
 export const getPageMeta = (pageId, recordMap: ExtendedRecordMap) => {
@@ -17,6 +17,7 @@ export const getPageMeta = (pageId, recordMap: ExtendedRecordMap) => {
   }
 
   const toggleBlock = recordMap.block[toggleBlockId];
+
   const date = getDateValue(
     toggleBlock.value.properties?.title?.[0][1]
   )?.start_date;
@@ -28,6 +29,18 @@ export const getPageMeta = (pageId, recordMap: ExtendedRecordMap) => {
   //@ts-ignore
   const icon = mainBlock.value.format?.page_icon;
   console.log("icon: ", pageId, icon);
+
+  // Add defensive check for content
+  if (!toggleBlock.value.content || !Array.isArray(toggleBlock.value.content)) {
+    console.log(
+      "Warning: toggleBlock.value.content is undefined or not an array"
+    );
+    console.log(
+      "toggleBlock.value structure:",
+      JSON.stringify(toggleBlock.value, null, 2)
+    );
+    return {};
+  }
 
   const imageBlock = getBlock(
     toggleBlock.value.content.find((bId) => {
@@ -86,17 +99,21 @@ export const mapImageUrl = (url: string, block: Block) => {
     return url;
   }
 
-  if (url.startsWith("/images")) {
-    url = `https://www.notion.so${url}`;
+  let processedUrl = url;
+
+  if (processedUrl.startsWith("/images")) {
+    processedUrl = `https://www.notion.so${processedUrl}`;
   }
 
   // more recent versions of notion don't proxy unsplash images
-  if (!url.startsWith("https://images.unsplash.com")) {
-    url = `https://www.notion.so${
-      url.startsWith("/image") ? url : `/image/${encodeURIComponent(url)}`
+  if (!processedUrl.startsWith("https://images.unsplash.com")) {
+    processedUrl = `https://www.notion.so${
+      processedUrl.startsWith("/image")
+        ? processedUrl
+        : `/image/${encodeURIComponent(processedUrl)}`
     }`;
 
-    const notionImageUrlV2 = new URL(url);
+    const notionImageUrlV2 = new URL(processedUrl);
     let table = block.parent_table === "space" ? "block" : block.parent_table;
     if (table === "collection") {
       table = "block";
@@ -105,10 +122,10 @@ export const mapImageUrl = (url: string, block: Block) => {
     notionImageUrlV2.searchParams.set("id", block.id);
     notionImageUrlV2.searchParams.set("cache", "v2");
 
-    url = notionImageUrlV2.toString();
+    processedUrl = notionImageUrlV2.toString();
   }
 
-  return url;
+  return processedUrl;
 };
 
 export const encodeImageToBlurhash = (path) =>
