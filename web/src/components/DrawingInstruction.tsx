@@ -73,18 +73,21 @@ export const DrawingInstruction: React.FC<DrawingInstructionProps> = ({
           top: lineStartY - 25,
         }}
       >
-        <div style={{
-          fontSize: "10px",
-        }} className=" text-gray-600 dark:text-gray-400 whitespace-nowrap animate-fade-in font-bold">
-          plz, do not draw a circle
+        <div
+          style={{
+            fontSize: "10px",
+          }}
+          className=" text-gray-600 dark:text-gray-400 whitespace-nowrap animate-fade-in font-bold"
+        >
+          do not draw a circle
         </div>
       </div>
-      
+
       <style jsx>{`
         .animate-fade-in {
           animation: fadeIn 0.5s ease-in-out;
         }
-        
+
         @keyframes fadeIn {
           from {
             opacity: 0;

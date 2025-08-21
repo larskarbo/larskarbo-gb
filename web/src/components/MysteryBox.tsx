@@ -13,32 +13,37 @@ export const MysteryBox: React.FC<MysteryBoxProps> = ({ isVisible }) => {
       // Delay content appearance for smooth animation
       const timer = setTimeout(() => {
         setShowContent(true)
-      }, 300)
+      }, 500)
       return () => clearTimeout(timer)
     } else {
       setShowContent(false)
     }
   }, [isVisible])
 
+  if(!showContent){
+    return null
+  }
+
   return (
     <div
-      className={`fixed left-4 top-4 border-2 border-gray-400 dark:border-gray-600 text-gray-800 dark:text-gray-200 font-mono p-4 max-w-sm transition-all duration-500 ease-out z-50 ${
+      className={`fixed left-4 top-4 border-2 border-gray-400 dark:border-gray-600 text-gray-800 dark:text-gray-200 font-mono p-4 max-w-sm transition-all duration-1000 ease-out z-50 ${
         isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
       }`}
     >
       <div className="animate-fade-in">
         <h2 className="text-sm font-bold mb-3">Achievement Unlocked</h2>
         <p className="text-xs mb-4">
-          You're obviously very smart, I'd love to talk to you.
+          You're obviously very smart, I'd love to talk.
         </p>
 
         <div className="space-y-2 text-xs">
           <div>
+            book a 30min{" "}
             <a
               href="https://calendar.notion.so/meet/larskarb/30-mins"
               className="underline hover:no-underline"
             >
-              book a 30min call
+              call
             </a>
           </div>
 
