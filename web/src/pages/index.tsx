@@ -234,13 +234,13 @@ Check out [my dev blog](https://www.turfemon.com/) too :)
           <div className="pt-12"> </div>
         </div>
       </div>
-
+{/* 
       <div className="mt-4 mb-12 max-w-xl mx-auto">
         <NewsletterForm />
 
 
         <div className="h-48 border-l border-gray-300 mx-auto w-1"></div>
-      </div>
+      </div> */}
 
       <div className="xl:grid grid-cols-2 flex flex-col items-center pt-24">
         <div className="max-w-xl mx-auto">
