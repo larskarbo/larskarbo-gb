@@ -26,7 +26,7 @@ export const MysteryBox: React.FC<MysteryBoxProps> = ({ isVisible }) => {
 
   return (
     <div
-      className={`fixed left-4 top-4 border-2 border-gray-400 dark:border-gray-600 text-gray-800 dark:text-gray-200 font-mono p-4 max-w-sm transition-all duration-1000 ease-out z-50 ${
+      className={`absolute left-4 top-4 border-2 border-gray-400 dark:border-gray-600 text-gray-800 dark:text-gray-200 font-mono p-4 max-w-sm transition-all duration-1000 ease-out z-50 ${
         isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
       }`}
     >
