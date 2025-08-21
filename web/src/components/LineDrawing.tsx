@@ -1,8 +1,18 @@
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useRef, useState, useCallback } from "react"
 import { easeInOutQuint, easeOutQuint } from "./easings"
 import { sample } from "lodash"
 
-export function LineDrawing() {
+interface LineDrawingProps {
+  initialLine?: {
+    start: { x: number; y: number }
+    end: { x: number; y: number }
+  }
+  onManualDrawingStart?: () => void
+  onFirstCircle?: () => void
+  onSecondCircle?: () => void
+}
+
+export function LineDrawing({ initialLine, onManualDrawingStart, onFirstCircle, onSecondCircle }: LineDrawingProps = {}) {
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
   const [ctx1, setCtx1] = useState<CanvasRenderingContext2D | null>(null)
 
@@ -41,6 +51,7 @@ export function LineDrawing() {
 
     let lastPosition = { x: cX, y: cY }
     let mouseDown = false
+    let isDrawing = false
 
     const particles = [] as {
       x: number
@@ -54,22 +65,21 @@ export function LineDrawing() {
     let linePoints = [] as { x: number; y: number }[]
 
     const onDown = (e: MouseEvent) => {
-      // const isIn20PercentLeftScreen = e.clientX < window.innerWidth * 0.2;
-
-      // if (!isIn20PercentLeftScreen) {
-      //   return;
-      // }
-
       mouseDown = !mouseDown
-      lastPosition = {
+      const position = {
         x: e.clientX * window.devicePixelRatio,
         y: e.clientY * window.devicePixelRatio,
       }
-      linePoints = []
-      linePoints.push(lastPosition)
-
-      // make global css text selection not happen
-      window.document.body.style.userSelect = "none"
+      
+      if (mouseDown) {
+        // Call the callback when manual drawing starts
+        if (onManualDrawingStart) {
+          onManualDrawingStart()
+        }
+        startDrawing(position)
+      } else {
+        stopDrawing()
+      }
     }
 
     const lineCrossAnimationDuration = 1000
@@ -77,62 +87,72 @@ export function LineDrawing() {
     let lineCrosses = [] as {
       timestamp: number
       multiplier: number
+      isValid?: boolean
     }[]
 
     const availableColors = ["#E60C0C", "#19A316", "#0DAFA5", "#B579F2"]
     let currentColor: string = availableColors[0]!
     let pointsThatArePrettyClose = []
-    const onMove = (e: MouseEvent) => {
-      if (mouseDown) {
-        const newPosition = {
-          x: e.clientX * window.devicePixelRatio,
-          y: e.clientY * window.devicePixelRatio,
+
+    // Programmatic drawing functions
+    const startDrawing = (startPoint: { x: number; y: number }) => {
+      isDrawing = true
+      lastPosition = startPoint
+      linePoints = []
+      linePoints.push(lastPosition)
+      
+      // Disable text selection when drawing starts
+      window.document.body.style.userSelect = "none"
+    }
+
+    const addPoint = (newPosition: { x: number; y: number }) => {
+      if (!isDrawing) return
+      
+      lastPosition = newPosition
+      linePoints.push(lastPosition)
+
+      const NUM_PARTICLES = 1
+      // create some particles
+      for (let i = 0; i < NUM_PARTICLES; i++) {
+        const p = {
+          x: lastPosition.x,
+          y: lastPosition.y,
+          vx: Math.random() * 10 - 5,
+          vy: Math.random() * 10 - 5,
+          createdAtMs: Date.now(),
+          color: currentColor,
         }
-        lastPosition = newPosition
-        linePoints.push(lastPosition)
+        particles.push(p)
+      }
 
-        const NUM_PARTICLES = 1
-        // create some particles
-        for (let i = 0; i < NUM_PARTICLES; i++) {
-          const p = {
-            x: lastPosition.x,
-            y: lastPosition.y,
-            vx: Math.random() * 10 - 5,
-            vy: Math.random() * 10 - 5,
-            createdAtMs: Date.now(),
-            color: currentColor,
-          }
-          particles.push(p)
-        }
+      const point = newPosition
 
-        const point = newPosition
+      const lastLineCross = lineCrosses[lineCrosses.length - 1]
+      if (lastLineCross && Date.now() - lastLineCross.timestamp < 100) {
+        return
+      }
 
-        const lastLineCross = lineCrosses[lineCrosses.length - 1]
-        if (lastLineCross && Date.now() - lastLineCross.timestamp < 100) {
-          return
-        }
+      const pointsWithDistanceInfo = linePoints.map((p, i) => {
+        const dist = Math.sqrt(
+          Math.pow(p.x - point.x, 2) + Math.pow(p.y - point.y, 2)
+        )
+        return { ...p, i, dist, prev: linePoints[i - 1] }
+      })
 
-        const pointsWithDistanceInfo = linePoints.map((p, i) => {
-          const dist = Math.sqrt(
-            Math.pow(p.x - point.x, 2) + Math.pow(p.y - point.y, 2)
-          )
-          return { ...p, i, dist, prev: linePoints[i - 1] }
+      // ignore all points at the end until distance becomes high ish
+      const pointsToIgnoreIndex = [...pointsWithDistanceInfo]
+        .reverse()
+        .findIndex(p => p.dist > 40)
+
+      pointsThatArePrettyClose = pointsWithDistanceInfo
+        .slice(0, Math.min(-pointsToIgnoreIndex, -2))
+        .filter((p, i) => {
+          return p.dist < 400 && !!p.prev
         })
 
-        // ignore all points at the end until distance becomes high ish
-        const pointsToIgnoreIndex = [...pointsWithDistanceInfo]
-          .reverse()
-          .findIndex(p => p.dist > 40)
-
-        console.log("pointsToIgnoreIndex: ", pointsToIgnoreIndex)
-        pointsThatArePrettyClose = pointsWithDistanceInfo
-          .slice(0, Math.min(-pointsToIgnoreIndex, -2))
-          .filter((p, i) => {
-            return p.dist < 400 && !!p.prev
-          })
-
-        let didCross = false
-        const lastPoint = linePoints[linePoints.length - 2]
+      let didCross = false
+      const lastPoint = linePoints[linePoints.length - 2]
+      if (lastPoint) {
         const thisSegment = {
           x1: lastPoint.x,
           y1: lastPoint.y,
@@ -160,22 +180,78 @@ export function LineDrawing() {
           const lineCrossesThatMatter = lineCrosses.filter(
             lc => Date.now() - lc.timestamp < lineCrossAnimationDuration
           )
+          
+          // Calculate bounding box of the drawn line
+          const getBoundingBox = (points: { x: number; y: number }[]) => {
+            if (points.length === 0) return { width: 0, height: 0 }
+            
+            const xs = points.map(p => p.x)
+            const ys = points.map(p => p.y)
+            const minX = Math.min(...xs)
+            const maxX = Math.max(...xs)
+            const minY = Math.min(...ys)
+            const maxY = Math.max(...ys)
+            
+            return {
+              width: maxX - minX,
+              height: maxY - minY,
+              minX,
+              maxX,
+              minY,
+              maxY
+            }
+          }
+          
+          const boundingBox = getBoundingBox(linePoints)
+          const minCircleSize = 80 // Minimum size for a "proper" circle in canvas pixels
+          const isBigEnoughCircle = Math.min(boundingBox.width, boundingBox.height) > minCircleSize
+          
+          // Only count circles that are big enough for the first circle logic
+          const validCircles = lineCrosses.filter(lc => lc.isValid !== false)
+          const isFirstValidCircle = validCircles.length === 0 && isBigEnoughCircle
+          const isSecondValidCircle = validCircles.length === 1
+          
           lineCrosses.push({
             timestamp: Date.now(),
             multiplier: lineCrossesThatMatter.length + 1,
+            isValid: isBigEnoughCircle
           })
-          const isFirstTime = lineCrosses.length === 1
-          currentColor = isFirstTime
+          
+          // Only trigger first circle callback if it's big enough
+          if (isFirstValidCircle && onFirstCircle) {
+            console.log("First valid circle detected!")
+            onFirstCircle()
+          }
+          
+          if (isSecondValidCircle && onSecondCircle) {
+            console.log("Second circle detected!")
+            onSecondCircle()
+          }
+          
+          currentColor = isFirstValidCircle
             ? availableColors[1] // i want green to be the first color it changes to
             : sample(availableColors.filter(c => c !== currentColor))!
         }
       }
     }
 
+    const stopDrawing = () => {
+      isDrawing = false
+      window.document.body.style.userSelect = "auto"
+    }
+    const onMove = (e: MouseEvent) => {
+      if (mouseDown) {
+        const newPosition = {
+          x: e.clientX * window.devicePixelRatio,
+          y: e.clientY * window.devicePixelRatio,
+        }
+        addPoint(newPosition)
+      }
+    }
+
     const onUp = (e: MouseEvent) => {
       mouseDown = false
-
-      window.document.body.style.userSelect = "auto"
+      stopDrawing()
     }
 
     const render = () => {
@@ -214,7 +290,6 @@ export function LineDrawing() {
         if (now - lineCross.timestamp < lineCrossAnimationDuration) {
           const progress =
             (now - lineCross.timestamp) / lineCrossAnimationDuration
-          console.log("progress: ", progress)
           ctx.save()
           ctx.globalAlpha = 0.6 - easeOutQuint(progress) * 0.6
           ctx.strokeStyle = currentColor
@@ -224,23 +299,6 @@ export function LineDrawing() {
           ctx.restore()
         }
       })
-
-      // draw small circles at every point
-
-      // pointsThatArePrettyClose
-      // pointsThatArePrettyClose.forEach((point, i) => {
-      //   ctx.beginPath()
-      //   ctx.fillStyle = availableColors[i % availableColors.length]
-      //   ctx.strokeStyle = availableColors[i % availableColors.length]
-      //   ctx.arc(point.prev.x, point.prev.y, 2, 0, Math.PI * 2)
-      //   ctx.arc(point.x, point.y, 2, 0, Math.PI * 2)
-
-      //   ctx.fill()
-      //   ctx.moveTo(point.prev.x, point.prev.y)
-      //   ctx.lineTo(point.x, point.y)
-      //   ctx.lineWidth = 1
-      //   ctx.stroke()
-      // })
 
       const LIFE_TIME = 600
 
@@ -274,6 +332,37 @@ export function LineDrawing() {
 
     requestAnimationFrame(onTick)
 
+    // Add initial segment if provided
+    if (initialLine) {
+      // Convert percentage/viewport coordinates to canvas coordinates
+      const startX = initialLine.start.x * window.devicePixelRatio
+      const startY = initialLine.start.y * window.devicePixelRatio
+      const endX = initialLine.end.x * window.devicePixelRatio
+      const endY = initialLine.end.y * window.devicePixelRatio
+      
+      startDrawing({ x: startX, y: startY })
+      
+      // Animate drawing the initial segment over time
+      let progress = 0
+      const animateInitialSegment = () => {
+        progress += 0.02
+        if (progress <= 1) {
+          const currentX = startX + (endX - startX) * progress
+          const currentY = startY + (endY - startY) * progress
+          addPoint({ x: currentX, y: currentY })
+          requestAnimationFrame(animateInitialSegment)
+        } else {
+          stopDrawing()
+        }
+      }
+      
+      // Start the animation after a brief delay
+      setTimeout(() => {
+        animateInitialSegment()
+      }, 500)
+    }
+
+    // Always add mouse event listeners
     canvas.addEventListener("mousedown", onDown)
     window.addEventListener("mousemove", onMove)
     window.addEventListener("mouseup", onUp)
@@ -283,7 +372,7 @@ export function LineDrawing() {
       window.removeEventListener("mousemove", onMove)
       window.removeEventListener("mouseup", onUp)
     }
-  }, [ctx1])
+  }, [ctx1,])
 
   return (
     <div className="w-screen h-screen absolute top-0 left-0 z-0" style={{}}>

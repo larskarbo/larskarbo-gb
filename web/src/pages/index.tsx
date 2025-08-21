@@ -1,5 +1,5 @@
 import { QuickSeo } from "next-quick-seo"
-import React from "react"
+import React, { useState, useEffect } from "react"
 import Layout, { Footer } from "../components/Layout"
 import { NewsletterForm } from "../components/NewsletterForm"
 import { NextImage } from "../components/NextImage"
@@ -10,13 +10,15 @@ export const isLocal = () =>
   window.location?.host?.includes("localhost")
 
 import { getPages } from "../components/utils/getPages"
-import { Page } from "../types"
+import type { Page } from "../types"
 import x12pic from "../../public/12s12m.png"
 import { format, isAfter, parse, startOfYear } from "date-fns"
 import { groupBy, entries, reverse, sampleSize } from "lodash"
 import ReactMarkdown from "react-markdown"
 import clsx from "clsx"
 import LineDrawing from "../components/LineDrawing"
+import { DrawingInstruction } from "../components/DrawingInstruction"
+import { MysteryBox } from "../components/MysteryBox"
 
 export const getStaticProps = async context => {
   // This crawls all public pages starting from the given root page in order
@@ -121,6 +123,48 @@ const Talk = ({ md }) => {
 
 const BlogIndex = ({ pages }: { pages: Page[] }) => {
   console.log("pages: ", pages)
+  
+  const [linePosition, setLinePosition] = useState<{
+    start: { x: number; y: number }
+    end: { x: number; y: number }
+  } | null>(null)
+  
+  const [isManualDrawing, setIsManualDrawing] = useState(false)
+  const [isMobile, setIsMobile] = useState(false)
+  const [hasDrawnCircle, setHasDrawnCircle] = useState(false)
+  const [hasDrawnSecondCircle, setHasDrawnSecondCircle] = useState(false)
+
+  useEffect(() => {
+    const calculateLinePosition = () => {
+      if (typeof window !== 'undefined') {
+        const centerX = window.innerWidth / 2
+        const highY = window.innerHeight * 0.15
+        
+        setLinePosition({
+          start: { x: centerX - 30, y: highY },
+          end: { x: centerX + 30, y: highY + 1 }
+        })
+      }
+    }
+
+    const checkMobile = () => {
+      if (typeof window !== 'undefined') {
+        setIsMobile(window.innerWidth < 768) // md breakpoint
+      }
+    }
+
+    calculateLinePosition()
+    checkMobile()
+    
+    window.addEventListener('resize', calculateLinePosition)
+    window.addEventListener('resize', checkMobile)
+    
+    return () => {
+      window.removeEventListener('resize', calculateLinePosition)
+      window.removeEventListener('resize', checkMobile)
+    }
+  }, [])
+
   // const posts = data.allMarkdownRemark.nodes.filter(
   //   node => isLocal() || !node.fields.isDraft
   // )
@@ -153,14 +197,31 @@ const BlogIndex = ({ pages }: { pages: Page[] }) => {
         description="Some kind of weird part of the internet where lars writes stuff. Can be thoughts or articles or anything really."
       />
 
+      <MysteryBox isVisible={hasDrawnCircle && !hasDrawnSecondCircle} />
+
       <div className="min-h-screen px-8 flex flex-col justify-center gap-12 xl:gap-24 relative">
-        <LineDrawing />
-        <div className="max-w-xl block mx-auto">
+        {linePosition && !isMobile && (
+          <>
+            <LineDrawing 
+              initialLine={linePosition} 
+              onManualDrawingStart={() => setIsManualDrawing(true)}
+              onFirstCircle={() => setHasDrawnCircle(true)}
+              onSecondCircle={() => setHasDrawnSecondCircle(true)}
+            />
+            {!isManualDrawing && (
+              <DrawingInstruction 
+                lineStart={linePosition.start}
+                lineEnd={linePosition.end}
+              />
+            )}
+          </>
+        )}
+        <div className="max-w-xl block mx-auto relative z-10">
           <Talk
             md={`
 Hi, I'm [Lars](https://larslist.org/).
 
-I'm currently heads down working in [Layer3](https://layer3.xyz).
+Building something new.
 
 Check out [my dev blog](https://www.turfemon.com/) too :)
             `}
@@ -174,12 +235,12 @@ Check out [my dev blog](https://www.turfemon.com/) too :)
         </div>
       </div>
 
-      {/* <div className="mt-4 mb-12 max-w-xl mx-auto">
+      <div className="mt-4 mb-12 max-w-xl mx-auto">
         <NewsletterForm />
 
 
         <div className="h-48 border-l border-gray-300 mx-auto w-1"></div>
-      </div> */}
+      </div>
 
       <div className="xl:grid grid-cols-2 flex flex-col items-center pt-24">
         <div className="max-w-xl mx-auto">

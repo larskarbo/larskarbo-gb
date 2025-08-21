@@ -90,6 +90,9 @@ importers:
       '@types/lodash':
         specifier: ^4.14.178
         version: 4.17.20
+      '@types/node':
+        specifier: 24.1.0
+        version: 24.1.0
       '@types/react':
         specifier: ^17.0.38
         version: 17.0.87
@@ -305,6 +308,9 @@ packages:
 
   '@types/node@24.0.13':
     resolution: {integrity: sha512-Qm9OYVOFHFYg3wJoTSrz80hoec5Lia/dPp84do3X7dZvLikQvM1YpmvTBEdIr/e+U8HTkFjLHLnl78K/qjf+jQ==}
+
+  '@types/node@24.1.0':
+    resolution: {integrity: sha512-ut5FthK5moxFKH2T1CUOC6ctR67rQRvvHdFLCD2Ql6KXmMuCrjsSsRI9UsLCm9M18BMwClv4pn327UvB7eeO1w==}
 
   '@types/prop-types@15.7.15':
     resolution: {integrity: sha512-F6bEyamV9jKGAFBEmlQnesRPGOQqS2+Uwi0Em15xenOxHaf2hv6L8YCVn3rPdPJOiJfPiCnLIRyvwVaqMY3MIw==}
@@ -2014,7 +2020,7 @@ snapshots:
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 24.0.13
+      '@types/node': 24.1.0
       '@types/responselike': 1.0.3
 
   '@types/debug@4.1.12':
@@ -2045,7 +2051,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 24.0.13
+      '@types/node': 24.1.0
 
   '@types/lodash@4.17.20': {}
 
@@ -2059,6 +2065,10 @@ snapshots:
     dependencies:
       undici-types: 7.8.0
 
+  '@types/node@24.1.0':
+    dependencies:
+      undici-types: 7.8.0
+
   '@types/prop-types@15.7.15': {}
 
   '@types/react@17.0.87':
@@ -2069,7 +2079,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 24.0.13
+      '@types/node': 24.1.0
 
   '@types/scheduler@0.16.8': {}
 
