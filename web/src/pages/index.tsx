@@ -123,12 +123,12 @@ const Talk = ({ md }) => {
 
 const BlogIndex = ({ pages }: { pages: Page[] }) => {
   console.log("pages: ", pages)
-  
+
   const [linePosition, setLinePosition] = useState<{
     start: { x: number; y: number }
     end: { x: number; y: number }
   } | null>(null)
-  
+
   const [isManualDrawing, setIsManualDrawing] = useState(false)
   const [isMobile, setIsMobile] = useState(false)
   const [hasDrawnCircle, setHasDrawnCircle] = useState(false)
@@ -136,32 +136,32 @@ const BlogIndex = ({ pages }: { pages: Page[] }) => {
 
   useEffect(() => {
     const calculateLinePosition = () => {
-      if (typeof window !== 'undefined') {
+      if (typeof window !== "undefined") {
         const centerX = window.innerWidth / 2
         const highY = window.innerHeight * 0.15
-        
+
         setLinePosition({
           start: { x: centerX - 30, y: highY },
-          end: { x: centerX + 30, y: highY + 1 }
+          end: { x: centerX + 30, y: highY + 1 },
         })
       }
     }
 
     const checkMobile = () => {
-      if (typeof window !== 'undefined') {
+      if (typeof window !== "undefined") {
         setIsMobile(window.innerWidth < 768) // md breakpoint
       }
     }
 
     calculateLinePosition()
     checkMobile()
-    
-    window.addEventListener('resize', calculateLinePosition)
-    window.addEventListener('resize', checkMobile)
-    
+
+    window.addEventListener("resize", calculateLinePosition)
+    window.addEventListener("resize", checkMobile)
+
     return () => {
-      window.removeEventListener('resize', calculateLinePosition)
-      window.removeEventListener('resize', checkMobile)
+      window.removeEventListener("resize", calculateLinePosition)
+      window.removeEventListener("resize", checkMobile)
     }
   }, [])
 
@@ -202,14 +202,14 @@ const BlogIndex = ({ pages }: { pages: Page[] }) => {
       <div className="min-h-screen px-8 flex flex-col justify-center gap-12 xl:gap-24 relative">
         {linePosition && !isMobile && (
           <>
-            <LineDrawing 
-              initialLine={linePosition} 
+            <LineDrawing
+              initialLine={linePosition}
               onManualDrawingStart={() => setIsManualDrawing(true)}
               onFirstCircle={() => setHasDrawnCircle(true)}
               onSecondCircle={() => setHasDrawnSecondCircle(true)}
             />
             {!isManualDrawing && (
-              <DrawingInstruction 
+              <DrawingInstruction
                 lineStart={linePosition.start}
                 lineEnd={linePosition.end}
               />
@@ -234,12 +234,10 @@ Check out [my dev blog](https://www.turfemon.com/) too :)
           <div className="pt-12"> </div>
         </div>
       </div>
-{/* 
-      <div className="mt-4 mb-12 max-w-xl mx-auto">
+      {/* <div className="mt-4 mb-12 max-w-xl mx-auto">
         <NewsletterForm />
 
-
-        <div className="h-48 border-l border-gray-300 mx-auto w-1"></div>
+        <div className="h-48  mx-auto w-1"></div>
       </div> */}
 
       <div className="xl:grid grid-cols-2 flex flex-col items-center pt-24">
