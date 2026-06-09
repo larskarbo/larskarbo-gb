@@ -14,7 +14,11 @@ import { ThemeProvider } from "../components/theme-context"
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <PlausibleProvider domain="larskarbo.no">
+      <PlausibleProvider
+        domain="larskarbo.no"
+        customDomain="https://analytics.larskarbo.no"
+        selfHosted
+      >
         <ThemeProvider>
           <Head>
             <meta name="color-scheme" content="dark light"></meta>
