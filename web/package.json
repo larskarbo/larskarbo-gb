@@ -15,16 +15,16 @@
 		"is-url-superb": "^6.1.0",
 		"ky": "^0.27.0",
 		"lodash": "^4.17.21",
-		"next": "^12.0.7",
-		"next-plausible": "^3.1.4",
+		"next": "^14.2.0",
+		"next-plausible": "^3.12.0",
 		"next-quick-seo": "^1.0.7",
 		"notion-client": "^4.13.0",
 		"notion-types": "^4.19.8",
 		"notion-utils": "^4.12.0",
 		"postcss": "^8.4.5",
 		"prismjs": "^1.23.0",
-		"react": "^17.0.2",
-		"react-dom": "^17.0.2",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
 		"react-helmet": "^6.1.0",
 		"react-markdown": "^8.0.0",
 		"react-notion-x": "^4.13.0",
@@ -36,9 +36,10 @@
 	"devDependencies": {
 		"@types/lodash": "^4.14.178",
 		"@types/node": "24.1.0",
-		"@types/react": "^17.0.38",
+		"@types/react": "^18.3.0",
+		"@types/react-dom": "^18.3.0",
 		"prettier": "^2.2.1",
-		"typescript": "^4.5.4"
+		"typescript": "^5.4.0"
 	},
 	"homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
 	"keywords": [

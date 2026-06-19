@@ -4,7 +4,7 @@ import Link from "next/link"
 export const SuperLink = ({ href, children, noStyle = false, ...props }) => {
   const external = href.includes("http") && !href.includes("https://larskarbo.no")
   return (
-    <Link href={href}>
+    <Link href={href} legacyBehavior>
       <a
         className={clsx(
           !noStyle &&
