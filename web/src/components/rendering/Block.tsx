@@ -40,6 +40,7 @@ export const Block: React.FC<{
 
   hideBlockId?: boolean
   disableHeader?: boolean
+  children?: React.ReactNode
 }> = props => {
   const { block, children } = props
 
@@ -224,6 +225,7 @@ export const Block: React.FC<{
           <div className="w-full flex justify-center dark:brightness-90 hover:dark:brightness-100 filter">
             <NextImage
               src={source}
+              alt={caption ? getTextContent(caption) : ""}
               blurDataURL={extra.base64}
               placeholder="blur"
               width={672}
