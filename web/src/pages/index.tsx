@@ -221,12 +221,26 @@ const BlogIndex = ({ pages }: { pages: Page[] }) => {
             md={`
 Hi, I'm [Lars](https://larslist.org/).
 
-Building something new.
+I build connected physical products, from sketches and circuits to inventions out in the world.
 
-Check out [my dev blog](https://www.turfemon.com/) too :)
+Previously a startup software engineer and neurotech cofounder.
+
+I now run [Karbo Labs](https://www.instagram.com/larskarbo/), a product development studio and hardware media brand with 40M+ views.
+
             `}
           />
           <div className="mt-12">
+            <p className="mb-4 text-sm font-medium text-gray-400">
+              Check out my{" "}
+              <SuperLink
+                href="https://www.turfemon.com/"
+                noStyle
+                className="underline underline-offset-4 decoration-gray-300 hover:decoration-gray-400"
+              >
+                dev blog
+              </SuperLink>{" "}
+              :)
+            </p>
             {newPages.length > 0 && (
               <Cat title="Recent posts" pages={newPages} includeDate />
             )}
@@ -257,6 +271,22 @@ Check out [my dev blog](https://www.turfemon.com/) too :)
             </SuperLink>
             <p className="mt-1 text-sm text-gray-500">
               My talk at Paris.JS, 2023 · 18 min · French
+            </p>
+          </div>
+          <div>
+            <SuperLink href="/kode24.html">
+              Sånn skal Lars lage 12 startups på 12 måneder
+            </SuperLink>
+            <p className="mt-1 text-sm text-gray-500">
+              My 12 startups in 12 months project in kode24, 2021 · Norwegian
+            </p>
+          </div>
+          <div>
+            <SuperLink href="/tu.html">
+              NTNU-studenter hjelper søvnløse til å lære seg å sovne
+            </SuperLink>
+            <p className="mt-1 text-sm text-gray-500">
+              A feature about Drowzee in Teknisk Ukeblad, 2019 · Norwegian
             </p>
           </div>
         </div>
