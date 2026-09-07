@@ -32,9 +32,11 @@ export const getStaticProps: GetStaticProps = async context => {
 
 export async function getStaticPaths() {
   return {
-    paths: getPages().map(page => ({
-      params: { slug: page.meta.slug },
-    })),
+    paths: getPages()
+      .filter(page => page.recordMap)
+      .map(page => ({
+        params: { slug: page.meta.slug },
+      })),
     fallback: false,
   }
 }
@@ -61,8 +63,7 @@ export default function NotionPage({
         title={title}
         description={page.meta?.description}
         image={
-          page.meta?.image &&
-          "https://www.larskarbo.no" + page.meta?.image
+          page.meta?.image && "https://www.larskarbo.no" + page.meta?.image
         }
       />
       <Head>

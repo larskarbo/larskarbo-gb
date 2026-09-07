@@ -187,7 +187,7 @@ const BlogIndex = ({ pages }: { pages: Page[] }) => {
       !page.meta.date ||
       isAfter(
         new Date(page.meta.date),
-        parse("2023-08-14", "yyyy-MM-dd", new Date())
+        parse("2026-01-01", "yyyy-MM-dd", new Date())
       )
   )
   return (
@@ -239,6 +239,28 @@ Check out [my dev blog](https://www.turfemon.com/) too :)
 
         <div className="h-48  mx-auto w-1"></div>
       </div> */}
+
+      <section className="max-w-xl mx-auto px-8 md:px-0 pt-24">
+        <h2 className="text-sm text-gray-400 font-medium">Elsewhere</h2>
+        <div className="mt-3 space-y-4">
+          <div>
+            <SuperLink href="/nyss.html">
+              Han er Hellesylt sin eigen Reodor Felgen
+            </SuperLink>
+            <p className="mt-1 text-sm text-gray-500">
+              A profile about me and Karbo Labs in Nyss, 2026 · Norwegian
+            </p>
+          </div>
+          <div>
+            <SuperLink href="https://www.youtube.com/watch?v=I5M2YeG1EII">
+              Finding performance bottlenecks with OpenTelemetry
+            </SuperLink>
+            <p className="mt-1 text-sm text-gray-500">
+              My talk at Paris.JS, 2023 · 18 min · French
+            </p>
+          </div>
+        </div>
+      </section>
 
       <div className="xl:grid grid-cols-2 flex flex-col items-center pt-24">
         <div className="max-w-xl mx-auto">
