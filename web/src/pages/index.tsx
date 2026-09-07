@@ -51,7 +51,7 @@ const PageLink = ({
     <SuperLink href={page.meta.slug} noStyle>
       <div
         className={clsx(
-          "flex gap-1  hover:bg-gray-100 dark:hover:bg-gray-800 rounded px-2 p-1  transition-colors duration-75",
+          "flex gap-1  hover:bg-gray-100 dark:hover:bg-gray-800 rounded py-1 md:px-2 transition-colors duration-75",
           includeDate ? "my-1" : "my-1"
         )}
       >
@@ -102,17 +102,22 @@ const Cat = ({
 
 const Talk = ({ md }) => {
   return (
-    <div className="flex  md:-left-7 relative max-w-xl mx-auto">
+    <div className="grid grid-cols-[3.5rem_minmax(0,1fr)] gap-x-4 gap-y-2 md:flex md:gap-0 md:-left-7 relative max-w-xl mx-auto">
       <img
         src="https://s.gravatar.com/avatar/4579b299730ddc53e3d523ec1cd5482a?s=112"
         alt={`Picture of Lars Karbo`}
-        className="flex-shrink-0 mr-4 w-14 h-14 rounded-full overflow-hidden"
+        className="flex-shrink-0 md:mr-4 w-14 h-14 rounded-full overflow-hidden"
       />
-      <div className="text-xl font-normal ">
+      <div className="contents md:block text-xl font-normal">
         <ReactMarkdown
+          className="contents md:block"
           children={md}
           components={{
-            p: ({ children }) => <p className="my-2">{children}</p>,
+            p: ({ children }) => (
+              <p className="col-span-2 my-2 first:col-span-1 first:self-center">
+                {children}
+              </p>
+            ),
             a: props => <SuperLink {...props} href={props.href} />,
           }}
         />
@@ -199,7 +204,7 @@ const BlogIndex = ({ pages }: { pages: Page[] }) => {
 
       <MysteryBox isVisible={hasDrawnCircle && !hasDrawnSecondCircle} />
 
-      <div className="min-h-screen px-8 flex flex-col justify-center gap-12 xl:gap-24 relative">
+      <div className="pt-12 px-6 md:pt-0 md:min-h-screen md:px-8 flex flex-col justify-center gap-12 xl:gap-24 relative">
         {linePosition && !isMobile && (
           <>
             <LineDrawing
@@ -245,7 +250,7 @@ I now run [Karbo Labs](https://www.instagram.com/larskarbo/), a product developm
               <Cat title="Recent posts" pages={newPages} includeDate />
             )}
           </div>
-          <div className="pt-12"> </div>
+          <div className="hidden md:block pt-12"> </div>
         </div>
       </div>
       {/* <div className="mt-4 mb-12 max-w-xl mx-auto">
@@ -254,7 +259,7 @@ I now run [Karbo Labs](https://www.instagram.com/larskarbo/), a product developm
         <div className="h-48  mx-auto w-1"></div>
       </div> */}
 
-      <section className="max-w-xl mx-auto px-8 md:px-0 pt-24">
+      <section className="max-w-[39rem] md:max-w-xl mx-auto px-6 md:px-0 pt-16 md:pt-24">
         <h2 className="text-sm text-gray-400 font-medium">Elsewhere</h2>
         <div className="mt-3 space-y-4">
           <div>
@@ -292,8 +297,8 @@ I now run [Karbo Labs](https://www.instagram.com/larskarbo/), a product developm
         </div>
       </section>
 
-      <div className="xl:grid grid-cols-2 flex flex-col items-center pt-24">
-        <div className="max-w-xl mx-auto">
+      <div className="xl:grid grid-cols-2 flex flex-col items-center px-6 md:px-0 pt-16 md:pt-24">
+        <div className="w-full max-w-xl mx-auto">
           <Talk
             md={`
 In 2021 I built 12 startups in 12 months.
@@ -308,7 +313,7 @@ that live and breathe in the internet-ecosystem."
           </div>
         </div>
 
-        <div className="max-w-2xl sm:rounded-2xl mt-12 relative z-10 overflow-hidden sm:border bg-white dark:bg-black sm:shadow-2xl border-black -mx-4 sm:mx-0">
+        <div className="w-[calc(100%+3rem)] md:w-full max-w-2xl md:rounded-2xl mt-12 relative z-10 overflow-hidden md:border bg-white dark:bg-black md:shadow-2xl border-black -mx-6 md:mx-0">
           <NextImage
             width={672}
             height={(1260 / 2400) * 672}
@@ -316,7 +321,7 @@ that live and breathe in the internet-ecosystem."
             placeholder="blur"
             alt="12 startups in 12 months"
           />
-          <div className="p-8 pb-12">
+          <div className="max-w-[39rem] md:max-w-none mx-auto p-6 md:p-8 pb-12">
             <h2 className="text-2xl pt-4 font-bold pb-2">
               <SuperLink href={"/12-startups-12-months/"} itemProp="url">
                 <span className="font-bold" itemProp="headline ">
@@ -360,7 +365,7 @@ that live and breathe in the internet-ecosystem."
         </div>
       </div>
 
-      <div className="max-w-xl mx-auto pt-48">
+      <div className="max-w-[39rem] md:max-w-xl mx-auto px-6 md:px-0 pt-16 md:pt-48">
         <p className="py-2 font-light">All writings:</p>
         {reverse(
           entries(groupBy(pages, p => new Date(p.meta.date)?.getFullYear()))
@@ -379,7 +384,7 @@ that live and breathe in the internet-ecosystem."
           ))}
       </div>
 
-      <div className="mx-auto max-w-xl">
+      <div className="mx-auto max-w-[39rem] md:max-w-xl px-6 md:px-0">
         <Footer />
       </div>
     </>
