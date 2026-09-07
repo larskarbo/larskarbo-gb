@@ -204,7 +204,7 @@ const BlogIndex = ({ pages }: { pages: Page[] }) => {
 
       <MysteryBox isVisible={hasDrawnCircle && !hasDrawnSecondCircle} />
 
-      <div className="pt-12 px-6 md:pt-0 md:min-h-screen md:px-8 flex flex-col justify-center gap-12 xl:gap-24 relative">
+      <div className="min-h-screen pt-12 px-6 md:pt-0 md:px-8 flex flex-col justify-center gap-12 xl:gap-24 relative">
         {linePosition && !isMobile && (
           <>
             <LineDrawing
