@@ -37,16 +37,6 @@ export const MysteryBox: React.FC<MysteryBoxProps> = ({ isVisible }) => {
         </p>
 
         <div className="space-y-2 text-xs">
-          <div>
-            book a 30min{" "}
-            <a
-              href="https://calendar.notion.so/meet/larskarb/30-mins"
-              className="underline hover:no-underline"
-            >
-              call
-            </a>
-          </div>
-
           <div>send me a message: {"+47970" + "82" + "750"}</div>
         </div>
       </div>
