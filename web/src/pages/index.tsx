@@ -126,6 +126,24 @@ const Talk = ({ md }) => {
   )
 }
 
+const MicIcon = () => (
+  <svg
+    aria-label="Radio"
+    role="img"
+    className="inline-block ml-1.5 -mt-0.5 h-4 w-4 text-gray-400 align-middle"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth={2}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z" />
+    <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
+    <line x1="12" x2="12" y1="19" y2="22" />
+  </svg>
+)
+
 const BlogIndex = ({ pages }: { pages: Page[] }) => {
   console.log("pages: ", pages)
 
@@ -266,6 +284,7 @@ I now run [Karbo Labs](https://www.instagram.com/larskarbo/), a product developm
             <SuperLink href="https://radio.nrk.no/serie/nyhetsmorgen/NPUB32023326#t=56m32s">
               NRK Nyhetsmorgen
             </SuperLink>
+            <MicIcon />
             <p className="mt-1 text-sm text-gray-500">
               On national radio about my workshop in Hellesylt, 2026 · 4 min ·
               Norwegian
@@ -275,6 +294,7 @@ I now run [Karbo Labs](https://www.instagram.com/larskarbo/), a product developm
             <SuperLink href="https://radio.nrk.no/serie/distriktsprogram-moere-og-romsdal-radio/DKMR01011126#t=2h12m37s">
               NRK Møre og Romsdal
             </SuperLink>
+            <MicIcon />
             <p className="mt-1 text-sm text-gray-500">
               Studio interview on regional radio, 2026 · 15 min · Norwegian
             </p>
