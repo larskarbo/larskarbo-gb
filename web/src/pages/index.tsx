@@ -144,6 +144,23 @@ const MicIcon = () => (
   </svg>
 )
 
+const TvIcon = () => (
+  <svg
+    aria-label="TV"
+    role="img"
+    className="inline-block ml-1.5 -mt-0.5 h-4 w-4 text-gray-400 align-middle"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth={2}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <rect width="20" height="15" x="2" y="7" rx="2" ry="2" />
+    <polyline points="17 2 12 7 7 2" />
+  </svg>
+)
+
 const BlogIndex = ({ pages }: { pages: Page[] }) => {
   console.log("pages: ", pages)
 
@@ -280,6 +297,15 @@ I now run [Karbo Labs](https://www.instagram.com/larskarbo/), a product developm
       <section className="max-w-[39rem] md:max-w-xl mx-auto px-6 md:px-0 pt-16 md:pt-24">
         <h2 className="text-sm text-gray-400 font-medium">Elsewhere</h2>
         <div className="mt-3 space-y-4">
+          <div>
+            <SuperLink href="https://tv.nrk.no/serie/distriktsnyheter-moere-og-romsdal/sesong/202611/episode/DKMR98112426?t=8m27s">
+              NRK Distriktsnyheter
+            </SuperLink>
+            <TvIcon />
+            <p className="mt-1 text-sm text-gray-500">
+              TV story from my workshop in Hellesylt, 2026 · 5 min · Norwegian
+            </p>
+          </div>
           <div>
             <SuperLink href="https://radio.nrk.no/serie/nyhetsmorgen/NPUB32023326#t=56m32s">
               NRK Nyhetsmorgen

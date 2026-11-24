@@ -1,0 +1,119 @@
+{
+    "_links": {
+        "self": {
+            "href": "/playback/metadata/program/DKMR98112426"
+        },
+        "manifests": [
+            {
+                "href": "/playback/manifest/program/DKMR98112426",
+                "name": "default"
+            }
+        ],
+        "next": null,
+        "nextLinks": null,
+        "series": {
+            "href": "/series/distriktsnyheter-moere-og-romsdal",
+            "name": "series"
+        },
+        "progress": {
+            "templated": true,
+            "href": "/tv/userdata/{userId}/progress/programs/DKMR98112426"
+        },
+        "fargerik": {
+            "href": "https://fargerik-psapi.nrk.no/tv/program/DKMR98112426"
+        }
+    },
+    "series": {
+        "id": "distriktsnyheter-moere-og-romsdal",
+        "seasonId": "202611"
+    },
+    "id": "DKMR98112426",
+    "playability": "playable",
+    "streamingMode": "onDemand",
+    "duration": "PT14M",
+    "legalAge": {
+        "legalReference": "LOV2015-02-06-7",
+        "body": {
+            "status": "exempt"
+        }
+    },
+    "categories": {
+        "mainCategory": {
+            "urlFriendlyName": "nyheter"
+        }
+    },
+    "availability": {
+        "information": "",
+        "isGeoBlocked": false,
+        "onDemand": {
+            "from": "2026-11-24T19:45:00+01:00",
+            "to": "2100-01-01T19:45:00+01:00",
+            "hasRightsNow": true
+        },
+        "live": null,
+        "externalEmbeddingAllowed": true
+    },
+    "preplay": {
+        "titles": {
+            "title": "Distriktsnyheter M\u00f8re og Romsdal",
+            "subtitle": "I dag"
+        },
+        "description": "",
+        "poster": {
+            "images": [
+                {
+                    "url": "https://gfx.nrk.no/ADYi6wK6o2doC688sGHIbgyNpvuQGS_yDFldZempbRVA",
+                    "pixelWidth": 300
+                },
+                {
+                    "url": "https://gfx.nrk.no/ADYi6wK6o2doC688sGHIbgJ6xB0VNGoSvFldZempbRVA",
+                    "pixelWidth": 600
+                },
+                {
+                    "url": "https://gfx.nrk.no/ADYi6wK6o2doC688sGHIbgYWyZnj3HMUvFldZempbRVA",
+                    "pixelWidth": 960
+                },
+                {
+                    "url": "https://gfx.nrk.no/ADYi6wK6o2doC688sGHIbg-qckStspDoLFldZempbRVA",
+                    "pixelWidth": 1920
+                }
+            ]
+        },
+        "indexPoints": []
+    },
+    "displayAspectRatio": "16:9",
+    "playable": {
+        "resolve": "/playback/manifest/program/DKMR98112426"
+    },
+    "nonPlayable": null,
+    "interactionPoints": {
+        "seekToPoints": [],
+        "nextUpPoint": null,
+        "recommendNextPoint": null
+    },
+    "sourceMedium": "video",
+    "skipDialogInfo": {
+        "startIntroInSeconds": 0,
+        "endIntroInSeconds": 0,
+        "startCreditsInSeconds": 830,
+        "startIntro": "PT0S",
+        "endIntro": "PT0S",
+        "startCredits": "PT13M50S"
+    },
+    "interaction": [],
+    "_embedded": {
+        "manifests": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "/playback/manifest/program/DKMR98112426",
+                        "name": "default"
+                    }
+                },
+                "id": "DKMR98112426",
+                "availabilityLabel": "Av"
+            }
+        ],
+        "next": null
+    }
+}
