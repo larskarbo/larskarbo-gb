@@ -1,0 +1,636 @@
+{
+    "_links": {
+        "self": {
+            "href": "/radio/catalog/programs/DKMR01022726"
+        },
+        "playback": {
+            "href": "/playback/metadata/program/DKMR01022726"
+        },
+        "series": {
+            "name": "distriktsprogram-moere-og-romsdal-radio",
+            "href": "/radio/catalog/series/distriktsprogram-moere-og-romsdal-radio",
+            "title": "Distriktsprogram - M\u00f8re og Romsdal"
+        },
+        "season": {
+            "name": "202611",
+            "title": "November 2026",
+            "href": "/radio/catalog/series/distriktsprogram-moere-og-romsdal-radio/seasons/202611",
+            "seriesType": "standard"
+        },
+        "favourite": {
+            "href": "/radio/userdata/{userId}/favourites/series/distriktsprogram-moere-og-romsdal-radio",
+            "templated": true
+        },
+        "share": {
+            "href": "https://radio.nrk.no/serie/distriktsprogram-moere-og-romsdal-radio/DKMR01022726"
+        },
+        "progress": {
+            "href": "/radio/userdata/{userId}/progress/programs/DKMR01022726",
+            "templated": true
+        },
+        "recommendations": {
+            "href": "/radio/recommendations/DKMR01022726?list=radio_viderenavigasjon_fra_program{&maxNumber}",
+            "templated": true
+        }
+    },
+    "id": "f7a0a8123c631f488d736ce53ce54c26",
+    "episodeId": "DKMR01022726",
+    "date": "2026-11-24T06:03:00+01:00",
+    "programInformation": {
+        "details": {
+            "displayValue": "24.11.2026 \u00b7 2 t 34 min",
+            "accessibilityValue": "24.11.2026. 2 timer og 34 minutter."
+        }
+    },
+    "contributors": [
+        {
+            "role": "Nyhetsoppleser",
+            "name": [
+                "Jon Arne Akselsen"
+            ]
+        },
+        {
+            "role": "Gjest",
+            "name": [
+                "Bibbi Kj\u00f8l\u00e5s",
+                "Janne Brit Aasen",
+                "Martin L\u00f8set",
+                "Olav Sindre Kriken",
+                "Solveig Morch Holte"
+            ]
+        }
+    ],
+    "image": [
+        {
+            "url": "https://gfx.nrk.no/xtzUEgEtLVPOK-q84SzTIQc7renjFxyHrtYlO7hcrxzA",
+            "width": 300
+        },
+        {
+            "url": "https://gfx.nrk.no/xtzUEgEtLVPOK-q84SzTIQpva9lumkO0_tYlO7hcrxzA",
+            "width": 600
+        },
+        {
+            "url": "https://gfx.nrk.no/xtzUEgEtLVPOK-q84SzTIQ9yVm6GZOqZztYlO7hcrxzA",
+            "width": 960
+        },
+        {
+            "url": "https://gfx.nrk.no/xtzUEgEtLVPOK-q84SzTIQUsU1UvGzuwXtYlO7hcrxzA",
+            "width": 1280
+        },
+        {
+            "url": "https://gfx.nrk.no/xtzUEgEtLVPOK-q84SzTIQAxGqyVlX0vbtYlO7hcrxzA",
+            "width": 1600
+        },
+        {
+            "url": "https://gfx.nrk.no/xtzUEgEtLVPOK-q84SzTIQrcxOur4l5j3tYlO7hcrxzA",
+            "width": 1920
+        }
+    ],
+    "titles": {
+        "title": "God morgon M\u00f8re og Romsdal",
+        "subtitle": "I dag er det ein m\u00e5nad igjen til jul! Lar du det stresse av det? Send oss ei melding eller svar p\u00e5 v\u00e5r sp\u00f8rjeunders\u00f8king."
+    },
+    "temporalTitles": {
+        "titles": [],
+        "defaultTitles": {
+            "mainTitle": "Distriktsprogram - M\u00f8re og Romsdal",
+            "subtitle": "God morgon M\u00f8re og Romsdal"
+        }
+    },
+    "availability": {
+        "status": "available",
+        "hasLabel": false
+    },
+    "category": {
+        "id": "forstaa",
+        "displayValue": "Nyheter"
+    },
+    "usageRights": {
+        "from": {
+            "date": "2026-11-24T06:03:00+01:00",
+            "displayValue": "24. november 2026 kl. 06:03"
+        },
+        "to": {
+            "date": "2100-01-01T06:03:00+01:00",
+            "displayValue": "Alltid tilgjengelig"
+        },
+        "geoBlock": {
+            "isGeoBlocked": false,
+            "displayValue": "Verden"
+        }
+    },
+    "productionYear": 2026,
+    "duration": {
+        "seconds": 9300,
+        "iso8601": "PT2H34M59.96S",
+        "displayValue": "2 t 34 min"
+    },
+    "indexPoints": [
+        {
+            "title": "Velkommen",
+            "mentioned": [],
+            "subjectList": [],
+            "contributors": [],
+            "description": "",
+            "startPoint": "PT4M3.64S",
+            "partId": 1
+        },
+        {
+            "title": "Nyheiter, ver og trafikk",
+            "mentioned": [],
+            "subjectList": [],
+            "contributors": [],
+            "description": "",
+            "startPoint": "PT8M15.96S",
+            "partId": 1
+        },
+        {
+            "title": "Ein m\u00e5nad igjen til jul i dag...",
+            "mentioned": [],
+            "subjectList": [],
+            "contributors": [],
+            "description": "",
+            "startPoint": "PT14M10.28S",
+            "partId": 1
+        },
+        {
+            "title": "Riksavisene",
+            "mentioned": [],
+            "subjectList": [],
+            "contributors": [],
+            "description": "",
+            "startPoint": "PT19M23.88S",
+            "partId": 1
+        },
+        {
+            "title": "Ver og trafikk",
+            "mentioned": [],
+            "subjectList": [],
+            "contributors": [],
+            "description": "",
+            "startPoint": "PT33M28.24S",
+            "partId": 1
+        },
+        {
+            "title": "Lokalavisene",
+            "mentioned": [],
+            "subjectList": [],
+            "contributors": [],
+            "description": "",
+            "startPoint": "PT37M59.72S",
+            "partId": 1
+        },
+        {
+            "title": "Dagen i dag",
+            "mentioned": [],
+            "subjectList": [],
+            "contributors": [],
+            "description": "",
+            "startPoint": "PT44M46.92S",
+            "partId": 1
+        },
+        {
+            "title": "God morgon M\u00f8re og Romsdal",
+            "mentioned": [],
+            "subjectList": [],
+            "contributors": [],
+            "description": "",
+            "startPoint": "PT59M38.88S",
+            "partId": 1
+        },
+        {
+            "title": "Ung gr\u00fcnder",
+            "mentioned": [],
+            "subjectList": [
+                "karbolabs"
+            ],
+            "contributors": [
+                {
+                    "role": "Reporter",
+                    "name": [
+                        "\u00d8yvind Berge S\u00e6bj\u00f8rnsen"
+                    ]
+                },
+                {
+                    "role": "Gjest",
+                    "name": [
+                        "Hans Gerhard Meier",
+                        "Lars Karb\u00f8",
+                        "Merete Lie"
+                    ]
+                },
+                {
+                    "role": "Redigerer",
+                    "name": [
+                        "\u00d8yvind Berge S\u00e6bj\u00f8rnsen"
+                    ]
+                }
+            ],
+            "description": "Lars Karb\u00f8 (29) utvikler nye ting i kjelleren p\u00e5 Hellesylt",
+            "startPoint": "PT1H5M14.84S",
+            "partId": 1
+        },
+        {
+            "title": "Konkurransen",
+            "mentioned": [],
+            "subjectList": [],
+            "contributors": [],
+            "description": "",
+            "startPoint": "PT1H12M42.4S",
+            "partId": 1
+        },
+        {
+            "title": "Meteorologen",
+            "mentioned": [],
+            "subjectList": [],
+            "contributors": [],
+            "description": "",
+            "startPoint": "PT1H24M51.12S",
+            "partId": 1
+        },
+        {
+            "title": "Kunstig intelligens skal effektivisere m\u00f8te",
+            "mentioned": [],
+            "subjectList": [],
+            "contributors": [],
+            "description": "",
+            "startPoint": "PT1H29M56.76S",
+            "partId": 1
+        },
+        {
+            "title": "God morgon M\u00f8re og Romsdal",
+            "mentioned": [],
+            "subjectList": [],
+            "contributors": [],
+            "description": "",
+            "startPoint": "PT1H47M23.28S",
+            "partId": 1
+        },
+        {
+            "title": "Elevbedrift med suksess",
+            "mentioned": [],
+            "subjectList": [],
+            "contributors": [],
+            "description": "",
+            "startPoint": "PT1H52M19.68S",
+            "partId": 1
+        },
+        {
+            "title": "Svar p\u00e5 konkurransen",
+            "mentioned": [],
+            "subjectList": [],
+            "contributors": [],
+            "description": "",
+            "startPoint": "PT1H59M37.96S",
+            "partId": 1
+        },
+        {
+            "title": "Ver, trafikk og nyheitsoversikt",
+            "mentioned": [],
+            "subjectList": [],
+            "contributors": [],
+            "description": "",
+            "startPoint": "PT2H8M6.24S",
+            "partId": 1
+        },
+        {
+            "title": "50-\u00e5ring p\u00e5 \u00e5rets lag i fotball",
+            "mentioned": [],
+            "subjectList": [],
+            "contributors": [],
+            "description": "",
+            "startPoint": "PT2H16M34.4S",
+            "partId": 1
+        },
+        {
+            "title": "Nyheiter",
+            "mentioned": [],
+            "subjectList": [],
+            "contributors": [],
+            "description": "",
+            "startPoint": "PT2H24M7.56S",
+            "partId": 1
+        }
+    ],
+    "playlist": [
+        {
+            "title": "Sexy Back",
+            "description": "Justin Timberlake + Timbaland",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T05:03:13.422+00:00",
+            "duration": "PT4M1S",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT13.422S"
+        },
+        {
+            "title": "Snill i \u00e5r",
+            "description": "Synne S\u00f8rgjerd",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T05:07:51.625+00:00",
+            "duration": "PT3M23S",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT4M51.625S"
+        },
+        {
+            "title": "Beggin'",
+            "description": "Madcon",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T05:13:32.559+00:00",
+            "duration": "PT3M37S",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT10M32.559S"
+        },
+        {
+            "title": "Jeg vil aldri hjem",
+            "description": "Ine Hoem",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T05:18:47.062+00:00",
+            "duration": "PT3M41S",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT15M47.062S"
+        },
+        {
+            "title": "Melodies",
+            "description": "SOFIA",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T05:25:28.613+00:00",
+            "duration": "PT4M31S",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT22M28.613S"
+        },
+        {
+            "title": "Buried Gold",
+            "description": "Bernhoft + Raelee Nikole + The Fashion Bruises",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T05:32:11.678+00:00",
+            "duration": "PT4M28S",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT29M11.678S"
+        },
+        {
+            "title": "Om du vil",
+            "description": "Lorentzen",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T05:38:07.455+00:00",
+            "duration": "PT3M",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT35M7.455S"
+        },
+        {
+            "title": "All I want for Christmas is you",
+            "description": "Mariah Carey",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T05:44:04.193+00:00",
+            "duration": "PT3M51S",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT41M4.193S"
+        },
+        {
+            "title": "Lady o' the silver wheel",
+            "description": "The Royalties",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T05:49:59.541+00:00",
+            "duration": "PT2M44S",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT46M59.541S"
+        },
+        {
+            "title": "Ingenting er magisk",
+            "description": "Ram\u00f3n",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T05:53:29.989+00:00",
+            "duration": "PT3M31S",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT50M29.989S"
+        },
+        {
+            "title": "Words",
+            "description": "F.R. David",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T05:59:15.775+00:00",
+            "duration": "PT3M28S",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT56M15.775S"
+        },
+        {
+            "title": "Love Me",
+            "description": "DIVE",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T06:04:44.944+00:00",
+            "duration": "PT3M8S",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT1H1M44.944S"
+        },
+        {
+            "title": "H\u00e5per at du ser meg n\u00e5",
+            "description": "ULD",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T06:11:18.423+00:00",
+            "duration": "PT4M30S",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT1H8M18.423S"
+        },
+        {
+            "title": "Santa baby",
+            "description": "Eartha Kitt",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T06:17:01.859+00:00",
+            "duration": "PT3M23S",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT1H14M1.859S"
+        },
+        {
+            "title": "Too Sweet",
+            "description": "Hozier",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T06:20:17.249+00:00",
+            "duration": "PT3M42S",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT1H17M17.249S"
+        },
+        {
+            "title": "Happy",
+            "description": "Pharrell Williams",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T06:24:05.717+00:00",
+            "duration": "PT3M51S",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT1H21M5.717S"
+        },
+        {
+            "title": "Hei desember",
+            "description": "Ingebj\u00f8rg Bratland",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T06:29:17.891+00:00",
+            "duration": "PT3M51S",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT1H26M17.891S"
+        },
+        {
+            "title": "Right Here Waiting",
+            "description": "Richard Marx",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T06:36:52.54+00:00",
+            "duration": "PT4M23S",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT1H33M52.54S"
+        },
+        {
+            "title": "Let it snow! Let it snow! Let it snow!",
+            "description": "Dean Martin",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T06:42:06.438+00:00",
+            "duration": "PT1M54S",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT1H39M6.438S"
+        },
+        {
+            "title": "Baby, I Love your Way",
+            "description": "Big Mountain",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T06:46:13.011+00:00",
+            "duration": "PT4M16S",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT1H43M13.011S"
+        },
+        {
+            "title": "Tid med mjuke pakkar",
+            "description": "Eva Weel Skram",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T06:52:01.023+00:00",
+            "duration": "PT3M23S",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT1H49M1.023S"
+        },
+        {
+            "title": "Julietta",
+            "description": "The Impossible Green",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T06:58:42.59+00:00",
+            "duration": "PT3M57S",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT1H55M42.59S"
+        },
+        {
+            "title": "I alle tider",
+            "description": "Gilberdal",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T07:04:16.559+00:00",
+            "duration": "PT3M40S",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT2H1M16.559S"
+        },
+        {
+            "title": "The Christmas Song",
+            "description": "Nat King Cole",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T07:07:59.158+00:00",
+            "duration": "PT3M",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT2H4M59.158S"
+        },
+        {
+            "title": "Apple",
+            "description": "Charli XCX",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T07:12:36.904+00:00",
+            "duration": "PT2M29S",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT2H9M36.904S"
+        },
+        {
+            "title": "Everytime you go away",
+            "description": "Paul Young",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T07:15:19.226+00:00",
+            "duration": "PT4M21S",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT2H12M19.226S"
+        },
+        {
+            "title": "Happy Xmas (War is over)",
+            "description": "John Lennon & Plastic Ono Band",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T07:23:43.871+00:00",
+            "duration": "PT3M28S",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT2H20M43.871S"
+        },
+        {
+            "title": "Ein song som finst",
+            "description": "Odd Nordstoga",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T07:29:56.319+00:00",
+            "duration": "PT3M25S",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT2H26M56.319S"
+        },
+        {
+            "title": "Kj\u00f8re hjem mot jula",
+            "description": "Violet Road",
+            "programId": "DKMR01022726",
+            "channelId": "p1mr",
+            "startTime": "2026-11-24T07:34:08.059+00:00",
+            "duration": "PT3M56S",
+            "type": "Music",
+            "programTitle": "God morgon M\u00f8re og Romsdal",
+            "startPoint": "PT2H31M8.059S"
+        }
+    ]
+}

@@ -263,6 +263,24 @@ I now run [Karbo Labs](https://www.instagram.com/larskarbo/), a product developm
         <h2 className="text-sm text-gray-400 font-medium">Elsewhere</h2>
         <div className="mt-3 space-y-4">
           <div>
+            <SuperLink href="https://radio.nrk.no/serie/distriktsprogram-moere-og-romsdal-radio/DKMR01022726#t=1h5m14s">
+              Ung gründer
+            </SuperLink>
+            <p className="mt-1 text-sm text-gray-500">
+              On God morgon Møre og Romsdal, NRK P1, November 2026 · 7 min ·
+              Norwegian
+            </p>
+          </div>
+          <div>
+            <SuperLink href="https://radio.nrk.no/serie/distriktsprogram-moere-og-romsdal-radio/DKMR01011126#t=2h12m37s">
+              Reodor Felgen på Hellesylt
+            </SuperLink>
+            <p className="mt-1 text-sm text-gray-500">
+              Studio interview on God morgon Møre og Romsdal, NRK P1, June 2026
+              · 15 min · Norwegian
+            </p>
+          </div>
+          <div>
             <SuperLink href="/nyss.html">
               Han er Hellesylt sin eigen Reodor Felgen
             </SuperLink>
