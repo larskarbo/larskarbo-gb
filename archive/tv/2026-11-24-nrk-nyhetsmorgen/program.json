@@ -1,0 +1,1336 @@
+{
+    "_links": {
+        "self": {
+            "href": "/playback/metadata/program/NNFA05112426"
+        },
+        "manifests": [
+            {
+                "href": "/playback/manifest/program/NNFA05112426",
+                "name": "default"
+            }
+        ],
+        "next": null,
+        "nextLinks": null,
+        "series": {
+            "href": "/series/nyhetsmorgen-tv",
+            "name": "series"
+        },
+        "progress": {
+            "templated": true,
+            "href": "/tv/userdata/{userId}/progress/programs/NNFA05112426"
+        },
+        "recommendNext": {
+            "href": "https://anbefaling-psapi.nrk.no/programs/NNFA05112426/recommend-next"
+        },
+        "fargerik": {
+            "href": "https://fargerik-psapi.nrk.no/tv/program/NNFA05112426"
+        }
+    },
+    "series": {
+        "id": "nyhetsmorgen-tv",
+        "seasonId": "202611"
+    },
+    "id": "NNFA05112426",
+    "playability": "playable",
+    "streamingMode": "onDemand",
+    "duration": "PT2H30M4S",
+    "legalAge": {
+        "legalReference": "LOV2015-02-06-7",
+        "body": {
+            "status": "exempt"
+        }
+    },
+    "categories": {
+        "mainCategory": {
+            "urlFriendlyName": "nyheter"
+        }
+    },
+    "availability": {
+        "information": "",
+        "isGeoBlocked": false,
+        "onDemand": {
+            "from": "2026-11-24T06:30:00+01:00",
+            "to": "2100-01-01T06:30:00+01:00",
+            "hasRightsNow": true
+        },
+        "live": null,
+        "externalEmbeddingAllowed": true
+    },
+    "preplay": {
+        "titles": {
+            "title": "Nyhetsmorgen - TV",
+            "subtitle": "I dag \u00b7 Nyhetsmorgen"
+        },
+        "description": "Nvidia-fest p\u00e5 b\u00f8rsene etter at Jensen Huang er tilbake i sjefstolen.",
+        "poster": {
+            "images": [
+                {
+                    "url": "https://gfx.nrk.no/BEj2i2fJoDyxXPmPQKwKTQSpdJw7Ue6fDI94FjlKMYzA",
+                    "pixelWidth": 300
+                },
+                {
+                    "url": "https://gfx.nrk.no/BEj2i2fJoDyxXPmPQKwKTQvRe0u0VScQzI94FjlKMYzA",
+                    "pixelWidth": 600
+                },
+                {
+                    "url": "https://gfx.nrk.no/BEj2i2fJoDyxXPmPQKwKTQfklx7cpCOfbI94FjlKMYzA",
+                    "pixelWidth": 960
+                },
+                {
+                    "url": "https://gfx.nrk.no/BEj2i2fJoDyxXPmPQKwKTQCBBTKu57Ap7I94FjlKMYzA",
+                    "pixelWidth": 1920
+                }
+            ]
+        },
+        "indexPoints": [
+            {
+                "title": "\u00c5pning 06:30",
+                "startPoint": "PT1.3S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=26&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=26&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=26&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=26&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Nvidia bidrar til b\u00f8rsbyks",
+                "startPoint": "PT1M14.27S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=99&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=99&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=99&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=99&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Flere sivile mister livet i droneangrep",
+                "startPoint": "PT4M27.1S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=292&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=292&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=292&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=292&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Siste nytt",
+                "startPoint": "PT6M28.9S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=414&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=414&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=414&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=414&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "700.000 russiske soldater drept",
+                "startPoint": "PT8M35.89S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=541&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=541&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=541&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=541&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Troms st\u00f8rst nedgang i utenforskap",
+                "startPoint": "PT10M58.42S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=683&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=683&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=683&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=683&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Overskrifter 06:45",
+                "startPoint": "PT15M11.03S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=936&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=936&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=936&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=936&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Tiltalt for krigsforbrytelser",
+                "startPoint": "PT16M8.15S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=993&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=993&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=993&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=993&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Rettssaken sett fra Afrika",
+                "startPoint": "PT19M47.2S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=1212&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=1212&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=1212&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=1212&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Graham Hansen tilbake etter skade",
+                "startPoint": "PT23M51.36S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=1456&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=1456&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=1456&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=1456&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "KI l\u00f8ste matteg\u00e5te",
+                "startPoint": "PT25M38.29S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=1563&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=1563&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=1563&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=1563&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Trailer: Julesteming med Live og Ronny",
+                "startPoint": "PT29M39.3S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=1804&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=1804&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=1804&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=1804&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "\u00c5pning 07:00",
+                "startPoint": "PT30M19.85S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=1845&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=1845&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=1845&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=1845&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Huang-comeback sett fr\u00e5 Asia",
+                "startPoint": "PT31M4.92S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=1890&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=1890&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=1890&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=1890&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Vold og trusler i skolen",
+                "startPoint": "PT39M16.96S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=2382&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=2382&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=2382&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=2382&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "F\u00f8r Politisk kvarter om klimatoppm\u00f8tet",
+                "startPoint": "PT44M26.14S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=2691&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=2691&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=2691&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=2691&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Overskrifter 07:15",
+                "startPoint": "PT45M1.64S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=2727&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=2727&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=2727&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=2727&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Ukraina rystet av korrupsjonsskandale",
+                "startPoint": "PT45M29.76S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=2755&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=2755&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=2755&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=2755&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Ja og nei til vektere med hijab",
+                "startPoint": "PT49M48.74S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3014&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3014&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3014&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3014&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Politiet opprettholder hijabforbud",
+                "startPoint": "PT52M43.23S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3188&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3188&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3188&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3188&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Ung gr\u00fcnder",
+                "startPoint": "PT56M33.54S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3419&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3419&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3419&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3419&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Historier fra virkeligheten: Kim blir vanlig",
+                "startPoint": "PT59M25.67S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3591&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3591&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3591&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3591&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Overskrifter 07:30",
+                "startPoint": "PT1H1S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3626&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3626&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3626&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3626&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "B\u00f8rsfest og Nvidia",
+                "startPoint": "PT1H26.81S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3652&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3652&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3652&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3652&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Chen om sparepenger",
+                "startPoint": "PT1H2M45.64S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3791&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3791&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3791&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3791&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Equinors gassavtale",
+                "startPoint": "PT1H3M8.39S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3813&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3813&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3813&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3813&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Flere sivile mister livet i droneangrep",
+                "startPoint": "PT1H4M15.91S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3881&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3881&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3881&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3881&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Ja og nei til vektere med hijab",
+                "startPoint": "PT1H6M6.01S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3991&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3991&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3991&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=3991&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Statsbudsjett forhandlinger",
+                "startPoint": "PT1H7M33.15S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=4078&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=4078&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=4078&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=4078&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "KI l\u00f8ste matteg\u00e5te",
+                "startPoint": "PT1H7M51.2S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=4096&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=4096&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=4096&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=4096&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "\u00c5pning 07:40",
+                "startPoint": "PT1H9M59.76S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=4225&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=4225&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=4225&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=4225&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Voksne tar helsefag",
+                "startPoint": "PT1H10M25.97S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=4251&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=4251&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=4251&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=4251&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Topper 07:44",
+                "startPoint": "PT1H14M29.83S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=4495&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=4495&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=4495&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=4495&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "NRK Nyheter 08:00",
+                "startPoint": "PT1H30M0.67S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=5426&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=5426&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=5426&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=5426&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "\u00c5pning 08:03",
+                "startPoint": "PT1H33M2.13S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=5607&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=5607&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=5607&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=5607&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Equinor signerer gassavtale",
+                "startPoint": "PT1H34M31.43S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=5696&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=5696&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=5696&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=5696&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "700.000 russiske soldater drept",
+                "startPoint": "PT1H38M16.06S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=5921&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=5921&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=5921&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=5921&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Nvidia bidrar til b\u00f8rsbyks",
+                "startPoint": "PT1H42M48.26S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=6193&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=6193&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=6193&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=6193&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Overskrifter 08:15",
+                "startPoint": "PT1H46M57.01S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=6442&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=6442&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=6442&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=6442&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Flere sivile mister livet i droneangrep",
+                "startPoint": "PT1H47M45.09S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=6490&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=6490&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=6490&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=6490&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Tiltalt for krigsforbrytelser",
+                "startPoint": "PT1H49M54.95S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=6620&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=6620&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=6620&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=6620&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Ny frist for \u00e5 danne regjering i Sverige",
+                "startPoint": "PT1H51M53.61S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=6739&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=6739&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=6739&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=6739&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "\u00c9n m\u00e5ned igjen til julaften",
+                "startPoint": "PT1H56M26.7S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=7012&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=7012&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=7012&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=7012&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "H\u00f8r Ekko i NRK P2",
+                "startPoint": "PT2H1M56.3S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=7341&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=7341&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=7341&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=7341&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Overskrifter 08:30",
+                "startPoint": "PT2H2M53.3S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=7398&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=7398&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=7398&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=7398&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Asia-b\u00f8rsene etter Huang-comeback",
+                "startPoint": "PT2H3M39.92S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=7445&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=7445&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=7445&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=7445&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Huang-comeback sett fr\u00e5 Asia",
+                "startPoint": "PT2H5M49.58S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=7575&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=7575&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=7575&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=7575&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Vold og trusler i skolen",
+                "startPoint": "PT2H8M17.73S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=7723&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=7723&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=7723&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=7723&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Feil side under klimatoppm\u00f8tet",
+                "startPoint": "PT2H10M54.31S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=7879&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=7879&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=7879&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=7879&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Ny kamp for Bod\u00f8 Glimt i Mesterligaen",
+                "startPoint": "PT2H13M50.01S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=8055&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=8055&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=8055&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=8055&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Overskrifter 08:45",
+                "startPoint": "PT2H16M5.26S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=8190&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=8190&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=8190&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=8190&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Vikingtidsmuseet utsetter \u00e5pning",
+                "startPoint": "PT2H16M42.97S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=8228&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=8228&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=8228&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=8228&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "Anmeldelse: Cory Arcangel",
+                "startPoint": "PT2H20M37.34S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=8462&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=8462&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=8462&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=8462&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "KI l\u00f8ste matteg\u00e5te",
+                "startPoint": "PT2H24M43.88S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=8709&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=8709&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=8709&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=8709&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            },
+            {
+                "title": "V\u00e6ret i dag",
+                "startPoint": "PT2H28M9.72S",
+                "thumbnails": [
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=8915&scale=1920x1080&v=high",
+                        "pixelWidth": 1920
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=8915&scale=640x360&v=high",
+                        "pixelWidth": 640
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=8915&scale=960x540&v=high",
+                        "pixelWidth": 960
+                    },
+                    {
+                        "url": "https://nrk-od-world-48.akamaized.net/open/ps/nnfa/nnfa05112426/0d2dd4fc-5.smil/thumb.jpg?t=8915&scale=1280x720&v=high",
+                        "pixelWidth": 1280
+                    }
+                ]
+            }
+        ]
+    },
+    "displayAspectRatio": "16:9",
+    "playable": {
+        "resolve": "/playback/manifest/program/NNFA05112426"
+    },
+    "nonPlayable": null,
+    "interactionPoints": {
+        "seekToPoints": [],
+        "nextUpPoint": null,
+        "recommendNextPoint": {
+            "startTime": 9003.0,
+            "source": "no-next-up-point"
+        }
+    },
+    "sourceMedium": "video",
+    "skipDialogInfo": {
+        "startIntroInSeconds": 0,
+        "endIntroInSeconds": 0,
+        "startCreditsInSeconds": 8994,
+        "startIntro": "PT0S",
+        "endIntro": "PT0S",
+        "startCredits": "PT2H29M54S"
+    },
+    "interaction": [],
+    "_embedded": {
+        "manifests": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "/playback/manifest/program/NNFA05112426",
+                        "name": "default"
+                    }
+                },
+                "id": "NNFA05112426",
+                "availabilityLabel": "Av"
+            }
+        ],
+        "next": null
+    }
+}

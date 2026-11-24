@@ -298,22 +298,22 @@ I now run [Karbo Labs](https://www.instagram.com/larskarbo/), a product developm
         <h2 className="text-sm text-gray-400 font-medium">Elsewhere</h2>
         <div className="mt-3 space-y-4">
           <div>
+            <SuperLink href="https://tv.nrk.no/serie/nyhetsmorgen-tv/sesong/202611/episode/NNFA05112426?t=56m33s">
+              NRK Nyhetsmorgen
+            </SuperLink>
+            <TvIcon />
+            <p className="mt-1 text-sm text-gray-500">
+              On national TV and radio about my workshop in Hellesylt, 2026 · 3
+              min · Norwegian
+            </p>
+          </div>
+          <div>
             <SuperLink href="https://tv.nrk.no/serie/distriktsnyheter-moere-og-romsdal/sesong/202611/episode/DKMR98112426?t=8m27s">
               NRK Distriktsnyheter
             </SuperLink>
             <TvIcon />
             <p className="mt-1 text-sm text-gray-500">
               TV story from my workshop in Hellesylt, 2026 · 5 min · Norwegian
-            </p>
-          </div>
-          <div>
-            <SuperLink href="https://radio.nrk.no/serie/nyhetsmorgen/NPUB32023326#t=56m32s">
-              NRK Nyhetsmorgen
-            </SuperLink>
-            <MicIcon />
-            <p className="mt-1 text-sm text-gray-500">
-              On national radio about my workshop in Hellesylt, 2026 · 4 min ·
-              Norwegian
             </p>
           </div>
           <div>
